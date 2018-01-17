@@ -2,11 +2,11 @@ from __future__ import division
 from collections import OrderedDict
 import logging
 
-from wazimap.data.tables import get_model_from_fields, get_datatable, get_table_id
+from wazimap.data.tables import get_datatable, get_table_id
 from wazimap.data.utils import get_session, add_metadata
 from wazimap.geo import geo_data
 
-from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, get_objects_by_geo, percent)
+from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data,  percent)
 
 from .elections import get_elections_profile
 
@@ -16,12 +16,12 @@ log = logging.getLogger(__name__)
 
 PROFILE_SECTIONS = (
     'demographics',  # population group, age group in 5 years, age in completed years
-    'economics',  # individual monthly income, type of sector, official employment status
-    'service_delivery',  # source of water, refuse disposal
-    'education',  # highest educational level
-    'households',  # household heads, etc.
-    'children',  # child-related stats
-    'child_households',  # households headed by children
+    # 'economics',  # individual monthly income, type of sector, official employment status
+    # 'service_delivery',  # source of water, refuse disposal
+    # 'education',  # highest educational level
+    # 'households',  # household heads, etc.
+    # 'children',  # child-related stats
+    # 'child_households',  # households headed by children
 )
 
 # Education categories
@@ -364,14 +364,14 @@ def get_profile(geo, profile_name, request):
 
     # tweaks to make the data nicer
     # show 3 largest groups on their own and group the rest as 'Other'
-    group_remainder(data['service_delivery']['water_source_distribution'], 5)
-    group_remainder(data['service_delivery']['refuse_disposal_distribution'], 5)
-    group_remainder(data['service_delivery']['toilet_facilities_distribution'], 5)
+    # group_remainder(data['service_delivery']['water_source_distribution'], 5)
+    # group_remainder(data['service_delivery']['refuse_disposal_distribution'], 5)
+    # group_remainder(data['service_delivery']['toilet_facilities_distribution'], 5)
     group_remainder(data['demographics']['language_distribution'], 7)
     group_remainder(data['demographics']['province_of_birth_distribution'], 7)
     group_remainder(data['demographics']['region_of_birth_distribution'], 5)
-    group_remainder(data['households']['type_of_dwelling_distribution'], 5)
-    group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
+    # group_remainder(data['households']['type_of_dwelling_distribution'], 5)
+    # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
     data['elections'] = get_elections_profile(geo)
 
@@ -422,14 +422,13 @@ def get_demographics_profile(geo, session):
         }
 
     # median age/age category
-    db_model_age = get_model_from_fields(
-        ['age in completed years'], geo.geo_level,
-        table_name='ageincompletedyears'
-    )
+    age_table = get_datatable('ageincompletedyears')
+
     objects = sorted(
-        get_objects_by_geo(db_model_age, geo, session),
+        age_table.get_rows_for_geo(geo, session),
         key=lambda x: int(getattr(x, 'age in completed years'))
     )
+
     # median age
     median = calculate_median(objects, 'age in completed years')
     final_data['median_age'] = {
@@ -1077,9 +1076,8 @@ def get_crime_profile(geo, session):
         percent=False)
 
     table = get_datatable(get_table_id(['crime']))
-
     return {
-        'dataset': table.dataset_name,
+        'dataset': table.dataset.name,
         'crime_against_children': {
             'name': 'Crimes of neglect and ill-treatment of children in 2014',
             'values': {'this': total},
