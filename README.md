@@ -37,6 +37,11 @@ Import the data into the new database (will overwrite some tables created by Dja
 cat sql/*.sql | psql -U wazimap_za -W wazimap_za
 ```
 
+Import the fixtures for the django models:
+```
+python manage.py loaddata fixtures/<instance_name>/wazimap_django_models.json
+```
+
 Start the server:
 ```
 python manage.py runserver
