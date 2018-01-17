@@ -18,13 +18,12 @@ Set the `WAZI_PROFILE` environment variable to the instance you are working on, 
 Set the `DEFAULT_GEO_VERSION` environment variable if you don't want to default to the latest, e.g. for youth and ecd
 `export DEFAULT_GEO_VERSION=2011`
 
-You will need a Postgres database:
-
+You will need a Postgres database for the instance you are running:
 ```
 psql
-create user wazimap_za with password wazimap_za;
-create database wazimap_za;
-grant all privileges on database wazimap_za to wazimap_za;
+create user wazimap_<instance_name> with password wazimap_<instance_name>;
+create database wazimap_<instance_name>;
+grant all privileges on database wazimap_<instance_name> to wazimap_<instance_name>;
 ```
 
 Run migrations to keep Django happy:
@@ -34,7 +33,7 @@ python manage.py migrate
 
 Import the data into the new database (will overwrite some tables created by Django, but that's ok).
 ```
-cat sql/*.sql | psql -U wazimap_za -W wazimap_za
+cat sql/*.sql | psql -U wazimap_<instance_name> -W wazimap_<instance_name>
 ```
 
 Import the fixtures for the django models:
@@ -42,10 +41,23 @@ Import the fixtures for the django models:
 python manage.py loaddata fixtures/<instance_name>/wazimap_django_models.json
 ```
 
+Create an admin user:
+```
+python manage.py createsuperuser
+
+```
 Start the server:
 ```
 python manage.py runserver
 ```
+
+## Updating django model data:
+
+Be sure to dump the data to the appropriate fixture when making changes to django models data:
+```
+python manage.py dumpdata wazimap > fixtures/<instance_name>/wazimap_django_models.json
+```
+
 
 # Production deployment
 
