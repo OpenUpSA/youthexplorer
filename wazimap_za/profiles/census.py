@@ -454,6 +454,7 @@ def get_demographics_profile(geo, session):
     # citizenship
     citizenship_dist, _ = get_stat_data(
             ['citizenship'], geo, session,
+            table_dataset='Census and Community Survey',
             order_by='-total')
 
     sa_citizen = citizenship_dist['Yes']['numerators']['this']
@@ -498,7 +499,7 @@ def get_demographics_profile(geo, session):
             'values': {'this': percent(born_in_sa, total_pop)},
             'numerators': {'this': born_in_sa},
             }
-            
+
     return final_data
 
 
