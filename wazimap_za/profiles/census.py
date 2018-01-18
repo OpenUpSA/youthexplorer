@@ -440,6 +440,7 @@ def get_demographics_profile(geo, session):
     # age category
     age_dist, _ = get_stat_data(
         ['age in completed years'], geo, session,
+        table_dataset='Census and Community Survey',
         table_name='ageincompletedyearssimplified',
         key_order=['Under 18', '18 to 64', '65 and over'],
         recode={'< 18': 'Under 18',
