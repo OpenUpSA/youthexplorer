@@ -468,6 +468,7 @@ def get_demographics_profile(geo, session):
     # migration
     province_of_birth_dist, _ = get_stat_data(
             ['province of birth'], geo, session,
+            table_dataset='Census and Community Survey',
             exclude_zero=True, order_by='-total')
 
     final_data['province_of_birth_distribution'] = province_of_birth_dist
