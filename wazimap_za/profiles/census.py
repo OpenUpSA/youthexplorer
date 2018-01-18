@@ -402,7 +402,9 @@ def get_demographics_profile(geo, session):
 
     # sex
     sex_data, _ = get_stat_data(
-            ['gender'], geo, session, table_name='gender')
+            ['gender'], geo, session,
+            table_universe='Population',
+            table_dataset='Census and Community Survey')
 
     final_data = {
         'language_distribution': language_data,
