@@ -483,6 +483,7 @@ def get_demographics_profile(geo, session):
 
     region_of_birth_dist, _ = get_stat_data(
             ['region of birth'], geo, session,
+            table_dataset='Census and Community Survey',
             exclude_zero=True, order_by='-total',
             recode=region_recode)
 
@@ -497,7 +498,7 @@ def get_demographics_profile(geo, session):
             'values': {'this': percent(born_in_sa, total_pop)},
             'numerators': {'this': born_in_sa},
             }
-
+            
     return final_data
 
 
