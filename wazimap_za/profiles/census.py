@@ -386,7 +386,9 @@ def get_demographics_profile(geo, session):
 
     # language
     language_data, _ = get_stat_data(
-            ['language'], geo, session, order_by='-total')
+            ['language'], geo, session,
+            table_dataset='Census and Community Survey',
+            order_by='-total')
     language_most_spoken = language_data[language_data.keys()[0]]
 
     # age groups
