@@ -202,86 +202,86 @@ municipality	CPT	2016	Khoi; nama and san languages	193
 municipality	CPT	2016	Other	57749
 municipality	CPT	2016	Not applicable	74017
 municipality	CPT	2016	Not specified	1350
-municipality	DC1	2016	Afrikaans	347712
-municipality	DC1	2016	English	14613
-municipality	DC1	2016	Isindebele	70
-municipality	DC1	2016	Isixhosa	55097
-municipality	DC1	2016	Isizulu	321
-municipality	DC1	2016	Sepedi	47
-municipality	DC1	2016	Sesotho	6122
-municipality	DC1	2016	Setswana	442
-municipality	DC1	2016	Sign language	0
-municipality	DC1	2016	Siswati	16
-municipality	DC1	2016	Tshivenda	126
-municipality	DC1	2016	Xitsonga	106
-municipality	DC1	2016	Khoi; nama and san languages	39
-municipality	DC1	2016	Other	2813
-municipality	DC1	2016	Not applicable	8797
-municipality	DC1	2016	Not specified	83
-municipality	DC2	2016	Afrikaans	619603
-municipality	DC2	2016	English	30674
-municipality	DC2	2016	Isindebele	534
-municipality	DC2	2016	Isixhosa	186581
-municipality	DC2	2016	Isizulu	614
-municipality	DC2	2016	Sepedi	207
-municipality	DC2	2016	Sesotho	8098
-municipality	DC2	2016	Setswana	358
-municipality	DC2	2016	Sign language	0
-municipality	DC2	2016	Siswati	27
-municipality	DC2	2016	Tshivenda	28
-municipality	DC2	2016	Xitsonga	109
-municipality	DC2	2016	Khoi; nama and san languages	0
-municipality	DC2	2016	Other	5181
-municipality	DC2	2016	Not applicable	13933
-municipality	DC2	2016	Not specified	53
-municipality	DC3	2016	Afrikaans	196080
-municipality	DC3	2016	English	16202
-municipality	DC3	2016	Isindebele	280
-municipality	DC3	2016	Isixhosa	58995
-municipality	DC3	2016	Isizulu	473
-municipality	DC3	2016	Sepedi	23
-municipality	DC3	2016	Sesotho	5532
-municipality	DC3	2016	Setswana	287
-municipality	DC3	2016	Sign language	27
-municipality	DC3	2016	Siswati	0
-municipality	DC3	2016	Tshivenda	20
-municipality	DC3	2016	Xitsonga	69
-municipality	DC3	2016	Khoi; nama and san languages	0
-municipality	DC3	2016	Other	3323
-municipality	DC3	2016	Not applicable	5474
-municipality	DC3	2016	Not specified	0
-municipality	DC4	2016	Afrikaans	410149
-municipality	DC4	2016	English	38353
-municipality	DC4	2016	Isindebele	239
-municipality	DC4	2016	Isixhosa	143081
-municipality	DC4	2016	Isizulu	1498
-municipality	DC4	2016	Sepedi	101
-municipality	DC4	2016	Sesotho	2316
-municipality	DC4	2016	Setswana	581
-municipality	DC4	2016	Sign language	46
-municipality	DC4	2016	Siswati	74
-municipality	DC4	2016	Tshivenda	156
-municipality	DC4	2016	Xitsonga	852
-municipality	DC4	2016	Khoi; nama and san languages	31
-municipality	DC4	2016	Other	4437
-municipality	DC4	2016	Not applicable	9122
-municipality	DC4	2016	Not specified	244
-municipality	DC5	2016	Afrikaans	64706
-municipality	DC5	2016	English	1297
-municipality	DC5	2016	Isindebele	0
-municipality	DC5	2016	Isixhosa	6781
-municipality	DC5	2016	Isizulu	0
-municipality	DC5	2016	Sepedi	0
-municipality	DC5	2016	Sesotho	131
-municipality	DC5	2016	Setswana	15
-municipality	DC5	2016	Sign language	0
-municipality	DC5	2016	Siswati	0
-municipality	DC5	2016	Tshivenda	0
-municipality	DC5	2016	Xitsonga	40
-municipality	DC5	2016	Khoi; nama and san languages	0
-municipality	DC5	2016	Other	59
-municipality	DC5	2016	Not applicable	1218
-municipality	DC5	2016	Not specified	0
+district	DC1	2016	Afrikaans	347712
+district	DC1	2016	English	14613
+district	DC1	2016	Isindebele	70
+district	DC1	2016	Isixhosa	55097
+district	DC1	2016	Isizulu	321
+district	DC1	2016	Sepedi	47
+district	DC1	2016	Sesotho	6122
+district	DC1	2016	Setswana	442
+district	DC1	2016	Sign language	0
+district	DC1	2016	Siswati	16
+district	DC1	2016	Tshivenda	126
+district	DC1	2016	Xitsonga	106
+district	DC1	2016	Khoi; nama and san languages	39
+district	DC1	2016	Other	2813
+district	DC1	2016	Not applicable	8797
+district	DC1	2016	Not specified	83
+district	DC2	2016	Afrikaans	619603
+district	DC2	2016	English	30674
+district	DC2	2016	Isindebele	534
+district	DC2	2016	Isixhosa	186581
+district	DC2	2016	Isizulu	614
+district	DC2	2016	Sepedi	207
+district	DC2	2016	Sesotho	8098
+district	DC2	2016	Setswana	358
+district	DC2	2016	Sign language	0
+district	DC2	2016	Siswati	27
+district	DC2	2016	Tshivenda	28
+district	DC2	2016	Xitsonga	109
+district	DC2	2016	Khoi; nama and san languages	0
+district	DC2	2016	Other	5181
+district	DC2	2016	Not applicable	13933
+district	DC2	2016	Not specified	53
+district	DC3	2016	Afrikaans	196080
+district	DC3	2016	English	16202
+district	DC3	2016	Isindebele	280
+district	DC3	2016	Isixhosa	58995
+district	DC3	2016	Isizulu	473
+district	DC3	2016	Sepedi	23
+district	DC3	2016	Sesotho	5532
+district	DC3	2016	Setswana	287
+district	DC3	2016	Sign language	27
+district	DC3	2016	Siswati	0
+district	DC3	2016	Tshivenda	20
+district	DC3	2016	Xitsonga	69
+district	DC3	2016	Khoi; nama and san languages	0
+district	DC3	2016	Other	3323
+district	DC3	2016	Not applicable	5474
+district	DC3	2016	Not specified	0
+district	DC4	2016	Afrikaans	410149
+district	DC4	2016	English	38353
+district	DC4	2016	Isindebele	239
+district	DC4	2016	Isixhosa	143081
+district	DC4	2016	Isizulu	1498
+district	DC4	2016	Sepedi	101
+district	DC4	2016	Sesotho	2316
+district	DC4	2016	Setswana	581
+district	DC4	2016	Sign language	46
+district	DC4	2016	Siswati	74
+district	DC4	2016	Tshivenda	156
+district	DC4	2016	Xitsonga	852
+district	DC4	2016	Khoi; nama and san languages	31
+district	DC4	2016	Other	4437
+district	DC4	2016	Not applicable	9122
+district	DC4	2016	Not specified	244
+district	DC5	2016	Afrikaans	64706
+district	DC5	2016	English	1297
+district	DC5	2016	Isindebele	0
+district	DC5	2016	Isixhosa	6781
+district	DC5	2016	Isizulu	0
+district	DC5	2016	Sepedi	0
+district	DC5	2016	Sesotho	131
+district	DC5	2016	Setswana	15
+district	DC5	2016	Sign language	0
+district	DC5	2016	Siswati	0
+district	DC5	2016	Tshivenda	0
+district	DC5	2016	Xitsonga	40
+district	DC5	2016	Khoi; nama and san languages	0
+district	DC5	2016	Other	59
+district	DC5	2016	Not applicable	1218
+district	DC5	2016	Not specified	0
 municipality	BUF	2016	Afrikaans	56153
 municipality	BUF	2016	English	67742
 municipality	BUF	2016	Isindebele	1314
@@ -296,104 +296,105 @@ municipality	BUF	2016	Tshivenda	95
 municipality	BUF	2016	Xitsonga	180
 municipality	BUF	2016	Khoi; nama and san languages	28
 municipality	BUF	2016	Other	3557
+district	DC45	2016	Xitsonga	330
 municipality	BUF	2016	Not applicable	17068
 municipality	BUF	2016	Not specified	58
-municipality	DC10	2016	Afrikaans	207428
-municipality	DC10	2016	English	20213
-municipality	DC10	2016	Isindebele	331
-municipality	DC10	2016	Isixhosa	239789
-municipality	DC10	2016	Isizulu	1027
-municipality	DC10	2016	Sepedi	0
-municipality	DC10	2016	Sesotho	463
-municipality	DC10	2016	Setswana	166
-municipality	DC10	2016	Sign language	0
-municipality	DC10	2016	Siswati	16
-municipality	DC10	2016	Tshivenda	18
-municipality	DC10	2016	Xitsonga	137
-municipality	DC10	2016	Khoi; nama and san languages	0
-municipality	DC10	2016	Other	1680
-municipality	DC10	2016	Not applicable	8654
-municipality	DC10	2016	Not specified	0
-municipality	DC12	2016	Afrikaans	13299
-municipality	DC12	2016	English	9010
-municipality	DC12	2016	Isindebele	1091
-municipality	DC12	2016	Isixhosa	837533
-municipality	DC12	2016	Isizulu	1092
-municipality	DC12	2016	Sepedi	12
-municipality	DC12	2016	Sesotho	1044
-municipality	DC12	2016	Setswana	123
-municipality	DC12	2016	Sign language	59
-municipality	DC12	2016	Siswati	72
-municipality	DC12	2016	Tshivenda	42
-municipality	DC12	2016	Xitsonga	107
-municipality	DC12	2016	Khoi; nama and san languages	243
-municipality	DC12	2016	Other	1233
-municipality	DC12	2016	Not applicable	15821
-municipality	DC12	2016	Not specified	10
-municipality	DC13	2016	Afrikaans	45119
-municipality	DC13	2016	English	8429
-municipality	DC13	2016	Isindebele	1166
-municipality	DC13	2016	Isixhosa	760189
-municipality	DC13	2016	Isizulu	1227
-municipality	DC13	2016	Sepedi	115
-municipality	DC13	2016	Sesotho	2596
-municipality	DC13	2016	Setswana	43
-municipality	DC13	2016	Sign language	30
-municipality	DC13	2016	Siswati	136
-municipality	DC13	2016	Tshivenda	48
-municipality	DC13	2016	Xitsonga	281
-municipality	DC13	2016	Khoi; nama and san languages	64
-municipality	DC13	2016	Other	2310
-municipality	DC13	2016	Not applicable	18276
-municipality	DC13	2016	Not specified	25
-municipality	DC14	2016	Afrikaans	18889
-municipality	DC14	2016	English	2514
-municipality	DC14	2016	Isindebele	466
-municipality	DC14	2016	Isixhosa	275521
-municipality	DC14	2016	Isizulu	594
-municipality	DC14	2016	Sepedi	53
-municipality	DC14	2016	Sesotho	66419
-municipality	DC14	2016	Setswana	103
-municipality	DC14	2016	Sign language	76
-municipality	DC14	2016	Siswati	33
-municipality	DC14	2016	Tshivenda	34
-municipality	DC14	2016	Xitsonga	67
-municipality	DC14	2016	Khoi; nama and san languages	0
-municipality	DC14	2016	Other	806
-municipality	DC14	2016	Not applicable	7339
-municipality	DC14	2016	Not specified	0
-municipality	DC15	2016	Afrikaans	2493
-municipality	DC15	2016	English	7487
-municipality	DC15	2016	Isindebele	2122
-municipality	DC15	2016	Isixhosa	1402714
-municipality	DC15	2016	Isizulu	4103
-municipality	DC15	2016	Sepedi	94
-municipality	DC15	2016	Sesotho	1447
-municipality	DC15	2016	Setswana	46
-municipality	DC15	2016	Sign language	106
-municipality	DC15	2016	Siswati	108
-municipality	DC15	2016	Tshivenda	159
-municipality	DC15	2016	Xitsonga	173
-municipality	DC15	2016	Khoi; nama and san languages	39
-municipality	DC15	2016	Other	2231
-municipality	DC15	2016	Not applicable	34062
-municipality	DC15	2016	Not specified	0
-municipality	DC44	2016	Afrikaans	1757
-municipality	DC44	2016	English	3427
-municipality	DC44	2016	Isindebele	958
-municipality	DC44	2016	Isixhosa	752214
-municipality	DC44	2016	Isizulu	5631
-municipality	DC44	2016	Sepedi	74
-municipality	DC44	2016	Sesotho	81265
-municipality	DC44	2016	Setswana	101
-municipality	DC44	2016	Sign language	48
-municipality	DC44	2016	Siswati	26
-municipality	DC44	2016	Tshivenda	38
-municipality	DC44	2016	Xitsonga	17
-municipality	DC44	2016	Khoi; nama and san languages	11
-municipality	DC44	2016	Other	1235
-municipality	DC44	2016	Not applicable	21063
-municipality	DC44	2016	Not specified	0
+district	DC10	2016	Afrikaans	207428
+district	DC10	2016	English	20213
+district	DC10	2016	Isindebele	331
+district	DC10	2016	Isixhosa	239789
+district	DC10	2016	Isizulu	1027
+district	DC10	2016	Sepedi	0
+district	DC10	2016	Sesotho	463
+district	DC10	2016	Setswana	166
+district	DC10	2016	Sign language	0
+district	DC10	2016	Siswati	16
+district	DC10	2016	Tshivenda	18
+district	DC10	2016	Xitsonga	137
+district	DC10	2016	Khoi; nama and san languages	0
+district	DC10	2016	Other	1680
+district	DC10	2016	Not applicable	8654
+district	DC10	2016	Not specified	0
+district	DC12	2016	Afrikaans	13299
+district	DC12	2016	English	9010
+district	DC12	2016	Isindebele	1091
+district	DC12	2016	Isixhosa	837533
+district	DC12	2016	Isizulu	1092
+district	DC12	2016	Sepedi	12
+district	DC12	2016	Sesotho	1044
+district	DC12	2016	Setswana	123
+district	DC12	2016	Sign language	59
+district	DC12	2016	Siswati	72
+district	DC12	2016	Tshivenda	42
+district	DC12	2016	Xitsonga	107
+district	DC12	2016	Khoi; nama and san languages	243
+district	DC12	2016	Other	1233
+district	DC12	2016	Not applicable	15821
+district	DC12	2016	Not specified	10
+district	DC13	2016	Afrikaans	45119
+district	DC13	2016	English	8429
+district	DC13	2016	Isindebele	1166
+district	DC13	2016	Isixhosa	760189
+district	DC13	2016	Isizulu	1227
+district	DC13	2016	Sepedi	115
+district	DC13	2016	Sesotho	2596
+district	DC13	2016	Setswana	43
+district	DC13	2016	Sign language	30
+district	DC13	2016	Siswati	136
+district	DC13	2016	Tshivenda	48
+district	DC13	2016	Xitsonga	281
+district	DC13	2016	Khoi; nama and san languages	64
+district	DC13	2016	Other	2310
+district	DC13	2016	Not applicable	18276
+district	DC13	2016	Not specified	25
+district	DC14	2016	Afrikaans	18889
+district	DC14	2016	English	2514
+district	DC14	2016	Isindebele	466
+district	DC14	2016	Isixhosa	275521
+district	DC14	2016	Isizulu	594
+district	DC14	2016	Sepedi	53
+district	DC14	2016	Sesotho	66419
+district	DC14	2016	Setswana	103
+district	DC14	2016	Sign language	76
+district	DC14	2016	Siswati	33
+district	DC14	2016	Tshivenda	34
+district	DC14	2016	Xitsonga	67
+district	DC14	2016	Khoi; nama and san languages	0
+district	DC14	2016	Other	806
+district	DC14	2016	Not applicable	7339
+district	DC14	2016	Not specified	0
+district	DC15	2016	Afrikaans	2493
+district	DC15	2016	English	7487
+district	DC15	2016	Isindebele	2122
+district	DC15	2016	Isixhosa	1402714
+district	DC15	2016	Isizulu	4103
+district	DC15	2016	Sepedi	94
+district	DC15	2016	Sesotho	1447
+district	DC15	2016	Setswana	46
+district	DC15	2016	Sign language	106
+district	DC15	2016	Siswati	108
+district	DC15	2016	Tshivenda	159
+district	DC15	2016	Xitsonga	173
+district	DC15	2016	Khoi; nama and san languages	39
+district	DC15	2016	Other	2231
+district	DC15	2016	Not applicable	34062
+district	DC15	2016	Not specified	0
+district	DC44	2016	Afrikaans	1757
+district	DC44	2016	English	3427
+district	DC44	2016	Isindebele	958
+district	DC44	2016	Isixhosa	752214
+district	DC44	2016	Isizulu	5631
+district	DC44	2016	Sepedi	74
+district	DC44	2016	Sesotho	81265
+district	DC44	2016	Setswana	101
+district	DC44	2016	Sign language	48
+district	DC44	2016	Siswati	26
+district	DC44	2016	Tshivenda	38
+district	DC44	2016	Xitsonga	17
+district	DC44	2016	Khoi; nama and san languages	11
+district	DC44	2016	Other	1235
+district	DC44	2016	Not applicable	21063
+district	DC44	2016	Not specified	0
 municipality	NMA	2016	Afrikaans	360136
 municipality	NMA	2016	English	150391
 municipality	NMA	2016	Isindebele	1323
@@ -410,150 +411,149 @@ municipality	NMA	2016	Khoi; nama and san languages	0
 municipality	NMA	2016	Other	7710
 municipality	NMA	2016	Not applicable	21871
 municipality	NMA	2016	Not specified	709
-municipality	DC45	2016	Afrikaans	45852
-municipality	DC45	2016	English	1412
-municipality	DC45	2016	Isindebele	55
-municipality	DC45	2016	Isixhosa	1590
-municipality	DC45	2016	Isizulu	570
-municipality	DC45	2016	Sepedi	335
-municipality	DC45	2016	Sesotho	1962
-municipality	DC45	2016	Setswana	182497
-municipality	DC45	2016	Sign language	113
-municipality	DC45	2016	Siswati	82
-municipality	DC45	2016	Tshivenda	198
-municipality	DC45	2016	Xitsonga	330
-municipality	DC45	2016	Khoi; nama and san languages	0
-municipality	DC45	2016	Other	1726
-municipality	DC45	2016	Not applicable	5543
-municipality	DC45	2016	Not specified	0
-municipality	DC6	2016	Afrikaans	111447
-municipality	DC6	2016	English	774
-municipality	DC6	2016	Isindebele	35
-municipality	DC6	2016	Isixhosa	1002
-municipality	DC6	2016	Isizulu	93
-municipality	DC6	2016	Sepedi	31
-municipality	DC6	2016	Sesotho	0
-municipality	DC6	2016	Setswana	180
-municipality	DC6	2016	Sign language	13
-municipality	DC6	2016	Siswati	0
-municipality	DC6	2016	Tshivenda	0
-municipality	DC6	2016	Xitsonga	14
-municipality	DC6	2016	Khoi; nama and san languages	0
-municipality	DC6	2016	Other	246
-municipality	DC6	2016	Not applicable	1650
-municipality	DC6	2016	Not specified	0
-municipality	DC7	2016	Afrikaans	149033
-municipality	DC7	2016	English	1301
-municipality	DC7	2016	Isindebele	41
-municipality	DC7	2016	Isixhosa	36947
-municipality	DC7	2016	Isizulu	155
-municipality	DC7	2016	Sepedi	254
-municipality	DC7	2016	Sesotho	1313
-municipality	DC7	2016	Setswana	2173
-municipality	DC7	2016	Sign language	23
-municipality	DC7	2016	Siswati	28
-municipality	DC7	2016	Tshivenda	50
-municipality	DC7	2016	Xitsonga	0
-municipality	DC7	2016	Khoi; nama and san languages	27
-municipality	DC7	2016	Other	839
-municipality	DC7	2016	Not applicable	3411
-municipality	DC7	2016	Not specified	0
-municipality	DC8	2016	Afrikaans	209810
-municipality	DC8	2016	English	3168
-municipality	DC8	2016	Isindebele	22
-municipality	DC8	2016	Isixhosa	4801
-municipality	DC8	2016	Isizulu	409
-municipality	DC8	2016	Sepedi	318
-municipality	DC8	2016	Sesotho	1833
-municipality	DC8	2016	Setswana	26527
-municipality	DC8	2016	Sign language	68
-municipality	DC8	2016	Siswati	61
-municipality	DC8	2016	Tshivenda	116
-municipality	DC8	2016	Xitsonga	71
-municipality	DC8	2016	Khoi; nama and san languages	15
-municipality	DC8	2016	Other	1094
-municipality	DC8	2016	Not applicable	4366
-municipality	DC8	2016	Not specified	12
-municipality	DC9	2016	Afrikaans	148304
-municipality	DC9	2016	English	21567
-municipality	DC9	2016	Isindebele	127
-municipality	DC9	2016	Isixhosa	16074
-municipality	DC9	2016	Isizulu	1251
-municipality	DC9	2016	Sepedi	460
-municipality	DC9	2016	Sesotho	7386
-municipality	DC9	2016	Setswana	179460
-municipality	DC9	2016	Sign language	180
-municipality	DC9	2016	Siswati	57
-municipality	DC9	2016	Tshivenda	375
-municipality	DC9	2016	Xitsonga	567
-municipality	DC9	2016	Khoi; nama and san languages	2195
-municipality	DC9	2016	Other	1751
-municipality	DC9	2016	Not applicable	7988
-municipality	DC9	2016	Not specified	0
-municipality	DC16	2016	Afrikaans	47590
-municipality	DC16	2016	English	1459
-municipality	DC16	2016	Isindebele	18
-municipality	DC16	2016	Isixhosa	20403
-municipality	DC16	2016	Isizulu	239
-municipality	DC16	2016	Sepedi	207
-municipality	DC16	2016	Sesotho	49199
-municipality	DC16	2016	Setswana	4489
-municipality	DC16	2016	Sign language	55
-municipality	DC16	2016	Siswati	28
-municipality	DC16	2016	Tshivenda	0
-municipality	DC16	2016	Xitsonga	117
-municipality	DC16	2016	Khoi; nama and san languages	0
-municipality	DC16	2016	Other	248
-municipality	DC16	2016	Not applicable	1784
-municipality	DC16	2016	Not specified	46
-municipality	DC18	2016	Afrikaans	61506
-municipality	DC18	2016	English	7088
-municipality	DC18	2016	Isindebele	439
-municipality	DC18	2016	Isixhosa	54640
-municipality	DC18	2016	Isizulu	6296
-municipality	DC18	2016	Sepedi	903
-municipality	DC18	2016	Sesotho	464023
-municipality	DC18	2016	Setswana	33161
-municipality	DC18	2016	Sign language	67
-municipality	DC18	2016	Siswati	532
-municipality	DC18	2016	Tshivenda	356
-municipality	DC18	2016	Xitsonga	2959
-municipality	DC18	2016	Khoi; nama and san languages	136
-municipality	DC18	2016	Other	2718
-municipality	DC18	2016	Not applicable	11884
-municipality	DC18	2016	Not specified	212
-municipality	DC19	2016	Afrikaans	32366
-municipality	DC19	2016	English	7142
-municipality	DC19	2016	Isindebele	95
-municipality	DC19	2016	Isixhosa	2451
-municipality	DC19	2016	Isizulu	73512
-municipality	DC19	2016	Sepedi	1799
-municipality	DC19	2016	Sesotho	644991
-municipality	DC19	2016	Setswana	1109
-municipality	DC19	2016	Sign language	161
-municipality	DC19	2016	Siswati	137
-municipality	DC19	2016	Tshivenda	43
-municipality	DC19	2016	Xitsonga	296
-municipality	DC19	2016	Khoi; nama and san languages	50
-municipality	DC19	2016	Other	1425
-municipality	DC19	2016	Not applicable	13703
-municipality	DC19	2016	Not specified	49
-municipality	DC20	2016	Afrikaans	59044
-municipality	DC20	2016	English	7776
-municipality	DC20	2016	Isindebele	289
-municipality	DC20	2016	Isixhosa	19286
-municipality	DC20	2016	Isizulu	20407
-municipality	DC20	2016	Sepedi	2975
-municipality	DC20	2016	Sesotho	369542
-municipality	DC20	2016	Setswana	3498
-municipality	DC20	2016	Sign language	56
-municipality	DC20	2016	Siswati	254
-municipality	DC20	2016	Tshivenda	707
-municipality	DC20	2016	Xitsonga	746
-municipality	DC20	2016	Khoi; nama and san languages	85
-municipality	DC20	2016	Other	2155
-municipality	DC20	2016	Not applicable	7941
-municipality	DC20	2016	Not specified	14
+district	DC45	2016	Afrikaans	45852
+district	DC45	2016	English	1412
+district	DC45	2016	Isindebele	55
+district	DC45	2016	Isixhosa	1590
+district	DC45	2016	Isizulu	570
+district	DC45	2016	Sepedi	335
+district	DC45	2016	Sesotho	1962
+district	DC45	2016	Setswana	182497
+district	DC45	2016	Sign language	113
+district	DC45	2016	Siswati	82
+district	DC45	2016	Tshivenda	198
+district	DC45	2016	Khoi; nama and san languages	0
+district	DC45	2016	Other	1726
+district	DC45	2016	Not applicable	5543
+district	DC45	2016	Not specified	0
+district	DC6	2016	Afrikaans	111447
+district	DC6	2016	English	774
+district	DC6	2016	Isindebele	35
+district	DC6	2016	Isixhosa	1002
+district	DC6	2016	Isizulu	93
+district	DC6	2016	Sepedi	31
+district	DC6	2016	Sesotho	0
+district	DC6	2016	Setswana	180
+district	DC6	2016	Sign language	13
+district	DC6	2016	Siswati	0
+district	DC6	2016	Tshivenda	0
+district	DC6	2016	Xitsonga	14
+district	DC6	2016	Khoi; nama and san languages	0
+district	DC6	2016	Other	246
+district	DC6	2016	Not applicable	1650
+district	DC6	2016	Not specified	0
+district	DC7	2016	Afrikaans	149033
+district	DC7	2016	English	1301
+district	DC7	2016	Isindebele	41
+district	DC7	2016	Isixhosa	36947
+district	DC7	2016	Isizulu	155
+district	DC7	2016	Sepedi	254
+district	DC7	2016	Sesotho	1313
+district	DC7	2016	Setswana	2173
+district	DC7	2016	Sign language	23
+district	DC7	2016	Siswati	28
+district	DC7	2016	Tshivenda	50
+district	DC7	2016	Xitsonga	0
+district	DC7	2016	Khoi; nama and san languages	27
+district	DC7	2016	Other	839
+district	DC7	2016	Not applicable	3411
+district	DC7	2016	Not specified	0
+district	DC8	2016	Afrikaans	209810
+district	DC8	2016	English	3168
+district	DC8	2016	Isindebele	22
+district	DC8	2016	Isixhosa	4801
+district	DC8	2016	Isizulu	409
+district	DC8	2016	Sepedi	318
+district	DC8	2016	Sesotho	1833
+district	DC8	2016	Setswana	26527
+district	DC8	2016	Sign language	68
+district	DC8	2016	Siswati	61
+district	DC8	2016	Tshivenda	116
+district	DC8	2016	Xitsonga	71
+district	DC8	2016	Khoi; nama and san languages	15
+district	DC8	2016	Other	1094
+district	DC8	2016	Not applicable	4366
+district	DC8	2016	Not specified	12
+district	DC9	2016	Afrikaans	148304
+district	DC9	2016	English	21567
+district	DC9	2016	Isindebele	127
+district	DC9	2016	Isixhosa	16074
+district	DC9	2016	Isizulu	1251
+district	DC9	2016	Sepedi	460
+district	DC9	2016	Sesotho	7386
+district	DC9	2016	Setswana	179460
+district	DC9	2016	Sign language	180
+district	DC9	2016	Siswati	57
+district	DC9	2016	Tshivenda	375
+district	DC9	2016	Xitsonga	567
+district	DC9	2016	Khoi; nama and san languages	2195
+district	DC9	2016	Other	1751
+district	DC9	2016	Not applicable	7988
+district	DC9	2016	Not specified	0
+district	DC16	2016	Afrikaans	47590
+district	DC16	2016	English	1459
+district	DC16	2016	Isindebele	18
+district	DC16	2016	Isixhosa	20403
+district	DC16	2016	Isizulu	239
+district	DC16	2016	Sepedi	207
+district	DC16	2016	Sesotho	49199
+district	DC16	2016	Setswana	4489
+district	DC16	2016	Sign language	55
+district	DC16	2016	Siswati	28
+district	DC16	2016	Tshivenda	0
+district	DC16	2016	Xitsonga	117
+district	DC16	2016	Khoi; nama and san languages	0
+district	DC16	2016	Other	248
+district	DC16	2016	Not applicable	1784
+district	DC16	2016	Not specified	46
+district	DC18	2016	Afrikaans	61506
+district	DC18	2016	English	7088
+district	DC18	2016	Isindebele	439
+district	DC18	2016	Isixhosa	54640
+district	DC18	2016	Isizulu	6296
+district	DC18	2016	Sepedi	903
+district	DC18	2016	Sesotho	464023
+district	DC18	2016	Setswana	33161
+district	DC18	2016	Sign language	67
+district	DC18	2016	Siswati	532
+district	DC18	2016	Tshivenda	356
+district	DC18	2016	Xitsonga	2959
+district	DC18	2016	Khoi; nama and san languages	136
+district	DC18	2016	Other	2718
+district	DC18	2016	Not applicable	11884
+district	DC18	2016	Not specified	212
+district	DC19	2016	Afrikaans	32366
+district	DC19	2016	English	7142
+district	DC19	2016	Isindebele	95
+district	DC19	2016	Isixhosa	2451
+district	DC19	2016	Isizulu	73512
+district	DC19	2016	Sepedi	1799
+district	DC19	2016	Sesotho	644991
+district	DC19	2016	Setswana	1109
+district	DC19	2016	Sign language	161
+district	DC19	2016	Siswati	137
+district	DC19	2016	Tshivenda	43
+district	DC19	2016	Xitsonga	296
+district	DC19	2016	Khoi; nama and san languages	50
+district	DC19	2016	Other	1425
+district	DC19	2016	Not applicable	13703
+district	DC19	2016	Not specified	49
+district	DC20	2016	Afrikaans	59044
+district	DC20	2016	English	7776
+district	DC20	2016	Isindebele	289
+district	DC20	2016	Isixhosa	19286
+district	DC20	2016	Isizulu	20407
+district	DC20	2016	Sepedi	2975
+district	DC20	2016	Sesotho	369542
+district	DC20	2016	Setswana	3498
+district	DC20	2016	Sign language	56
+district	DC20	2016	Siswati	254
+district	DC20	2016	Tshivenda	707
+district	DC20	2016	Xitsonga	746
+district	DC20	2016	Khoi; nama and san languages	85
+district	DC20	2016	Other	2155
+district	DC20	2016	Not applicable	7941
+district	DC20	2016	Not specified	14
 municipality	MAN	2016	Afrikaans	101560
 municipality	MAN	2016	English	15473
 municipality	MAN	2016	Isindebele	798
@@ -570,166 +570,166 @@ municipality	MAN	2016	Khoi; nama and san languages	55
 municipality	MAN	2016	Other	3167
 municipality	MAN	2016	Not applicable	15960
 municipality	MAN	2016	Not specified	74
-municipality	DC21	2016	Afrikaans	13282
-municipality	DC21	2016	English	61753
-municipality	DC21	2016	Isindebele	181
-municipality	DC21	2016	Isixhosa	29089
-municipality	DC21	2016	Isizulu	628649
-municipality	DC21	2016	Sepedi	142
-municipality	DC21	2016	Sesotho	609
-municipality	DC21	2016	Setswana	121
-municipality	DC21	2016	Sign language	48
-municipality	DC21	2016	Siswati	29
-municipality	DC21	2016	Tshivenda	50
-municipality	DC21	2016	Xitsonga	68
-municipality	DC21	2016	Khoi; nama and san languages	24
-municipality	DC21	2016	Other	1234
-municipality	DC21	2016	Not applicable	17992
-municipality	DC21	2016	Not specified	65
-municipality	DC22	2016	Afrikaans	8582
-municipality	DC22	2016	English	163059
-municipality	DC22	2016	Isindebele	622
-municipality	DC22	2016	Isixhosa	11144
-municipality	DC22	2016	Isizulu	870950
-municipality	DC22	2016	Sepedi	456
-municipality	DC22	2016	Sesotho	11499
-municipality	DC22	2016	Setswana	646
-municipality	DC22	2016	Sign language	91
-municipality	DC22	2016	Siswati	294
-municipality	DC22	2016	Tshivenda	162
-municipality	DC22	2016	Xitsonga	175
-municipality	DC22	2016	Khoi; nama and san languages	95
-municipality	DC22	2016	Other	4799
-municipality	DC22	2016	Not applicable	23152
-municipality	DC22	2016	Not specified	138
-municipality	DC23	2016	Afrikaans	3738
-municipality	DC23	2016	English	23407
-municipality	DC23	2016	Isindebele	66
-municipality	DC23	2016	Isixhosa	1541
-municipality	DC23	2016	Isizulu	656426
-municipality	DC23	2016	Sepedi	398
-municipality	DC23	2016	Sesotho	2162
-municipality	DC23	2016	Setswana	10
-municipality	DC23	2016	Sign language	0
-municipality	DC23	2016	Siswati	152
-municipality	DC23	2016	Tshivenda	0
-municipality	DC23	2016	Xitsonga	0
-municipality	DC23	2016	Khoi; nama and san languages	0
-municipality	DC23	2016	Other	1481
-municipality	DC23	2016	Not applicable	17206
-municipality	DC23	2016	Not specified	0
-municipality	DC24	2016	Afrikaans	4705
-municipality	DC24	2016	English	13609
-municipality	DC24	2016	Isindebele	53
-municipality	DC24	2016	Isixhosa	1780
-municipality	DC24	2016	Isizulu	511204
-municipality	DC24	2016	Sepedi	191
-municipality	DC24	2016	Sesotho	9791
-municipality	DC24	2016	Setswana	66
-municipality	DC24	2016	Sign language	55
-municipality	DC24	2016	Siswati	72
-municipality	DC24	2016	Tshivenda	36
-municipality	DC24	2016	Xitsonga	27
-municipality	DC24	2016	Khoi; nama and san languages	0
-municipality	DC24	2016	Other	639
-municipality	DC24	2016	Not applicable	12638
-municipality	DC24	2016	Not specified	14
-municipality	DC25	2016	Afrikaans	15212
-municipality	DC25	2016	English	22268
-municipality	DC25	2016	Isindebele	459
-municipality	DC25	2016	Isixhosa	1338
-municipality	DC25	2016	Isizulu	474903
-municipality	DC25	2016	Sepedi	336
-municipality	DC25	2016	Sesotho	2756
-municipality	DC25	2016	Setswana	236
-municipality	DC25	2016	Sign language	28
-municipality	DC25	2016	Siswati	406
-municipality	DC25	2016	Tshivenda	71
-municipality	DC25	2016	Xitsonga	174
-municipality	DC25	2016	Khoi; nama and san languages	13
-municipality	DC25	2016	Other	1705
-municipality	DC25	2016	Not applicable	11414
-municipality	DC25	2016	Not specified	9
-municipality	DC26	2016	Afrikaans	7716
-municipality	DC26	2016	English	4515
-municipality	DC26	2016	Isindebele	191
-municipality	DC26	2016	Isixhosa	1696
-municipality	DC26	2016	Isizulu	851567
-municipality	DC26	2016	Sepedi	495
-municipality	DC26	2016	Sesotho	1510
-municipality	DC26	2016	Setswana	182
-municipality	DC26	2016	Sign language	35
-municipality	DC26	2016	Siswati	614
-municipality	DC26	2016	Tshivenda	45
-municipality	DC26	2016	Xitsonga	19
-municipality	DC26	2016	Khoi; nama and san languages	22
-municipality	DC26	2016	Other	1519
-municipality	DC26	2016	Not applicable	22177
-municipality	DC26	2016	Not specified	6
-municipality	DC27	2016	Afrikaans	1252
-municipality	DC27	2016	English	3444
-municipality	DC27	2016	Isindebele	40
-municipality	DC27	2016	Isixhosa	1567
-municipality	DC27	2016	Isizulu	661879
-municipality	DC27	2016	Sepedi	191
-municipality	DC27	2016	Sesotho	99
-municipality	DC27	2016	Setswana	52
-municipality	DC27	2016	Sign language	122
-municipality	DC27	2016	Siswati	2374
-municipality	DC27	2016	Tshivenda	0
-municipality	DC27	2016	Xitsonga	317
-municipality	DC27	2016	Khoi; nama and san languages	66
-municipality	DC27	2016	Other	494
-municipality	DC27	2016	Not applicable	17177
-municipality	DC27	2016	Not specified	18
-municipality	DC28	2016	Afrikaans	16050
-municipality	DC28	2016	English	34538
-municipality	DC28	2016	Isindebele	79
-municipality	DC28	2016	Isixhosa	1975
-municipality	DC28	2016	Isizulu	891806
-municipality	DC28	2016	Sepedi	314
-municipality	DC28	2016	Sesotho	509
-municipality	DC28	2016	Setswana	167
-municipality	DC28	2016	Sign language	104
-municipality	DC28	2016	Siswati	282
-municipality	DC28	2016	Tshivenda	58
-municipality	DC28	2016	Xitsonga	298
-municipality	DC28	2016	Khoi; nama and san languages	67
-municipality	DC28	2016	Other	970
-municipality	DC28	2016	Not applicable	23828
-municipality	DC28	2016	Not specified	93
-municipality	DC29	2016	Afrikaans	3043
-municipality	DC29	2016	English	67758
-municipality	DC29	2016	Isindebele	146
-municipality	DC29	2016	Isixhosa	17205
-municipality	DC29	2016	Isizulu	551670
-municipality	DC29	2016	Sepedi	200
-municipality	DC29	2016	Sesotho	560
-municipality	DC29	2016	Setswana	160
-municipality	DC29	2016	Sign language	67
-municipality	DC29	2016	Siswati	172
-municipality	DC29	2016	Tshivenda	126
-municipality	DC29	2016	Xitsonga	635
-municipality	DC29	2016	Khoi; nama and san languages	36
-municipality	DC29	2016	Other	1737
-municipality	DC29	2016	Not applicable	14049
-municipality	DC29	2016	Not specified	49
-municipality	DC43	2016	Afrikaans	4082
-municipality	DC43	2016	English	10021
-municipality	DC43	2016	Isindebele	73
-municipality	DC43	2016	Isixhosa	148225
-municipality	DC43	2016	Isizulu	329740
-municipality	DC43	2016	Sepedi	208
-municipality	DC43	2016	Sesotho	4384
-municipality	DC43	2016	Setswana	56
-municipality	DC43	2016	Sign language	112
-municipality	DC43	2016	Siswati	132
-municipality	DC43	2016	Tshivenda	64
-municipality	DC43	2016	Xitsonga	113
-municipality	DC43	2016	Khoi; nama and san languages	35
-municipality	DC43	2016	Other	625
-municipality	DC43	2016	Not applicable	12995
-municipality	DC43	2016	Not specified	0
+district	DC21	2016	Afrikaans	13282
+district	DC21	2016	English	61753
+district	DC21	2016	Isindebele	181
+district	DC21	2016	Isixhosa	29089
+district	DC21	2016	Isizulu	628649
+district	DC21	2016	Sepedi	142
+district	DC21	2016	Sesotho	609
+district	DC21	2016	Setswana	121
+district	DC21	2016	Sign language	48
+district	DC21	2016	Siswati	29
+district	DC21	2016	Tshivenda	50
+district	DC21	2016	Xitsonga	68
+district	DC21	2016	Khoi; nama and san languages	24
+district	DC21	2016	Other	1234
+district	DC21	2016	Not applicable	17992
+district	DC21	2016	Not specified	65
+district	DC22	2016	Afrikaans	8582
+district	DC22	2016	English	163059
+district	DC22	2016	Isindebele	622
+district	DC22	2016	Isixhosa	11144
+district	DC22	2016	Isizulu	870950
+district	DC22	2016	Sepedi	456
+district	DC22	2016	Sesotho	11499
+district	DC22	2016	Setswana	646
+district	DC22	2016	Sign language	91
+district	DC22	2016	Siswati	294
+district	DC22	2016	Tshivenda	162
+district	DC22	2016	Xitsonga	175
+district	DC22	2016	Khoi; nama and san languages	95
+district	DC22	2016	Other	4799
+district	DC22	2016	Not applicable	23152
+district	DC22	2016	Not specified	138
+district	DC23	2016	Afrikaans	3738
+district	DC23	2016	English	23407
+district	DC23	2016	Isindebele	66
+district	DC23	2016	Isixhosa	1541
+district	DC23	2016	Isizulu	656426
+district	DC23	2016	Sepedi	398
+district	DC23	2016	Sesotho	2162
+district	DC23	2016	Setswana	10
+district	DC23	2016	Sign language	0
+district	DC23	2016	Siswati	152
+district	DC23	2016	Tshivenda	0
+district	DC23	2016	Xitsonga	0
+district	DC23	2016	Khoi; nama and san languages	0
+district	DC23	2016	Other	1481
+district	DC23	2016	Not applicable	17206
+district	DC23	2016	Not specified	0
+district	DC24	2016	Afrikaans	4705
+district	DC24	2016	English	13609
+district	DC24	2016	Isindebele	53
+district	DC24	2016	Isixhosa	1780
+district	DC24	2016	Isizulu	511204
+district	DC24	2016	Sepedi	191
+district	DC24	2016	Sesotho	9791
+district	DC24	2016	Setswana	66
+district	DC24	2016	Sign language	55
+district	DC24	2016	Siswati	72
+district	DC24	2016	Tshivenda	36
+district	DC24	2016	Xitsonga	27
+district	DC24	2016	Khoi; nama and san languages	0
+district	DC24	2016	Other	639
+district	DC24	2016	Not applicable	12638
+district	DC24	2016	Not specified	14
+district	DC25	2016	Afrikaans	15212
+district	DC25	2016	English	22268
+district	DC25	2016	Isindebele	459
+district	DC25	2016	Isixhosa	1338
+district	DC25	2016	Isizulu	474903
+district	DC25	2016	Sepedi	336
+district	DC25	2016	Sesotho	2756
+district	DC25	2016	Setswana	236
+district	DC25	2016	Sign language	28
+district	DC25	2016	Siswati	406
+district	DC25	2016	Tshivenda	71
+district	DC25	2016	Xitsonga	174
+district	DC25	2016	Khoi; nama and san languages	13
+district	DC25	2016	Other	1705
+district	DC25	2016	Not applicable	11414
+district	DC25	2016	Not specified	9
+district	DC26	2016	Afrikaans	7716
+district	DC26	2016	English	4515
+district	DC26	2016	Isindebele	191
+district	DC26	2016	Isixhosa	1696
+district	DC26	2016	Isizulu	851567
+district	DC26	2016	Sepedi	495
+district	DC26	2016	Sesotho	1510
+district	DC26	2016	Setswana	182
+district	DC26	2016	Sign language	35
+district	DC26	2016	Siswati	614
+district	DC26	2016	Tshivenda	45
+district	DC26	2016	Xitsonga	19
+district	DC26	2016	Khoi; nama and san languages	22
+district	DC26	2016	Other	1519
+district	DC26	2016	Not applicable	22177
+district	DC26	2016	Not specified	6
+district	DC27	2016	Afrikaans	1252
+district	DC27	2016	English	3444
+district	DC27	2016	Isindebele	40
+district	DC27	2016	Isixhosa	1567
+district	DC27	2016	Isizulu	661879
+district	DC27	2016	Sepedi	191
+district	DC27	2016	Sesotho	99
+district	DC27	2016	Setswana	52
+district	DC27	2016	Sign language	122
+district	DC27	2016	Siswati	2374
+district	DC27	2016	Tshivenda	0
+district	DC27	2016	Xitsonga	317
+district	DC27	2016	Khoi; nama and san languages	66
+district	DC27	2016	Other	494
+district	DC27	2016	Not applicable	17177
+district	DC27	2016	Not specified	18
+district	DC28	2016	Afrikaans	16050
+district	DC28	2016	English	34538
+district	DC28	2016	Isindebele	79
+district	DC28	2016	Isixhosa	1975
+district	DC28	2016	Isizulu	891806
+district	DC28	2016	Sepedi	314
+district	DC28	2016	Sesotho	509
+district	DC28	2016	Setswana	167
+district	DC28	2016	Sign language	104
+district	DC28	2016	Siswati	282
+district	DC28	2016	Tshivenda	58
+district	DC28	2016	Xitsonga	298
+district	DC28	2016	Khoi; nama and san languages	67
+district	DC28	2016	Other	970
+district	DC28	2016	Not applicable	23828
+district	DC28	2016	Not specified	93
+district	DC29	2016	Afrikaans	3043
+district	DC29	2016	English	67758
+district	DC29	2016	Isindebele	146
+district	DC29	2016	Isixhosa	17205
+district	DC29	2016	Isizulu	551670
+district	DC29	2016	Sepedi	200
+district	DC29	2016	Sesotho	560
+district	DC29	2016	Setswana	160
+district	DC29	2016	Sign language	67
+district	DC29	2016	Siswati	172
+district	DC29	2016	Tshivenda	126
+district	DC29	2016	Xitsonga	635
+district	DC29	2016	Khoi; nama and san languages	36
+district	DC29	2016	Other	1737
+district	DC29	2016	Not applicable	14049
+district	DC29	2016	Not specified	49
+district	DC43	2016	Afrikaans	4082
+district	DC43	2016	English	10021
+district	DC43	2016	Isindebele	73
+district	DC43	2016	Isixhosa	148225
+district	DC43	2016	Isizulu	329740
+district	DC43	2016	Sepedi	208
+district	DC43	2016	Sesotho	4384
+district	DC43	2016	Setswana	56
+district	DC43	2016	Sign language	112
+district	DC43	2016	Siswati	132
+district	DC43	2016	Tshivenda	64
+district	DC43	2016	Xitsonga	113
+district	DC43	2016	Khoi; nama and san languages	35
+district	DC43	2016	Other	625
+district	DC43	2016	Not applicable	12995
+district	DC43	2016	Not specified	0
 municipality	ETH	2016	Afrikaans	29744
 municipality	ETH	2016	English	943517
 municipality	ETH	2016	Isindebele	1507
@@ -746,102 +746,102 @@ municipality	ETH	2016	Khoi; nama and san languages	481
 municipality	ETH	2016	Other	12083
 municipality	ETH	2016	Not applicable	70428
 municipality	ETH	2016	Not specified	183
-municipality	DC37	2016	Afrikaans	80536
-municipality	DC37	2016	English	25898
-municipality	DC37	2016	Isindebele	13056
-municipality	DC37	2016	Isixhosa	88656
-municipality	DC37	2016	Isizulu	45096
-municipality	DC37	2016	Sepedi	67411
-municipality	DC37	2016	Sesotho	71222
-municipality	DC37	2016	Setswana	1071678
-municipality	DC37	2016	Sign language	836
-municipality	DC37	2016	Siswati	7622
-municipality	DC37	2016	Tshivenda	13263
-municipality	DC37	2016	Xitsonga	102734
-municipality	DC37	2016	Khoi; nama and san languages	466
-municipality	DC37	2016	Other	31630
-municipality	DC37	2016	Not applicable	36714
-municipality	DC37	2016	Not specified	330
-municipality	DC38	2016	Afrikaans	30435
-municipality	DC38	2016	English	6538
-municipality	DC38	2016	Isindebele	449
-municipality	DC38	2016	Isixhosa	19210
-municipality	DC38	2016	Isizulu	4369
-municipality	DC38	2016	Sepedi	1875
-municipality	DC38	2016	Sesotho	19985
-municipality	DC38	2016	Setswana	775956
-municipality	DC38	2016	Sign language	510
-municipality	DC38	2016	Siswati	627
-municipality	DC38	2016	Tshivenda	732
-municipality	DC38	2016	Xitsonga	1498
-municipality	DC38	2016	Khoi; nama and san languages	113
-municipality	DC38	2016	Other	10352
-municipality	DC38	2016	Not applicable	16416
-municipality	DC38	2016	Not specified	42
-municipality	DC39	2016	Afrikaans	33345
-municipality	DC39	2016	English	2434
-municipality	DC39	2016	Isindebele	279
-municipality	DC39	2016	Isixhosa	4963
-municipality	DC39	2016	Isizulu	415
-municipality	DC39	2016	Sepedi	318
-municipality	DC39	2016	Sesotho	6147
-municipality	DC39	2016	Setswana	397668
-municipality	DC39	2016	Sign language	291
-municipality	DC39	2016	Siswati	70
-municipality	DC39	2016	Tshivenda	106
-municipality	DC39	2016	Xitsonga	229
-municipality	DC39	2016	Khoi; nama and san languages	47
-municipality	DC39	2016	Other	2712
-municipality	DC39	2016	Not applicable	10316
-municipality	DC39	2016	Not specified	17
-municipality	DC40	2016	Afrikaans	118713
-municipality	DC40	2016	English	16780
-municipality	DC40	2016	Isindebele	600
-municipality	DC40	2016	Isixhosa	75616
-municipality	DC40	2016	Isizulu	8637
-municipality	DC40	2016	Sepedi	2824
-municipality	DC40	2016	Sesotho	115130
-municipality	DC40	2016	Setswana	377031
-municipality	DC40	2016	Sign language	213
-municipality	DC40	2016	Siswati	1406
-municipality	DC40	2016	Tshivenda	1054
-municipality	DC40	2016	Xitsonga	4117
-municipality	DC40	2016	Khoi; nama and san languages	250
-municipality	DC40	2016	Other	5054
-municipality	DC40	2016	Not applicable	15126
-municipality	DC40	2016	Not specified	270
-municipality	DC42	2016	Afrikaans	135961
-municipality	DC42	2016	English	50918
-municipality	DC42	2016	Isindebele	3950
-municipality	DC42	2016	Isixhosa	52628
-municipality	DC42	2016	Isizulu	148302
-municipality	DC42	2016	Sepedi	13270
-municipality	DC42	2016	Sesotho	495057
-municipality	DC42	2016	Setswana	15188
-municipality	DC42	2016	Sign language	176
-municipality	DC42	2016	Siswati	2643
-municipality	DC42	2016	Tshivenda	3454
-municipality	DC42	2016	Xitsonga	9726
-municipality	DC42	2016	Khoi; nama and san languages	271
-municipality	DC42	2016	Other	9970
-municipality	DC42	2016	Not applicable	16015
-municipality	DC42	2016	Not specified	0
-municipality	DC48	2016	Afrikaans	139233
-municipality	DC48	2016	English	43636
-municipality	DC48	2016	Isindebele	4133
-municipality	DC48	2016	Isixhosa	118382
-municipality	DC48	2016	Isizulu	76601
-municipality	DC48	2016	Sepedi	24562
-municipality	DC48	2016	Sesotho	86331
-municipality	DC48	2016	Setswana	265100
-municipality	DC48	2016	Sign language	106
-municipality	DC48	2016	Siswati	6475
-municipality	DC48	2016	Tshivenda	10850
-municipality	DC48	2016	Xitsonga	38806
-municipality	DC48	2016	Khoi; nama and san languages	185
-municipality	DC48	2016	Other	11013
-municipality	DC48	2016	Not applicable	12967
-municipality	DC48	2016	Not specified	213
+district	DC37	2016	Afrikaans	80536
+district	DC37	2016	English	25898
+district	DC37	2016	Isindebele	13056
+district	DC37	2016	Isixhosa	88656
+district	DC37	2016	Isizulu	45096
+district	DC37	2016	Sepedi	67411
+district	DC37	2016	Sesotho	71222
+district	DC37	2016	Setswana	1071678
+district	DC37	2016	Sign language	836
+district	DC37	2016	Siswati	7622
+district	DC37	2016	Tshivenda	13263
+district	DC37	2016	Xitsonga	102734
+district	DC37	2016	Khoi; nama and san languages	466
+district	DC37	2016	Other	31630
+district	DC37	2016	Not applicable	36714
+district	DC37	2016	Not specified	330
+district	DC38	2016	Afrikaans	30435
+district	DC38	2016	English	6538
+district	DC38	2016	Isindebele	449
+district	DC38	2016	Isixhosa	19210
+district	DC38	2016	Isizulu	4369
+district	DC38	2016	Sepedi	1875
+district	DC38	2016	Sesotho	19985
+district	DC38	2016	Setswana	775956
+district	DC38	2016	Sign language	510
+district	DC38	2016	Siswati	627
+district	DC38	2016	Tshivenda	732
+district	DC38	2016	Xitsonga	1498
+district	DC38	2016	Khoi; nama and san languages	113
+district	DC38	2016	Other	10352
+district	DC38	2016	Not applicable	16416
+district	DC38	2016	Not specified	42
+district	DC39	2016	Afrikaans	33345
+district	DC39	2016	English	2434
+district	DC39	2016	Isindebele	279
+district	DC39	2016	Isixhosa	4963
+district	DC39	2016	Isizulu	415
+district	DC39	2016	Sepedi	318
+district	DC39	2016	Sesotho	6147
+district	DC39	2016	Setswana	397668
+district	DC39	2016	Sign language	291
+district	DC39	2016	Siswati	70
+district	DC39	2016	Tshivenda	106
+district	DC39	2016	Xitsonga	229
+district	DC39	2016	Khoi; nama and san languages	47
+district	DC39	2016	Other	2712
+district	DC39	2016	Not applicable	10316
+district	DC39	2016	Not specified	17
+district	DC40	2016	Afrikaans	118713
+district	DC40	2016	English	16780
+district	DC40	2016	Isindebele	600
+district	DC40	2016	Isixhosa	75616
+district	DC40	2016	Isizulu	8637
+district	DC40	2016	Sepedi	2824
+district	DC40	2016	Sesotho	115130
+district	DC40	2016	Setswana	377031
+district	DC40	2016	Sign language	213
+district	DC40	2016	Siswati	1406
+district	DC40	2016	Tshivenda	1054
+district	DC40	2016	Xitsonga	4117
+district	DC40	2016	Khoi; nama and san languages	250
+district	DC40	2016	Other	5054
+district	DC40	2016	Not applicable	15126
+district	DC40	2016	Not specified	270
+district	DC42	2016	Afrikaans	135961
+district	DC42	2016	English	50918
+district	DC42	2016	Isindebele	3950
+district	DC42	2016	Isixhosa	52628
+district	DC42	2016	Isizulu	148302
+district	DC42	2016	Sepedi	13270
+district	DC42	2016	Sesotho	495057
+district	DC42	2016	Setswana	15188
+district	DC42	2016	Sign language	176
+district	DC42	2016	Siswati	2643
+district	DC42	2016	Tshivenda	3454
+district	DC42	2016	Xitsonga	9726
+district	DC42	2016	Khoi; nama and san languages	271
+district	DC42	2016	Other	9970
+district	DC42	2016	Not applicable	16015
+district	DC42	2016	Not specified	0
+district	DC48	2016	Afrikaans	139233
+district	DC48	2016	English	43636
+district	DC48	2016	Isindebele	4133
+district	DC48	2016	Isixhosa	118382
+district	DC48	2016	Isizulu	76601
+district	DC48	2016	Sepedi	24562
+district	DC48	2016	Sesotho	86331
+district	DC48	2016	Setswana	265100
+district	DC48	2016	Sign language	106
+district	DC48	2016	Siswati	6475
+district	DC48	2016	Tshivenda	10850
+district	DC48	2016	Xitsonga	38806
+district	DC48	2016	Khoi; nama and san languages	185
+district	DC48	2016	Other	11013
+district	DC48	2016	Not applicable	12967
+district	DC48	2016	Not specified	213
 municipality	EKU	2016	Afrikaans	306641
 municipality	EKU	2016	English	339027
 municipality	EKU	2016	Isindebele	49382
@@ -890,134 +890,134 @@ municipality	TSH	2016	Khoi; nama and san languages	1174
 municipality	TSH	2016	Other	66166
 municipality	TSH	2016	Not applicable	65678
 municipality	TSH	2016	Not specified	642
-municipality	DC30	2016	Afrikaans	70668
-municipality	DC30	2016	English	25159
-municipality	DC30	2016	Isindebele	19039
-municipality	DC30	2016	Isixhosa	23970
-municipality	DC30	2016	Isizulu	767770
-municipality	DC30	2016	Sepedi	8656
-municipality	DC30	2016	Sesotho	41449
-municipality	DC30	2016	Setswana	2118
-municipality	DC30	2016	Sign language	134
-municipality	DC30	2016	Siswati	138495
-municipality	DC30	2016	Tshivenda	2505
-municipality	DC30	2016	Xitsonga	8397
-municipality	DC30	2016	Khoi; nama and san languages	128
-municipality	DC30	2016	Other	4398
-municipality	DC30	2016	Not applicable	22063
-municipality	DC30	2016	Not specified	461
-municipality	DC31	2016	Afrikaans	104199
-municipality	DC31	2016	English	30176
-municipality	DC31	2016	Isindebele	406206
-municipality	DC31	2016	Isixhosa	22560
-municipality	DC31	2016	Isizulu	418161
-municipality	DC31	2016	Sepedi	224210
-municipality	DC31	2016	Sesotho	37263
-municipality	DC31	2016	Setswana	60152
-municipality	DC31	2016	Sign language	183
-municipality	DC31	2016	Siswati	57888
-municipality	DC31	2016	Tshivenda	4976
-municipality	DC31	2016	Xitsonga	34579
-municipality	DC31	2016	Khoi; nama and san languages	319
-municipality	DC31	2016	Other	16730
-municipality	DC31	2016	Not applicable	26682
-municipality	DC31	2016	Not specified	1340
-municipality	DC32	2016	Afrikaans	32833
-municipality	DC32	2016	English	19583
-municipality	DC32	2016	Isindebele	2951
-municipality	DC32	2016	Isixhosa	1688
-municipality	DC32	2016	Isizulu	34596
-municipality	DC32	2016	Sepedi	150910
-municipality	DC32	2016	Sesotho	51562
-municipality	DC32	2016	Setswana	2663
-municipality	DC32	2016	Sign language	339
-municipality	DC32	2016	Siswati	1039001
-municipality	DC32	2016	Tshivenda	3491
-municipality	DC32	2016	Xitsonga	366160
-municipality	DC32	2016	Khoi; nama and san languages	466
-municipality	DC32	2016	Other	5776
-municipality	DC32	2016	Not applicable	42808
-municipality	DC32	2016	Not specified	102
-municipality	DC33	2016	Afrikaans	19370
-municipality	DC33	2016	English	8349
-municipality	DC33	2016	Isindebele	247
-municipality	DC33	2016	Isixhosa	1588
-municipality	DC33	2016	Isizulu	2029
-municipality	DC33	2016	Sepedi	537240
-municipality	DC33	2016	Sesotho	30646
-municipality	DC33	2016	Setswana	881
-municipality	DC33	2016	Sign language	160
-municipality	DC33	2016	Siswati	1759
-municipality	DC33	2016	Tshivenda	4397
-municipality	DC33	2016	Xitsonga	518462
-municipality	DC33	2016	Khoi; nama and san languages	729
-municipality	DC33	2016	Other	7984
-municipality	DC33	2016	Not applicable	25236
-municipality	DC33	2016	Not specified	108
-municipality	DC34	2016	Afrikaans	10506
-municipality	DC34	2016	English	7695
-municipality	DC34	2016	Isindebele	1719
-municipality	DC34	2016	Isixhosa	883
-municipality	DC34	2016	Isizulu	895
-municipality	DC34	2016	Sepedi	22397
-municipality	DC34	2016	Sesotho	6995
-municipality	DC34	2016	Setswana	882
-municipality	DC34	2016	Sign language	254
-municipality	DC34	2016	Siswati	676
-municipality	DC34	2016	Tshivenda	944306
-municipality	DC34	2016	Xitsonga	334564
-municipality	DC34	2016	Khoi; nama and san languages	403
-municipality	DC34	2016	Other	28122
-municipality	DC34	2016	Not applicable	33637
-municipality	DC34	2016	Not specified	17
-municipality	DC35	2016	Afrikaans	27931
-municipality	DC35	2016	English	14186
-municipality	DC35	2016	Isindebele	13424
-municipality	DC35	2016	Isixhosa	1204
-municipality	DC35	2016	Isizulu	2806
-municipality	DC35	2016	Sepedi	1178566
-municipality	DC35	2016	Sesotho	6135
-municipality	DC35	2016	Setswana	3063
-municipality	DC35	2016	Sign language	175
-municipality	DC35	2016	Siswati	964
-municipality	DC35	2016	Tshivenda	13868
-municipality	DC35	2016	Xitsonga	23140
-municipality	DC35	2016	Khoi; nama and san languages	115
-municipality	DC35	2016	Other	15301
-municipality	DC35	2016	Not applicable	29387
-municipality	DC35	2016	Not specified	174
-municipality	DC36	2016	Afrikaans	57832
-municipality	DC36	2016	English	7690
-municipality	DC36	2016	Isindebele	15672
-municipality	DC36	2016	Isixhosa	11763
-municipality	DC36	2016	Isizulu	4284
-municipality	DC36	2016	Sepedi	450575
-municipality	DC36	2016	Sesotho	14791
-municipality	DC36	2016	Setswana	91750
-municipality	DC36	2016	Sign language	112
-municipality	DC36	2016	Siswati	1372
-municipality	DC36	2016	Tshivenda	7021
-municipality	DC36	2016	Xitsonga	47738
-municipality	DC36	2016	Khoi; nama and san languages	395
-municipality	DC36	2016	Other	14778
-municipality	DC36	2016	Not applicable	19893
-municipality	DC36	2016	Not specified	91
-municipality	DC47	2016	Afrikaans	14179
-municipality	DC47	2016	English	2449
-municipality	DC47	2016	Isindebele	45945
-municipality	DC47	2016	Isixhosa	1906
-municipality	DC47	2016	Isizulu	26840
-municipality	DC47	2016	Sepedi	984138
-municipality	DC47	2016	Sesotho	7076
-municipality	DC47	2016	Setswana	20700
-municipality	DC47	2016	Sign language	121
-municipality	DC47	2016	Siswati	18094
-municipality	DC47	2016	Tshivenda	1488
-municipality	DC47	2016	Xitsonga	13780
-municipality	DC47	2016	Khoi; nama and san languages	142
-municipality	DC47	2016	Other	6126
-municipality	DC47	2016	Not applicable	26704
-municipality	DC47	2016	Not specified	74
+district	DC30	2016	Afrikaans	70668
+district	DC30	2016	English	25159
+district	DC30	2016	Isindebele	19039
+district	DC30	2016	Isixhosa	23970
+district	DC30	2016	Isizulu	767770
+district	DC30	2016	Sepedi	8656
+district	DC30	2016	Sesotho	41449
+district	DC30	2016	Setswana	2118
+district	DC30	2016	Sign language	134
+district	DC30	2016	Siswati	138495
+district	DC30	2016	Tshivenda	2505
+district	DC30	2016	Xitsonga	8397
+district	DC30	2016	Khoi; nama and san languages	128
+district	DC30	2016	Other	4398
+district	DC30	2016	Not applicable	22063
+district	DC30	2016	Not specified	461
+district	DC31	2016	Afrikaans	104199
+district	DC31	2016	English	30176
+district	DC31	2016	Isindebele	406206
+district	DC31	2016	Isixhosa	22560
+district	DC31	2016	Isizulu	418161
+district	DC31	2016	Sepedi	224210
+district	DC31	2016	Sesotho	37263
+district	DC31	2016	Setswana	60152
+district	DC31	2016	Sign language	183
+district	DC31	2016	Siswati	57888
+district	DC31	2016	Tshivenda	4976
+district	DC31	2016	Xitsonga	34579
+district	DC31	2016	Khoi; nama and san languages	319
+district	DC31	2016	Other	16730
+district	DC31	2016	Not applicable	26682
+district	DC31	2016	Not specified	1340
+district	DC32	2016	Afrikaans	32833
+district	DC32	2016	English	19583
+district	DC32	2016	Isindebele	2951
+district	DC32	2016	Isixhosa	1688
+district	DC32	2016	Isizulu	34596
+district	DC32	2016	Sepedi	150910
+district	DC32	2016	Sesotho	51562
+district	DC32	2016	Setswana	2663
+district	DC32	2016	Sign language	339
+district	DC32	2016	Siswati	1039001
+district	DC32	2016	Tshivenda	3491
+district	DC32	2016	Xitsonga	366160
+district	DC32	2016	Khoi; nama and san languages	466
+district	DC32	2016	Other	5776
+district	DC32	2016	Not applicable	42808
+district	DC32	2016	Not specified	102
+district	DC33	2016	Afrikaans	19370
+district	DC33	2016	English	8349
+district	DC33	2016	Isindebele	247
+district	DC33	2016	Isixhosa	1588
+district	DC33	2016	Isizulu	2029
+district	DC33	2016	Sepedi	537240
+district	DC33	2016	Sesotho	30646
+district	DC33	2016	Setswana	881
+district	DC33	2016	Sign language	160
+district	DC33	2016	Siswati	1759
+district	DC33	2016	Tshivenda	4397
+district	DC33	2016	Xitsonga	518462
+district	DC33	2016	Khoi; nama and san languages	729
+district	DC33	2016	Other	7984
+district	DC33	2016	Not applicable	25236
+district	DC33	2016	Not specified	108
+district	DC34	2016	Afrikaans	10506
+district	DC34	2016	English	7695
+district	DC34	2016	Isindebele	1719
+district	DC34	2016	Isixhosa	883
+district	DC34	2016	Isizulu	895
+district	DC34	2016	Sepedi	22397
+district	DC34	2016	Sesotho	6995
+district	DC34	2016	Setswana	882
+district	DC34	2016	Sign language	254
+district	DC34	2016	Siswati	676
+district	DC34	2016	Tshivenda	944306
+district	DC34	2016	Xitsonga	334564
+district	DC34	2016	Khoi; nama and san languages	403
+district	DC34	2016	Other	28122
+district	DC34	2016	Not applicable	33637
+district	DC34	2016	Not specified	17
+district	DC35	2016	Afrikaans	27931
+district	DC35	2016	English	14186
+district	DC35	2016	Isindebele	13424
+district	DC35	2016	Isixhosa	1204
+district	DC35	2016	Isizulu	2806
+district	DC35	2016	Sepedi	1178566
+district	DC35	2016	Sesotho	6135
+district	DC35	2016	Setswana	3063
+district	DC35	2016	Sign language	175
+district	DC35	2016	Siswati	964
+district	DC35	2016	Tshivenda	13868
+district	DC35	2016	Xitsonga	23140
+district	DC35	2016	Khoi; nama and san languages	115
+district	DC35	2016	Other	15301
+district	DC35	2016	Not applicable	29387
+district	DC35	2016	Not specified	174
+district	DC36	2016	Afrikaans	57832
+district	DC36	2016	English	7690
+district	DC36	2016	Isindebele	15672
+district	DC36	2016	Isixhosa	11763
+district	DC36	2016	Isizulu	4284
+district	DC36	2016	Sepedi	450575
+district	DC36	2016	Sesotho	14791
+district	DC36	2016	Setswana	91750
+district	DC36	2016	Sign language	112
+district	DC36	2016	Siswati	1372
+district	DC36	2016	Tshivenda	7021
+district	DC36	2016	Xitsonga	47738
+district	DC36	2016	Khoi; nama and san languages	395
+district	DC36	2016	Other	14778
+district	DC36	2016	Not applicable	19893
+district	DC36	2016	Not specified	91
+district	DC47	2016	Afrikaans	14179
+district	DC47	2016	English	2449
+district	DC47	2016	Isindebele	45945
+district	DC47	2016	Isixhosa	1906
+district	DC47	2016	Isizulu	26840
+district	DC47	2016	Sepedi	984138
+district	DC47	2016	Sesotho	7076
+district	DC47	2016	Setswana	20700
+district	DC47	2016	Sign language	121
+district	DC47	2016	Siswati	18094
+district	DC47	2016	Tshivenda	1488
+district	DC47	2016	Xitsonga	13780
+district	DC47	2016	Khoi; nama and san languages	142
+district	DC47	2016	Other	6126
+district	DC47	2016	Not applicable	26704
+district	DC47	2016	Not specified	74
 municipality	WC011	2016	Afrikaans	65818
 municipality	WC011	2016	English	424
 municipality	WC011	2016	Isindebele	0
@@ -1446,7 +1446,6 @@ municipality	EC104	2016	Sign language	0
 municipality	EC104	2016	Siswati	0
 municipality	EC104	2016	Tshivenda	18
 municipality	EC104	2016	Xitsonga	67
-municipality	EC139	2016	Afrikaans	12759
 municipality	EC104	2016	Khoi; nama and san languages	0
 municipality	EC104	2016	Other	429
 municipality	EC104	2016	Not applicable	1213
@@ -1675,6 +1674,7 @@ municipality	EC138	2016	Khoi; nama and san languages	0
 municipality	EC138	2016	Other	84
 municipality	EC138	2016	Not applicable	1746
 municipality	EC138	2016	Not specified	0
+municipality	EC139	2016	Afrikaans	12759
 municipality	EC139	2016	English	6643
 municipality	EC139	2016	Isindebele	357
 municipality	EC139	2016	Isixhosa	238808
@@ -2134,7 +2134,6 @@ municipality	NC076	2016	Sign language	0
 municipality	NC076	2016	Siswati	0
 municipality	NC076	2016	Tshivenda	0
 municipality	NC076	2016	Xitsonga	0
-municipality	FS181	2016	Afrikaans	6201
 municipality	NC076	2016	Khoi; nama and san languages	27
 municipality	NC076	2016	Other	87
 municipality	NC076	2016	Not applicable	266
@@ -2363,6 +2362,7 @@ municipality	FS163	2016	Khoi; nama and san languages	0
 municipality	FS163	2016	Other	151
 municipality	FS163	2016	Not applicable	548
 municipality	FS163	2016	Not specified	0
+municipality	FS181	2016	Afrikaans	6201
 municipality	FS181	2016	English	352
 municipality	FS181	2016	Isindebele	11
 municipality	FS181	2016	Isixhosa	4128
@@ -2822,7 +2822,6 @@ municipality	KZN238	2016	Sign language	0
 municipality	KZN238	2016	Siswati	94
 municipality	KZN238	2016	Tshivenda	0
 municipality	KZN238	2016	Xitsonga	0
-municipality	KZN275	2016	Afrikaans	180
 municipality	KZN238	2016	Khoi; nama and san languages	0
 municipality	KZN238	2016	Other	623
 municipality	KZN238	2016	Not applicable	8636
@@ -3051,6 +3050,7 @@ municipality	KZN272	2016	Khoi; nama and san languages	32
 municipality	KZN272	2016	Other	44
 municipality	KZN272	2016	Not applicable	5038
 municipality	KZN272	2016	Not specified	0
+municipality	KZN275	2016	Afrikaans	180
 municipality	KZN275	2016	English	1243
 municipality	KZN275	2016	Isindebele	0
 municipality	KZN275	2016	Isixhosa	338
@@ -3510,7 +3510,6 @@ municipality	NW396	2016	Sign language	43
 municipality	NW396	2016	Siswati	10
 municipality	NW396	2016	Tshivenda	35
 municipality	NW396	2016	Xitsonga	118
-municipality	MP305	2016	Afrikaans	11732
 municipality	NW396	2016	Khoi; nama and san languages	12
 municipality	NW396	2016	Other	534
 municipality	NW396	2016	Not applicable	1051
@@ -3739,6 +3738,7 @@ municipality	MP304	2016	Khoi; nama and san languages	0
 municipality	MP304	2016	Other	531
 municipality	MP304	2016	Not applicable	1838
 municipality	MP304	2016	Not specified	122
+municipality	MP305	2016	Afrikaans	11732
 municipality	MP305	2016	English	2385
 municipality	MP305	2016	Isindebele	333
 municipality	MP305	2016	Isixhosa	1521

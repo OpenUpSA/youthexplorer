@@ -132,51 +132,51 @@ municipality	CPT	2016	North America	1562
 municipality	CPT	2016	Latin America and Caribbean	1646
 municipality	CPT	2016	Oceania	2384
 municipality	CPT	2016	Unspecified	18304
-municipality	DC1	2016	Born in South Africa	428088
-municipality	DC1	2016	SADC	5862
-municipality	DC1	2016	Rest of Africa	707
-municipality	DC1	2016	United Kingdom and Europe	1038
-municipality	DC1	2016	Asia	218
-municipality	DC1	2016	North America	0
-municipality	DC1	2016	Latin America and Caribbean	86
-municipality	DC1	2016	Oceania	92
-municipality	DC1	2016	Unspecified	312
-municipality	DC2	2016	Born in South Africa	852775
-municipality	DC2	2016	SADC	9304
-municipality	DC2	2016	Rest of Africa	621
-municipality	DC2	2016	United Kingdom and Europe	1786
-municipality	DC2	2016	Asia	461
-municipality	DC2	2016	North America	30
-municipality	DC2	2016	Latin America and Caribbean	55
-municipality	DC2	2016	Oceania	104
-municipality	DC2	2016	Unspecified	865
-municipality	DC3	2016	Born in South Africa	278915
-municipality	DC3	2016	SADC	4619
-municipality	DC3	2016	Rest of Africa	697
-municipality	DC3	2016	United Kingdom and Europe	1791
-municipality	DC3	2016	Asia	301
-municipality	DC3	2016	North America	129
-municipality	DC3	2016	Latin America and Caribbean	40
-municipality	DC3	2016	Oceania	53
-municipality	DC3	2016	Unspecified	241
-municipality	DC4	2016	Born in South Africa	597104
-municipality	DC4	2016	SADC	7650
-municipality	DC4	2016	Rest of Africa	1452
-municipality	DC4	2016	United Kingdom and Europe	3615
-municipality	DC4	2016	Asia	535
-municipality	DC4	2016	North America	177
-municipality	DC4	2016	Latin America and Caribbean	80
-municipality	DC4	2016	Oceania	149
-municipality	DC4	2016	Unspecified	516
-municipality	DC5	2016	Born in South Africa	73825
-municipality	DC5	2016	SADC	224
-municipality	DC5	2016	Rest of Africa	62
-municipality	DC5	2016	United Kingdom and Europe	83
-municipality	DC5	2016	Asia	0
-municipality	DC5	2016	North America	42
-municipality	DC5	2016	Latin America and Caribbean	0
-municipality	DC5	2016	Oceania	0
-municipality	DC5	2016	Unspecified	13
+district	DC1	2016	Born in South Africa	428088
+district	DC1	2016	SADC	5862
+district	DC1	2016	Rest of Africa	707
+district	DC1	2016	United Kingdom and Europe	1038
+district	DC1	2016	Asia	218
+district	DC1	2016	North America	0
+district	DC1	2016	Latin America and Caribbean	86
+district	DC1	2016	Oceania	92
+district	DC1	2016	Unspecified	312
+district	DC2	2016	Born in South Africa	852775
+district	DC2	2016	SADC	9304
+district	DC2	2016	Rest of Africa	621
+district	DC2	2016	United Kingdom and Europe	1786
+district	DC2	2016	Asia	461
+district	DC2	2016	North America	30
+district	DC2	2016	Latin America and Caribbean	55
+district	DC2	2016	Oceania	104
+district	DC2	2016	Unspecified	865
+district	DC3	2016	Born in South Africa	278915
+district	DC3	2016	SADC	4619
+district	DC3	2016	Rest of Africa	697
+district	DC3	2016	United Kingdom and Europe	1791
+district	DC3	2016	Asia	301
+district	DC3	2016	North America	129
+district	DC3	2016	Latin America and Caribbean	40
+district	DC3	2016	Oceania	53
+district	DC3	2016	Unspecified	241
+district	DC4	2016	Born in South Africa	597104
+district	DC4	2016	SADC	7650
+district	DC4	2016	Rest of Africa	1452
+district	DC4	2016	United Kingdom and Europe	3615
+district	DC4	2016	Asia	535
+district	DC4	2016	North America	177
+district	DC4	2016	Latin America and Caribbean	80
+district	DC4	2016	Oceania	149
+district	DC4	2016	Unspecified	516
+district	DC5	2016	Born in South Africa	73825
+district	DC5	2016	SADC	224
+district	DC5	2016	Rest of Africa	62
+district	DC5	2016	United Kingdom and Europe	83
+district	DC5	2016	Asia	0
+district	DC5	2016	North America	42
+district	DC5	2016	Latin America and Caribbean	0
+district	DC5	2016	Oceania	0
+district	DC5	2016	Unspecified	13
 municipality	BUF	2016	Born in South Africa	824752
 municipality	BUF	2016	SADC	4528
 municipality	BUF	2016	Rest of Africa	2665
@@ -186,60 +186,60 @@ municipality	BUF	2016	North America	98
 municipality	BUF	2016	Latin America and Caribbean	17
 municipality	BUF	2016	Oceania	169
 municipality	BUF	2016	Unspecified	330
-municipality	DC10	2016	Born in South Africa	475160
-municipality	DC10	2016	SADC	2849
-municipality	DC10	2016	Rest of Africa	557
-municipality	DC10	2016	United Kingdom and Europe	737
-municipality	DC10	2016	Asia	474
-municipality	DC10	2016	North America	63
-municipality	DC10	2016	Latin America and Caribbean	0
-municipality	DC10	2016	Oceania	18
-municipality	DC10	2016	Unspecified	64
-municipality	DC12	2016	Born in South Africa	877122
-municipality	DC12	2016	SADC	2099
-municipality	DC12	2016	Rest of Africa	765
-municipality	DC12	2016	United Kingdom and Europe	214
-municipality	DC12	2016	Asia	501
-municipality	DC12	2016	North America	0
-municipality	DC12	2016	Latin America and Caribbean	4
-municipality	DC12	2016	Oceania	0
-municipality	DC12	2016	Unspecified	86
-municipality	DC13	2016	Born in South Africa	835320
-municipality	DC13	2016	SADC	2313
-municipality	DC13	2016	Rest of Africa	1087
-municipality	DC13	2016	United Kingdom and Europe	83
-municipality	DC13	2016	Asia	804
-municipality	DC13	2016	North America	14
-municipality	DC13	2016	Latin America and Caribbean	74
-municipality	DC13	2016	Oceania	29
-municipality	DC13	2016	Unspecified	330
-municipality	DC14	2016	Born in South Africa	368333
-municipality	DC14	2016	SADC	3914
-municipality	DC14	2016	Rest of Africa	310
-municipality	DC14	2016	United Kingdom and Europe	19
-municipality	DC14	2016	Asia	289
-municipality	DC14	2016	North America	0
-municipality	DC14	2016	Latin America and Caribbean	0
-municipality	DC14	2016	Oceania	17
-municipality	DC14	2016	Unspecified	29
-municipality	DC15	2016	Born in South Africa	1453143
-municipality	DC15	2016	SADC	2548
-municipality	DC15	2016	Rest of Africa	987
-municipality	DC15	2016	United Kingdom and Europe	17
-municipality	DC15	2016	Asia	508
-municipality	DC15	2016	North America	12
-municipality	DC15	2016	Latin America and Caribbean	0
-municipality	DC15	2016	Oceania	11
-municipality	DC15	2016	Unspecified	158
-municipality	DC44	2016	Born in South Africa	862670
-municipality	DC44	2016	SADC	4237
-municipality	DC44	2016	Rest of Africa	482
-municipality	DC44	2016	United Kingdom and Europe	35
-municipality	DC44	2016	Asia	337
-municipality	DC44	2016	North America	0
-municipality	DC44	2016	Latin America and Caribbean	0
-municipality	DC44	2016	Oceania	0
-municipality	DC44	2016	Unspecified	102
+district	DC10	2016	Born in South Africa	475160
+district	DC10	2016	SADC	2849
+district	DC10	2016	Rest of Africa	557
+district	DC10	2016	United Kingdom and Europe	737
+district	DC10	2016	Asia	474
+district	DC10	2016	North America	63
+district	DC10	2016	Latin America and Caribbean	0
+district	DC10	2016	Oceania	18
+district	DC10	2016	Unspecified	64
+district	DC12	2016	Born in South Africa	877122
+district	DC12	2016	SADC	2099
+district	DC12	2016	Rest of Africa	765
+district	DC12	2016	United Kingdom and Europe	214
+district	DC12	2016	Asia	501
+district	DC12	2016	North America	0
+district	DC12	2016	Latin America and Caribbean	4
+district	DC12	2016	Oceania	0
+district	DC12	2016	Unspecified	86
+district	DC13	2016	Born in South Africa	835320
+district	DC13	2016	SADC	2313
+district	DC13	2016	Rest of Africa	1087
+district	DC13	2016	United Kingdom and Europe	83
+district	DC13	2016	Asia	804
+district	DC13	2016	North America	14
+district	DC13	2016	Latin America and Caribbean	74
+district	DC13	2016	Oceania	29
+district	DC13	2016	Unspecified	330
+district	DC14	2016	Born in South Africa	368333
+district	DC14	2016	SADC	3914
+district	DC14	2016	Rest of Africa	310
+district	DC14	2016	United Kingdom and Europe	19
+district	DC14	2016	Asia	289
+district	DC14	2016	North America	0
+district	DC14	2016	Latin America and Caribbean	0
+district	DC14	2016	Oceania	17
+district	DC14	2016	Unspecified	29
+district	DC15	2016	Born in South Africa	1453143
+district	DC15	2016	SADC	2548
+district	DC15	2016	Rest of Africa	987
+district	DC15	2016	United Kingdom and Europe	17
+district	DC15	2016	Asia	508
+district	DC15	2016	North America	12
+district	DC15	2016	Latin America and Caribbean	0
+district	DC15	2016	Oceania	11
+district	DC15	2016	Unspecified	158
+district	DC44	2016	Born in South Africa	862670
+district	DC44	2016	SADC	4237
+district	DC44	2016	Rest of Africa	482
+district	DC44	2016	United Kingdom and Europe	35
+district	DC44	2016	Asia	337
+district	DC44	2016	North America	0
+district	DC44	2016	Latin America and Caribbean	0
+district	DC44	2016	Oceania	0
+district	DC44	2016	Unspecified	102
 municipality	NMA	2016	Born in South Africa	1241696
 municipality	NMA	2016	SADC	11062
 municipality	NMA	2016	Rest of Africa	3385
@@ -249,87 +249,87 @@ municipality	NMA	2016	North America	832
 municipality	NMA	2016	Latin America and Caribbean	72
 municipality	NMA	2016	Oceania	410
 municipality	NMA	2016	Unspecified	601
-municipality	DC45	2016	Born in South Africa	239472
-municipality	DC45	2016	SADC	2206
-municipality	DC45	2016	Rest of Africa	172
-municipality	DC45	2016	United Kingdom and Europe	16
-municipality	DC45	2016	Asia	375
-municipality	DC45	2016	North America	6
-municipality	DC45	2016	Latin America and Caribbean	17
-municipality	DC45	2016	Oceania	0
-municipality	DC45	2016	Unspecified	0
-municipality	DC6	2016	Born in South Africa	114139
-municipality	DC6	2016	SADC	1006
-municipality	DC6	2016	Rest of Africa	38
-municipality	DC6	2016	United Kingdom and Europe	80
-municipality	DC6	2016	Asia	204
-municipality	DC6	2016	North America	0
-municipality	DC6	2016	Latin America and Caribbean	0
-municipality	DC6	2016	Oceania	0
-municipality	DC6	2016	Unspecified	21
-municipality	DC7	2016	Born in South Africa	193906
-municipality	DC7	2016	SADC	829
-municipality	DC7	2016	Rest of Africa	172
-municipality	DC7	2016	United Kingdom and Europe	103
-municipality	DC7	2016	Asia	517
-municipality	DC7	2016	North America	21
-municipality	DC7	2016	Latin America and Caribbean	0
-municipality	DC7	2016	Oceania	0
-municipality	DC7	2016	Unspecified	47
-municipality	DC8	2016	Born in South Africa	246581
-municipality	DC8	2016	SADC	4741
-municipality	DC8	2016	Rest of Africa	415
-municipality	DC8	2016	United Kingdom and Europe	53
-municipality	DC8	2016	Asia	672
-municipality	DC8	2016	North America	24
-municipality	DC8	2016	Latin America and Caribbean	39
-municipality	DC8	2016	Oceania	14
-municipality	DC8	2016	Unspecified	153
-municipality	DC9	2016	Born in South Africa	382569
-municipality	DC9	2016	SADC	3121
-municipality	DC9	2016	Rest of Africa	872
-municipality	DC9	2016	United Kingdom and Europe	109
-municipality	DC9	2016	Asia	755
-municipality	DC9	2016	North America	20
-municipality	DC9	2016	Latin America and Caribbean	29
-municipality	DC9	2016	Oceania	27
-municipality	DC9	2016	Unspecified	238
-municipality	DC16	2016	Born in South Africa	124405
-municipality	DC16	2016	SADC	938
-municipality	DC16	2016	Rest of Africa	101
-municipality	DC16	2016	United Kingdom and Europe	186
-municipality	DC16	2016	Asia	126
-municipality	DC16	2016	North America	0
-municipality	DC16	2016	Latin America and Caribbean	0
-municipality	DC16	2016	Oceania	0
-municipality	DC16	2016	Unspecified	127
-municipality	DC18	2016	Born in South Africa	628625
-municipality	DC18	2016	SADC	15996
-municipality	DC18	2016	Rest of Africa	523
-municipality	DC18	2016	United Kingdom and Europe	276
-municipality	DC18	2016	Asia	1198
-municipality	DC18	2016	North America	0
-municipality	DC18	2016	Latin America and Caribbean	33
-municipality	DC18	2016	Oceania	37
-municipality	DC18	2016	Unspecified	232
-municipality	DC19	2016	Born in South Africa	766702
-municipality	DC19	2016	SADC	8448
-municipality	DC19	2016	Rest of Africa	663
-municipality	DC19	2016	United Kingdom and Europe	89
-municipality	DC19	2016	Asia	599
-municipality	DC19	2016	North America	8
-municipality	DC19	2016	Latin America and Caribbean	20
-municipality	DC19	2016	Oceania	72
-municipality	DC19	2016	Unspecified	2729
-municipality	DC20	2016	Born in South Africa	488057
-municipality	DC20	2016	SADC	4819
-municipality	DC20	2016	Rest of Africa	687
-municipality	DC20	2016	United Kingdom and Europe	545
-municipality	DC20	2016	Asia	204
-municipality	DC20	2016	North America	0
-municipality	DC20	2016	Latin America and Caribbean	0
-municipality	DC20	2016	Oceania	0
-municipality	DC20	2016	Unspecified	464
+district	DC45	2016	Born in South Africa	239472
+district	DC45	2016	SADC	2206
+district	DC45	2016	Rest of Africa	172
+district	DC45	2016	United Kingdom and Europe	16
+district	DC45	2016	Asia	375
+district	DC45	2016	North America	6
+district	DC45	2016	Latin America and Caribbean	17
+district	DC45	2016	Oceania	0
+district	DC45	2016	Unspecified	0
+district	DC6	2016	Born in South Africa	114139
+district	DC6	2016	SADC	1006
+district	DC6	2016	Rest of Africa	38
+district	DC6	2016	United Kingdom and Europe	80
+district	DC6	2016	Asia	204
+district	DC6	2016	North America	0
+district	DC6	2016	Latin America and Caribbean	0
+district	DC6	2016	Oceania	0
+district	DC6	2016	Unspecified	21
+district	DC7	2016	Born in South Africa	193906
+district	DC7	2016	SADC	829
+district	DC7	2016	Rest of Africa	172
+district	DC7	2016	United Kingdom and Europe	103
+district	DC7	2016	Asia	517
+district	DC7	2016	North America	21
+district	DC7	2016	Latin America and Caribbean	0
+district	DC7	2016	Oceania	0
+district	DC7	2016	Unspecified	47
+district	DC8	2016	Born in South Africa	246581
+district	DC8	2016	SADC	4741
+district	DC8	2016	Rest of Africa	415
+district	DC8	2016	United Kingdom and Europe	53
+district	DC8	2016	Asia	672
+district	DC8	2016	North America	24
+district	DC8	2016	Latin America and Caribbean	39
+district	DC8	2016	Oceania	14
+district	DC8	2016	Unspecified	153
+district	DC9	2016	Born in South Africa	382569
+district	DC9	2016	SADC	3121
+district	DC9	2016	Rest of Africa	872
+district	DC9	2016	United Kingdom and Europe	109
+district	DC9	2016	Asia	755
+district	DC9	2016	North America	20
+district	DC9	2016	Latin America and Caribbean	29
+district	DC9	2016	Oceania	27
+district	DC9	2016	Unspecified	238
+district	DC16	2016	Born in South Africa	124405
+district	DC16	2016	SADC	938
+district	DC16	2016	Rest of Africa	101
+district	DC16	2016	United Kingdom and Europe	186
+district	DC16	2016	Asia	126
+district	DC16	2016	North America	0
+district	DC16	2016	Latin America and Caribbean	0
+district	DC16	2016	Oceania	0
+district	DC16	2016	Unspecified	127
+district	DC18	2016	Born in South Africa	628625
+district	DC18	2016	SADC	15996
+district	DC18	2016	Rest of Africa	523
+district	DC18	2016	United Kingdom and Europe	276
+district	DC18	2016	Asia	1198
+district	DC18	2016	North America	0
+district	DC18	2016	Latin America and Caribbean	33
+district	DC18	2016	Oceania	37
+district	DC18	2016	Unspecified	232
+district	DC19	2016	Born in South Africa	766702
+district	DC19	2016	SADC	8448
+district	DC19	2016	Rest of Africa	663
+district	DC19	2016	United Kingdom and Europe	89
+district	DC19	2016	Asia	599
+district	DC19	2016	North America	8
+district	DC19	2016	Latin America and Caribbean	20
+district	DC19	2016	Oceania	72
+district	DC19	2016	Unspecified	2729
+district	DC20	2016	Born in South Africa	488057
+district	DC20	2016	SADC	4819
+district	DC20	2016	Rest of Africa	687
+district	DC20	2016	United Kingdom and Europe	545
+district	DC20	2016	Asia	204
+district	DC20	2016	North America	0
+district	DC20	2016	Latin America and Caribbean	0
+district	DC20	2016	Oceania	0
+district	DC20	2016	Unspecified	464
 municipality	MAN	2016	Born in South Africa	769460
 municipality	MAN	2016	SADC	15437
 municipality	MAN	2016	Rest of Africa	1221
@@ -339,96 +339,96 @@ municipality	MAN	2016	North America	9
 municipality	MAN	2016	Latin America and Caribbean	77
 municipality	MAN	2016	Oceania	106
 municipality	MAN	2016	Unspecified	479
-municipality	DC21	2016	Born in South Africa	747869
-municipality	DC21	2016	SADC	2180
-municipality	DC21	2016	Rest of Africa	549
-municipality	DC21	2016	United Kingdom and Europe	1927
-municipality	DC21	2016	Asia	377
-municipality	DC21	2016	North America	153
-municipality	DC21	2016	Latin America and Caribbean	27
-municipality	DC21	2016	Oceania	55
-municipality	DC21	2016	Unspecified	198
-municipality	DC22	2016	Born in South Africa	1079581
-municipality	DC22	2016	SADC	10821
-municipality	DC22	2016	Rest of Africa	1547
-municipality	DC22	2016	United Kingdom and Europe	2566
-municipality	DC22	2016	Asia	406
-municipality	DC22	2016	North America	71
-municipality	DC22	2016	Latin America and Caribbean	188
-municipality	DC22	2016	Oceania	128
-municipality	DC22	2016	Unspecified	558
-municipality	DC23	2016	Born in South Africa	703402
-municipality	DC23	2016	SADC	2375
-municipality	DC23	2016	Rest of Africa	232
-municipality	DC23	2016	United Kingdom and Europe	196
-municipality	DC23	2016	Asia	383
-municipality	DC23	2016	North America	0
-municipality	DC23	2016	Latin America and Caribbean	0
-municipality	DC23	2016	Oceania	0
-municipality	DC23	2016	Unspecified	0
-municipality	DC24	2016	Born in South Africa	553569
-municipality	DC24	2016	SADC	686
-municipality	DC24	2016	Rest of Africa	143
-municipality	DC24	2016	United Kingdom and Europe	182
-municipality	DC24	2016	Asia	54
-municipality	DC24	2016	North America	0
-municipality	DC24	2016	Latin America and Caribbean	10
-municipality	DC24	2016	Oceania	0
-municipality	DC24	2016	Unspecified	239
-municipality	DC25	2016	Born in South Africa	527495
-municipality	DC25	2016	SADC	3023
-municipality	DC25	2016	Rest of Africa	240
-municipality	DC25	2016	United Kingdom and Europe	244
-municipality	DC25	2016	Asia	202
-municipality	DC25	2016	North America	0
-municipality	DC25	2016	Latin America and Caribbean	16
-municipality	DC25	2016	Oceania	0
-municipality	DC25	2016	Unspecified	106
-municipality	DC26	2016	Born in South Africa	888255
-municipality	DC26	2016	SADC	2940
-municipality	DC26	2016	Rest of Africa	206
-municipality	DC26	2016	United Kingdom and Europe	86
-municipality	DC26	2016	Asia	142
-municipality	DC26	2016	North America	0
-municipality	DC26	2016	Latin America and Caribbean	0
-municipality	DC26	2016	Oceania	0
-municipality	DC26	2016	Unspecified	681
-municipality	DC27	2016	Born in South Africa	687236
-municipality	DC27	2016	SADC	1639
-municipality	DC27	2016	Rest of Africa	70
-municipality	DC27	2016	United Kingdom and Europe	80
-municipality	DC27	2016	Asia	0
-municipality	DC27	2016	North America	0
-municipality	DC27	2016	Latin America and Caribbean	0
-municipality	DC27	2016	Oceania	13
-municipality	DC27	2016	Unspecified	52
-municipality	DC28	2016	Born in South Africa	965787
-municipality	DC28	2016	SADC	2587
-municipality	DC28	2016	Rest of Africa	546
-municipality	DC28	2016	United Kingdom and Europe	306
-municipality	DC28	2016	Asia	119
-municipality	DC28	2016	North America	62
-municipality	DC28	2016	Latin America and Caribbean	64
-municipality	DC28	2016	Oceania	45
-municipality	DC28	2016	Unspecified	1618
-municipality	DC29	2016	Born in South Africa	648331
-municipality	DC29	2016	SADC	6505
-municipality	DC29	2016	Rest of Africa	436
-municipality	DC29	2016	United Kingdom and Europe	1039
-municipality	DC29	2016	Asia	294
-municipality	DC29	2016	North America	283
-municipality	DC29	2016	Latin America and Caribbean	85
-municipality	DC29	2016	Oceania	127
-municipality	DC29	2016	Unspecified	512
-municipality	DC43	2016	Born in South Africa	508676
-municipality	DC43	2016	SADC	1498
-municipality	DC43	2016	Rest of Africa	202
-municipality	DC43	2016	United Kingdom and Europe	119
-municipality	DC43	2016	Asia	198
-municipality	DC43	2016	North America	0
-municipality	DC43	2016	Latin America and Caribbean	58
-municipality	DC43	2016	Oceania	26
-municipality	DC43	2016	Unspecified	88
+district	DC21	2016	Born in South Africa	747869
+district	DC21	2016	SADC	2180
+district	DC21	2016	Rest of Africa	549
+district	DC21	2016	United Kingdom and Europe	1927
+district	DC21	2016	Asia	377
+district	DC21	2016	North America	153
+district	DC21	2016	Latin America and Caribbean	27
+district	DC21	2016	Oceania	55
+district	DC21	2016	Unspecified	198
+district	DC22	2016	Born in South Africa	1079581
+district	DC22	2016	SADC	10821
+district	DC22	2016	Rest of Africa	1547
+district	DC22	2016	United Kingdom and Europe	2566
+district	DC22	2016	Asia	406
+district	DC22	2016	North America	71
+district	DC22	2016	Latin America and Caribbean	188
+district	DC22	2016	Oceania	128
+district	DC22	2016	Unspecified	558
+district	DC23	2016	Born in South Africa	703402
+district	DC23	2016	SADC	2375
+district	DC23	2016	Rest of Africa	232
+district	DC23	2016	United Kingdom and Europe	196
+district	DC23	2016	Asia	383
+district	DC23	2016	North America	0
+district	DC23	2016	Latin America and Caribbean	0
+district	DC23	2016	Oceania	0
+district	DC23	2016	Unspecified	0
+district	DC24	2016	Born in South Africa	553569
+district	DC24	2016	SADC	686
+district	DC24	2016	Rest of Africa	143
+district	DC24	2016	United Kingdom and Europe	182
+district	DC24	2016	Asia	54
+district	DC24	2016	North America	0
+district	DC24	2016	Latin America and Caribbean	10
+district	DC24	2016	Oceania	0
+district	DC24	2016	Unspecified	239
+district	DC25	2016	Born in South Africa	527495
+district	DC25	2016	SADC	3023
+district	DC25	2016	Rest of Africa	240
+district	DC25	2016	United Kingdom and Europe	244
+district	DC25	2016	Asia	202
+district	DC25	2016	North America	0
+district	DC25	2016	Latin America and Caribbean	16
+district	DC25	2016	Oceania	0
+district	DC25	2016	Unspecified	106
+district	DC26	2016	Born in South Africa	888255
+district	DC26	2016	SADC	2940
+district	DC26	2016	Rest of Africa	206
+district	DC26	2016	United Kingdom and Europe	86
+district	DC26	2016	Asia	142
+district	DC26	2016	North America	0
+district	DC26	2016	Latin America and Caribbean	0
+district	DC26	2016	Oceania	0
+district	DC26	2016	Unspecified	681
+district	DC27	2016	Born in South Africa	687236
+district	DC27	2016	SADC	1639
+district	DC27	2016	Rest of Africa	70
+district	DC27	2016	United Kingdom and Europe	80
+district	DC27	2016	Asia	0
+district	DC27	2016	North America	0
+district	DC27	2016	Latin America and Caribbean	0
+district	DC27	2016	Oceania	13
+district	DC27	2016	Unspecified	52
+district	DC28	2016	Born in South Africa	965787
+district	DC28	2016	SADC	2587
+district	DC28	2016	Rest of Africa	546
+district	DC28	2016	United Kingdom and Europe	306
+district	DC28	2016	Asia	119
+district	DC28	2016	North America	62
+district	DC28	2016	Latin America and Caribbean	64
+district	DC28	2016	Oceania	45
+district	DC28	2016	Unspecified	1618
+district	DC29	2016	Born in South Africa	648331
+district	DC29	2016	SADC	6505
+district	DC29	2016	Rest of Africa	436
+district	DC29	2016	United Kingdom and Europe	1039
+district	DC29	2016	Asia	294
+district	DC29	2016	North America	283
+district	DC29	2016	Latin America and Caribbean	85
+district	DC29	2016	Oceania	127
+district	DC29	2016	Unspecified	512
+district	DC43	2016	Born in South Africa	508676
+district	DC43	2016	SADC	1498
+district	DC43	2016	Rest of Africa	202
+district	DC43	2016	United Kingdom and Europe	119
+district	DC43	2016	Asia	198
+district	DC43	2016	North America	0
+district	DC43	2016	Latin America and Caribbean	58
+district	DC43	2016	Oceania	26
+district	DC43	2016	Unspecified	88
 municipality	ETH	2016	Born in South Africa	3663279
 municipality	ETH	2016	SADC	23158
 municipality	ETH	2016	Rest of Africa	3644
@@ -438,60 +438,60 @@ municipality	ETH	2016	North America	467
 municipality	ETH	2016	Latin America and Caribbean	521
 municipality	ETH	2016	Oceania	809
 municipality	ETH	2016	Unspecified	3534
-municipality	DC37	2016	Born in South Africa	1564500
-municipality	DC37	2016	SADC	84512
-municipality	DC37	2016	Rest of Africa	2238
-municipality	DC37	2016	United Kingdom and Europe	603
-municipality	DC37	2016	Asia	2482
-municipality	DC37	2016	North America	116
-municipality	DC37	2016	Latin America and Caribbean	270
-municipality	DC37	2016	Oceania	103
-municipality	DC37	2016	Unspecified	2325
-municipality	DC38	2016	Born in South Africa	876761
-municipality	DC38	2016	SADC	9184
-municipality	DC38	2016	Rest of Africa	993
-municipality	DC38	2016	United Kingdom and Europe	65
-municipality	DC38	2016	Asia	1814
-municipality	DC38	2016	North America	15
-municipality	DC38	2016	Latin America and Caribbean	30
-municipality	DC38	2016	Oceania	0
-municipality	DC38	2016	Unspecified	246
-municipality	DC39	2016	Born in South Africa	456237
-municipality	DC39	2016	SADC	1661
-municipality	DC39	2016	Rest of Africa	532
-municipality	DC39	2016	United Kingdom and Europe	60
-municipality	DC39	2016	Asia	523
-municipality	DC39	2016	North America	14
-municipality	DC39	2016	Latin America and Caribbean	28
-municipality	DC39	2016	Oceania	34
-municipality	DC39	2016	Unspecified	269
-municipality	DC40	2016	Born in South Africa	725423
-municipality	DC40	2016	SADC	13422
-municipality	DC40	2016	Rest of Africa	1021
-municipality	DC40	2016	United Kingdom and Europe	550
-municipality	DC40	2016	Asia	1682
-municipality	DC40	2016	North America	0
-municipality	DC40	2016	Latin America and Caribbean	15
-municipality	DC40	2016	Oceania	51
-municipality	DC40	2016	Unspecified	658
-municipality	DC42	2016	Born in South Africa	927103
-municipality	DC42	2016	SADC	23572
-municipality	DC42	2016	Rest of Africa	2016
-municipality	DC42	2016	United Kingdom and Europe	2773
-municipality	DC42	2016	Asia	961
-municipality	DC42	2016	North America	153
-municipality	DC42	2016	Latin America and Caribbean	131
-municipality	DC42	2016	Oceania	242
-municipality	DC42	2016	Unspecified	577
-municipality	DC48	2016	Born in South Africa	773359
-municipality	DC48	2016	SADC	58740
-municipality	DC48	2016	Rest of Africa	1759
-municipality	DC48	2016	United Kingdom and Europe	2030
-municipality	DC48	2016	Asia	1005
-municipality	DC48	2016	North America	115
-municipality	DC48	2016	Latin America and Caribbean	258
-municipality	DC48	2016	Oceania	223
-municipality	DC48	2016	Unspecified	1106
+district	DC37	2016	Born in South Africa	1564500
+district	DC37	2016	SADC	84512
+district	DC37	2016	Rest of Africa	2238
+district	DC37	2016	United Kingdom and Europe	603
+district	DC37	2016	Asia	2482
+district	DC37	2016	North America	116
+district	DC37	2016	Latin America and Caribbean	270
+district	DC37	2016	Oceania	103
+district	DC37	2016	Unspecified	2325
+district	DC38	2016	Born in South Africa	876761
+district	DC38	2016	SADC	9184
+district	DC38	2016	Rest of Africa	993
+district	DC38	2016	United Kingdom and Europe	65
+district	DC38	2016	Asia	1814
+district	DC38	2016	North America	15
+district	DC38	2016	Latin America and Caribbean	30
+district	DC38	2016	Oceania	0
+district	DC38	2016	Unspecified	246
+district	DC39	2016	Born in South Africa	456237
+district	DC39	2016	SADC	1661
+district	DC39	2016	Rest of Africa	532
+district	DC39	2016	United Kingdom and Europe	60
+district	DC39	2016	Asia	523
+district	DC39	2016	North America	14
+district	DC39	2016	Latin America and Caribbean	28
+district	DC39	2016	Oceania	34
+district	DC39	2016	Unspecified	269
+district	DC40	2016	Born in South Africa	725423
+district	DC40	2016	SADC	13422
+district	DC40	2016	Rest of Africa	1021
+district	DC40	2016	United Kingdom and Europe	550
+district	DC40	2016	Asia	1682
+district	DC40	2016	North America	0
+district	DC40	2016	Latin America and Caribbean	15
+district	DC40	2016	Oceania	51
+district	DC40	2016	Unspecified	658
+district	DC42	2016	Born in South Africa	927103
+district	DC42	2016	SADC	23572
+district	DC42	2016	Rest of Africa	2016
+district	DC42	2016	United Kingdom and Europe	2773
+district	DC42	2016	Asia	961
+district	DC42	2016	North America	153
+district	DC42	2016	Latin America and Caribbean	131
+district	DC42	2016	Oceania	242
+district	DC42	2016	Unspecified	577
+district	DC48	2016	Born in South Africa	773359
+district	DC48	2016	SADC	58740
+district	DC48	2016	Rest of Africa	1759
+district	DC48	2016	United Kingdom and Europe	2030
+district	DC48	2016	Asia	1005
+district	DC48	2016	North America	115
+district	DC48	2016	Latin America and Caribbean	258
+district	DC48	2016	Oceania	223
+district	DC48	2016	Unspecified	1106
 municipality	EKU	2016	Born in South Africa	3204423
 municipality	EKU	2016	SADC	140273
 municipality	EKU	2016	Rest of Africa	9039
@@ -519,78 +519,78 @@ municipality	TSH	2016	North America	649
 municipality	TSH	2016	Latin America and Caribbean	966
 municipality	TSH	2016	Oceania	755
 municipality	TSH	2016	Unspecified	6341
-municipality	DC30	2016	Born in South Africa	1117905
-municipality	DC30	2016	SADC	14468
-municipality	DC30	2016	Rest of Africa	1148
-municipality	DC30	2016	United Kingdom and Europe	352
-municipality	DC30	2016	Asia	650
-municipality	DC30	2016	North America	76
-municipality	DC30	2016	Latin America and Caribbean	24
-municipality	DC30	2016	Oceania	33
-municipality	DC30	2016	Unspecified	754
-municipality	DC31	2016	Born in South Africa	1405784
-municipality	DC31	2016	SADC	33030
-municipality	DC31	2016	Rest of Africa	2071
-municipality	DC31	2016	United Kingdom and Europe	1496
-municipality	DC31	2016	Asia	1103
-municipality	DC31	2016	North America	76
-municipality	DC31	2016	Latin America and Caribbean	62
-municipality	DC31	2016	Oceania	70
-municipality	DC31	2016	Unspecified	1932
-municipality	DC32	2016	Born in South Africa	1692544
-municipality	DC32	2016	SADC	57733
-municipality	DC32	2016	Rest of Africa	2059
-municipality	DC32	2016	United Kingdom and Europe	721
-municipality	DC32	2016	Asia	478
-municipality	DC32	2016	North America	29
-municipality	DC32	2016	Latin America and Caribbean	40
-municipality	DC32	2016	Oceania	84
-municipality	DC32	2016	Unspecified	1243
-municipality	DC33	2016	Born in South Africa	1133202
-municipality	DC33	2016	SADC	23105
-municipality	DC33	2016	Rest of Africa	1371
-municipality	DC33	2016	United Kingdom and Europe	210
-municipality	DC33	2016	Asia	732
-municipality	DC33	2016	North America	33
-municipality	DC33	2016	Latin America and Caribbean	21
-municipality	DC33	2016	Oceania	47
-municipality	DC33	2016	Unspecified	464
-municipality	DC34	2016	Born in South Africa	1343214
-municipality	DC34	2016	SADC	46682
-municipality	DC34	2016	Rest of Africa	1546
-municipality	DC34	2016	United Kingdom and Europe	172
-municipality	DC34	2016	Asia	1664
-municipality	DC34	2016	North America	141
-municipality	DC34	2016	Latin America and Caribbean	174
-municipality	DC34	2016	Oceania	0
-municipality	DC34	2016	Unspecified	356
-municipality	DC35	2016	Born in South Africa	1308565
-municipality	DC35	2016	SADC	18339
-municipality	DC35	2016	Rest of Africa	1123
-municipality	DC35	2016	United Kingdom and Europe	347
-municipality	DC35	2016	Asia	1413
-municipality	DC35	2016	North America	102
-municipality	DC35	2016	Latin America and Caribbean	50
-municipality	DC35	2016	Oceania	44
-municipality	DC35	2016	Unspecified	453
-municipality	DC36	2016	Born in South Africa	716265
-municipality	DC36	2016	SADC	20615
-municipality	DC36	2016	Rest of Africa	1235
-municipality	DC36	2016	United Kingdom and Europe	386
-municipality	DC36	2016	Asia	578
-municipality	DC36	2016	North America	63
-municipality	DC36	2016	Latin America and Caribbean	121
-municipality	DC36	2016	Oceania	47
-municipality	DC36	2016	Unspecified	6448
-municipality	DC47	2016	Born in South Africa	1155845
-municipality	DC47	2016	SADC	12348
-municipality	DC47	2016	Rest of Africa	307
-municipality	DC47	2016	United Kingdom and Europe	90
-municipality	DC47	2016	Asia	318
-municipality	DC47	2016	North America	0
-municipality	DC47	2016	Latin America and Caribbean	29
-municipality	DC47	2016	Oceania	68
-municipality	DC47	2016	Unspecified	757
+district	DC30	2016	Born in South Africa	1117905
+district	DC30	2016	SADC	14468
+district	DC30	2016	Rest of Africa	1148
+district	DC30	2016	United Kingdom and Europe	352
+district	DC30	2016	Asia	650
+district	DC30	2016	North America	76
+district	DC30	2016	Latin America and Caribbean	24
+district	DC30	2016	Oceania	33
+district	DC30	2016	Unspecified	754
+district	DC31	2016	Born in South Africa	1405784
+district	DC31	2016	SADC	33030
+district	DC31	2016	Rest of Africa	2071
+district	DC31	2016	United Kingdom and Europe	1496
+district	DC31	2016	Asia	1103
+district	DC31	2016	North America	76
+district	DC31	2016	Latin America and Caribbean	62
+district	DC31	2016	Oceania	70
+district	DC31	2016	Unspecified	1932
+district	DC32	2016	Born in South Africa	1692544
+district	DC32	2016	SADC	57733
+district	DC32	2016	Rest of Africa	2059
+district	DC32	2016	United Kingdom and Europe	721
+district	DC32	2016	Asia	478
+district	DC32	2016	North America	29
+district	DC32	2016	Latin America and Caribbean	40
+district	DC32	2016	Oceania	84
+district	DC32	2016	Unspecified	1243
+district	DC33	2016	Born in South Africa	1133202
+district	DC33	2016	SADC	23105
+district	DC33	2016	Rest of Africa	1371
+district	DC33	2016	United Kingdom and Europe	210
+district	DC33	2016	Asia	732
+district	DC33	2016	North America	33
+district	DC33	2016	Latin America and Caribbean	21
+district	DC33	2016	Oceania	47
+district	DC33	2016	Unspecified	464
+district	DC34	2016	Born in South Africa	1343214
+district	DC34	2016	SADC	46682
+district	DC34	2016	Rest of Africa	1546
+district	DC34	2016	United Kingdom and Europe	172
+district	DC34	2016	Asia	1664
+district	DC34	2016	North America	141
+district	DC34	2016	Latin America and Caribbean	174
+district	DC34	2016	Oceania	0
+district	DC34	2016	Unspecified	356
+district	DC35	2016	Born in South Africa	1308565
+district	DC35	2016	SADC	18339
+district	DC35	2016	Rest of Africa	1123
+district	DC35	2016	United Kingdom and Europe	347
+district	DC35	2016	Asia	1413
+district	DC35	2016	North America	102
+district	DC35	2016	Latin America and Caribbean	50
+district	DC35	2016	Oceania	44
+district	DC35	2016	Unspecified	453
+district	DC36	2016	Born in South Africa	716265
+district	DC36	2016	SADC	20615
+district	DC36	2016	Rest of Africa	1235
+district	DC36	2016	United Kingdom and Europe	386
+district	DC36	2016	Asia	578
+district	DC36	2016	North America	63
+district	DC36	2016	Latin America and Caribbean	121
+district	DC36	2016	Oceania	47
+district	DC36	2016	Unspecified	6448
+district	DC47	2016	Born in South Africa	1155845
+district	DC47	2016	SADC	12348
+district	DC47	2016	Rest of Africa	307
+district	DC47	2016	United Kingdom and Europe	90
+district	DC47	2016	Asia	318
+district	DC47	2016	North America	0
+district	DC47	2016	Latin America and Caribbean	29
+district	DC47	2016	Oceania	68
+district	DC47	2016	Unspecified	757
 municipality	WC011	2016	Born in South Africa	70084
 municipality	WC011	2016	SADC	846
 municipality	WC011	2016	Rest of Africa	97
@@ -1898,7 +1898,6 @@ municipality	NW373	2016	Oceania	8
 municipality	NW373	2016	Unspecified	754
 municipality	NW374	2016	Born in South Africa	57753
 municipality	NW374	2016	SADC	1539
-municipality	LIM476	2016	Oceania	0
 municipality	NW374	2016	Rest of Africa	158
 municipality	NW374	2016	United Kingdom and Europe	52
 municipality	NW374	2016	Asia	21
@@ -2435,6 +2434,7 @@ municipality	LIM476	2016	United Kingdom and Europe	19
 municipality	LIM476	2016	Asia	139
 municipality	LIM476	2016	North America	0
 municipality	LIM476	2016	Latin America and Caribbean	13
+municipality	LIM476	2016	Oceania	0
 municipality	LIM476	2016	Unspecified	455
 country	ZA	2016	Born in South Africa	54009271
 country	ZA	2016	SADC	1248901

@@ -82,166 +82,166 @@ municipality	CPT	2016	Black African	1704232
 municipality	CPT	2016	Coloured	1597841
 municipality	CPT	2016	Indian or Asian	43593
 municipality	CPT	2016	White	659349
-municipality	DC1	2016	Black African	71114
-municipality	DC1	2016	Coloured	297427
-municipality	DC1	2016	Indian or Asian	1076
-municipality	DC1	2016	White	66786
-municipality	DC2	2016	Black African	218590
-municipality	DC2	2016	Coloured	537329
-municipality	DC2	2016	Indian or Asian	1503
-municipality	DC2	2016	White	108579
-municipality	DC3	2016	Black African	74097
-municipality	DC3	2016	Coloured	161129
-municipality	DC3	2016	Indian or Asian	857
-municipality	DC3	2016	White	50703
-municipality	DC4	2016	Black African	164819
-municipality	DC4	2016	Coloured	331402
-municipality	DC4	2016	Indian or Asian	1561
-municipality	DC4	2016	White	113497
-municipality	DC5	2016	Black African	9191
-municipality	DC5	2016	Coloured	59271
-municipality	DC5	2016	Indian or Asian	129
-municipality	DC5	2016	White	5656
+district	DC1	2016	Black African	71114
+district	DC1	2016	Coloured	297427
+district	DC1	2016	Indian or Asian	1076
+district	DC1	2016	White	66786
+district	DC2	2016	Black African	218590
+district	DC2	2016	Coloured	537329
+district	DC2	2016	Indian or Asian	1503
+district	DC2	2016	White	108579
+district	DC3	2016	Black African	74097
+district	DC3	2016	Coloured	161129
+district	DC3	2016	Indian or Asian	857
+district	DC3	2016	White	50703
+district	DC4	2016	Black African	164819
+district	DC4	2016	Coloured	331402
+district	DC4	2016	Indian or Asian	1561
+district	DC4	2016	White	113497
+district	DC5	2016	Black African	9191
+district	DC5	2016	Coloured	59271
+district	DC5	2016	Indian or Asian	129
+district	DC5	2016	White	5656
 municipality	BUF	2016	Black African	713453
 municipality	BUF	2016	Coloured	56072
 municipality	BUF	2016	Indian or Asian	7457
 municipality	BUF	2016	White	58015
-municipality	DC10	2016	Black African	263026
-municipality	DC10	2016	Coloured	176118
-municipality	DC10	2016	Indian or Asian	1096
-municipality	DC10	2016	White	39682
-municipality	DC12	2016	Black African	859414
-municipality	DC12	2016	Coloured	12074
-municipality	DC12	2016	Indian or Asian	853
-municipality	DC12	2016	White	8450
-municipality	DC13	2016	Black African	788149
-municipality	DC13	2016	Coloured	35702
-municipality	DC13	2016	Indian or Asian	1474
-municipality	DC13	2016	White	14729
-municipality	DC14	2016	Black African	352041
-municipality	DC14	2016	Coloured	12260
-municipality	DC14	2016	Indian or Asian	647
-municipality	DC14	2016	White	7963
-municipality	DC15	2016	Black African	1448553
-municipality	DC15	2016	Coloured	6183
-municipality	DC15	2016	Indian or Asian	1449
-municipality	DC15	2016	White	1199
-municipality	DC44	2016	Black African	862589
-municipality	DC44	2016	Coloured	3647
-municipality	DC44	2016	Indian or Asian	598
-municipality	DC44	2016	White	1030
+district	DC10	2016	Black African	263026
+district	DC10	2016	Coloured	176118
+district	DC10	2016	Indian or Asian	1096
+district	DC10	2016	White	39682
+district	DC12	2016	Black African	859414
+district	DC12	2016	Coloured	12074
+district	DC12	2016	Indian or Asian	853
+district	DC12	2016	White	8450
+district	DC13	2016	Black African	788149
+district	DC13	2016	Coloured	35702
+district	DC13	2016	Indian or Asian	1474
+district	DC13	2016	White	14729
+district	DC14	2016	Black African	352041
+district	DC14	2016	Coloured	12260
+district	DC14	2016	Indian or Asian	647
+district	DC14	2016	White	7963
+district	DC15	2016	Black African	1448553
+district	DC15	2016	Coloured	6183
+district	DC15	2016	Indian or Asian	1449
+district	DC15	2016	White	1199
+district	DC44	2016	Black African	862589
+district	DC44	2016	Coloured	3647
+district	DC44	2016	Indian or Asian	598
+district	DC44	2016	White	1030
 municipality	NMA	2016	Black African	756688
 municipality	NMA	2016	Coloured	301629
 municipality	NMA	2016	Indian or Asian	15628
 municipality	NMA	2016	White	189106
-municipality	DC45	2016	Black African	202347
-municipality	DC45	2016	Coloured	24311
-municipality	DC45	2016	Indian or Asian	890
-municipality	DC45	2016	White	14717
-municipality	DC6	2016	Black African	2683
-municipality	DC6	2016	Coloured	101700
-municipality	DC6	2016	Indian or Asian	339
-municipality	DC6	2016	White	10767
-municipality	DC7	2016	Black African	58688
-municipality	DC7	2016	Coloured	123916
-municipality	DC7	2016	Indian or Asian	734
-municipality	DC7	2016	White	12258
-municipality	DC8	2016	Black African	58525
-municipality	DC8	2016	Coloured	170231
-municipality	DC8	2016	Indian or Asian	1098
-municipality	DC8	2016	White	22837
-municipality	DC9	2016	Black African	252004
-municipality	DC9	2016	Coloured	101104
-municipality	DC9	2016	Indian or Asian	3426
-municipality	DC9	2016	White	31208
-municipality	DC16	2016	Black African	95958
-municipality	DC16	2016	Coloured	17562
-municipality	DC16	2016	Indian or Asian	172
-municipality	DC16	2016	White	12192
-municipality	DC18	2016	Black African	578586
-municipality	DC18	2016	Coloured	12291
-municipality	DC18	2016	Indian or Asian	1777
-municipality	DC18	2016	White	54266
-municipality	DC19	2016	Black African	738508
-municipality	DC19	2016	Coloured	5786
-municipality	DC19	2016	Indian or Asian	2912
-municipality	DC19	2016	White	32124
-municipality	DC20	2016	Black African	428202
-municipality	DC20	2016	Coloured	8648
-municipality	DC20	2016	Indian or Asian	934
-municipality	DC20	2016	White	56993
+district	DC45	2016	Black African	202347
+district	DC45	2016	Coloured	24311
+district	DC45	2016	Indian or Asian	890
+district	DC45	2016	White	14717
+district	DC6	2016	Black African	2683
+district	DC6	2016	Coloured	101700
+district	DC6	2016	Indian or Asian	339
+district	DC6	2016	White	10767
+district	DC7	2016	Black African	58688
+district	DC7	2016	Coloured	123916
+district	DC7	2016	Indian or Asian	734
+district	DC7	2016	White	12258
+district	DC8	2016	Black African	58525
+district	DC8	2016	Coloured	170231
+district	DC8	2016	Indian or Asian	1098
+district	DC8	2016	White	22837
+district	DC9	2016	Black African	252004
+district	DC9	2016	Coloured	101104
+district	DC9	2016	Indian or Asian	3426
+district	DC9	2016	White	31208
+district	DC16	2016	Black African	95958
+district	DC16	2016	Coloured	17562
+district	DC16	2016	Indian or Asian	172
+district	DC16	2016	White	12192
+district	DC18	2016	Black African	578586
+district	DC18	2016	Coloured	12291
+district	DC18	2016	Indian or Asian	1777
+district	DC18	2016	White	54266
+district	DC19	2016	Black African	738508
+district	DC19	2016	Coloured	5786
+district	DC19	2016	Indian or Asian	2912
+district	DC19	2016	White	32124
+district	DC20	2016	Black African	428202
+district	DC20	2016	Coloured	8648
+district	DC20	2016	Indian or Asian	934
+district	DC20	2016	White	56993
 municipality	MAN	2016	Black African	673737
 municipality	MAN	2016	Coloured	27808
 municipality	MAN	2016	Indian or Asian	1501
 municipality	MAN	2016	White	84758
-municipality	DC21	2016	Black African	678625
-municipality	DC21	2016	Coloured	7228
-municipality	DC21	2016	Indian or Asian	31234
-municipality	DC21	2016	White	36249
-municipality	DC22	2016	Black African	925270
-municipality	DC22	2016	Coloured	20887
-municipality	DC22	2016	Indian or Asian	84941
-municipality	DC22	2016	White	64767
-municipality	DC23	2016	Black African	679912
-municipality	DC23	2016	Coloured	3789
-municipality	DC23	2016	Indian or Asian	15310
-municipality	DC23	2016	White	7578
-municipality	DC24	2016	Black African	537028
-municipality	DC24	2016	Coloured	2894
-municipality	DC24	2016	Indian or Asian	7278
-municipality	DC24	2016	White	7683
-municipality	DC25	2016	Black African	495059
-municipality	DC25	2016	Coloured	3341
-municipality	DC25	2016	Indian or Asian	15103
-municipality	DC25	2016	White	17825
-municipality	DC26	2016	Black African	880001
-municipality	DC26	2016	Coloured	2234
-municipality	DC26	2016	Indian or Asian	1053
-municipality	DC26	2016	White	9022
-municipality	DC27	2016	Black African	684411
-municipality	DC27	2016	Coloured	750
-municipality	DC27	2016	Indian or Asian	593
-municipality	DC27	2016	White	3337
-municipality	DC28	2016	Black African	920772
-municipality	DC28	2016	Coloured	4335
-municipality	DC28	2016	Indian or Asian	17771
-municipality	DC28	2016	White	28257
-municipality	DC29	2016	Black African	586630
-municipality	DC29	2016	Coloured	3509
-municipality	DC29	2016	Indian or Asian	45065
-municipality	DC29	2016	White	22409
-municipality	DC43	2016	Black African	496893
-municipality	DC43	2016	Coloured	7605
-municipality	DC43	2016	Indian or Asian	996
-municipality	DC43	2016	White	5370
+district	DC21	2016	Black African	678625
+district	DC21	2016	Coloured	7228
+district	DC21	2016	Indian or Asian	31234
+district	DC21	2016	White	36249
+district	DC22	2016	Black African	925270
+district	DC22	2016	Coloured	20887
+district	DC22	2016	Indian or Asian	84941
+district	DC22	2016	White	64767
+district	DC23	2016	Black African	679912
+district	DC23	2016	Coloured	3789
+district	DC23	2016	Indian or Asian	15310
+district	DC23	2016	White	7578
+district	DC24	2016	Black African	537028
+district	DC24	2016	Coloured	2894
+district	DC24	2016	Indian or Asian	7278
+district	DC24	2016	White	7683
+district	DC25	2016	Black African	495059
+district	DC25	2016	Coloured	3341
+district	DC25	2016	Indian or Asian	15103
+district	DC25	2016	White	17825
+district	DC26	2016	Black African	880001
+district	DC26	2016	Coloured	2234
+district	DC26	2016	Indian or Asian	1053
+district	DC26	2016	White	9022
+district	DC27	2016	Black African	684411
+district	DC27	2016	Coloured	750
+district	DC27	2016	Indian or Asian	593
+district	DC27	2016	White	3337
+district	DC28	2016	Black African	920772
+district	DC28	2016	Coloured	4335
+district	DC28	2016	Indian or Asian	17771
+district	DC28	2016	White	28257
+district	DC29	2016	Black African	586630
+district	DC29	2016	Coloured	3509
+district	DC29	2016	Indian or Asian	45065
+district	DC29	2016	White	22409
+district	DC43	2016	Black African	496893
+district	DC43	2016	Coloured	7605
+district	DC43	2016	Indian or Asian	996
+district	DC43	2016	White	5370
 municipality	ETH	2016	Black African	2741335
 municipality	ETH	2016	Coloured	77518
 municipality	ETH	2016	Indian or Asian	653819
 municipality	ETH	2016	White	229559
-municipality	DC37	2016	Black African	1554726
-municipality	DC37	2016	Coloured	8406
-municipality	DC37	2016	Indian or Asian	5901
-municipality	DC37	2016	White	88116
-municipality	DC38	2016	Black African	850688
-municipality	DC38	2016	Coloured	11673
-municipality	DC38	2016	Indian or Asian	4177
-municipality	DC38	2016	White	22570
-municipality	DC39	2016	Black African	420314
-municipality	DC39	2016	Coloured	13747
-municipality	DC39	2016	Indian or Asian	1542
-municipality	DC39	2016	White	23755
-municipality	DC40	2016	Black African	606652
-municipality	DC40	2016	Coloured	27185
-municipality	DC40	2016	Indian or Asian	5066
-municipality	DC40	2016	White	103919
-municipality	DC42	2016	Black African	773736
-municipality	DC42	2016	Coloured	12389
-municipality	DC42	2016	Indian or Asian	9651
-municipality	DC42	2016	White	161753
-municipality	DC48	2016	Black African	660179
-municipality	DC48	2016	Coloured	21152
-municipality	DC48	2016	Indian or Asian	9201
-municipality	DC48	2016	White	148062
+district	DC37	2016	Black African	1554726
+district	DC37	2016	Coloured	8406
+district	DC37	2016	Indian or Asian	5901
+district	DC37	2016	White	88116
+district	DC38	2016	Black African	850688
+district	DC38	2016	Coloured	11673
+district	DC38	2016	Indian or Asian	4177
+district	DC38	2016	White	22570
+district	DC39	2016	Black African	420314
+district	DC39	2016	Coloured	13747
+district	DC39	2016	Indian or Asian	1542
+district	DC39	2016	White	23755
+district	DC40	2016	Black African	606652
+district	DC40	2016	Coloured	27185
+district	DC40	2016	Indian or Asian	5066
+district	DC40	2016	White	103919
+district	DC42	2016	Black African	773736
+district	DC42	2016	Coloured	12389
+district	DC42	2016	Indian or Asian	9651
+district	DC42	2016	White	161753
+district	DC48	2016	Black African	660179
+district	DC48	2016	Coloured	21152
+district	DC48	2016	Indian or Asian	9201
+district	DC48	2016	White	148062
 municipality	EKU	2016	Black African	2762059
 municipality	EKU	2016	Coloured	85822
 municipality	EKU	2016	Indian or Asian	67382
@@ -254,38 +254,38 @@ municipality	TSH	2016	Black African	2591987
 municipality	TSH	2016	Coloured	61618
 municipality	TSH	2016	Indian or Asian	53187
 municipality	TSH	2016	White	568360
-municipality	DC30	2016	Black African	1040425
-municipality	DC30	2016	Coloured	9429
-municipality	DC30	2016	Indian or Asian	8126
-municipality	DC30	2016	White	77429
-municipality	DC31	2016	Black African	1313493
-municipality	DC31	2016	Coloured	13501
-municipality	DC31	2016	Indian or Asian	7952
-municipality	DC31	2016	White	110678
-municipality	DC32	2016	Black African	1703841
-municipality	DC32	2016	Coloured	9930
-municipality	DC32	2016	Indian or Asian	3709
-municipality	DC32	2016	White	37451
-municipality	DC33	2016	Black African	1130512
-municipality	DC33	2016	Coloured	2128
-municipality	DC33	2016	Indian or Asian	2918
-municipality	DC33	2016	White	23628
-municipality	DC34	2016	Black African	1375123
-municipality	DC34	2016	Coloured	2499
-municipality	DC34	2016	Indian or Asian	5036
-municipality	DC34	2016	White	11291
-municipality	DC35	2016	Black African	1290255
-municipality	DC35	2016	Coloured	7766
-municipality	DC35	2016	Indian or Asian	5598
-municipality	DC35	2016	White	26817
-municipality	DC36	2016	Black African	680815
-municipality	DC36	2016	Coloured	2272
-municipality	DC36	2016	Indian or Asian	2673
-municipality	DC36	2016	White	59998
-municipality	DC47	2016	Black African	1153458
-municipality	DC47	2016	Coloured	2175
-municipality	DC47	2016	Indian or Asian	860
-municipality	DC47	2016	White	13269
+district	DC30	2016	Black African	1040425
+district	DC30	2016	Coloured	9429
+district	DC30	2016	Indian or Asian	8126
+district	DC30	2016	White	77429
+district	DC31	2016	Black African	1313493
+district	DC31	2016	Coloured	13501
+district	DC31	2016	Indian or Asian	7952
+district	DC31	2016	White	110678
+district	DC32	2016	Black African	1703841
+district	DC32	2016	Coloured	9930
+district	DC32	2016	Indian or Asian	3709
+district	DC32	2016	White	37451
+district	DC33	2016	Black African	1130512
+district	DC33	2016	Coloured	2128
+district	DC33	2016	Indian or Asian	2918
+district	DC33	2016	White	23628
+district	DC34	2016	Black African	1375123
+district	DC34	2016	Coloured	2499
+district	DC34	2016	Indian or Asian	5036
+district	DC34	2016	White	11291
+district	DC35	2016	Black African	1290255
+district	DC35	2016	Coloured	7766
+district	DC35	2016	Indian or Asian	5598
+district	DC35	2016	White	26817
+district	DC36	2016	Black African	680815
+district	DC36	2016	Coloured	2272
+district	DC36	2016	Indian or Asian	2673
+district	DC36	2016	White	59998
+district	DC47	2016	Black African	1153458
+district	DC47	2016	Coloured	2175
+district	DC47	2016	Indian or Asian	860
+district	DC47	2016	White	13269
 municipality	WC011	2016	Black African	4214
 municipality	WC011	2016	Coloured	58106
 municipality	WC011	2016	Indian or Asian	22

@@ -51,9 +51,9 @@ province	EC	2016	>= 65	372563
 municipality	BUF	2016	< 18	317164
 municipality	BUF	2016	18 to 64	483704
 municipality	BUF	2016	>= 65	34129
-municipality	DC10	2016	< 18	179375
-municipality	DC10	2016	18 to 64	270361
-municipality	DC10	2016	>= 65	30187
+district	DC10	2016	< 18	179375
+district	DC10	2016	18 to 64	270361
+district	DC10	2016	>= 65	30187
 province	NC	2016	< 18	426616
 province	NC	2016	18 to 64	688405
 province	NC	2016	>= 65	78759
@@ -78,120 +78,120 @@ province	LIM	2016	>= 65	296374
 municipality	CPT	2016	< 18	1275373
 municipality	CPT	2016	18 to 64	2479671
 municipality	CPT	2016	>= 65	249972
-municipality	DC1	2016	< 18	142686
-municipality	DC1	2016	18 to 64	268326
-municipality	DC1	2016	>= 65	25391
-municipality	DC2	2016	< 18	292911
-municipality	DC2	2016	18 to 64	534693
-municipality	DC2	2016	>= 65	38396
-municipality	DC3	2016	< 18	94225
-municipality	DC3	2016	18 to 64	170451
-municipality	DC3	2016	>= 65	22110
-municipality	DC4	2016	< 18	198719
-municipality	DC4	2016	18 to 64	364692
-municipality	DC4	2016	>= 65	47867
-municipality	DC5	2016	< 18	25851
-municipality	DC5	2016	18 to 64	43063
-municipality	DC5	2016	>= 65	5333
-municipality	DC12	2016	< 18	386726
-municipality	DC12	2016	18 to 64	443733
-municipality	DC12	2016	>= 65	50331
-municipality	DC13	2016	< 18	405654
-municipality	DC13	2016	18 to 64	385222
-municipality	DC13	2016	>= 65	49179
-municipality	DC14	2016	< 18	175953
-municipality	DC14	2016	18 to 64	178411
-municipality	DC14	2016	>= 65	18548
-municipality	DC15	2016	< 18	726629
-municipality	DC15	2016	18 to 64	664601
-municipality	DC15	2016	>= 65	66154
-municipality	DC44	2016	< 18	442412
-municipality	DC44	2016	18 to 64	375455
-municipality	DC44	2016	>= 65	49998
+district	DC1	2016	< 18	142686
+district	DC1	2016	18 to 64	268326
+district	DC1	2016	>= 65	25391
+district	DC2	2016	< 18	292911
+district	DC2	2016	18 to 64	534693
+district	DC2	2016	>= 65	38396
+district	DC3	2016	< 18	94225
+district	DC3	2016	18 to 64	170451
+district	DC3	2016	>= 65	22110
+district	DC4	2016	< 18	198719
+district	DC4	2016	18 to 64	364692
+district	DC4	2016	>= 65	47867
+district	DC5	2016	< 18	25851
+district	DC5	2016	18 to 64	43063
+district	DC5	2016	>= 65	5333
+district	DC12	2016	< 18	386726
+district	DC12	2016	18 to 64	443733
+district	DC12	2016	>= 65	50331
+district	DC13	2016	< 18	405654
+district	DC13	2016	18 to 64	385222
+district	DC13	2016	>= 65	49179
+district	DC14	2016	< 18	175953
+district	DC14	2016	18 to 64	178411
+district	DC14	2016	>= 65	18548
+district	DC15	2016	< 18	726629
+district	DC15	2016	18 to 64	664601
+district	DC15	2016	>= 65	66154
+district	DC44	2016	< 18	442412
+district	DC44	2016	18 to 64	375455
+district	DC44	2016	>= 65	49998
 municipality	NMA	2016	< 18	461562
 municipality	NMA	2016	18 to 64	727452
 municipality	NMA	2016	>= 65	74037
-municipality	DC45	2016	< 18	96910
-municipality	DC45	2016	18 to 64	133824
-municipality	DC45	2016	>= 65	11531
-municipality	DC6	2016	< 18	33776
-municipality	DC6	2016	18 to 64	70705
-municipality	DC6	2016	>= 65	11006
-municipality	DC7	2016	< 18	69331
-municipality	DC7	2016	18 to 64	114441
-municipality	DC7	2016	>= 65	11823
-municipality	DC8	2016	< 18	89746
-municipality	DC8	2016	18 to 64	150274
-municipality	DC8	2016	>= 65	12672
-municipality	DC9	2016	< 18	136854
-municipality	DC9	2016	18 to 64	219160
-municipality	DC9	2016	>= 65	31727
-municipality	DC16	2016	< 18	44473
-municipality	DC16	2016	18 to 64	72884
-municipality	DC16	2016	>= 65	8527
-municipality	DC18	2016	< 18	219715
-municipality	DC18	2016	18 to 64	394372
-municipality	DC18	2016	>= 65	32833
-municipality	DC19	2016	< 18	300507
-municipality	DC19	2016	18 to 64	438313
-municipality	DC19	2016	>= 65	40509
-municipality	DC20	2016	< 18	161912
-municipality	DC20	2016	18 to 64	298145
-municipality	DC20	2016	>= 65	34720
+district	DC45	2016	< 18	96910
+district	DC45	2016	18 to 64	133824
+district	DC45	2016	>= 65	11531
+district	DC6	2016	< 18	33776
+district	DC6	2016	18 to 64	70705
+district	DC6	2016	>= 65	11006
+district	DC7	2016	< 18	69331
+district	DC7	2016	18 to 64	114441
+district	DC7	2016	>= 65	11823
+district	DC8	2016	< 18	89746
+district	DC8	2016	18 to 64	150274
+district	DC8	2016	>= 65	12672
+district	DC9	2016	< 18	136854
+district	DC9	2016	18 to 64	219160
+district	DC9	2016	>= 65	31727
+district	DC16	2016	< 18	44473
+district	DC16	2016	18 to 64	72884
+district	DC16	2016	>= 65	8527
+district	DC18	2016	< 18	219715
+district	DC18	2016	18 to 64	394372
+district	DC18	2016	>= 65	32833
+district	DC19	2016	< 18	300507
+district	DC19	2016	18 to 64	438313
+district	DC19	2016	>= 65	40509
+district	DC20	2016	< 18	161912
+district	DC20	2016	18 to 64	298145
+district	DC20	2016	>= 65	34720
 municipality	MAN	2016	< 18	286640
 municipality	MAN	2016	18 to 64	459395
 municipality	MAN	2016	>= 65	41768
-municipality	DC21	2016	< 18	354569
-municipality	DC21	2016	18 to 64	365671
-municipality	DC21	2016	>= 65	33097
-municipality	DC22	2016	< 18	442392
-municipality	DC22	2016	18 to 64	608960
-municipality	DC22	2016	>= 65	44513
-municipality	DC23	2016	< 18	327222
-municipality	DC23	2016	18 to 64	349134
-municipality	DC23	2016	>= 65	30232
-municipality	DC24	2016	< 18	273302
-municipality	DC24	2016	18 to 64	255144
-municipality	DC24	2016	>= 65	26436
-municipality	DC25	2016	< 18	236123
-municipality	DC25	2016	18 to 64	275449
-municipality	DC25	2016	>= 65	19755
-municipality	DC26	2016	< 18	452432
-municipality	DC26	2016	18 to 64	402946
-municipality	DC26	2016	>= 65	36932
-municipality	DC27	2016	< 18	349279
-municipality	DC27	2016	18 to 64	312695
-municipality	DC27	2016	>= 65	27116
-municipality	DC28	2016	< 18	463361
-municipality	DC28	2016	18 to 64	467039
-municipality	DC28	2016	>= 65	40734
-municipality	DC29	2016	< 18	269421
-municipality	DC29	2016	18 to 64	351113
-municipality	DC29	2016	>= 65	37078
-municipality	DC43	2016	< 18	253872
-municipality	DC43	2016	18 to 64	235656
-municipality	DC43	2016	>= 65	21337
+district	DC21	2016	< 18	354569
+district	DC21	2016	18 to 64	365671
+district	DC21	2016	>= 65	33097
+district	DC22	2016	< 18	442392
+district	DC22	2016	18 to 64	608960
+district	DC22	2016	>= 65	44513
+district	DC23	2016	< 18	327222
+district	DC23	2016	18 to 64	349134
+district	DC23	2016	>= 65	30232
+district	DC24	2016	< 18	273302
+district	DC24	2016	18 to 64	255144
+district	DC24	2016	>= 65	26436
+district	DC25	2016	< 18	236123
+district	DC25	2016	18 to 64	275449
+district	DC25	2016	>= 65	19755
+district	DC26	2016	< 18	452432
+district	DC26	2016	18 to 64	402946
+district	DC26	2016	>= 65	36932
+district	DC27	2016	< 18	349279
+district	DC27	2016	18 to 64	312695
+district	DC27	2016	>= 65	27116
+district	DC28	2016	< 18	463361
+district	DC28	2016	18 to 64	467039
+district	DC28	2016	>= 65	40734
+district	DC29	2016	< 18	269421
+district	DC29	2016	18 to 64	351113
+district	DC29	2016	>= 65	37078
+district	DC43	2016	< 18	253872
+district	DC43	2016	18 to 64	235656
+district	DC43	2016	>= 65	21337
 municipality	ETH	2016	< 18	1291428
 municipality	ETH	2016	18 to 64	2200420
 municipality	ETH	2016	>= 65	210382
-municipality	DC37	2016	< 18	603127
-municipality	DC37	2016	18 to 64	973982
-municipality	DC37	2016	>= 65	80040
-municipality	DC38	2016	< 18	326592
-municipality	DC38	2016	18 to 64	516095
-municipality	DC38	2016	>= 65	46421
-municipality	DC39	2016	< 18	196731
-municipality	DC39	2016	18 to 64	235243
-municipality	DC39	2016	>= 65	27384
-municipality	DC40	2016	< 18	268094
-municipality	DC40	2016	18 to 64	438856
-municipality	DC40	2016	>= 65	35871
-municipality	DC42	2016	< 18	304726
-municipality	DC42	2016	18 to 64	592079
-municipality	DC42	2016	>= 65	60723
-municipality	DC48	2016	< 18	243221
-municipality	DC48	2016	18 to 64	552092
-municipality	DC48	2016	>= 65	43281
+district	DC37	2016	< 18	603127
+district	DC37	2016	18 to 64	973982
+district	DC37	2016	>= 65	80040
+district	DC38	2016	< 18	326592
+district	DC38	2016	18 to 64	516095
+district	DC38	2016	>= 65	46421
+district	DC39	2016	< 18	196731
+district	DC39	2016	18 to 64	235243
+district	DC39	2016	>= 65	27384
+district	DC40	2016	< 18	268094
+district	DC40	2016	18 to 64	438856
+district	DC40	2016	>= 65	35871
+district	DC42	2016	< 18	304726
+district	DC42	2016	18 to 64	592079
+district	DC42	2016	>= 65	60723
+district	DC48	2016	< 18	243221
+district	DC48	2016	18 to 64	552092
+district	DC48	2016	>= 65	43281
 municipality	EKU	2016	< 18	946843
 municipality	EKU	2016	18 to 64	2225730
 municipality	EKU	2016	>= 65	206531
@@ -201,30 +201,30 @@ municipality	JHB	2016	>= 65	266167
 municipality	TSH	2016	< 18	1021754
 municipality	TSH	2016	18 to 64	2077888
 municipality	TSH	2016	>= 65	175509
-municipality	DC30	2016	< 18	425156
-municipality	DC30	2016	18 to 64	655135
-municipality	DC30	2016	>= 65	55119
-municipality	DC31	2016	< 18	505051
-municipality	DC31	2016	18 to 64	881573
-municipality	DC31	2016	>= 65	59000
-municipality	DC32	2016	< 18	765790
-municipality	DC32	2016	18 to 64	915491
-municipality	DC32	2016	>= 65	73649
-municipality	DC33	2016	< 18	477120
-municipality	DC33	2016	18 to 64	629257
-municipality	DC33	2016	>= 65	52809
-municipality	DC34	2016	< 18	613256
-municipality	DC34	2016	18 to 64	714634
-municipality	DC34	2016	>= 65	66059
-municipality	DC35	2016	< 18	571261
-municipality	DC35	2016	18 to 64	682113
-municipality	DC35	2016	>= 65	77062
-municipality	DC36	2016	< 18	308546
-municipality	DC36	2016	18 to 64	399104
-municipality	DC36	2016	>= 65	38107
-municipality	DC47	2016	< 18	501547
-municipality	DC47	2016	18 to 64	605877
-municipality	DC47	2016	>= 65	62338
+district	DC30	2016	< 18	425156
+district	DC30	2016	18 to 64	655135
+district	DC30	2016	>= 65	55119
+district	DC31	2016	< 18	505051
+district	DC31	2016	18 to 64	881573
+district	DC31	2016	>= 65	59000
+district	DC32	2016	< 18	765790
+district	DC32	2016	18 to 64	915491
+district	DC32	2016	>= 65	73649
+district	DC33	2016	< 18	477120
+district	DC33	2016	18 to 64	629257
+district	DC33	2016	>= 65	52809
+district	DC34	2016	< 18	613256
+district	DC34	2016	18 to 64	714634
+district	DC34	2016	>= 65	66059
+district	DC35	2016	< 18	571261
+district	DC35	2016	18 to 64	682113
+district	DC35	2016	>= 65	77062
+district	DC36	2016	< 18	308546
+district	DC36	2016	18 to 64	399104
+district	DC36	2016	>= 65	38107
+district	DC47	2016	< 18	501547
+district	DC47	2016	18 to 64	605877
+district	DC47	2016	>= 65	62338
 municipality	WC011	2016	< 18	24612
 municipality	WC011	2016	18 to 64	42271
 municipality	WC011	2016	>= 65	4163

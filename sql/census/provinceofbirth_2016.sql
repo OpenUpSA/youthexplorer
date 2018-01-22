@@ -162,66 +162,66 @@ municipality	CPT	2016	Limpopo	8945
 municipality	CPT	2016	Outside South Africa	150705
 municipality	CPT	2016	Do not know	2697
 municipality	CPT	2016	Unspecified	14585
-municipality	DC1	2016	Western Cape	361007
-municipality	DC1	2016	Eastern Cape	39405
-municipality	DC1	2016	Northern Cape	14445
-municipality	DC1	2016	Free State	3229
-municipality	DC1	2016	Kwazulu-Natal	1648
-municipality	DC1	2016	North West	1017
-municipality	DC1	2016	Gauteng	5948
-municipality	DC1	2016	Mpumalanga	637
-municipality	DC1	2016	Limpopo	753
-municipality	DC1	2016	Outside South Africa	8008
-municipality	DC1	2016	Do not know	143
-municipality	DC1	2016	Unspecified	164
-municipality	DC2	2016	Western Cape	741445
-municipality	DC2	2016	Eastern Cape	82834
-municipality	DC2	2016	Northern Cape	7852
-municipality	DC2	2016	Free State	6165
-municipality	DC2	2016	Kwazulu-Natal	2517
-municipality	DC2	2016	North West	1631
-municipality	DC2	2016	Gauteng	8802
-municipality	DC2	2016	Mpumalanga	725
-municipality	DC2	2016	Limpopo	804
-municipality	DC2	2016	Outside South Africa	12525
-municipality	DC2	2016	Do not know	281
-municipality	DC2	2016	Unspecified	420
-municipality	DC3	2016	Western Cape	221455
-municipality	DC3	2016	Eastern Cape	42186
-municipality	DC3	2016	Northern Cape	3364
-municipality	DC3	2016	Free State	1931
-municipality	DC3	2016	Kwazulu-Natal	1683
-municipality	DC3	2016	North West	767
-municipality	DC3	2016	Gauteng	6620
-municipality	DC3	2016	Mpumalanga	601
-municipality	DC3	2016	Limpopo	309
-municipality	DC3	2016	Outside South Africa	7714
-municipality	DC3	2016	Do not know	17
-municipality	DC3	2016	Unspecified	141
-municipality	DC4	2016	Western Cape	463691
-municipality	DC4	2016	Eastern Cape	81947
-municipality	DC4	2016	Northern Cape	7236
-municipality	DC4	2016	Free State	9043
-municipality	DC4	2016	Kwazulu-Natal	5082
-municipality	DC4	2016	North West	3224
-municipality	DC4	2016	Gauteng	22684
-municipality	DC4	2016	Mpumalanga	2866
-municipality	DC4	2016	Limpopo	1331
-municipality	DC4	2016	Outside South Africa	13658
-municipality	DC4	2016	Do not know	222
-municipality	DC4	2016	Unspecified	294
-municipality	DC5	2016	Western Cape	69409
-municipality	DC5	2016	Eastern Cape	1574
-municipality	DC5	2016	Northern Cape	1558
-municipality	DC5	2016	Free State	290
-municipality	DC5	2016	Kwazulu-Natal	175
-municipality	DC5	2016	North West	85
-municipality	DC5	2016	Gauteng	615
-municipality	DC5	2016	Mpumalanga	97
-municipality	DC5	2016	Limpopo	22
-municipality	DC5	2016	Outside South Africa	410
-municipality	DC5	2016	Do not know	0
-municipality	DC5	2016	Unspecified	13
+district	DC1	2016	Western Cape	361007
+district	DC1	2016	Eastern Cape	39405
+district	DC1	2016	Northern Cape	14445
+district	DC1	2016	Free State	3229
+district	DC1	2016	Kwazulu-Natal	1648
+district	DC1	2016	North West	1017
+district	DC1	2016	Gauteng	5948
+district	DC1	2016	Mpumalanga	637
+district	DC1	2016	Limpopo	753
+district	DC1	2016	Outside South Africa	8008
+district	DC1	2016	Do not know	143
+district	DC1	2016	Unspecified	164
+district	DC2	2016	Western Cape	741445
+district	DC2	2016	Eastern Cape	82834
+district	DC2	2016	Northern Cape	7852
+district	DC2	2016	Free State	6165
+district	DC2	2016	Kwazulu-Natal	2517
+district	DC2	2016	North West	1631
+district	DC2	2016	Gauteng	8802
+district	DC2	2016	Mpumalanga	725
+district	DC2	2016	Limpopo	804
+district	DC2	2016	Outside South Africa	12525
+district	DC2	2016	Do not know	281
+district	DC2	2016	Unspecified	420
+district	DC3	2016	Western Cape	221455
+district	DC3	2016	Eastern Cape	42186
+district	DC3	2016	Northern Cape	3364
+district	DC3	2016	Free State	1931
+district	DC3	2016	Kwazulu-Natal	1683
+district	DC3	2016	North West	767
+district	DC3	2016	Gauteng	6620
+district	DC3	2016	Mpumalanga	601
+district	DC3	2016	Limpopo	309
+district	DC3	2016	Outside South Africa	7714
+district	DC3	2016	Do not know	17
+district	DC3	2016	Unspecified	141
+district	DC4	2016	Western Cape	463691
+district	DC4	2016	Eastern Cape	81947
+district	DC4	2016	Northern Cape	7236
+district	DC4	2016	Free State	9043
+district	DC4	2016	Kwazulu-Natal	5082
+district	DC4	2016	North West	3224
+district	DC4	2016	Gauteng	22684
+district	DC4	2016	Mpumalanga	2866
+district	DC4	2016	Limpopo	1331
+district	DC4	2016	Outside South Africa	13658
+district	DC4	2016	Do not know	222
+district	DC4	2016	Unspecified	294
+district	DC5	2016	Western Cape	69409
+district	DC5	2016	Eastern Cape	1574
+district	DC5	2016	Northern Cape	1558
+district	DC5	2016	Free State	290
+district	DC5	2016	Kwazulu-Natal	175
+district	DC5	2016	North West	85
+district	DC5	2016	Gauteng	615
+district	DC5	2016	Mpumalanga	97
+district	DC5	2016	Limpopo	22
+district	DC5	2016	Outside South Africa	410
+district	DC5	2016	Do not know	0
+district	DC5	2016	Unspecified	13
 municipality	BUF	2016	Western Cape	10083
 municipality	BUF	2016	Eastern Cape	795199
 municipality	BUF	2016	Northern Cape	1733
@@ -234,78 +234,78 @@ municipality	BUF	2016	Limpopo	307
 municipality	BUF	2016	Outside South Africa	9938
 municipality	BUF	2016	Do not know	103
 municipality	BUF	2016	Unspecified	204
-municipality	DC10	2016	Western Cape	9760
-municipality	DC10	2016	Eastern Cape	452557
-municipality	DC10	2016	Northern Cape	1180
-municipality	DC10	2016	Free State	3369
-municipality	DC10	2016	Kwazulu-Natal	1813
-municipality	DC10	2016	North West	670
-municipality	DC10	2016	Gauteng	4761
-municipality	DC10	2016	Mpumalanga	789
-municipality	DC10	2016	Limpopo	262
-municipality	DC10	2016	Outside South Africa	4727
-municipality	DC10	2016	Do not know	0
-municipality	DC10	2016	Unspecified	36
-municipality	DC12	2016	Western Cape	18439
-municipality	DC12	2016	Eastern Cape	845656
-municipality	DC12	2016	Northern Cape	480
-municipality	DC12	2016	Free State	1350
-municipality	DC12	2016	Kwazulu-Natal	1262
-municipality	DC12	2016	North West	785
-municipality	DC12	2016	Gauteng	8438
-municipality	DC12	2016	Mpumalanga	463
-municipality	DC12	2016	Limpopo	249
-municipality	DC12	2016	Outside South Africa	3583
-municipality	DC12	2016	Do not know	68
-municipality	DC12	2016	Unspecified	18
-municipality	DC13	2016	Western Cape	25837
-municipality	DC13	2016	Eastern Cape	788187
-municipality	DC13	2016	Northern Cape	1639
-municipality	DC13	2016	Free State	2873
-municipality	DC13	2016	Kwazulu-Natal	1143
-municipality	DC13	2016	North West	685
-municipality	DC13	2016	Gauteng	13984
-municipality	DC13	2016	Mpumalanga	598
-municipality	DC13	2016	Limpopo	373
-municipality	DC13	2016	Outside South Africa	4413
-municipality	DC13	2016	Do not know	253
-municipality	DC13	2016	Unspecified	68
-municipality	DC14	2016	Western Cape	8826
-municipality	DC14	2016	Eastern Cape	346868
-municipality	DC14	2016	Northern Cape	803
-municipality	DC14	2016	Free State	2797
-municipality	DC14	2016	Kwazulu-Natal	1755
-municipality	DC14	2016	North West	634
-municipality	DC14	2016	Gauteng	5982
-municipality	DC14	2016	Mpumalanga	562
-municipality	DC14	2016	Limpopo	105
-municipality	DC14	2016	Outside South Africa	4550
-municipality	DC14	2016	Do not know	15
-municipality	DC14	2016	Unspecified	14
-municipality	DC15	2016	Western Cape	6301
-municipality	DC15	2016	Eastern Cape	1434149
-municipality	DC15	2016	Northern Cape	436
-municipality	DC15	2016	Free State	692
-municipality	DC15	2016	Kwazulu-Natal	5744
-municipality	DC15	2016	North West	660
-municipality	DC15	2016	Gauteng	4137
-municipality	DC15	2016	Mpumalanga	628
-municipality	DC15	2016	Limpopo	397
-municipality	DC15	2016	Outside South Africa	4083
-municipality	DC15	2016	Do not know	74
-municipality	DC15	2016	Unspecified	84
-municipality	DC44	2016	Western Cape	3390
-municipality	DC44	2016	Eastern Cape	828067
-municipality	DC44	2016	Northern Cape	283
-municipality	DC44	2016	Free State	518
-municipality	DC44	2016	Kwazulu-Natal	20790
-municipality	DC44	2016	North West	577
-municipality	DC44	2016	Gauteng	8522
-municipality	DC44	2016	Mpumalanga	416
-municipality	DC44	2016	Limpopo	108
-municipality	DC44	2016	Outside South Africa	5091
-municipality	DC44	2016	Do not know	52
-municipality	DC44	2016	Unspecified	50
+district	DC10	2016	Western Cape	9760
+district	DC10	2016	Eastern Cape	452557
+district	DC10	2016	Northern Cape	1180
+district	DC10	2016	Free State	3369
+district	DC10	2016	Kwazulu-Natal	1813
+district	DC10	2016	North West	670
+district	DC10	2016	Gauteng	4761
+district	DC10	2016	Mpumalanga	789
+district	DC10	2016	Limpopo	262
+district	DC10	2016	Outside South Africa	4727
+district	DC10	2016	Do not know	0
+district	DC10	2016	Unspecified	36
+district	DC12	2016	Western Cape	18439
+district	DC12	2016	Eastern Cape	845656
+district	DC12	2016	Northern Cape	480
+district	DC12	2016	Free State	1350
+district	DC12	2016	Kwazulu-Natal	1262
+district	DC12	2016	North West	785
+district	DC12	2016	Gauteng	8438
+district	DC12	2016	Mpumalanga	463
+district	DC12	2016	Limpopo	249
+district	DC12	2016	Outside South Africa	3583
+district	DC12	2016	Do not know	68
+district	DC12	2016	Unspecified	18
+district	DC13	2016	Western Cape	25837
+district	DC13	2016	Eastern Cape	788187
+district	DC13	2016	Northern Cape	1639
+district	DC13	2016	Free State	2873
+district	DC13	2016	Kwazulu-Natal	1143
+district	DC13	2016	North West	685
+district	DC13	2016	Gauteng	13984
+district	DC13	2016	Mpumalanga	598
+district	DC13	2016	Limpopo	373
+district	DC13	2016	Outside South Africa	4413
+district	DC13	2016	Do not know	253
+district	DC13	2016	Unspecified	68
+district	DC14	2016	Western Cape	8826
+district	DC14	2016	Eastern Cape	346868
+district	DC14	2016	Northern Cape	803
+district	DC14	2016	Free State	2797
+district	DC14	2016	Kwazulu-Natal	1755
+district	DC14	2016	North West	634
+district	DC14	2016	Gauteng	5982
+district	DC14	2016	Mpumalanga	562
+district	DC14	2016	Limpopo	105
+district	DC14	2016	Outside South Africa	4550
+district	DC14	2016	Do not know	15
+district	DC14	2016	Unspecified	14
+district	DC15	2016	Western Cape	6301
+district	DC15	2016	Eastern Cape	1434149
+district	DC15	2016	Northern Cape	436
+district	DC15	2016	Free State	692
+district	DC15	2016	Kwazulu-Natal	5744
+district	DC15	2016	North West	660
+district	DC15	2016	Gauteng	4137
+district	DC15	2016	Mpumalanga	628
+district	DC15	2016	Limpopo	397
+district	DC15	2016	Outside South Africa	4083
+district	DC15	2016	Do not know	74
+district	DC15	2016	Unspecified	84
+district	DC44	2016	Western Cape	3390
+district	DC44	2016	Eastern Cape	828067
+district	DC44	2016	Northern Cape	283
+district	DC44	2016	Free State	518
+district	DC44	2016	Kwazulu-Natal	20790
+district	DC44	2016	North West	577
+district	DC44	2016	Gauteng	8522
+district	DC44	2016	Mpumalanga	416
+district	DC44	2016	Limpopo	108
+district	DC44	2016	Outside South Africa	5091
+district	DC44	2016	Do not know	52
+district	DC44	2016	Unspecified	50
 municipality	NMA	2016	Western Cape	18764
 municipality	NMA	2016	Eastern Cape	1184116
 municipality	NMA	2016	Northern Cape	3055
@@ -318,114 +318,114 @@ municipality	NMA	2016	Limpopo	1470
 municipality	NMA	2016	Outside South Africa	20837
 municipality	NMA	2016	Do not know	173
 municipality	NMA	2016	Unspecified	345
-municipality	DC45	2016	Western Cape	1365
-municipality	DC45	2016	Eastern Cape	989
-municipality	DC45	2016	Northern Cape	216905
-municipality	DC45	2016	Free State	3275
-municipality	DC45	2016	Kwazulu-Natal	756
-municipality	DC45	2016	North West	10931
-municipality	DC45	2016	Gauteng	3538
-municipality	DC45	2016	Mpumalanga	506
-municipality	DC45	2016	Limpopo	1207
-municipality	DC45	2016	Outside South Africa	2792
-municipality	DC45	2016	Do not know	0
-municipality	DC45	2016	Unspecified	0
-municipality	DC6	2016	Western Cape	8497
-municipality	DC6	2016	Eastern Cape	1300
-municipality	DC6	2016	Northern Cape	102400
-municipality	DC6	2016	Free State	354
-municipality	DC6	2016	Kwazulu-Natal	176
-municipality	DC6	2016	North West	318
-municipality	DC6	2016	Gauteng	728
-municipality	DC6	2016	Mpumalanga	295
-municipality	DC6	2016	Limpopo	71
-municipality	DC6	2016	Outside South Africa	1349
-municipality	DC6	2016	Do not know	0
-municipality	DC6	2016	Unspecified	0
-municipality	DC7	2016	Western Cape	8028
-municipality	DC7	2016	Eastern Cape	5273
-municipality	DC7	2016	Northern Cape	170913
-municipality	DC7	2016	Free State	3564
-municipality	DC7	2016	Kwazulu-Natal	376
-municipality	DC7	2016	North West	819
-municipality	DC7	2016	Gauteng	4067
-municipality	DC7	2016	Mpumalanga	532
-municipality	DC7	2016	Limpopo	334
-municipality	DC7	2016	Outside South Africa	1642
-municipality	DC7	2016	Do not know	24
-municipality	DC7	2016	Unspecified	23
-municipality	DC8	2016	Western Cape	7693
-municipality	DC8	2016	Eastern Cape	2374
-municipality	DC8	2016	Northern Cape	221218
-municipality	DC8	2016	Free State	3277
-municipality	DC8	2016	Kwazulu-Natal	626
-municipality	DC8	2016	North West	6086
-municipality	DC8	2016	Gauteng	4331
-municipality	DC8	2016	Mpumalanga	525
-municipality	DC8	2016	Limpopo	451
-municipality	DC8	2016	Outside South Africa	6001
-municipality	DC8	2016	Do not know	20
-municipality	DC8	2016	Unspecified	90
-municipality	DC9	2016	Western Cape	4796
-municipality	DC9	2016	Eastern Cape	5332
-municipality	DC9	2016	Northern Cape	332591
-municipality	DC9	2016	Free State	11375
-municipality	DC9	2016	Kwazulu-Natal	1629
-municipality	DC9	2016	North West	18222
-municipality	DC9	2016	Gauteng	6512
-municipality	DC9	2016	Mpumalanga	769
-municipality	DC9	2016	Limpopo	1343
-municipality	DC9	2016	Outside South Africa	4970
-municipality	DC9	2016	Do not know	63
-municipality	DC9	2016	Unspecified	139
-municipality	DC16	2016	Western Cape	956
-municipality	DC16	2016	Eastern Cape	2921
-municipality	DC16	2016	Northern Cape	4478
-municipality	DC16	2016	Free State	112135
-municipality	DC16	2016	Kwazulu-Natal	407
-municipality	DC16	2016	North West	387
-municipality	DC16	2016	Gauteng	2336
-municipality	DC16	2016	Mpumalanga	474
-municipality	DC16	2016	Limpopo	311
-municipality	DC16	2016	Outside South Africa	1352
-municipality	DC16	2016	Do not know	20
-municipality	DC16	2016	Unspecified	107
-municipality	DC18	2016	Western Cape	2137
-municipality	DC18	2016	Eastern Cape	23941
-municipality	DC18	2016	Northern Cape	3880
-municipality	DC18	2016	Free State	574143
-municipality	DC18	2016	Kwazulu-Natal	4072
-municipality	DC18	2016	North West	6992
-municipality	DC18	2016	Gauteng	9596
-municipality	DC18	2016	Mpumalanga	2332
-municipality	DC18	2016	Limpopo	1533
-municipality	DC18	2016	Outside South Africa	18117
-municipality	DC18	2016	Do not know	48
-municipality	DC18	2016	Unspecified	129
-municipality	DC19	2016	Western Cape	1083
-municipality	DC19	2016	Eastern Cape	3203
-municipality	DC19	2016	Northern Cape	1277
-municipality	DC19	2016	Free State	730563
-municipality	DC19	2016	Kwazulu-Natal	10434
-municipality	DC19	2016	North West	1737
-municipality	DC19	2016	Gauteng	15022
-municipality	DC19	2016	Mpumalanga	2543
-municipality	DC19	2016	Limpopo	839
-municipality	DC19	2016	Outside South Africa	9900
-municipality	DC19	2016	Do not know	90
-municipality	DC19	2016	Unspecified	2639
-municipality	DC20	2016	Western Cape	2867
-municipality	DC20	2016	Eastern Cape	6341
-municipality	DC20	2016	Northern Cape	2045
-municipality	DC20	2016	Free State	434508
-municipality	DC20	2016	Kwazulu-Natal	4055
-municipality	DC20	2016	North West	5575
-municipality	DC20	2016	Gauteng	24818
-municipality	DC20	2016	Mpumalanga	4221
-municipality	DC20	2016	Limpopo	3627
-municipality	DC20	2016	Outside South Africa	6296
-municipality	DC20	2016	Do not know	156
-municipality	DC20	2016	Unspecified	268
+district	DC45	2016	Western Cape	1365
+district	DC45	2016	Eastern Cape	989
+district	DC45	2016	Northern Cape	216905
+district	DC45	2016	Free State	3275
+district	DC45	2016	Kwazulu-Natal	756
+district	DC45	2016	North West	10931
+district	DC45	2016	Gauteng	3538
+district	DC45	2016	Mpumalanga	506
+district	DC45	2016	Limpopo	1207
+district	DC45	2016	Outside South Africa	2792
+district	DC45	2016	Do not know	0
+district	DC45	2016	Unspecified	0
+district	DC6	2016	Western Cape	8497
+district	DC6	2016	Eastern Cape	1300
+district	DC6	2016	Northern Cape	102400
+district	DC6	2016	Free State	354
+district	DC6	2016	Kwazulu-Natal	176
+district	DC6	2016	North West	318
+district	DC6	2016	Gauteng	728
+district	DC6	2016	Mpumalanga	295
+district	DC6	2016	Limpopo	71
+district	DC6	2016	Outside South Africa	1349
+district	DC6	2016	Do not know	0
+district	DC6	2016	Unspecified	0
+district	DC7	2016	Western Cape	8028
+district	DC7	2016	Eastern Cape	5273
+district	DC7	2016	Northern Cape	170913
+district	DC7	2016	Free State	3564
+district	DC7	2016	Kwazulu-Natal	376
+district	DC7	2016	North West	819
+district	DC7	2016	Gauteng	4067
+district	DC7	2016	Mpumalanga	532
+district	DC7	2016	Limpopo	334
+district	DC7	2016	Outside South Africa	1642
+district	DC7	2016	Do not know	24
+district	DC7	2016	Unspecified	23
+district	DC8	2016	Western Cape	7693
+district	DC8	2016	Eastern Cape	2374
+district	DC8	2016	Northern Cape	221218
+district	DC8	2016	Free State	3277
+district	DC8	2016	Kwazulu-Natal	626
+district	DC8	2016	North West	6086
+district	DC8	2016	Gauteng	4331
+district	DC8	2016	Mpumalanga	525
+district	DC8	2016	Limpopo	451
+district	DC8	2016	Outside South Africa	6001
+district	DC8	2016	Do not know	20
+district	DC8	2016	Unspecified	90
+district	DC9	2016	Western Cape	4796
+district	DC9	2016	Eastern Cape	5332
+district	DC9	2016	Northern Cape	332591
+district	DC9	2016	Free State	11375
+district	DC9	2016	Kwazulu-Natal	1629
+district	DC9	2016	North West	18222
+district	DC9	2016	Gauteng	6512
+district	DC9	2016	Mpumalanga	769
+district	DC9	2016	Limpopo	1343
+district	DC9	2016	Outside South Africa	4970
+district	DC9	2016	Do not know	63
+district	DC9	2016	Unspecified	139
+district	DC16	2016	Western Cape	956
+district	DC16	2016	Eastern Cape	2921
+district	DC16	2016	Northern Cape	4478
+district	DC16	2016	Free State	112135
+district	DC16	2016	Kwazulu-Natal	407
+district	DC16	2016	North West	387
+district	DC16	2016	Gauteng	2336
+district	DC16	2016	Mpumalanga	474
+district	DC16	2016	Limpopo	311
+district	DC16	2016	Outside South Africa	1352
+district	DC16	2016	Do not know	20
+district	DC16	2016	Unspecified	107
+district	DC18	2016	Western Cape	2137
+district	DC18	2016	Eastern Cape	23941
+district	DC18	2016	Northern Cape	3880
+district	DC18	2016	Free State	574143
+district	DC18	2016	Kwazulu-Natal	4072
+district	DC18	2016	North West	6992
+district	DC18	2016	Gauteng	9596
+district	DC18	2016	Mpumalanga	2332
+district	DC18	2016	Limpopo	1533
+district	DC18	2016	Outside South Africa	18117
+district	DC18	2016	Do not know	48
+district	DC18	2016	Unspecified	129
+district	DC19	2016	Western Cape	1083
+district	DC19	2016	Eastern Cape	3203
+district	DC19	2016	Northern Cape	1277
+district	DC19	2016	Free State	730563
+district	DC19	2016	Kwazulu-Natal	10434
+district	DC19	2016	North West	1737
+district	DC19	2016	Gauteng	15022
+district	DC19	2016	Mpumalanga	2543
+district	DC19	2016	Limpopo	839
+district	DC19	2016	Outside South Africa	9900
+district	DC19	2016	Do not know	90
+district	DC19	2016	Unspecified	2639
+district	DC20	2016	Western Cape	2867
+district	DC20	2016	Eastern Cape	6341
+district	DC20	2016	Northern Cape	2045
+district	DC20	2016	Free State	434508
+district	DC20	2016	Kwazulu-Natal	4055
+district	DC20	2016	North West	5575
+district	DC20	2016	Gauteng	24818
+district	DC20	2016	Mpumalanga	4221
+district	DC20	2016	Limpopo	3627
+district	DC20	2016	Outside South Africa	6296
+district	DC20	2016	Do not know	156
+district	DC20	2016	Unspecified	268
 municipality	MAN	2016	Western Cape	6261
 municipality	MAN	2016	Eastern Cape	18463
 municipality	MAN	2016	Northern Cape	11707
@@ -438,126 +438,126 @@ municipality	MAN	2016	Limpopo	2024
 municipality	MAN	2016	Outside South Africa	17999
 municipality	MAN	2016	Do not know	119
 municipality	MAN	2016	Unspecified	224
-municipality	DC21	2016	Western Cape	1115
-municipality	DC21	2016	Eastern Cape	25430
-municipality	DC21	2016	Northern Cape	728
-municipality	DC21	2016	Free State	2208
-municipality	DC21	2016	Kwazulu-Natal	702572
-municipality	DC21	2016	North West	995
-municipality	DC21	2016	Gauteng	13140
-municipality	DC21	2016	Mpumalanga	1119
-municipality	DC21	2016	Limpopo	563
-municipality	DC21	2016	Outside South Africa	5276
-municipality	DC21	2016	Do not know	39
-municipality	DC21	2016	Unspecified	153
-municipality	DC22	2016	Western Cape	2837
-municipality	DC22	2016	Eastern Cape	12051
-municipality	DC22	2016	Northern Cape	722
-municipality	DC22	2016	Free State	2966
-municipality	DC22	2016	Kwazulu-Natal	1050712
-municipality	DC22	2016	North West	882
-municipality	DC22	2016	Gauteng	7629
-municipality	DC22	2016	Mpumalanga	1164
-municipality	DC22	2016	Limpopo	619
-municipality	DC22	2016	Outside South Africa	15777
-municipality	DC22	2016	Do not know	143
-municipality	DC22	2016	Unspecified	365
-municipality	DC23	2016	Western Cape	566
-municipality	DC23	2016	Eastern Cape	1040
-municipality	DC23	2016	Northern Cape	319
-municipality	DC23	2016	Free State	4087
-municipality	DC23	2016	Kwazulu-Natal	689857
-municipality	DC23	2016	North West	407
-municipality	DC23	2016	Gauteng	6283
-municipality	DC23	2016	Mpumalanga	562
-municipality	DC23	2016	Limpopo	281
-municipality	DC23	2016	Outside South Africa	3186
-municipality	DC23	2016	Do not know	0
-municipality	DC23	2016	Unspecified	0
-municipality	DC24	2016	Western Cape	321
-municipality	DC24	2016	Eastern Cape	505
-municipality	DC24	2016	Northern Cape	71
-municipality	DC24	2016	Free State	801
-municipality	DC24	2016	Kwazulu-Natal	544986
-municipality	DC24	2016	North West	370
-municipality	DC24	2016	Gauteng	5807
-municipality	DC24	2016	Mpumalanga	602
-municipality	DC24	2016	Limpopo	107
-municipality	DC24	2016	Outside South Africa	1074
-municipality	DC24	2016	Do not know	34
-municipality	DC24	2016	Unspecified	205
-municipality	DC25	2016	Western Cape	673
-municipality	DC25	2016	Eastern Cape	1684
-municipality	DC25	2016	Northern Cape	272
-municipality	DC25	2016	Free State	6353
-municipality	DC25	2016	Kwazulu-Natal	497628
-municipality	DC25	2016	North West	907
-municipality	DC25	2016	Gauteng	12328
-municipality	DC25	2016	Mpumalanga	7081
-municipality	DC25	2016	Limpopo	569
-municipality	DC25	2016	Outside South Africa	3739
-municipality	DC25	2016	Do not know	29
-municipality	DC25	2016	Unspecified	64
-municipality	DC26	2016	Western Cape	305
-municipality	DC26	2016	Eastern Cape	1202
-municipality	DC26	2016	Northern Cape	113
-municipality	DC26	2016	Free State	1060
-municipality	DC26	2016	Kwazulu-Natal	874697
-municipality	DC26	2016	North West	200
-municipality	DC26	2016	Gauteng	6203
-municipality	DC26	2016	Mpumalanga	4063
-municipality	DC26	2016	Limpopo	412
-municipality	DC26	2016	Outside South Africa	3374
-municipality	DC26	2016	Do not know	268
-municipality	DC26	2016	Unspecified	413
-municipality	DC27	2016	Western Cape	111
-municipality	DC27	2016	Eastern Cape	307
-municipality	DC27	2016	Northern Cape	117
-municipality	DC27	2016	Free State	348
-municipality	DC27	2016	Kwazulu-Natal	684296
-municipality	DC27	2016	North West	103
-municipality	DC27	2016	Gauteng	1544
-municipality	DC27	2016	Mpumalanga	296
-municipality	DC27	2016	Limpopo	113
-municipality	DC27	2016	Outside South Africa	1803
-municipality	DC27	2016	Do not know	18
-municipality	DC27	2016	Unspecified	34
-municipality	DC28	2016	Western Cape	1240
-municipality	DC28	2016	Eastern Cape	1732
-municipality	DC28	2016	Northern Cape	513
-municipality	DC28	2016	Free State	1985
-municipality	DC28	2016	Kwazulu-Natal	949284
-municipality	DC28	2016	North West	828
-municipality	DC28	2016	Gauteng	7953
-municipality	DC28	2016	Mpumalanga	1699
-municipality	DC28	2016	Limpopo	552
-municipality	DC28	2016	Outside South Africa	3730
-municipality	DC28	2016	Do not know	41
-municipality	DC28	2016	Unspecified	1577
-municipality	DC29	2016	Western Cape	1096
-municipality	DC29	2016	Eastern Cape	13708
-municipality	DC29	2016	Northern Cape	512
-municipality	DC29	2016	Free State	990
-municipality	DC29	2016	Kwazulu-Natal	623511
-municipality	DC29	2016	North West	423
-municipality	DC29	2016	Gauteng	6882
-municipality	DC29	2016	Mpumalanga	837
-municipality	DC29	2016	Limpopo	372
-municipality	DC29	2016	Outside South Africa	8807
-municipality	DC29	2016	Do not know	40
-municipality	DC29	2016	Unspecified	435
-municipality	DC43	2016	Western Cape	279
-municipality	DC43	2016	Eastern Cape	22413
-municipality	DC43	2016	Northern Cape	276
-municipality	DC43	2016	Free State	454
-municipality	DC43	2016	Kwazulu-Natal	482663
-municipality	DC43	2016	North West	217
-municipality	DC43	2016	Gauteng	2148
-municipality	DC43	2016	Mpumalanga	40
-municipality	DC43	2016	Limpopo	188
-municipality	DC43	2016	Outside South Africa	2100
-municipality	DC43	2016	Do not know	69
-municipality	DC43	2016	Unspecified	20
+district	DC21	2016	Western Cape	1115
+district	DC21	2016	Eastern Cape	25430
+district	DC21	2016	Northern Cape	728
+district	DC21	2016	Free State	2208
+district	DC21	2016	Kwazulu-Natal	702572
+district	DC21	2016	North West	995
+district	DC21	2016	Gauteng	13140
+district	DC21	2016	Mpumalanga	1119
+district	DC21	2016	Limpopo	563
+district	DC21	2016	Outside South Africa	5276
+district	DC21	2016	Do not know	39
+district	DC21	2016	Unspecified	153
+district	DC22	2016	Western Cape	2837
+district	DC22	2016	Eastern Cape	12051
+district	DC22	2016	Northern Cape	722
+district	DC22	2016	Free State	2966
+district	DC22	2016	Kwazulu-Natal	1050712
+district	DC22	2016	North West	882
+district	DC22	2016	Gauteng	7629
+district	DC22	2016	Mpumalanga	1164
+district	DC22	2016	Limpopo	619
+district	DC22	2016	Outside South Africa	15777
+district	DC22	2016	Do not know	143
+district	DC22	2016	Unspecified	365
+district	DC23	2016	Western Cape	566
+district	DC23	2016	Eastern Cape	1040
+district	DC23	2016	Northern Cape	319
+district	DC23	2016	Free State	4087
+district	DC23	2016	Kwazulu-Natal	689857
+district	DC23	2016	North West	407
+district	DC23	2016	Gauteng	6283
+district	DC23	2016	Mpumalanga	562
+district	DC23	2016	Limpopo	281
+district	DC23	2016	Outside South Africa	3186
+district	DC23	2016	Do not know	0
+district	DC23	2016	Unspecified	0
+district	DC24	2016	Western Cape	321
+district	DC24	2016	Eastern Cape	505
+district	DC24	2016	Northern Cape	71
+district	DC24	2016	Free State	801
+district	DC24	2016	Kwazulu-Natal	544986
+district	DC24	2016	North West	370
+district	DC24	2016	Gauteng	5807
+district	DC24	2016	Mpumalanga	602
+district	DC24	2016	Limpopo	107
+district	DC24	2016	Outside South Africa	1074
+district	DC24	2016	Do not know	34
+district	DC24	2016	Unspecified	205
+district	DC25	2016	Western Cape	673
+district	DC25	2016	Eastern Cape	1684
+district	DC25	2016	Northern Cape	272
+district	DC25	2016	Free State	6353
+district	DC25	2016	Kwazulu-Natal	497628
+district	DC25	2016	North West	907
+district	DC25	2016	Gauteng	12328
+district	DC25	2016	Mpumalanga	7081
+district	DC25	2016	Limpopo	569
+district	DC25	2016	Outside South Africa	3739
+district	DC25	2016	Do not know	29
+district	DC25	2016	Unspecified	64
+district	DC26	2016	Western Cape	305
+district	DC26	2016	Eastern Cape	1202
+district	DC26	2016	Northern Cape	113
+district	DC26	2016	Free State	1060
+district	DC26	2016	Kwazulu-Natal	874697
+district	DC26	2016	North West	200
+district	DC26	2016	Gauteng	6203
+district	DC26	2016	Mpumalanga	4063
+district	DC26	2016	Limpopo	412
+district	DC26	2016	Outside South Africa	3374
+district	DC26	2016	Do not know	268
+district	DC26	2016	Unspecified	413
+district	DC27	2016	Western Cape	111
+district	DC27	2016	Eastern Cape	307
+district	DC27	2016	Northern Cape	117
+district	DC27	2016	Free State	348
+district	DC27	2016	Kwazulu-Natal	684296
+district	DC27	2016	North West	103
+district	DC27	2016	Gauteng	1544
+district	DC27	2016	Mpumalanga	296
+district	DC27	2016	Limpopo	113
+district	DC27	2016	Outside South Africa	1803
+district	DC27	2016	Do not know	18
+district	DC27	2016	Unspecified	34
+district	DC28	2016	Western Cape	1240
+district	DC28	2016	Eastern Cape	1732
+district	DC28	2016	Northern Cape	513
+district	DC28	2016	Free State	1985
+district	DC28	2016	Kwazulu-Natal	949284
+district	DC28	2016	North West	828
+district	DC28	2016	Gauteng	7953
+district	DC28	2016	Mpumalanga	1699
+district	DC28	2016	Limpopo	552
+district	DC28	2016	Outside South Africa	3730
+district	DC28	2016	Do not know	41
+district	DC28	2016	Unspecified	1577
+district	DC29	2016	Western Cape	1096
+district	DC29	2016	Eastern Cape	13708
+district	DC29	2016	Northern Cape	512
+district	DC29	2016	Free State	990
+district	DC29	2016	Kwazulu-Natal	623511
+district	DC29	2016	North West	423
+district	DC29	2016	Gauteng	6882
+district	DC29	2016	Mpumalanga	837
+district	DC29	2016	Limpopo	372
+district	DC29	2016	Outside South Africa	8807
+district	DC29	2016	Do not know	40
+district	DC29	2016	Unspecified	435
+district	DC43	2016	Western Cape	279
+district	DC43	2016	Eastern Cape	22413
+district	DC43	2016	Northern Cape	276
+district	DC43	2016	Free State	454
+district	DC43	2016	Kwazulu-Natal	482663
+district	DC43	2016	North West	217
+district	DC43	2016	Gauteng	2148
+district	DC43	2016	Mpumalanga	40
+district	DC43	2016	Limpopo	188
+district	DC43	2016	Outside South Africa	2100
+district	DC43	2016	Do not know	69
+district	DC43	2016	Unspecified	20
 municipality	ETH	2016	Western Cape	8182
 municipality	ETH	2016	Eastern Cape	95544
 municipality	ETH	2016	Northern Cape	3650
@@ -570,79 +570,78 @@ municipality	ETH	2016	Limpopo	2699
 municipality	ETH	2016	Outside South Africa	35481
 municipality	ETH	2016	Do not know	577
 municipality	ETH	2016	Unspecified	2894
-municipality	DC37	2016	Western Cape	3046
-municipality	DC37	2016	Eastern Cape	65091
-municipality	DC37	2016	Northern Cape	8359
-municipality	DC37	2016	Free State	24540
-municipality	DC37	2016	Kwazulu-Natal	13978
-municipality	DC37	2016	North West	1189530
-municipality	DC37	2016	Gauteng	143531
-municipality	DC37	2016	Mpumalanga	31146
-municipality	DC37	2016	Limpopo	85279
-municipality	DC37	2016	Outside South Africa	90570
-municipality	DC37	2016	Do not know	1170
-municipality	DC37	2016	Unspecified	908
-municipality	DC38	2016	Western Cape	752
-municipality	DC38	2016	Eastern Cape	1240
-municipality	DC38	2016	Northern Cape	5621
-municipality	DC38	2016	Free State	8049
-municipality	DC38	2016	Kwazulu-Natal	1103
-municipality	DC38	2016	North West	837586
-municipality	DC38	2016	Gauteng	17262
-municipality	DC38	2016	Mpumalanga	2034
-municipality	DC38	2016	Limpopo	3113
-municipality	DC38	2016	Outside South Africa	12101
-municipality	DC38	2016	Do not know	132
-municipality	DC38	2016	Unspecified	114
-municipality	DC39	2016	Western Cape	533
-municipality	DC39	2016	Eastern Cape	962
-municipality	DC39	2016	Northern Cape	15020
-municipality	DC39	2016	Free State	8323
-municipality	DC39	2016	Kwazulu-Natal	610
-municipality	DC39	2016	North West	423172
-municipality	DC39	2016	Gauteng	6383
-municipality	DC39	2016	Mpumalanga	586
-municipality	DC39	2016	Limpopo	647
-municipality	DC39	2016	Outside South Africa	2852
-municipality	DC39	2016	Do not know	126
-municipality	DC39	2016	Unspecified	143
-municipality	DC40	2016	Western Cape	4541
-municipality	DC40	2016	Eastern Cape	20359
-municipality	DC40	2016	Northern Cape	9393
-municipality	DC40	2016	Free State	47458
-municipality	DC40	2016	Kwazulu-Natal	6943
-municipality	DC40	2016	North West	594881
-municipality	DC40	2016	Gauteng	31790
-municipality	DC40	2016	Mpumalanga	4441
-municipality	DC40	2016	Limpopo	5615
-municipality	DC40	2016	Outside South Africa	16760
-municipality	DC40	2016	Do not know	155
-municipality	DC40	2016	Unspecified	483
-municipality	DC42	2016	Western Cape	5266
-municipality	DC42	2016	Eastern Cape	19830
-municipality	DC42	2016	Northern Cape	3556
-municipality	DC42	2016	Free State	82504
-municipality	DC42	2016	Kwazulu-Natal	19095
-municipality	DC42	2016	North West	12027
-municipality	DC42	2016	Gauteng	751948
-municipality	DC42	2016	Mpumalanga	19456
-municipality	DC42	2016	Limpopo	13422
-municipality	DC42	2016	Outside South Africa	29891
-municipality	DC42	2016	Do not know	174
-municipality	DC42	2016	Unspecified	361
-municipality	DC48	2016	Western Cape	7037
-municipality	DC48	2016	Eastern Cape	58724
-municipality	DC35	2016	Unspecified	103
-municipality	DC48	2016	Northern Cape	6244
-municipality	DC48	2016	Free State	27951
-municipality	DC48	2016	Kwazulu-Natal	30761
-municipality	DC48	2016	North West	75873
-municipality	DC48	2016	Gauteng	521288
-municipality	DC48	2016	Mpumalanga	12488
-municipality	DC48	2016	Limpopo	32994
-municipality	DC48	2016	Outside South Africa	64358
-municipality	DC48	2016	Do not know	427
-municipality	DC48	2016	Unspecified	450
+district	DC37	2016	Western Cape	3046
+district	DC37	2016	Eastern Cape	65091
+district	DC37	2016	Northern Cape	8359
+district	DC37	2016	Free State	24540
+district	DC37	2016	Kwazulu-Natal	13978
+district	DC37	2016	North West	1189530
+district	DC37	2016	Gauteng	143531
+district	DC37	2016	Mpumalanga	31146
+district	DC37	2016	Limpopo	85279
+district	DC37	2016	Outside South Africa	90570
+district	DC37	2016	Do not know	1170
+district	DC37	2016	Unspecified	908
+district	DC38	2016	Western Cape	752
+district	DC38	2016	Eastern Cape	1240
+district	DC38	2016	Northern Cape	5621
+district	DC38	2016	Free State	8049
+district	DC38	2016	Kwazulu-Natal	1103
+district	DC38	2016	North West	837586
+district	DC38	2016	Gauteng	17262
+district	DC38	2016	Mpumalanga	2034
+district	DC38	2016	Limpopo	3113
+district	DC38	2016	Outside South Africa	12101
+district	DC38	2016	Do not know	132
+district	DC38	2016	Unspecified	114
+district	DC39	2016	Western Cape	533
+district	DC39	2016	Eastern Cape	962
+district	DC39	2016	Northern Cape	15020
+district	DC39	2016	Free State	8323
+district	DC39	2016	Kwazulu-Natal	610
+district	DC39	2016	North West	423172
+district	DC39	2016	Gauteng	6383
+district	DC39	2016	Mpumalanga	586
+district	DC39	2016	Limpopo	647
+district	DC39	2016	Outside South Africa	2852
+district	DC39	2016	Do not know	126
+district	DC39	2016	Unspecified	143
+district	DC40	2016	Western Cape	4541
+district	DC40	2016	Eastern Cape	20359
+district	DC40	2016	Northern Cape	9393
+district	DC40	2016	Free State	47458
+district	DC40	2016	Kwazulu-Natal	6943
+district	DC40	2016	North West	594881
+district	DC40	2016	Gauteng	31790
+district	DC40	2016	Mpumalanga	4441
+district	DC40	2016	Limpopo	5615
+district	DC40	2016	Outside South Africa	16760
+district	DC40	2016	Do not know	155
+district	DC40	2016	Unspecified	483
+district	DC42	2016	Western Cape	5266
+district	DC42	2016	Eastern Cape	19830
+district	DC42	2016	Northern Cape	3556
+district	DC42	2016	Free State	82504
+district	DC42	2016	Kwazulu-Natal	19095
+district	DC42	2016	North West	12027
+district	DC42	2016	Gauteng	751948
+district	DC42	2016	Mpumalanga	19456
+district	DC42	2016	Limpopo	13422
+district	DC42	2016	Outside South Africa	29891
+district	DC42	2016	Do not know	174
+district	DC42	2016	Unspecified	361
+district	DC48	2016	Western Cape	7037
+district	DC48	2016	Eastern Cape	58724
+district	DC48	2016	Northern Cape	6244
+district	DC48	2016	Free State	27951
+district	DC48	2016	Kwazulu-Natal	30761
+district	DC48	2016	North West	75873
+district	DC48	2016	Gauteng	521288
+district	DC48	2016	Mpumalanga	12488
+district	DC48	2016	Limpopo	32994
+district	DC48	2016	Outside South Africa	64358
+district	DC48	2016	Do not know	427
+district	DC48	2016	Unspecified	450
 municipality	EKU	2016	Western Cape	26303
 municipality	EKU	2016	Eastern Cape	175373
 municipality	EKU	2016	Northern Cape	17994
@@ -679,101 +678,102 @@ municipality	TSH	2016	Limpopo	426382
 municipality	TSH	2016	Outside South Africa	151213
 municipality	TSH	2016	Do not know	3685
 municipality	TSH	2016	Unspecified	2337
-municipality	DC30	2016	Western Cape	4097
-municipality	DC30	2016	Eastern Cape	15991
-municipality	DC30	2016	Northern Cape	2272
-municipality	DC30	2016	Free State	21430
-municipality	DC30	2016	Kwazulu-Natal	40584
-municipality	DC30	2016	North West	4290
-municipality	DC30	2016	Gauteng	41438
-municipality	DC30	2016	Mpumalanga	976082
-municipality	DC30	2016	Limpopo	11722
-municipality	DC30	2016	Outside South Africa	16833
-municipality	DC30	2016	Do not know	246
-municipality	DC30	2016	Unspecified	426
-municipality	DC31	2016	Western Cape	3927
-municipality	DC31	2016	Eastern Cape	18847
-municipality	DC31	2016	Northern Cape	3602
-municipality	DC31	2016	Free State	12999
-municipality	DC31	2016	Kwazulu-Natal	30371
-municipality	DC31	2016	North West	12879
-municipality	DC31	2016	Gauteng	106802
-municipality	DC31	2016	Mpumalanga	1093018
-municipality	DC31	2016	Limpopo	123338
-municipality	DC31	2016	Outside South Africa	37998
-municipality	DC31	2016	Do not know	1156
-municipality	DC31	2016	Unspecified	687
-municipality	DC32	2016	Western Cape	1450
-municipality	DC32	2016	Eastern Cape	3368
-municipality	DC32	2016	Northern Cape	1148
-municipality	DC32	2016	Free State	3426
-municipality	DC32	2016	Kwazulu-Natal	5563
-municipality	DC32	2016	North West	3526
-municipality	DC32	2016	Gauteng	20931
-municipality	DC32	2016	Mpumalanga	1633190
-municipality	DC32	2016	Limpopo	19941
-municipality	DC32	2016	Outside South Africa	61302
-municipality	DC32	2016	Do not know	468
-municipality	DC32	2016	Unspecified	617
-municipality	DC33	2016	Western Cape	542
-municipality	DC33	2016	Eastern Cape	863
-municipality	DC33	2016	Northern Cape	405
-municipality	DC33	2016	Free State	1038
-municipality	DC33	2016	Kwazulu-Natal	1320
-municipality	DC33	2016	North West	1356
-municipality	DC33	2016	Gauteng	13693
-municipality	DC33	2016	Mpumalanga	10788
-municipality	DC33	2016	Limpopo	1103197
-municipality	DC33	2016	Outside South Africa	25543
-municipality	DC33	2016	Do not know	230
-municipality	DC33	2016	Unspecified	211
-municipality	DC34	2016	Western Cape	720
-municipality	DC34	2016	Eastern Cape	575
-municipality	DC34	2016	Northern Cape	211
-municipality	DC34	2016	Free State	1236
-municipality	DC34	2016	Kwazulu-Natal	852
-municipality	DC34	2016	North West	1143
-municipality	DC34	2016	Gauteng	16863
-municipality	DC34	2016	Mpumalanga	2956
-municipality	DC34	2016	Limpopo	1318659
-municipality	DC34	2016	Outside South Africa	50422
-municipality	DC34	2016	Do not know	93
-municipality	DC34	2016	Unspecified	220
-municipality	DC35	2016	Western Cape	1036
-municipality	DC35	2016	Eastern Cape	1473
-municipality	DC35	2016	Northern Cape	976
-municipality	DC35	2016	Free State	1825
-municipality	DC35	2016	Kwazulu-Natal	1791
-municipality	DC35	2016	North West	3032
-municipality	DC35	2016	Gauteng	26168
-municipality	DC35	2016	Mpumalanga	5230
-municipality	DC35	2016	Limpopo	1267034
-municipality	DC35	2016	Outside South Africa	21479
-municipality	DC35	2016	Do not know	289
-municipality	DC36	2016	Western Cape	1383
-municipality	DC36	2016	Eastern Cape	10400
-municipality	DC36	2016	Northern Cape	1658
-municipality	DC36	2016	Free State	5719
-municipality	DC36	2016	Kwazulu-Natal	3309
-municipality	DC36	2016	North West	18824
-municipality	DC36	2016	Gauteng	27434
-municipality	DC36	2016	Mpumalanga	10392
-municipality	DC36	2016	Limpopo	637147
-municipality	DC36	2016	Outside South Africa	23195
-municipality	DC36	2016	Do not know	80
-municipality	DC36	2016	Unspecified	6217
-municipality	DC47	2016	Western Cape	352
-municipality	DC47	2016	Eastern Cape	1576
-municipality	DC47	2016	Northern Cape	507
-municipality	DC47	2016	Free State	1936
-municipality	DC47	2016	Kwazulu-Natal	1540
-municipality	DC47	2016	North West	3153
-municipality	DC47	2016	Gauteng	21837
-municipality	DC47	2016	Mpumalanga	49231
-municipality	DC47	2016	Limpopo	1075714
-municipality	DC47	2016	Outside South Africa	13172
-municipality	DC47	2016	Do not know	223
-municipality	DC47	2016	Unspecified	522
+district	DC30	2016	Western Cape	4097
+district	DC30	2016	Eastern Cape	15991
+district	DC30	2016	Northern Cape	2272
+district	DC30	2016	Free State	21430
+district	DC30	2016	Kwazulu-Natal	40584
+district	DC30	2016	North West	4290
+district	DC30	2016	Gauteng	41438
+district	DC30	2016	Mpumalanga	976082
+district	DC30	2016	Limpopo	11722
+district	DC30	2016	Outside South Africa	16833
+district	DC30	2016	Do not know	246
+district	DC30	2016	Unspecified	426
+district	DC31	2016	Western Cape	3927
+district	DC31	2016	Eastern Cape	18847
+district	DC31	2016	Northern Cape	3602
+district	DC31	2016	Free State	12999
+district	DC31	2016	Kwazulu-Natal	30371
+district	DC31	2016	North West	12879
+district	DC31	2016	Gauteng	106802
+district	DC31	2016	Mpumalanga	1093018
+district	DC31	2016	Limpopo	123338
+district	DC31	2016	Outside South Africa	37998
+district	DC31	2016	Do not know	1156
+district	DC31	2016	Unspecified	687
+district	DC32	2016	Western Cape	1450
+district	DC32	2016	Eastern Cape	3368
+district	DC32	2016	Northern Cape	1148
+district	DC32	2016	Free State	3426
+district	DC32	2016	Kwazulu-Natal	5563
+district	DC32	2016	North West	3526
+district	DC32	2016	Gauteng	20931
+district	DC32	2016	Mpumalanga	1633190
+district	DC32	2016	Limpopo	19941
+district	DC32	2016	Outside South Africa	61302
+district	DC32	2016	Do not know	468
+district	DC32	2016	Unspecified	617
+district	DC33	2016	Western Cape	542
+district	DC33	2016	Eastern Cape	863
+district	DC33	2016	Northern Cape	405
+district	DC33	2016	Free State	1038
+district	DC33	2016	Kwazulu-Natal	1320
+district	DC33	2016	North West	1356
+district	DC33	2016	Gauteng	13693
+district	DC33	2016	Mpumalanga	10788
+district	DC33	2016	Limpopo	1103197
+district	DC33	2016	Outside South Africa	25543
+district	DC33	2016	Do not know	230
+district	DC33	2016	Unspecified	211
+district	DC34	2016	Western Cape	720
+district	DC34	2016	Eastern Cape	575
+district	DC34	2016	Northern Cape	211
+district	DC34	2016	Free State	1236
+district	DC34	2016	Kwazulu-Natal	852
+district	DC34	2016	North West	1143
+district	DC34	2016	Gauteng	16863
+district	DC34	2016	Mpumalanga	2956
+district	DC34	2016	Limpopo	1318659
+district	DC34	2016	Outside South Africa	50422
+district	DC34	2016	Do not know	93
+district	DC34	2016	Unspecified	220
+district	DC35	2016	Western Cape	1036
+district	DC35	2016	Eastern Cape	1473
+district	DC35	2016	Northern Cape	976
+district	DC35	2016	Free State	1825
+district	DC35	2016	Kwazulu-Natal	1791
+district	DC35	2016	North West	3032
+district	DC35	2016	Gauteng	26168
+district	DC35	2016	Mpumalanga	5230
+district	DC35	2016	Limpopo	1267034
+district	DC35	2016	Outside South Africa	21479
+district	DC35	2016	Do not know	289
+district	DC35	2016	Unspecified	103
+district	DC36	2016	Western Cape	1383
+district	DC36	2016	Eastern Cape	10400
+district	DC36	2016	Northern Cape	1658
+district	DC36	2016	Free State	5719
+district	DC36	2016	Kwazulu-Natal	3309
+district	DC36	2016	North West	18824
+district	DC36	2016	Gauteng	27434
+district	DC36	2016	Mpumalanga	10392
+district	DC36	2016	Limpopo	637147
+district	DC36	2016	Outside South Africa	23195
+district	DC36	2016	Do not know	80
+district	DC36	2016	Unspecified	6217
+district	DC47	2016	Western Cape	352
+district	DC47	2016	Eastern Cape	1576
+district	DC47	2016	Northern Cape	507
+district	DC47	2016	Free State	1936
+district	DC47	2016	Kwazulu-Natal	1540
+district	DC47	2016	North West	3153
+district	DC47	2016	Gauteng	21837
+district	DC47	2016	Mpumalanga	49231
+district	DC47	2016	Limpopo	1075714
+district	DC47	2016	Outside South Africa	13172
+district	DC47	2016	Do not know	223
+district	DC47	2016	Unspecified	522
 municipality	WC011	2016	Western Cape	61925
 municipality	WC011	2016	Eastern Cape	2294
 municipality	WC011	2016	Northern Cape	4940
