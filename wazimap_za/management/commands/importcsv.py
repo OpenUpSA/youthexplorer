@@ -318,15 +318,15 @@ class Command(BaseCommand):
         else:
             pre = code = geo_name
 
-        if muni_re.match(geo_name):
-            level = 'municipality'
-            code = pre
-        elif 'Ward' in geo_name:
+        if 'Ward' in geo_name:
             level = 'ward'
             code = pre
         elif geo_name.startswith('DC'):
             level = 'district'
             code = pre.strip()
+        elif muni_re.match(geo_name):
+            level = 'municipality'
+            code = pre
 
         else:
             matches = []
