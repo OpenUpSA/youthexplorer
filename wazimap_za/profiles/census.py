@@ -560,6 +560,7 @@ def get_households_profile(geo, session):
     # household goods
     household_goods, _ = get_stat_data(
             ['household goods'], geo, session,
+            table_universe='Households',
             recode=HOUSEHOLD_GOODS_RECODE,
             key_order=sorted(HOUSEHOLD_GOODS_RECODE.values()))
 
