@@ -75,7 +75,7 @@ class Command(BaseCommand):
         self.dryrun = options.get('dryrun', False)
 
         if self.dryrun:
-            self.stdout.write("DRY RUN: not actuall writing data")
+            self.stdout.write("DRY RUN: not actually writing data")
 
         with open(self.filepath) as f:
             self.f = f

@@ -1,8 +1,8 @@
 from collections import OrderedDict
 
-from wazimap.geo import geo_data
+from wazimap.geo import geo_data, LocationNotFound
 from wazimap.data.tables import get_datatable
-from wazimap.data.utils import merge_dicts, group_remainder, get_stat_data, get_session, LocationNotFound
+from wazimap.data.utils import merge_dicts, group_remainder, get_stat_data, get_session
 
 
 def make_party_acronym(name):
@@ -146,6 +146,7 @@ def add_elections_media_coverage(data):
             'name': key,
             'values': {'this': perc}
         }
+        parties['metadata'] = {'release': 'Some release'}
 
     genders = OrderedDict()
     for key, perc in gender_coverage:
@@ -153,6 +154,7 @@ def add_elections_media_coverage(data):
             'name': key,
             'values': {'this': perc}
         }
+        genders['metadata'] = {'release': 'Some release'}
 
     data['national_2014']['media_coverage'] = {
         'parties': parties,

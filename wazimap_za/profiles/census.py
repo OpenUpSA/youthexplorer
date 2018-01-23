@@ -2,11 +2,11 @@ from __future__ import division
 from collections import OrderedDict
 import logging
 
-from wazimap.data.tables import get_model_from_fields, get_datatable, get_table_id
+from wazimap.data.tables import get_datatable, get_table_id
 from wazimap.data.utils import get_session, add_metadata
 from wazimap.geo import geo_data
 
-from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, get_objects_by_geo, percent)
+from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data,  percent)
 
 from .elections import get_elections_profile
 
@@ -16,12 +16,12 @@ log = logging.getLogger(__name__)
 
 PROFILE_SECTIONS = (
     'demographics',  # population group, age group in 5 years, age in completed years
-    'economics',  # individual monthly income, type of sector, official employment status
-    'service_delivery',  # source of water, refuse disposal
-    'education',  # highest educational level
-    'households',  # household heads, etc.
-    'children',  # child-related stats
-    'child_households',  # households headed by children
+    # 'economics',  # individual monthly income, type of sector, official employment status
+    # 'service_delivery',  # source of water, refuse disposal
+    # 'education',  # highest educational level
+    # 'households',  # household heads, etc.
+    # 'children',  # child-related stats
+    # 'child_households',  # households headed by children
 )
 
 # Education categories
@@ -364,14 +364,14 @@ def get_profile(geo, profile_name, request):
 
     # tweaks to make the data nicer
     # show 3 largest groups on their own and group the rest as 'Other'
-    group_remainder(data['service_delivery']['water_source_distribution'], 5)
-    group_remainder(data['service_delivery']['refuse_disposal_distribution'], 5)
-    group_remainder(data['service_delivery']['toilet_facilities_distribution'], 5)
+    # group_remainder(data['service_delivery']['water_source_distribution'], 5)
+    # group_remainder(data['service_delivery']['refuse_disposal_distribution'], 5)
+    # group_remainder(data['service_delivery']['toilet_facilities_distribution'], 5)
     group_remainder(data['demographics']['language_distribution'], 7)
     group_remainder(data['demographics']['province_of_birth_distribution'], 7)
     group_remainder(data['demographics']['region_of_birth_distribution'], 5)
-    group_remainder(data['households']['type_of_dwelling_distribution'], 5)
-    group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
+    # group_remainder(data['households']['type_of_dwelling_distribution'], 5)
+    # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
     data['elections'] = get_elections_profile(geo)
 
@@ -381,17 +381,20 @@ def get_profile(geo, profile_name, request):
 def get_demographics_profile(geo, session):
     # population group
     pop_dist_data, total_pop = get_stat_data(
-            ['population group'], geo, session, table_dataset='Census 2011')
+            ['population group'], geo, session,
+            table_dataset='Census and Community Survey')
 
     # language
     language_data, _ = get_stat_data(
-            ['language'], geo, session, order_by='-total')
+            ['language'], geo, session,
+            table_dataset='Census and Community Survey',
+            order_by='-total')
     language_most_spoken = language_data[language_data.keys()[0]]
 
     # age groups
     age_dist_data, total_age = get_stat_data(
             ['age groups in 5 years'], geo, session,
-            table_name='agegroupsin5years',
+            table_dataset='Census and Community Survey',
             recode=COLLAPSED_AGE_CATEGORIES,
             key_order=('0-9', '10-19',
                        '20-29', '30-39',
@@ -401,7 +404,9 @@ def get_demographics_profile(geo, session):
 
     # sex
     sex_data, _ = get_stat_data(
-            ['gender'], geo, session, table_name='gender')
+            ['gender'], geo, session,
+            table_universe='Population',
+            table_dataset='Census and Community Survey')
 
     final_data = {
         'language_distribution': language_data,
@@ -422,14 +427,13 @@ def get_demographics_profile(geo, session):
         }
 
     # median age/age category
-    db_model_age = get_model_from_fields(
-        ['age in completed years'], geo.geo_level,
-        table_name='ageincompletedyears'
-    )
+    age_table = get_datatable('ageincompletedyears')
+
     objects = sorted(
-        get_objects_by_geo(db_model_age, geo, session),
+        age_table.get_rows_for_geo(geo, session),
         key=lambda x: int(getattr(x, 'age in completed years'))
     )
+
     # median age
     median = calculate_median(objects, 'age in completed years')
     final_data['median_age'] = {
@@ -440,6 +444,7 @@ def get_demographics_profile(geo, session):
     # age category
     age_dist, _ = get_stat_data(
         ['age in completed years'], geo, session,
+        table_dataset='Census and Community Survey',
         table_name='ageincompletedyearssimplified',
         key_order=['Under 18', '18 to 64', '65 and over'],
         recode={'< 18': 'Under 18',
@@ -449,6 +454,7 @@ def get_demographics_profile(geo, session):
     # citizenship
     citizenship_dist, _ = get_stat_data(
             ['citizenship'], geo, session,
+            table_dataset='Census and Community Survey',
             order_by='-total')
 
     sa_citizen = citizenship_dist['Yes']['numerators']['this']
@@ -463,6 +469,7 @@ def get_demographics_profile(geo, session):
     # migration
     province_of_birth_dist, _ = get_stat_data(
             ['province of birth'], geo, session,
+            table_dataset='Census and Community Survey',
             exclude_zero=True, order_by='-total')
 
     final_data['province_of_birth_distribution'] = province_of_birth_dist
@@ -477,6 +484,7 @@ def get_demographics_profile(geo, session):
 
     region_of_birth_dist, _ = get_stat_data(
             ['region of birth'], geo, session,
+            table_dataset='Census and Community Survey',
             exclude_zero=True, order_by='-total',
             recode=region_recode)
 
@@ -1077,9 +1085,8 @@ def get_crime_profile(geo, session):
         percent=False)
 
     table = get_datatable(get_table_id(['crime']))
-
     return {
-        'dataset': table.dataset_name,
+        'dataset': table.dataset.name,
         'crime_against_children': {
             'name': 'Crimes of neglect and ill-treatment of children in 2014',
             'values': {'this': total},

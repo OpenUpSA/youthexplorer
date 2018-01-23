@@ -57,6 +57,14 @@ class Command(BaseCommand):
             required=True,
             help='The geography demarcation version that this table refers to'
         )
+        parser.add_argument(
+            '--release-year',
+            action='store',
+            dest='release_year',
+            default=None,
+            required=True,
+            help='The release year of the data to import'
+        )
 
     def debug(self, msg):
         if self.verbosity >= 2:
@@ -69,12 +77,13 @@ class Command(BaseCommand):
         self.table_id = options.get('table')
         self.dryrun = options.get('dryrun', False)
         self.geo_version = options.get('geo_version')
+        self.release_year = options.get('release_year')
         self.provinces = {g.name.lower(): g for g in geo_data.geo_model.objects.filter(version=self.geo_version).filter(geo_level='province')}
         self.districts = {g.name.lower(): g for g in geo_data.geo_model.objects.filter(version=self.geo_version).filter(geo_level='district')}
         self.metros = {g.name.lower(): g for g in geo_data.geo_model.objects.filter(version=self.geo_version).filter(geo_level='municipality').filter(parent_level='province')}
 
         if self.dryrun:
-            self.stdout.write("DRY RUN: not actuall writing data")
+            self.stdout.write("DRY RUN: not actually writing data")
 
         with open(self.filepath) as f:
             self.f = f
@@ -243,7 +252,7 @@ class Command(BaseCommand):
     def setup_table(self):
         table_id = self.table_id or get_table_id(self.fields)
         try:
-            self.table = get_datatable(table_id)
+            self.table = get_datatable(table_id).get_db_table(year=self.release_year)
             self.stdout.write("Table for fields %s is %s" % (self.fields, self.table.id))
         except KeyError:
             raise CommandError("Couldn't establish which table to use for these fields. Have you added a FieldTable entry in wazimap_za/tables.py?\nFields: %s" % self.fields)
@@ -309,15 +318,15 @@ class Command(BaseCommand):
         else:
             pre = code = geo_name
 
-        if muni_re.match(geo_name):
-            level = 'municipality'
-            code = pre
-        elif 'Ward' in geo_name:
+        if 'Ward' in geo_name:
             level = 'ward'
             code = pre
         elif geo_name.startswith('DC'):
             level = 'district'
             code = pre.strip()
+        elif muni_re.match(geo_name):
+            level = 'municipality'
+            code = pre
 
         else:
             matches = []
