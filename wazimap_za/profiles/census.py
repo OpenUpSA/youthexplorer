@@ -508,6 +508,7 @@ def get_households_profile(geo, session):
     # gender
     head_gender_dist, total_households = get_stat_data(
             ['gender of household head'], geo, session,
+            table_universe='Households',
             table_dataset='Census and Community Survey',
             order_by='gender of household head')
     female_heads = head_gender_dist['Female']['numerators']['this']
@@ -547,6 +548,8 @@ def get_households_profile(geo, session):
     # type of dwelling
     type_of_dwelling_dist, _ = get_stat_data(
             ['type of dwelling'], geo, session,
+            table_universe='Households',
+            table_dataset='Census and Community Survey',
             recode=TYPE_OF_DWELLING_RECODE,
             order_by='-total')
     informal = type_of_dwelling_dist['Shack']['numerators']['this']
