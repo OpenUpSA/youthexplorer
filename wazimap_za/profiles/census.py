@@ -371,6 +371,7 @@ def get_profile(geo, profile_name, request):
     group_remainder(data['demographics']['province_of_birth_distribution'], 7)
     group_remainder(data['demographics']['region_of_birth_distribution'], 5)
     group_remainder(data['households']['type_of_dwelling_distribution'], 5)
+    group_remainder(data['households']['tenure_distribution'], 6)
     # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
     data['elections'] = get_elections_profile(geo)
@@ -522,6 +523,7 @@ def get_households_profile(geo, session):
     # tenure
     tenure_data, _ = get_stat_data(
             ['tenure status'], geo, session,
+            table_universe='Households',
             recode=HOUSEHOLD_OWNERSHIP_RECODE,
             order_by='tenure status')
     owned = 0
@@ -536,6 +538,7 @@ def get_households_profile(geo, session):
         HOUSEHOLD_INCOME_RECODE = COLLAPSED_ANNUAL_INCOME_CATEGORIES
     income_dist_data, _ = get_stat_data(
             ['annual household income'], geo, session,
+            table_universe='Households',
             exclude=['Unspecified', 'Not applicable'],
             recode=HOUSEHOLD_INCOME_RECODE,
             key_order=HOUSEHOLD_INCOME_RECODE.values(),
