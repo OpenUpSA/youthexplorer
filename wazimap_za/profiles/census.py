@@ -373,7 +373,7 @@ def get_profile(geo, profile_name, request):
     # group_remainder(data['households']['type_of_dwelling_distribution'], 5)
     # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
-    # data['elections'] = get_elections_profile(geo)
+    data['elections'] = get_elections_profile(geo)
 
     return data
 

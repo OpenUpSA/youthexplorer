@@ -146,6 +146,7 @@ def add_elections_media_coverage(data):
             'name': key,
             'values': {'this': perc}
         }
+        parties['metadata'] = {'release': 'Some release'}
 
     genders = OrderedDict()
     for key, perc in gender_coverage:
@@ -153,6 +154,7 @@ def add_elections_media_coverage(data):
             'name': key,
             'values': {'this': perc}
         }
+        genders['metadata'] = {'release': 'Some release'}
 
     data['national_2014']['media_coverage'] = {
         'parties': parties,
