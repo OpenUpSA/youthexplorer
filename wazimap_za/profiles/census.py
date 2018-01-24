@@ -19,7 +19,7 @@ PROFILE_SECTIONS = (
     # 'economics',  # individual monthly income, type of sector, official employment status
     # 'service_delivery',  # source of water, refuse disposal
     # 'education',  # highest educational level
-    # 'households',  # household heads, etc.
+    'households',  # household heads, etc.
     # 'children',  # child-related stats
     # 'child_households',  # households headed by children
 )
@@ -370,7 +370,8 @@ def get_profile(geo, profile_name, request):
     group_remainder(data['demographics']['language_distribution'], 7)
     group_remainder(data['demographics']['province_of_birth_distribution'], 7)
     group_remainder(data['demographics']['region_of_birth_distribution'], 5)
-    # group_remainder(data['households']['type_of_dwelling_distribution'], 5)
+    group_remainder(data['households']['type_of_dwelling_distribution'], 5)
+    group_remainder(data['households']['tenure_distribution'], 6)
     # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
     data['elections'] = get_elections_profile(geo)
@@ -508,20 +509,20 @@ def get_households_profile(geo, session):
     # gender
     head_gender_dist, total_households = get_stat_data(
             ['gender of household head'], geo, session,
+            table_universe='Households',
             order_by='gender of household head')
     female_heads = head_gender_dist['Female']['numerators']['this']
 
     # age
-    db_model_u18 = get_model_from_fields(
-        ['gender of head of household'], geo.geo_level,
-        table_name='genderofheadofhouseholdunder18'
-    )
-    objects = get_objects_by_geo(db_model_u18, geo, session)
+    u18_table = get_datatable('genderofheadofhouseholdunder18')
+    objects = u18_table.get_rows_for_geo(geo, session)
+
     total_under_18 = float(sum(o[0] for o in objects))
 
     # tenure
     tenure_data, _ = get_stat_data(
             ['tenure status'], geo, session,
+            table_universe='Households',
             recode=HOUSEHOLD_OWNERSHIP_RECODE,
             order_by='tenure status')
     owned = 0
@@ -536,10 +537,10 @@ def get_households_profile(geo, session):
         HOUSEHOLD_INCOME_RECODE = COLLAPSED_ANNUAL_INCOME_CATEGORIES
     income_dist_data, _ = get_stat_data(
             ['annual household income'], geo, session,
+            table_universe='Households',
             exclude=['Unspecified', 'Not applicable'],
             recode=HOUSEHOLD_INCOME_RECODE,
-            key_order=HOUSEHOLD_INCOME_RECODE.values(),
-            table_name='annualhouseholdincome_genderofhouseholdhead')
+            key_order=HOUSEHOLD_INCOME_RECODE.values())
 
     # median income
     median = calculate_median_stat(income_dist_data)
@@ -548,6 +549,7 @@ def get_households_profile(geo, session):
     # type of dwelling
     type_of_dwelling_dist, _ = get_stat_data(
             ['type of dwelling'], geo, session,
+            table_universe='Households',
             recode=TYPE_OF_DWELLING_RECODE,
             order_by='-total')
     informal = type_of_dwelling_dist['Shack']['numerators']['this']
@@ -555,6 +557,7 @@ def get_households_profile(geo, session):
     # household goods
     household_goods, _ = get_stat_data(
             ['household goods'], geo, session,
+            table_universe='Households',
             recode=HOUSEHOLD_GOODS_RECODE,
             key_order=sorted(HOUSEHOLD_GOODS_RECODE.values()))
 
