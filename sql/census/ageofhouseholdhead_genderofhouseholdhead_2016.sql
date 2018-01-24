@@ -54,7 +54,7 @@ province	WC	2016	Male	60 – 69	143930
 province	WC	2016	Male	70 – 79	62477
 province	WC	2016	Male	80+	16865
 province	WC	2016	Female	10 – 14	115
-province	WC	2016	Female	15 – 17	4499
+province	WC	2016	Female	15 – 17	2259
 province	WC	2016	Female	18 – 19	4334
 province	WC	2016	Female	20 – 29	89676
 province	WC	2016	Female	30 – 39	156779
@@ -74,7 +74,7 @@ province	EC	2016	Male	60 – 69	103741
 province	EC	2016	Male	70 – 79	45723
 province	EC	2016	Male	80+	15756
 province	EC	2016	Female	10 – 14	1352
-province	EC	2016	Female	15 – 17	20344
+province	EC	2016	Female	15 – 17	7325
 province	EC	2016	Female	18 – 19	10801
 province	EC	2016	Female	20 – 29	114889
 province	EC	2016	Female	30 – 39	158084
@@ -94,7 +94,7 @@ province	NC	2016	Male	60 – 69	25968
 province	NC	2016	Male	70 – 79	11664
 province	NC	2016	Male	80+	3369
 province	NC	2016	Female	10 – 14	25
-province	NC	2016	Female	15 – 17	713
+province	NC	2016	Female	15 – 17	308
 province	NC	2016	Female	18 – 19	783
 province	NC	2016	Female	20 – 29	14480
 province	NC	2016	Female	30 – 39	27094
@@ -114,7 +114,7 @@ province	FS	2016	Male	60 – 69	57896
 province	FS	2016	Male	70 – 79	23311
 province	FS	2016	Male	80+	7541
 province	FS	2016	Female	10 – 14	172
-province	FS	2016	Female	15 – 17	4914
+province	FS	2016	Female	15 – 17	1980
 province	FS	2016	Female	18 – 19	3537
 province	FS	2016	Female	20 – 29	49339
 province	FS	2016	Female	30 – 39	78073
@@ -134,7 +134,7 @@ province	KZN	2016	Male	60 – 69	168947
 province	KZN	2016	Male	70 – 79	67880
 province	KZN	2016	Male	80+	19008
 province	KZN	2016	Female	10 – 14	807
-province	KZN	2016	Female	15 – 17	17887
+province	KZN	2016	Female	15 – 17	6760
 province	KZN	2016	Female	18 – 19	10702
 province	KZN	2016	Female	20 – 29	176590
 province	KZN	2016	Female	30 – 39	280939
@@ -154,7 +154,7 @@ province	NW	2016	Male	60 – 69	77856
 province	NW	2016	Male	70 – 79	29349
 province	NW	2016	Male	80+	10126
 province	NW	2016	Female	10 – 14	342
-province	NW	2016	Female	15 – 17	6879
+province	NW	2016	Female	15 – 17	2145
 province	NW	2016	Female	18 – 19	4509
 province	NW	2016	Female	20 – 29	53736
 province	NW	2016	Female	30 – 39	87194
@@ -174,7 +174,7 @@ province	GT	2016	Male	60 – 69	317652
 province	GT	2016	Male	70 – 79	122020
 province	GT	2016	Male	80+	31140
 province	GT	2016	Female	10 – 14	781
-province	GT	2016	Female	15 – 17	13633
+province	GT	2016	Female	15 – 17	5458
 province	GT	2016	Female	18 – 19	14360
 province	GT	2016	Female	20 – 29	237027
 province	GT	2016	Female	30 – 39	391126
@@ -194,7 +194,7 @@ province	MP	2016	Male	60 – 69	65915
 province	MP	2016	Male	70 – 79	25741
 province	MP	2016	Male	80+	9389
 province	MP	2016	Female	10 – 14	449
-province	MP	2016	Female	15 – 17	7756
+province	MP	2016	Female	15 – 17	2696
 province	MP	2016	Female	18 – 19	4338
 province	MP	2016	Female	20 – 29	64696
 province	MP	2016	Female	30 – 39	105897
@@ -214,7 +214,7 @@ province	LIM	2016	Male	60 – 69	78502
 province	LIM	2016	Male	70 – 79	35218
 province	LIM	2016	Male	80+	13503
 province	LIM	2016	Female	10 – 14	1847
-province	LIM	2016	Female	15 – 17	22251
+province	LIM	2016	Female	15 – 17	7747
 province	LIM	2016	Female	18 – 19	10500
 province	LIM	2016	Female	20 – 29	99133
 province	LIM	2016	Female	30 – 39	152177
@@ -234,7 +234,7 @@ municipality	CPT	2016	Male	60 – 69	90926
 municipality	CPT	2016	Male	70 – 79	38212
 municipality	CPT	2016	Male	80+	10189
 municipality	CPT	2016	Female	10 – 14	92
-municipality	CPT	2016	Female	15 – 17	2875
+municipality	CPT	2016	Female	15 – 17	1557
 municipality	CPT	2016	Female	18 – 19	2942
 municipality	CPT	2016	Female	20 – 29	60682
 municipality	CPT	2016	Female	30 – 39	109101
@@ -254,7 +254,7 @@ district	DC1	2016	Male	60 – 69	10290
 district	DC1	2016	Male	70 – 79	4012
 district	DC1	2016	Male	80+	1010
 district	DC1	2016	Female	10 – 14	0
-district	DC1	2016	Female	15 – 17	189
+district	DC1	2016	Female	15 – 17	87
 district	DC1	2016	Female	18 – 19	291
 district	DC1	2016	Female	20 – 29	5434
 district	DC1	2016	Female	30 – 39	9502
@@ -274,7 +274,7 @@ district	DC2	2016	Male	60 – 69	17436
 district	DC2	2016	Male	70 – 79	6084
 district	DC2	2016	Male	80+	1432
 district	DC2	2016	Female	10 – 14	0
-district	DC2	2016	Female	15 – 17	382
+district	DC2	2016	Female	15 – 17	209
 district	DC2	2016	Female	18 – 19	585
 district	DC2	2016	Female	20 – 29	11278
 district	DC2	2016	Female	30 – 39	16780
@@ -294,7 +294,7 @@ district	DC3	2016	Male	60 – 69	7328
 district	DC3	2016	Male	70 – 79	4267
 district	DC3	2016	Male	80+	1345
 district	DC3	2016	Female	10 – 14	0
-district	DC3	2016	Female	15 – 17	241
+district	DC3	2016	Female	15 – 17	67
 district	DC3	2016	Female	18 – 19	95
 district	DC3	2016	Female	20 – 29	3677
 district	DC3	2016	Female	30 – 39	6272
@@ -314,7 +314,7 @@ district	DC4	2016	Male	60 – 69	16086
 district	DC4	2016	Male	70 – 79	9033
 district	DC4	2016	Male	80+	2688
 district	DC4	2016	Female	10 – 14	23
-district	DC4	2016	Female	15 – 17	812
+district	DC4	2016	Female	15 – 17	339
 district	DC4	2016	Female	18 – 19	334
 district	DC4	2016	Female	20 – 29	7340
 district	DC4	2016	Female	30 – 39	13539
@@ -354,7 +354,7 @@ municipality	BUF	2016	Male	60 – 69	13576
 municipality	BUF	2016	Male	70 – 79	5214
 municipality	BUF	2016	Male	80+	1563
 municipality	BUF	2016	Female	10 – 14	54
-municipality	BUF	2016	Female	15 – 17	793
+municipality	BUF	2016	Female	15 – 17	232
 municipality	BUF	2016	Female	18 – 19	795
 municipality	BUF	2016	Female	20 – 29	14020
 municipality	BUF	2016	Female	30 – 39	24091
@@ -374,7 +374,7 @@ district	DC10	2016	Male	60 – 69	10113
 district	DC10	2016	Male	70 – 79	4348
 district	DC10	2016	Male	80+	1664
 district	DC10	2016	Female	10 – 14	0
-district	DC10	2016	Female	15 – 17	478
+district	DC10	2016	Female	15 – 17	288
 district	DC10	2016	Female	18 – 19	551
 district	DC10	2016	Female	20 – 29	5971
 district	DC10	2016	Female	30 – 39	10959
@@ -394,7 +394,7 @@ district	DC12	2016	Male	60 – 69	11785
 district	DC12	2016	Male	70 – 79	5595
 district	DC12	2016	Male	80+	2108
 district	DC12	2016	Female	10 – 14	183
-district	DC12	2016	Female	15 – 17	3499
+district	DC12	2016	Female	15 – 17	1340
 district	DC12	2016	Female	18 – 19	1656
 district	DC12	2016	Female	20 – 29	14974
 district	DC12	2016	Female	30 – 39	16982
@@ -414,7 +414,7 @@ district	DC13	2016	Male	60 – 69	12002
 district	DC13	2016	Male	70 – 79	5785
 district	DC13	2016	Male	80+	1975
 district	DC13	2016	Female	10 – 14	342
-district	DC13	2016	Female	15 – 17	2787
+district	DC13	2016	Female	15 – 17	975
 district	DC13	2016	Female	18 – 19	1237
 district	DC13	2016	Female	20 – 29	12004
 district	DC13	2016	Female	30 – 39	15611
@@ -434,7 +434,7 @@ district	DC14	2016	Male	60 – 69	4832
 district	DC14	2016	Male	70 – 79	2177
 district	DC14	2016	Male	80+	699
 district	DC14	2016	Female	10 – 14	95
-district	DC14	2016	Female	15 – 17	1461
+district	DC14	2016	Female	15 – 17	503
 district	DC14	2016	Female	18 – 19	659
 district	DC14	2016	Female	20 – 29	6396
 district	DC14	2016	Female	30 – 39	9073
@@ -454,7 +454,7 @@ district	DC15	2016	Male	60 – 69	13112
 district	DC15	2016	Male	70 – 79	6271
 district	DC15	2016	Male	80+	2711
 district	DC15	2016	Female	10 – 14	412
-district	DC15	2016	Female	15 – 17	6330
+district	DC15	2016	Female	15 – 17	2452
 district	DC15	2016	Female	18 – 19	3052
 district	DC15	2016	Female	20 – 29	29660
 district	DC15	2016	Female	30 – 39	34719
@@ -474,7 +474,7 @@ district	DC44	2016	Male	60 – 69	10489
 district	DC44	2016	Male	70 – 79	5150
 district	DC44	2016	Male	80+	2121
 district	DC44	2016	Female	10 – 14	262
-district	DC44	2016	Female	15 – 17	4241
+district	DC44	2016	Female	15 – 17	1159
 district	DC44	2016	Female	18 – 19	2106
 district	DC44	2016	Female	20 – 29	17124
 district	DC44	2016	Female	30 – 39	19416
@@ -494,7 +494,7 @@ municipality	NMA	2016	Male	60 – 69	27832
 municipality	NMA	2016	Male	70 – 79	11184
 municipality	NMA	2016	Male	80+	2915
 municipality	NMA	2016	Female	10 – 14	3
-municipality	NMA	2016	Female	15 – 17	753
+municipality	NMA	2016	Female	15 – 17	375
 municipality	NMA	2016	Female	18 – 19	745
 municipality	NMA	2016	Female	20 – 29	14739
 municipality	NMA	2016	Female	30 – 39	27233
@@ -514,7 +514,7 @@ district	DC45	2016	Male	60 – 69	4088
 district	DC45	2016	Male	70 – 79	1933
 district	DC45	2016	Male	80+	707
 district	DC45	2016	Female	10 – 14	4
-district	DC45	2016	Female	15 – 17	157
+district	DC45	2016	Female	15 – 17	65
 district	DC45	2016	Female	18 – 19	326
 district	DC45	2016	Female	20 – 29	3624
 district	DC45	2016	Female	30 – 39	6441
@@ -534,7 +534,7 @@ district	DC6	2016	Male	60 – 69	4236
 district	DC6	2016	Male	70 – 79	2360
 district	DC6	2016	Male	80+	383
 district	DC6	2016	Female	10 – 14	0
-district	DC6	2016	Female	15 – 17	27
+district	DC6	2016	Female	15 – 17	13
 district	DC6	2016	Female	18 – 19	13
 district	DC6	2016	Female	20 – 29	1309
 district	DC6	2016	Female	30 – 39	2524
@@ -554,7 +554,7 @@ district	DC7	2016	Male	60 – 69	4121
 district	DC7	2016	Male	70 – 79	1602
 district	DC7	2016	Male	80+	531
 district	DC7	2016	Female	10 – 14	21
-district	DC7	2016	Female	15 – 17	223
+district	DC7	2016	Female	15 – 17	109
 district	DC7	2016	Female	18 – 19	71
 district	DC7	2016	Female	20 – 29	2577
 district	DC7	2016	Female	30 – 39	4224
@@ -574,7 +574,7 @@ district	DC8	2016	Male	60 – 69	4319
 district	DC8	2016	Male	70 – 79	1963
 district	DC8	2016	Male	80+	469
 district	DC8	2016	Female	10 – 14	0
-district	DC8	2016	Female	15 – 17	91
+district	DC8	2016	Female	15 – 17	68
 district	DC8	2016	Female	18 – 19	201
 district	DC8	2016	Female	20 – 29	3517
 district	DC8	2016	Female	30 – 39	6282
@@ -594,7 +594,7 @@ district	DC9	2016	Male	60 – 69	9204
 district	DC9	2016	Male	70 – 79	3806
 district	DC9	2016	Male	80+	1278
 district	DC9	2016	Female	10 – 14	0
-district	DC9	2016	Female	15 – 17	214
+district	DC9	2016	Female	15 – 17	53
 district	DC9	2016	Female	18 – 19	172
 district	DC9	2016	Female	20 – 29	3453
 district	DC9	2016	Female	30 – 39	7622
@@ -614,7 +614,7 @@ district	DC16	2016	Male	60 – 69	2856
 district	DC16	2016	Male	70 – 79	1443
 district	DC16	2016	Male	80+	351
 district	DC16	2016	Female	10 – 14	0
-district	DC16	2016	Female	15 – 17	286
+district	DC16	2016	Female	15 – 17	112
 district	DC16	2016	Female	18 – 19	204
 district	DC16	2016	Female	20 – 29	2147
 district	DC16	2016	Female	30 – 39	3600
@@ -634,7 +634,7 @@ district	DC18	2016	Male	60 – 69	14170
 district	DC18	2016	Male	70 – 79	5345
 district	DC18	2016	Male	80+	1855
 district	DC18	2016	Female	10 – 14	60
-district	DC18	2016	Female	15 – 17	802
+district	DC18	2016	Female	15 – 17	245
 district	DC18	2016	Female	18 – 19	751
 district	DC18	2016	Female	20 – 29	9825
 district	DC18	2016	Female	30 – 39	17252
@@ -654,7 +654,7 @@ district	DC19	2016	Male	60 – 69	13140
 district	DC19	2016	Male	70 – 79	5018
 district	DC19	2016	Male	80+	1855
 district	DC19	2016	Female	10 – 14	13
-district	DC19	2016	Female	15 – 17	1882
+district	DC19	2016	Female	15 – 17	715
 district	DC19	2016	Female	18 – 19	841
 district	DC19	2016	Female	20 – 29	14872
 district	DC19	2016	Female	30 – 39	23275
@@ -674,7 +674,7 @@ district	DC20	2016	Male	60 – 69	12051
 district	DC20	2016	Male	70 – 79	5515
 district	DC20	2016	Male	80+	1763
 district	DC20	2016	Female	10 – 14	24
-district	DC20	2016	Female	15 – 17	727
+district	DC20	2016	Female	15 – 17	316
 district	DC20	2016	Female	18 – 19	497
 district	DC20	2016	Female	20 – 29	7181
 district	DC20	2016	Female	30 – 39	12537
@@ -694,7 +694,7 @@ municipality	MAN	2016	Male	60 – 69	15681
 municipality	MAN	2016	Male	70 – 79	5991
 municipality	MAN	2016	Male	80+	1717
 municipality	MAN	2016	Female	10 – 14	75
-municipality	MAN	2016	Female	15 – 17	1216
+municipality	MAN	2016	Female	15 – 17	591
 municipality	MAN	2016	Female	18 – 19	1244
 municipality	MAN	2016	Female	20 – 29	15315
 municipality	MAN	2016	Female	30 – 39	21408
@@ -714,7 +714,7 @@ district	DC21	2016	Male	60 – 69	9789
 district	DC21	2016	Male	70 – 79	3849
 district	DC21	2016	Male	80+	1186
 district	DC21	2016	Female	10 – 14	137
-district	DC21	2016	Female	15 – 17	1461
+district	DC21	2016	Female	15 – 17	330
 district	DC21	2016	Female	18 – 19	924
 district	DC21	2016	Female	20 – 29	11543
 district	DC21	2016	Female	30 – 39	17308
@@ -734,7 +734,7 @@ district	DC22	2016	Male	60 – 69	16256
 district	DC22	2016	Male	70 – 79	5805
 district	DC22	2016	Male	80+	1597
 district	DC22	2016	Female	10 – 14	9
-district	DC22	2016	Female	15 – 17	1487
+district	DC22	2016	Female	15 – 17	801
 district	DC22	2016	Female	18 – 19	1180
 district	DC22	2016	Female	20 – 29	19257
 district	DC22	2016	Female	30 – 39	29489
@@ -754,7 +754,7 @@ district	DC23	2016	Male	60 – 69	9014
 district	DC23	2016	Male	70 – 79	3379
 district	DC23	2016	Male	80+	1141
 district	DC23	2016	Female	10 – 14	47
-district	DC23	2016	Female	15 – 17	1474
+district	DC23	2016	Female	15 – 17	458
 district	DC23	2016	Female	18 – 19	651
 district	DC23	2016	Female	20 – 29	10129
 district	DC23	2016	Female	30 – 39	15728
@@ -774,7 +774,7 @@ district	DC24	2016	Male	60 – 69	5329
 district	DC24	2016	Male	70 – 79	2500
 district	DC24	2016	Male	80+	770
 district	DC24	2016	Female	10 – 14	72
-district	DC24	2016	Female	15 – 17	1903
+district	DC24	2016	Female	15 – 17	641
 district	DC24	2016	Female	18 – 19	706
 district	DC24	2016	Female	20 – 29	9870
 district	DC24	2016	Female	30 – 39	14362
@@ -794,7 +794,7 @@ district	DC25	2016	Male	60 – 69	7217
 district	DC25	2016	Male	70 – 79	2528
 district	DC25	2016	Male	80+	674
 district	DC25	2016	Female	10 – 14	0
-district	DC25	2016	Female	15 – 17	770
+district	DC25	2016	Female	15 – 17	279
 district	DC25	2016	Female	18 – 19	505
 district	DC25	2016	Female	20 – 29	7179
 district	DC25	2016	Female	30 – 39	10923
@@ -814,7 +814,7 @@ district	DC26	2016	Male	60 – 69	8935
 district	DC26	2016	Male	70 – 79	4433
 district	DC26	2016	Male	80+	1505
 district	DC26	2016	Female	10 – 14	61
-district	DC26	2016	Female	15 – 17	1880
+district	DC26	2016	Female	15 – 17	618
 district	DC26	2016	Female	18 – 19	1011
 district	DC26	2016	Female	20 – 29	12911
 district	DC26	2016	Female	30 – 39	19017
@@ -834,7 +834,7 @@ district	DC27	2016	Male	60 – 69	6351
 district	DC27	2016	Male	70 – 79	3140
 district	DC27	2016	Male	80+	1553
 district	DC27	2016	Female	10 – 14	80
-district	DC27	2016	Female	15 – 17	2141
+district	DC27	2016	Female	15 – 17	1005
 district	DC27	2016	Female	18 – 19	882
 district	DC27	2016	Female	20 – 29	9589
 district	DC27	2016	Female	30 – 39	17935
@@ -854,7 +854,7 @@ district	DC28	2016	Male	60 – 69	11895
 district	DC28	2016	Male	70 – 79	4617
 district	DC28	2016	Male	80+	1483
 district	DC28	2016	Female	10 – 14	110
-district	DC28	2016	Female	15 – 17	1406
+district	DC28	2016	Female	15 – 17	493
 district	DC28	2016	Female	18 – 19	1048
 district	DC28	2016	Female	20 – 29	14915
 district	DC28	2016	Female	30 – 39	22364
@@ -874,7 +874,7 @@ district	DC29	2016	Male	60 – 69	10907
 district	DC29	2016	Male	70 – 79	5278
 district	DC29	2016	Male	80+	1312
 district	DC29	2016	Female	10 – 14	0
-district	DC29	2016	Female	15 – 17	1053
+district	DC29	2016	Female	15 – 17	372
 district	DC29	2016	Female	18 – 19	506
 district	DC29	2016	Female	20 – 29	11998
 district	DC29	2016	Female	30 – 39	18851
@@ -894,7 +894,7 @@ district	DC43	2016	Male	60 – 69	5416
 district	DC43	2016	Male	70 – 79	2202
 district	DC43	2016	Male	80+	786
 district	DC43	2016	Female	10 – 14	178
-district	DC43	2016	Female	15 – 17	1613
+district	DC43	2016	Female	15 – 17	531
 district	DC43	2016	Female	18 – 19	651
 district	DC43	2016	Female	20 – 29	11132
 district	DC43	2016	Female	30 – 39	13223
@@ -914,7 +914,7 @@ municipality	ETH	2016	Male	60 – 69	77838
 municipality	ETH	2016	Male	70 – 79	30149
 municipality	ETH	2016	Male	80+	7001
 municipality	ETH	2016	Female	10 – 14	112
-municipality	ETH	2016	Female	15 – 17	2699
+municipality	ETH	2016	Female	15 – 17	1232
 municipality	ETH	2016	Female	18 – 19	2640
 municipality	ETH	2016	Female	20 – 29	58067
 municipality	ETH	2016	Female	30 – 39	101738
@@ -934,7 +934,7 @@ district	DC37	2016	Male	60 – 69	37765
 district	DC37	2016	Male	70 – 79	13314
 district	DC37	2016	Male	80+	4681
 district	DC37	2016	Female	10 – 14	99
-district	DC37	2016	Female	15 – 17	2415
+district	DC37	2016	Female	15 – 17	619
 district	DC37	2016	Female	18 – 19	1300
 district	DC37	2016	Female	20 – 29	20920
 district	DC37	2016	Female	30 – 39	36656
@@ -954,7 +954,7 @@ district	DC38	2016	Male	60 – 69	16586
 district	DC38	2016	Male	70 – 79	6649
 district	DC38	2016	Male	80+	2257
 district	DC38	2016	Female	10 – 14	150
-district	DC38	2016	Female	15 – 17	2339
+district	DC38	2016	Female	15 – 17	917
 district	DC38	2016	Female	18 – 19	1555
 district	DC38	2016	Female	20 – 29	13831
 district	DC38	2016	Female	30 – 39	21107
@@ -974,7 +974,7 @@ district	DC39	2016	Male	60 – 69	8445
 district	DC39	2016	Male	70 – 79	3641
 district	DC39	2016	Male	80+	1425
 district	DC39	2016	Female	10 – 14	43
-district	DC39	2016	Female	15 – 17	1187
+district	DC39	2016	Female	15 – 17	322
 district	DC39	2016	Female	18 – 19	270
 district	DC39	2016	Female	20 – 29	6496
 district	DC39	2016	Female	30 – 39	10680
@@ -994,7 +994,7 @@ district	DC40	2016	Male	60 – 69	15059
 district	DC40	2016	Male	70 – 79	5744
 district	DC40	2016	Male	80+	1763
 district	DC40	2016	Female	10 – 14	51
-district	DC40	2016	Female	15 – 17	938
+district	DC40	2016	Female	15 – 17	288
 district	DC40	2016	Female	18 – 19	1384
 district	DC40	2016	Female	20 – 29	12489
 district	DC40	2016	Female	30 – 39	18752
@@ -1014,7 +1014,7 @@ district	DC42	2016	Male	60 – 69	24334
 district	DC42	2016	Male	70 – 79	9978
 district	DC42	2016	Male	80+	2710
 district	DC42	2016	Female	10 – 14	52
-district	DC42	2016	Female	15 – 17	1004
+district	DC42	2016	Female	15 – 17	282
 district	DC42	2016	Female	18 – 19	1000
 district	DC42	2016	Female	20 – 29	13437
 district	DC42	2016	Female	30 – 39	21945
@@ -1034,7 +1034,7 @@ district	DC48	2016	Male	60 – 69	25670
 district	DC48	2016	Male	70 – 79	7394
 district	DC48	2016	Male	80+	1912
 district	DC48	2016	Female	10 – 14	65
-district	DC48	2016	Female	15 – 17	1333
+district	DC48	2016	Female	15 – 17	484
 district	DC48	2016	Female	18 – 19	745
 district	DC48	2016	Female	20 – 29	12684
 district	DC48	2016	Female	30 – 39	21246
@@ -1054,7 +1054,7 @@ municipality	EKU	2016	Male	60 – 69	91691
 municipality	EKU	2016	Male	70 – 79	34798
 municipality	EKU	2016	Male	80+	8495
 municipality	EKU	2016	Female	10 – 14	189
-municipality	EKU	2016	Female	15 – 17	3339
+municipality	EKU	2016	Female	15 – 17	1076
 municipality	EKU	2016	Female	18 – 19	2257
 municipality	EKU	2016	Female	20 – 29	50712
 municipality	EKU	2016	Female	30 – 39	89409
@@ -1074,7 +1074,7 @@ municipality	JHB	2016	Male	60 – 69	107546
 municipality	JHB	2016	Male	70 – 79	42126
 municipality	JHB	2016	Male	80+	11122
 municipality	JHB	2016	Female	10 – 14	281
-municipality	JHB	2016	Female	15 – 17	4635
+municipality	JHB	2016	Female	15 – 17	2003
 municipality	JHB	2016	Female	18 – 19	5742
 municipality	JHB	2016	Female	20 – 29	96525
 municipality	JHB	2016	Female	30 – 39	162213
@@ -1094,7 +1094,7 @@ municipality	TSH	2016	Male	60 – 69	68410
 municipality	TSH	2016	Male	70 – 79	27724
 municipality	TSH	2016	Male	80+	6901
 municipality	TSH	2016	Female	10 – 14	194
-municipality	TSH	2016	Female	15 – 17	3322
+municipality	TSH	2016	Female	15 – 17	1612
 municipality	TSH	2016	Female	18 – 19	4615
 municipality	TSH	2016	Female	20 – 29	63669
 municipality	TSH	2016	Female	30 – 39	96315
@@ -1114,7 +1114,7 @@ district	DC30	2016	Male	60 – 69	18763
 district	DC30	2016	Male	70 – 79	7229
 district	DC30	2016	Male	80+	2544
 district	DC30	2016	Female	10 – 14	110
-district	DC30	2016	Female	15 – 17	1868
+district	DC30	2016	Female	15 – 17	765
 district	DC30	2016	Female	18 – 19	1196
 district	DC30	2016	Female	20 – 29	18055
 district	DC30	2016	Female	30 – 39	27868
@@ -1134,7 +1134,7 @@ district	DC31	2016	Male	60 – 69	23414
 district	DC31	2016	Male	70 – 79	7622
 district	DC31	2016	Male	80+	2718
 district	DC31	2016	Female	10 – 14	85
-district	DC31	2016	Female	15 – 17	1524
+district	DC31	2016	Female	15 – 17	552
 district	DC31	2016	Female	18 – 19	988
 district	DC31	2016	Female	20 – 29	19880
 district	DC31	2016	Female	30 – 39	31047
@@ -1154,7 +1154,7 @@ district	DC32	2016	Male	60 – 69	23738
 district	DC32	2016	Male	70 – 79	10890
 district	DC32	2016	Male	80+	4127
 district	DC32	2016	Female	10 – 14	254
-district	DC32	2016	Female	15 – 17	4364
+district	DC32	2016	Female	15 – 17	1379
 district	DC32	2016	Female	18 – 19	2154
 district	DC32	2016	Female	20 – 29	26761
 district	DC32	2016	Female	30 – 39	46981
@@ -1174,7 +1174,7 @@ district	DC33	2016	Male	60 – 69	17259
 district	DC33	2016	Male	70 – 79	6878
 district	DC33	2016	Male	80+	2546
 district	DC33	2016	Female	10 – 14	451
-district	DC33	2016	Female	15 – 17	6201
+district	DC33	2016	Female	15 – 17	2038
 district	DC33	2016	Female	18 – 19	2199
 district	DC33	2016	Female	20 – 29	19032
 district	DC33	2016	Female	30 – 39	35289
@@ -1194,7 +1194,7 @@ district	DC34	2016	Male	60 – 69	15642
 district	DC34	2016	Male	70 – 79	6618
 district	DC34	2016	Male	80+	3103
 district	DC34	2016	Female	10 – 14	857
-district	DC34	2016	Female	15 – 17	6127
+district	DC34	2016	Female	15 – 17	2274
 district	DC34	2016	Female	18 – 19	2955
 district	DC34	2016	Female	20 – 29	24207
 district	DC34	2016	Female	30 – 39	40653
@@ -1214,7 +1214,7 @@ district	DC35	2016	Male	60 – 69	19930
 district	DC35	2016	Male	70 – 79	9354
 district	DC35	2016	Male	80+	3309
 district	DC35	2016	Female	10 – 14	229
-district	DC35	2016	Female	15 – 17	4552
+district	DC35	2016	Female	15 – 17	1577
 district	DC35	2016	Female	18 – 19	2666
 district	DC35	2016	Female	20 – 29	25531
 district	DC35	2016	Female	30 – 39	32200
@@ -1234,7 +1234,7 @@ district	DC36	2016	Male	60 – 69	11603
 district	DC36	2016	Male	70 – 79	5604
 district	DC36	2016	Male	80+	2108
 district	DC36	2016	Female	10 – 14	90
-district	DC36	2016	Female	15 – 17	1791
+district	DC36	2016	Female	15 – 17	863
 district	DC36	2016	Female	18 – 19	822
 district	DC36	2016	Female	20 – 29	12399
 district	DC36	2016	Female	30 – 39	16613
@@ -1254,7 +1254,7 @@ district	DC47	2016	Male	60 – 69	14067
 district	DC47	2016	Male	70 – 79	6762
 district	DC47	2016	Male	80+	2438
 district	DC47	2016	Female	10 – 14	220
-district	DC47	2016	Female	15 – 17	3580
+district	DC47	2016	Female	15 – 17	994
 district	DC47	2016	Female	18 – 19	1858
 district	DC47	2016	Female	20 – 29	17965
 district	DC47	2016	Female	30 – 39	27422
@@ -1274,7 +1274,7 @@ municipality	WC011	2016	Male	60 – 69	1481
 municipality	WC011	2016	Male	70 – 79	765
 municipality	WC011	2016	Male	80+	145
 municipality	WC011	2016	Female	10 – 14	0
-municipality	WC011	2016	Female	15 – 17	37
+municipality	WC011	2016	Female	15 – 17	0
 municipality	WC011	2016	Female	18 – 19	0
 municipality	WC011	2016	Female	20 – 29	785
 municipality	WC011	2016	Female	30 – 39	1555
@@ -1354,7 +1354,7 @@ municipality	WC015	2016	Male	60 – 69	3170
 municipality	WC015	2016	Male	70 – 79	1059
 municipality	WC015	2016	Male	80+	329
 municipality	WC015	2016	Female	10 – 14	0
-municipality	WC015	2016	Female	15 – 17	113
+municipality	WC015	2016	Female	15 – 17	47
 municipality	WC015	2016	Female	18 – 19	165
 municipality	WC015	2016	Female	20 – 29	1324
 municipality	WC015	2016	Female	30 – 39	2618
@@ -1414,7 +1414,7 @@ municipality	WC024	2016	Male	60 – 69	3323
 municipality	WC024	2016	Male	70 – 79	1337
 municipality	WC024	2016	Male	80+	285
 municipality	WC024	2016	Female	10 – 14	0
-municipality	WC024	2016	Female	15 – 17	139
+municipality	WC024	2016	Female	15 – 17	0
 municipality	WC024	2016	Female	18 – 19	263
 municipality	WC024	2016	Female	20 – 29	4552
 municipality	WC024	2016	Female	30 – 39	4861
@@ -1454,7 +1454,7 @@ municipality	WC026	2016	Male	60 – 69	2394
 municipality	WC026	2016	Male	70 – 79	890
 municipality	WC026	2016	Male	80+	343
 municipality	WC026	2016	Female	10 – 14	0
-municipality	WC026	2016	Female	15 – 17	101
+municipality	WC026	2016	Female	15 – 17	67
 municipality	WC026	2016	Female	18 – 19	85
 municipality	WC026	2016	Female	20 – 29	1005
 municipality	WC026	2016	Female	30 – 39	1599
@@ -1474,7 +1474,7 @@ municipality	WC031	2016	Male	60 – 69	2410
 municipality	WC031	2016	Male	70 – 79	952
 municipality	WC031	2016	Male	80+	163
 municipality	WC031	2016	Female	10 – 14	0
-municipality	WC031	2016	Female	15 – 17	22
+municipality	WC031	2016	Female	15 – 17	0
 municipality	WC031	2016	Female	18 – 19	16
 municipality	WC031	2016	Female	20 – 29	1137
 municipality	WC031	2016	Female	30 – 39	2235
@@ -1494,7 +1494,7 @@ municipality	WC032	2016	Male	60 – 69	2984
 municipality	WC032	2016	Male	70 – 79	2354
 municipality	WC032	2016	Male	80+	771
 municipality	WC032	2016	Female	10 – 14	0
-municipality	WC032	2016	Female	15 – 17	95
+municipality	WC032	2016	Female	15 – 17	40
 municipality	WC032	2016	Female	18 – 19	65
 municipality	WC032	2016	Female	20 – 29	1724
 municipality	WC032	2016	Female	30 – 39	2935
@@ -1534,7 +1534,7 @@ municipality	WC034	2016	Male	60 – 69	903
 municipality	WC034	2016	Male	70 – 79	500
 municipality	WC034	2016	Male	80+	201
 municipality	WC034	2016	Female	10 – 14	0
-municipality	WC034	2016	Female	15 – 17	96
+municipality	WC034	2016	Female	15 – 17	0
 municipality	WC034	2016	Female	18 – 19	0
 municipality	WC034	2016	Female	20 – 29	304
 municipality	WC034	2016	Female	30 – 39	452
@@ -1574,7 +1574,7 @@ municipality	WC042	2016	Male	60 – 69	1803
 municipality	WC042	2016	Male	70 – 79	1200
 municipality	WC042	2016	Male	80+	430
 municipality	WC042	2016	Female	10 – 14	23
-municipality	WC042	2016	Female	15 – 17	51
+municipality	WC042	2016	Female	15 – 17	24
 municipality	WC042	2016	Female	18 – 19	0
 municipality	WC042	2016	Female	20 – 29	655
 municipality	WC042	2016	Female	30 – 39	914
@@ -1594,7 +1594,7 @@ municipality	WC043	2016	Male	60 – 69	3445
 municipality	WC043	2016	Male	70 – 79	2175
 municipality	WC043	2016	Male	80+	547
 municipality	WC043	2016	Female	10 – 14	0
-municipality	WC043	2016	Female	15 – 17	275
+municipality	WC043	2016	Female	15 – 17	115
 municipality	WC043	2016	Female	18 – 19	43
 municipality	WC043	2016	Female	20 – 29	1154
 municipality	WC043	2016	Female	30 – 39	2217
@@ -1614,7 +1614,7 @@ municipality	WC044	2016	Male	60 – 69	4976
 municipality	WC044	2016	Male	70 – 79	2181
 municipality	WC044	2016	Male	80+	749
 municipality	WC044	2016	Female	10 – 14	0
-municipality	WC044	2016	Female	15 – 17	215
+municipality	WC044	2016	Female	15 – 17	57
 municipality	WC044	2016	Female	18 – 19	116
 municipality	WC044	2016	Female	20 – 29	2270
 municipality	WC044	2016	Female	30 – 39	4353
@@ -1634,7 +1634,7 @@ municipality	WC045	2016	Male	60 – 69	2078
 municipality	WC045	2016	Male	70 – 79	1354
 municipality	WC045	2016	Male	80+	285
 municipality	WC045	2016	Female	10 – 14	0
-municipality	WC045	2016	Female	15 – 17	88
+municipality	WC045	2016	Female	15 – 17	38
 municipality	WC045	2016	Female	18 – 19	74
 municipality	WC045	2016	Female	20 – 29	622
 municipality	WC045	2016	Female	30 – 39	1102
@@ -1654,7 +1654,7 @@ municipality	WC047	2016	Male	60 – 69	1113
 municipality	WC047	2016	Male	70 – 79	763
 municipality	WC047	2016	Male	80+	249
 municipality	WC047	2016	Female	10 – 14	0
-municipality	WC047	2016	Female	15 – 17	42
+municipality	WC047	2016	Female	15 – 17	16
 municipality	WC047	2016	Female	18 – 19	50
 municipality	WC047	2016	Female	20 – 29	1274
 municipality	WC047	2016	Female	30 – 39	2041
@@ -1674,7 +1674,7 @@ municipality	WC048	2016	Male	60 – 69	1875
 municipality	WC048	2016	Male	70 – 79	1186
 municipality	WC048	2016	Male	80+	262
 municipality	WC048	2016	Female	10 – 14	0
-municipality	WC048	2016	Female	15 – 17	140
+municipality	WC048	2016	Female	15 – 17	89
 municipality	WC048	2016	Female	18 – 19	51
 municipality	WC048	2016	Female	20 – 29	1184
 municipality	WC048	2016	Female	30 – 39	2548
@@ -1754,7 +1754,7 @@ municipality	EC101	2016	Male	60 – 69	1759
 municipality	EC101	2016	Male	70 – 79	678
 municipality	EC101	2016	Male	80+	250
 municipality	EC101	2016	Female	10 – 14	0
-municipality	EC101	2016	Female	15 – 17	146
+municipality	EC101	2016	Female	15 – 17	68
 municipality	EC101	2016	Female	18 – 19	225
 municipality	EC101	2016	Female	20 – 29	621
 municipality	EC101	2016	Female	30 – 39	1566
@@ -1774,7 +1774,7 @@ municipality	EC102	2016	Male	60 – 69	877
 municipality	EC102	2016	Male	70 – 79	397
 municipality	EC102	2016	Male	80+	30
 municipality	EC102	2016	Female	10 – 14	0
-municipality	EC102	2016	Female	15 – 17	58
+municipality	EC102	2016	Female	15 – 17	24
 municipality	EC102	2016	Female	18 – 19	15
 municipality	EC102	2016	Female	20 – 29	356
 municipality	EC102	2016	Female	30 – 39	679
@@ -1794,7 +1794,7 @@ municipality	EC104	2016	Male	60 – 69	1442
 municipality	EC104	2016	Male	70 – 79	602
 municipality	EC104	2016	Male	80+	266
 municipality	EC104	2016	Female	10 – 14	0
-municipality	EC104	2016	Female	15 – 17	57
+municipality	EC104	2016	Female	15 – 17	29
 municipality	EC104	2016	Female	18 – 19	32
 municipality	EC104	2016	Female	20 – 29	1565
 municipality	EC104	2016	Female	30 – 39	1561
@@ -1854,7 +1854,7 @@ municipality	EC108	2016	Male	60 – 69	2264
 municipality	EC108	2016	Male	70 – 79	1415
 municipality	EC108	2016	Male	80+	451
 municipality	EC108	2016	Female	10 – 14	0
-municipality	EC108	2016	Female	15 – 17	167
+municipality	EC108	2016	Female	15 – 17	117
 municipality	EC108	2016	Female	18 – 19	238
 municipality	EC108	2016	Female	20 – 29	1832
 municipality	EC108	2016	Female	30 – 39	2592
@@ -1894,7 +1894,7 @@ municipality	EC121	2016	Male	60 – 69	2992
 municipality	EC121	2016	Male	70 – 79	1640
 municipality	EC121	2016	Male	80+	592
 municipality	EC121	2016	Female	10 – 14	76
-municipality	EC121	2016	Female	15 – 17	1344
+municipality	EC121	2016	Female	15 – 17	602
 municipality	EC121	2016	Female	18 – 19	644
 municipality	EC121	2016	Female	20 – 29	5201
 municipality	EC121	2016	Female	30 – 39	5780
@@ -1914,7 +1914,7 @@ municipality	EC122	2016	Male	60 – 69	3523
 municipality	EC122	2016	Male	70 – 79	1541
 municipality	EC122	2016	Male	80+	591
 municipality	EC122	2016	Female	10 – 14	87
-municipality	EC122	2016	Female	15 – 17	1363
+municipality	EC122	2016	Female	15 – 17	542
 municipality	EC122	2016	Female	18 – 19	659
 municipality	EC122	2016	Female	20 – 29	5243
 municipality	EC122	2016	Female	30 – 39	4520
@@ -1934,7 +1934,7 @@ municipality	EC123	2016	Male	60 – 69	496
 municipality	EC123	2016	Male	70 – 79	205
 municipality	EC123	2016	Male	80+	64
 municipality	EC123	2016	Female	10 – 14	0
-municipality	EC123	2016	Female	15 – 17	79
+municipality	EC123	2016	Female	15 – 17	19
 municipality	EC123	2016	Female	18 – 19	23
 municipality	EC123	2016	Female	20 – 29	539
 municipality	EC123	2016	Female	30 – 39	726
@@ -1954,7 +1954,7 @@ municipality	EC124	2016	Male	60 – 69	1461
 municipality	EC124	2016	Male	70 – 79	554
 municipality	EC124	2016	Male	80+	215
 municipality	EC124	2016	Female	10 – 14	18
-municipality	EC124	2016	Female	15 – 17	253
+municipality	EC124	2016	Female	15 – 17	39
 municipality	EC124	2016	Female	18 – 19	21
 municipality	EC124	2016	Female	20 – 29	1158
 municipality	EC124	2016	Female	30 – 39	1638
@@ -1974,7 +1974,7 @@ municipality	EC126	2016	Male	60 – 69	1200
 municipality	EC126	2016	Male	70 – 79	551
 municipality	EC126	2016	Male	80+	231
 municipality	EC126	2016	Female	10 – 14	3
-municipality	EC126	2016	Female	15 – 17	202
+municipality	EC126	2016	Female	15 – 17	48
 municipality	EC126	2016	Female	18 – 19	86
 municipality	EC126	2016	Female	20 – 29	656
 municipality	EC126	2016	Female	30 – 39	994
@@ -1994,7 +1994,7 @@ municipality	EC129	2016	Male	60 – 69	2112
 municipality	EC129	2016	Male	70 – 79	1103
 municipality	EC129	2016	Male	80+	415
 municipality	EC129	2016	Female	10 – 14	0
-municipality	EC129	2016	Female	15 – 17	257
+municipality	EC129	2016	Female	15 – 17	90
 municipality	EC129	2016	Female	18 – 19	224
 municipality	EC129	2016	Female	20 – 29	2178
 municipality	EC129	2016	Female	30 – 39	3323
@@ -2014,7 +2014,7 @@ municipality	EC131	2016	Male	60 – 69	950
 municipality	EC131	2016	Male	70 – 79	345
 municipality	EC131	2016	Male	80+	79
 municipality	EC131	2016	Female	10 – 14	21
-municipality	EC131	2016	Female	15 – 17	56
+municipality	EC131	2016	Female	15 – 17	20
 municipality	EC131	2016	Female	18 – 19	62
 municipality	EC131	2016	Female	20 – 29	1241
 municipality	EC131	2016	Female	30 – 39	1449
@@ -2034,7 +2034,7 @@ municipality	EC135	2016	Male	60 – 69	2661
 municipality	EC135	2016	Male	70 – 79	1413
 municipality	EC135	2016	Male	80+	432
 municipality	EC135	2016	Female	10 – 14	70
-municipality	EC135	2016	Female	15 – 17	488
+municipality	EC135	2016	Female	15 – 17	107
 municipality	EC135	2016	Female	18 – 19	215
 municipality	EC135	2016	Female	20 – 29	1419
 municipality	EC135	2016	Female	30 – 39	2363
@@ -2054,7 +2054,7 @@ municipality	EC137	2016	Male	60 – 69	2056
 municipality	EC137	2016	Male	70 – 79	881
 municipality	EC137	2016	Male	80+	353
 municipality	EC137	2016	Female	10 – 14	200
-municipality	EC137	2016	Female	15 – 17	812
+municipality	EC137	2016	Female	15 – 17	318
 municipality	EC137	2016	Female	18 – 19	368
 municipality	EC137	2016	Female	20 – 29	3010
 municipality	EC137	2016	Female	30 – 39	3283
@@ -2074,7 +2074,7 @@ municipality	EC138	2016	Male	60 – 69	819
 municipality	EC138	2016	Male	70 – 79	459
 municipality	EC138	2016	Male	80+	122
 municipality	EC138	2016	Female	10 – 14	5
-municipality	EC138	2016	Female	15 – 17	390
+municipality	EC138	2016	Female	15 – 17	145
 municipality	EC138	2016	Female	18 – 19	114
 municipality	EC138	2016	Female	20 – 29	891
 municipality	EC138	2016	Female	30 – 39	1300
@@ -2094,7 +2094,7 @@ municipality	EC139	2016	Male	60 – 69	3388
 municipality	EC139	2016	Male	70 – 79	1642
 municipality	EC139	2016	Male	80+	541
 municipality	EC139	2016	Female	10 – 14	42
-municipality	EC139	2016	Female	15 – 17	738
+municipality	EC139	2016	Female	15 – 17	323
 municipality	EC139	2016	Female	18 – 19	371
 municipality	EC139	2016	Female	20 – 29	4288
 municipality	EC139	2016	Female	30 – 39	5609
@@ -2114,7 +2114,7 @@ municipality	EC136	2016	Male	60 – 69	2128
 municipality	EC136	2016	Male	70 – 79	1044
 municipality	EC136	2016	Male	80+	448
 municipality	EC136	2016	Female	10 – 14	4
-municipality	EC136	2016	Female	15 – 17	303
+municipality	EC136	2016	Female	15 – 17	62
 municipality	EC136	2016	Female	18 – 19	107
 municipality	EC136	2016	Female	20 – 29	1155
 municipality	EC136	2016	Female	30 – 39	1606
@@ -2134,7 +2134,7 @@ municipality	EC141	2016	Male	60 – 69	2060
 municipality	EC141	2016	Male	70 – 79	958
 municipality	EC141	2016	Male	80+	316
 municipality	EC141	2016	Female	10 – 14	34
-municipality	EC141	2016	Female	15 – 17	489
+municipality	EC141	2016	Female	15 – 17	193
 municipality	EC141	2016	Female	18 – 19	300
 municipality	EC141	2016	Female	20 – 29	2058
 municipality	EC141	2016	Female	30 – 39	2847
@@ -2154,7 +2154,7 @@ municipality	EC142	2016	Male	60 – 69	1740
 municipality	EC142	2016	Male	70 – 79	861
 municipality	EC142	2016	Male	80+	276
 municipality	EC142	2016	Female	10 – 14	38
-municipality	EC142	2016	Female	15 – 17	803
+municipality	EC142	2016	Female	15 – 17	270
 municipality	EC142	2016	Female	18 – 19	276
 municipality	EC142	2016	Female	20 – 29	2486
 municipality	EC142	2016	Female	30 – 39	3574
@@ -2174,7 +2174,7 @@ municipality	EC145	2016	Male	60 – 69	1032
 municipality	EC145	2016	Male	70 – 79	358
 municipality	EC145	2016	Male	80+	107
 municipality	EC145	2016	Female	10 – 14	22
-municipality	EC145	2016	Female	15 – 17	169
+municipality	EC145	2016	Female	15 – 17	39
 municipality	EC145	2016	Female	18 – 19	84
 municipality	EC145	2016	Female	20 – 29	1851
 municipality	EC145	2016	Female	30 – 39	2652
@@ -2194,7 +2194,7 @@ municipality	EC153	2016	Male	60 – 69	2345
 municipality	EC153	2016	Male	70 – 79	1091
 municipality	EC153	2016	Male	80+	523
 municipality	EC153	2016	Female	10 – 14	155
-municipality	EC153	2016	Female	15 – 17	1183
+municipality	EC153	2016	Female	15 – 17	501
 municipality	EC153	2016	Female	18 – 19	543
 municipality	EC153	2016	Female	20 – 29	5592
 municipality	EC153	2016	Female	30 – 39	7582
@@ -2214,7 +2214,7 @@ municipality	EC154	2016	Male	60 – 69	1350
 municipality	EC154	2016	Male	70 – 79	690
 municipality	EC154	2016	Male	80+	365
 municipality	EC154	2016	Female	10 – 14	55
-municipality	EC154	2016	Female	15 – 17	682
+municipality	EC154	2016	Female	15 – 17	276
 municipality	EC154	2016	Female	18 – 19	332
 municipality	EC154	2016	Female	20 – 29	3160
 municipality	EC154	2016	Female	30 – 39	3717
@@ -2234,7 +2234,7 @@ municipality	EC155	2016	Male	60 – 69	2918
 municipality	EC155	2016	Male	70 – 79	1350
 municipality	EC155	2016	Male	80+	573
 municipality	EC155	2016	Female	10 – 14	57
-municipality	EC155	2016	Female	15 – 17	1238
+municipality	EC155	2016	Female	15 – 17	425
 municipality	EC155	2016	Female	18 – 19	571
 municipality	EC155	2016	Female	20 – 29	4926
 municipality	EC155	2016	Female	30 – 39	6676
@@ -2254,7 +2254,7 @@ municipality	EC156	2016	Male	60 – 69	2184
 municipality	EC156	2016	Male	70 – 79	1163
 municipality	EC156	2016	Male	80+	498
 municipality	EC156	2016	Female	10 – 14	27
-municipality	EC156	2016	Female	15 – 17	933
+municipality	EC156	2016	Female	15 – 17	306
 municipality	EC156	2016	Female	18 – 19	259
 municipality	EC156	2016	Female	20 – 29	2611
 municipality	EC156	2016	Female	30 – 39	3299
@@ -2274,7 +2274,7 @@ municipality	EC157	2016	Male	60 – 69	4314
 municipality	EC157	2016	Male	70 – 79	1977
 municipality	EC157	2016	Male	80+	752
 municipality	EC157	2016	Female	10 – 14	117
-municipality	EC157	2016	Female	15 – 17	2295
+municipality	EC157	2016	Female	15 – 17	944
 municipality	EC157	2016	Female	18 – 19	1346
 municipality	EC157	2016	Female	20 – 29	13371
 municipality	EC157	2016	Female	30 – 39	13445
@@ -2294,7 +2294,7 @@ municipality	EC441	2016	Male	60 – 69	3528
 municipality	EC441	2016	Male	70 – 79	1497
 municipality	EC441	2016	Male	80+	540
 municipality	EC441	2016	Female	10 – 14	59
-municipality	EC441	2016	Female	15 – 17	1750
+municipality	EC441	2016	Female	15 – 17	445
 municipality	EC441	2016	Female	18 – 19	526
 municipality	EC441	2016	Female	20 – 29	4492
 municipality	EC441	2016	Female	30 – 39	4956
@@ -2314,7 +2314,7 @@ municipality	EC442	2016	Male	60 – 69	2754
 municipality	EC442	2016	Male	70 – 79	1461
 municipality	EC442	2016	Male	80+	429
 municipality	EC442	2016	Female	10 – 14	70
-municipality	EC442	2016	Female	15 – 17	846
+municipality	EC442	2016	Female	15 – 17	238
 municipality	EC442	2016	Female	18 – 19	378
 municipality	EC442	2016	Female	20 – 29	4707
 municipality	EC442	2016	Female	30 – 39	5212
@@ -2334,7 +2334,7 @@ municipality	EC443	2016	Male	60 – 69	2887
 municipality	EC443	2016	Male	70 – 79	1481
 municipality	EC443	2016	Male	80+	720
 municipality	EC443	2016	Female	10 – 14	91
-municipality	EC443	2016	Female	15 – 17	1260
+municipality	EC443	2016	Female	15 – 17	345
 municipality	EC443	2016	Female	18 – 19	859
 municipality	EC443	2016	Female	20 – 29	5894
 municipality	EC443	2016	Female	30 – 39	6711
@@ -2354,7 +2354,7 @@ municipality	EC444	2016	Male	60 – 69	1320
 municipality	EC444	2016	Male	70 – 79	711
 municipality	EC444	2016	Male	80+	432
 municipality	EC444	2016	Female	10 – 14	42
-municipality	EC444	2016	Female	15 – 17	385
+municipality	EC444	2016	Female	15 – 17	131
 municipality	EC444	2016	Female	18 – 19	343
 municipality	EC444	2016	Female	20 – 29	2032
 municipality	EC444	2016	Female	30 – 39	2537
@@ -2374,7 +2374,7 @@ municipality	NC451	2016	Male	60 – 69	1812
 municipality	NC451	2016	Male	70 – 79	1022
 municipality	NC451	2016	Male	80+	391
 municipality	NC451	2016	Female	10 – 14	4
-municipality	NC451	2016	Female	15 – 17	100
+municipality	NC451	2016	Female	15 – 17	29
 municipality	NC451	2016	Female	18 – 19	73
 municipality	NC451	2016	Female	20 – 29	1227
 municipality	NC451	2016	Female	30 – 39	2346
@@ -2394,7 +2394,7 @@ municipality	NC452	2016	Male	60 – 69	1547
 municipality	NC452	2016	Male	70 – 79	705
 municipality	NC452	2016	Male	80+	263
 municipality	NC452	2016	Female	10 – 14	0
-municipality	NC452	2016	Female	15 – 17	57
+municipality	NC452	2016	Female	15 – 17	36
 municipality	NC452	2016	Female	18 – 19	202
 municipality	NC452	2016	Female	20 – 29	1834
 municipality	NC452	2016	Female	30 – 39	3063
@@ -2454,7 +2454,7 @@ municipality	NC062	2016	Male	60 – 69	1711
 municipality	NC062	2016	Male	70 – 79	1212
 municipality	NC062	2016	Male	80+	124
 municipality	NC062	2016	Female	10 – 14	0
-municipality	NC062	2016	Female	15 – 17	6
+municipality	NC062	2016	Female	15 – 17	0
 municipality	NC062	2016	Female	18 – 19	0
 municipality	NC062	2016	Female	20 – 29	459
 municipality	NC062	2016	Female	30 – 39	882
@@ -2494,7 +2494,7 @@ municipality	NC065	2016	Male	60 – 69	679
 municipality	NC065	2016	Male	70 – 79	507
 municipality	NC065	2016	Male	80+	28
 municipality	NC065	2016	Female	10 – 14	0
-municipality	NC065	2016	Female	15 – 17	19
+municipality	NC065	2016	Female	15 – 17	10
 municipality	NC065	2016	Female	18 – 19	13
 municipality	NC065	2016	Female	20 – 29	275
 municipality	NC065	2016	Female	30 – 39	314
@@ -2554,7 +2554,7 @@ municipality	NC071	2016	Male	60 – 69	363
 municipality	NC071	2016	Male	70 – 79	159
 municipality	NC071	2016	Male	80+	51
 municipality	NC071	2016	Female	10 – 14	0
-municipality	NC071	2016	Female	15 – 17	39
+municipality	NC071	2016	Female	15 – 17	4
 municipality	NC071	2016	Female	18 – 19	14
 municipality	NC071	2016	Female	20 – 29	165
 municipality	NC071	2016	Female	30 – 39	539
@@ -2574,7 +2574,7 @@ municipality	NC072	2016	Male	60 – 69	564
 municipality	NC072	2016	Male	70 – 79	225
 municipality	NC072	2016	Male	80+	55
 municipality	NC072	2016	Female	10 – 14	0
-municipality	NC072	2016	Female	15 – 17	67
+municipality	NC072	2016	Female	15 – 17	31
 municipality	NC072	2016	Female	18 – 19	0
 municipality	NC072	2016	Female	20 – 29	431
 municipality	NC072	2016	Female	30 – 39	923
@@ -2594,7 +2594,7 @@ municipality	NC073	2016	Male	60 – 69	797
 municipality	NC073	2016	Male	70 – 79	293
 municipality	NC073	2016	Male	80+	113
 municipality	NC073	2016	Female	10 – 14	0
-municipality	NC073	2016	Female	15 – 17	19
+municipality	NC073	2016	Female	15 – 17	0
 municipality	NC073	2016	Female	18 – 19	13
 municipality	NC073	2016	Female	20 – 29	557
 municipality	NC073	2016	Female	30 – 39	910
@@ -2694,7 +2694,7 @@ municipality	NC078	2016	Male	60 – 69	701
 municipality	NC078	2016	Male	70 – 79	378
 municipality	NC078	2016	Male	80+	128
 municipality	NC078	2016	Female	10 – 14	21
-municipality	NC078	2016	Female	15 – 17	24
+municipality	NC078	2016	Female	15 – 17	0
 municipality	NC078	2016	Female	18 – 19	26
 municipality	NC078	2016	Female	20 – 29	602
 municipality	NC078	2016	Female	30 – 39	714
@@ -2754,7 +2754,7 @@ municipality	NC085	2016	Male	60 – 69	635
 municipality	NC085	2016	Male	70 – 79	242
 municipality	NC085	2016	Male	80+	0
 municipality	NC085	2016	Female	10 – 14	0
-municipality	NC085	2016	Female	15 – 17	62
+municipality	NC085	2016	Female	15 – 17	39
 municipality	NC085	2016	Female	18 – 19	0
 municipality	NC085	2016	Female	20 – 29	663
 municipality	NC085	2016	Female	30 – 39	857
@@ -2814,7 +2814,7 @@ municipality	NC091	2016	Male	60 – 69	5340
 municipality	NC091	2016	Male	70 – 79	2430
 municipality	NC091	2016	Male	80+	758
 municipality	NC091	2016	Female	10 – 14	0
-municipality	NC091	2016	Female	15 – 17	109
+municipality	NC091	2016	Female	15 – 17	37
 municipality	NC091	2016	Female	18 – 19	109
 municipality	NC091	2016	Female	20 – 29	2198
 municipality	NC091	2016	Female	30 – 39	5148
@@ -2834,7 +2834,7 @@ municipality	NC092	2016	Male	60 – 69	1377
 municipality	NC092	2016	Male	70 – 79	476
 municipality	NC092	2016	Male	80+	170
 municipality	NC092	2016	Female	10 – 14	0
-municipality	NC092	2016	Female	15 – 17	90
+municipality	NC092	2016	Female	15 – 17	16
 municipality	NC092	2016	Female	18 – 19	0
 municipality	NC092	2016	Female	20 – 29	464
 municipality	NC092	2016	Female	30 – 39	827
@@ -2874,7 +2874,7 @@ municipality	NC094	2016	Male	60 – 69	1671
 municipality	NC094	2016	Male	70 – 79	699
 municipality	NC094	2016	Male	80+	226
 municipality	NC094	2016	Female	10 – 14	0
-municipality	NC094	2016	Female	15 – 17	15
+municipality	NC094	2016	Female	15 – 17	0
 municipality	NC094	2016	Female	18 – 19	48
 municipality	NC094	2016	Female	20 – 29	670
 municipality	NC094	2016	Female	30 – 39	1157
@@ -2894,7 +2894,7 @@ municipality	FS161	2016	Male	60 – 69	1112
 municipality	FS161	2016	Male	70 – 79	358
 municipality	FS161	2016	Male	80+	76
 municipality	FS161	2016	Female	10 – 14	0
-municipality	FS161	2016	Female	15 – 17	76
+municipality	FS161	2016	Female	15 – 17	31
 municipality	FS161	2016	Female	18 – 19	57
 municipality	FS161	2016	Female	20 – 29	587
 municipality	FS161	2016	Female	30 – 39	959
@@ -2914,7 +2914,7 @@ municipality	FS162	2016	Male	60 – 69	983
 municipality	FS162	2016	Male	70 – 79	695
 municipality	FS162	2016	Male	80+	147
 municipality	FS162	2016	Female	10 – 14	0
-municipality	FS162	2016	Female	15 – 17	88
+municipality	FS162	2016	Female	15 – 17	42
 municipality	FS162	2016	Female	18 – 19	78
 municipality	FS162	2016	Female	20 – 29	797
 municipality	FS162	2016	Female	30 – 39	1430
@@ -2934,7 +2934,7 @@ municipality	FS163	2016	Male	60 – 69	762
 municipality	FS163	2016	Male	70 – 79	390
 municipality	FS163	2016	Male	80+	128
 municipality	FS163	2016	Female	10 – 14	0
-municipality	FS163	2016	Female	15 – 17	122
+municipality	FS163	2016	Female	15 – 17	38
 municipality	FS163	2016	Female	18 – 19	69
 municipality	FS163	2016	Female	20 – 29	763
 municipality	FS163	2016	Female	30 – 39	1212
@@ -2954,7 +2954,7 @@ municipality	FS181	2016	Male	60 – 69	1384
 municipality	FS181	2016	Male	70 – 79	441
 municipality	FS181	2016	Male	80+	282
 municipality	FS181	2016	Female	10 – 14	11
-municipality	FS181	2016	Female	15 – 17	134
+municipality	FS181	2016	Female	15 – 17	34
 municipality	FS181	2016	Female	18 – 19	33
 municipality	FS181	2016	Female	20 – 29	1066
 municipality	FS181	2016	Female	30 – 39	1613
@@ -2974,7 +2974,7 @@ municipality	FS182	2016	Male	60 – 69	627
 municipality	FS182	2016	Male	70 – 79	264
 municipality	FS182	2016	Male	80+	87
 municipality	FS182	2016	Female	10 – 14	0
-municipality	FS182	2016	Female	15 – 17	105
+municipality	FS182	2016	Female	15 – 17	61
 municipality	FS182	2016	Female	18 – 19	48
 municipality	FS182	2016	Female	20 – 29	199
 municipality	FS182	2016	Female	30 – 39	660
@@ -2994,7 +2994,7 @@ municipality	FS183	2016	Male	60 – 69	876
 municipality	FS183	2016	Male	70 – 79	499
 municipality	FS183	2016	Male	80+	96
 municipality	FS183	2016	Female	10 – 14	22
-municipality	FS183	2016	Female	15 – 17	52
+municipality	FS183	2016	Female	15 – 17	11
 municipality	FS183	2016	Female	18 – 19	62
 municipality	FS183	2016	Female	20 – 29	603
 municipality	FS183	2016	Female	30 – 39	930
@@ -3014,7 +3014,7 @@ municipality	FS184	2016	Male	60 – 69	9228
 municipality	FS184	2016	Male	70 – 79	3389
 municipality	FS184	2016	Male	80+	1122
 municipality	FS184	2016	Female	10 – 14	28
-municipality	FS184	2016	Female	15 – 17	426
+municipality	FS184	2016	Female	15 – 17	128
 municipality	FS184	2016	Female	18 – 19	569
 municipality	FS184	2016	Female	20 – 29	6867
 municipality	FS184	2016	Female	30 – 39	12152
@@ -3034,7 +3034,7 @@ municipality	FS185	2016	Male	60 – 69	2054
 municipality	FS185	2016	Male	70 – 79	751
 municipality	FS185	2016	Male	80+	268
 municipality	FS185	2016	Female	10 – 14	0
-municipality	FS185	2016	Female	15 – 17	85
+municipality	FS185	2016	Female	15 – 17	12
 municipality	FS185	2016	Female	18 – 19	38
 municipality	FS185	2016	Female	20 – 29	1090
 municipality	FS185	2016	Female	30 – 39	1897
@@ -3054,7 +3054,7 @@ municipality	FS191	2016	Male	60 – 69	2091
 municipality	FS191	2016	Male	70 – 79	698
 municipality	FS191	2016	Male	80+	303
 municipality	FS191	2016	Female	10 – 14	0
-municipality	FS191	2016	Female	15 – 17	332
+municipality	FS191	2016	Female	15 – 17	194
 municipality	FS191	2016	Female	18 – 19	144
 municipality	FS191	2016	Female	20 – 29	2293
 municipality	FS191	2016	Female	30 – 39	3855
@@ -3074,7 +3074,7 @@ municipality	FS192	2016	Male	60 – 69	2418
 municipality	FS192	2016	Male	70 – 79	1035
 municipality	FS192	2016	Male	80+	295
 municipality	FS192	2016	Female	10 – 14	0
-municipality	FS192	2016	Female	15 – 17	206
+municipality	FS192	2016	Female	15 – 17	97
 municipality	FS192	2016	Female	18 – 19	172
 municipality	FS192	2016	Female	20 – 29	2519
 municipality	FS192	2016	Female	30 – 39	4405
@@ -3094,7 +3094,7 @@ municipality	FS193	2016	Male	60 – 69	1193
 municipality	FS193	2016	Male	70 – 79	485
 municipality	FS193	2016	Male	80+	144
 municipality	FS193	2016	Female	10 – 14	0
-municipality	FS193	2016	Female	15 – 17	89
+municipality	FS193	2016	Female	15 – 17	59
 municipality	FS193	2016	Female	18 – 19	15
 municipality	FS193	2016	Female	20 – 29	1129
 municipality	FS193	2016	Female	30 – 39	1619
@@ -3114,7 +3114,7 @@ municipality	FS194	2016	Male	60 – 69	5811
 municipality	FS194	2016	Male	70 – 79	2111
 municipality	FS194	2016	Male	80+	822
 municipality	FS194	2016	Female	10 – 14	0
-municipality	FS194	2016	Female	15 – 17	985
+municipality	FS194	2016	Female	15 – 17	284
 municipality	FS194	2016	Female	18 – 19	444
 municipality	FS194	2016	Female	20 – 29	7031
 municipality	FS194	2016	Female	30 – 39	10916
@@ -3134,7 +3134,7 @@ municipality	FS195	2016	Male	60 – 69	749
 municipality	FS195	2016	Male	70 – 79	437
 municipality	FS195	2016	Male	80+	208
 municipality	FS195	2016	Female	10 – 14	0
-municipality	FS195	2016	Female	15 – 17	111
+municipality	FS195	2016	Female	15 – 17	20
 municipality	FS195	2016	Female	18 – 19	18
 municipality	FS195	2016	Female	20 – 29	761
 municipality	FS195	2016	Female	30 – 39	1135
@@ -3154,7 +3154,7 @@ municipality	FS196	2016	Male	60 – 69	877
 municipality	FS196	2016	Male	70 – 79	252
 municipality	FS196	2016	Male	80+	82
 municipality	FS196	2016	Female	10 – 14	13
-municipality	FS196	2016	Female	15 – 17	159
+municipality	FS196	2016	Female	15 – 17	61
 municipality	FS196	2016	Female	18 – 19	48
 municipality	FS196	2016	Female	20 – 29	1138
 municipality	FS196	2016	Female	30 – 39	1345
@@ -3174,7 +3174,7 @@ municipality	FS204	2016	Male	60 – 69	3357
 municipality	FS204	2016	Male	70 – 79	1478
 municipality	FS204	2016	Male	80+	479
 municipality	FS204	2016	Female	10 – 14	0
-municipality	FS204	2016	Female	15 – 17	167
+municipality	FS204	2016	Female	15 – 17	98
 municipality	FS204	2016	Female	18 – 19	146
 municipality	FS204	2016	Female	20 – 29	2633
 municipality	FS204	2016	Female	30 – 39	4873
@@ -3194,7 +3194,7 @@ municipality	FS205	2016	Male	60 – 69	1370
 municipality	FS205	2016	Male	70 – 79	670
 municipality	FS205	2016	Male	80+	228
 municipality	FS205	2016	Female	10 – 14	10
-municipality	FS205	2016	Female	15 – 17	229
+municipality	FS205	2016	Female	15 – 17	111
 municipality	FS205	2016	Female	18 – 19	91
 municipality	FS205	2016	Female	20 – 29	864
 municipality	FS205	2016	Female	30 – 39	1265
@@ -3214,7 +3214,7 @@ municipality	FS201	2016	Male	60 – 69	4036
 municipality	FS201	2016	Male	70 – 79	1586
 municipality	FS201	2016	Male	80+	668
 municipality	FS201	2016	Female	10 – 14	0
-municipality	FS201	2016	Female	15 – 17	167
+municipality	FS201	2016	Female	15 – 17	18
 municipality	FS201	2016	Female	18 – 19	158
 municipality	FS201	2016	Female	20 – 29	1839
 municipality	FS201	2016	Female	30 – 39	3340
@@ -3234,7 +3234,7 @@ municipality	FS203	2016	Male	60 – 69	3288
 municipality	FS203	2016	Male	70 – 79	1781
 municipality	FS203	2016	Male	80+	387
 municipality	FS203	2016	Female	10 – 14	14
-municipality	FS203	2016	Female	15 – 17	164
+municipality	FS203	2016	Female	15 – 17	90
 municipality	FS203	2016	Female	18 – 19	103
 municipality	FS203	2016	Female	20 – 29	1845
 municipality	FS203	2016	Female	30 – 39	3060
@@ -3254,7 +3254,7 @@ municipality	KZN212	2016	Male	60 – 69	1979
 municipality	KZN212	2016	Male	70 – 79	983
 municipality	KZN212	2016	Male	80+	263
 municipality	KZN212	2016	Female	10 – 14	30
-municipality	KZN212	2016	Female	15 – 17	208
+municipality	KZN212	2016	Female	15 – 17	33
 municipality	KZN212	2016	Female	18 – 19	301
 municipality	KZN212	2016	Female	20 – 29	2344
 municipality	KZN212	2016	Female	30 – 39	3135
@@ -3274,7 +3274,7 @@ municipality	KZN213	2016	Male	60 – 69	1966
 municipality	KZN213	2016	Male	70 – 79	592
 municipality	KZN213	2016	Male	80+	234
 municipality	KZN213	2016	Female	10 – 14	18
-municipality	KZN213	2016	Female	15 – 17	256
+municipality	KZN213	2016	Female	15 – 17	56
 municipality	KZN213	2016	Female	18 – 19	98
 municipality	KZN213	2016	Female	20 – 29	1026
 municipality	KZN213	2016	Female	30 – 39	2043
@@ -3294,7 +3294,7 @@ municipality	KZN214	2016	Male	60 – 69	780
 municipality	KZN214	2016	Male	70 – 79	328
 municipality	KZN214	2016	Male	80+	94
 municipality	KZN214	2016	Female	10 – 14	25
-municipality	KZN214	2016	Female	15 – 17	211
+municipality	KZN214	2016	Female	15 – 17	38
 municipality	KZN214	2016	Female	18 – 19	85
 municipality	KZN214	2016	Female	20 – 29	1568
 municipality	KZN214	2016	Female	30 – 39	2246
@@ -3314,7 +3314,7 @@ municipality	KZN216	2016	Male	60 – 69	5063
 municipality	KZN216	2016	Male	70 – 79	1945
 municipality	KZN216	2016	Male	80+	595
 municipality	KZN216	2016	Female	10 – 14	65
-municipality	KZN216	2016	Female	15 – 17	787
+municipality	KZN216	2016	Female	15 – 17	203
 municipality	KZN216	2016	Female	18 – 19	439
 municipality	KZN216	2016	Female	20 – 29	6605
 municipality	KZN216	2016	Female	30 – 39	9884
@@ -3334,7 +3334,7 @@ municipality	KZN221	2016	Male	60 – 69	1602
 municipality	KZN221	2016	Male	70 – 79	529
 municipality	KZN221	2016	Male	80+	58
 municipality	KZN221	2016	Female	10 – 14	9
-municipality	KZN221	2016	Female	15 – 17	398
+municipality	KZN221	2016	Female	15 – 17	180
 municipality	KZN221	2016	Female	18 – 19	231
 municipality	KZN221	2016	Female	20 – 29	1410
 municipality	KZN221	2016	Female	30 – 39	2744
@@ -3354,7 +3354,7 @@ municipality	KZN222	2016	Male	60 – 69	1814
 municipality	KZN222	2016	Male	70 – 79	1262
 municipality	KZN222	2016	Male	80+	414
 municipality	KZN222	2016	Female	10 – 14	0
-municipality	KZN222	2016	Female	15 – 17	209
+municipality	KZN222	2016	Female	15 – 17	168
 municipality	KZN222	2016	Female	18 – 19	157
 municipality	KZN222	2016	Female	20 – 29	2649
 municipality	KZN222	2016	Female	30 – 39	3639
@@ -3374,7 +3374,7 @@ municipality	KZN224	2016	Male	60 – 69	615
 municipality	KZN224	2016	Male	70 – 79	184
 municipality	KZN224	2016	Male	80+	31
 municipality	KZN224	2016	Female	10 – 14	0
-municipality	KZN224	2016	Female	15 – 17	65
+municipality	KZN224	2016	Female	15 – 17	39
 municipality	KZN224	2016	Female	18 – 19	24
 municipality	KZN224	2016	Female	20 – 29	375
 municipality	KZN224	2016	Female	30 – 39	459
@@ -3394,7 +3394,7 @@ municipality	KZN225	2016	Male	60 – 69	9948
 municipality	KZN225	2016	Male	70 – 79	3144
 municipality	KZN225	2016	Male	80+	941
 municipality	KZN225	2016	Female	10 – 14	0
-municipality	KZN225	2016	Female	15 – 17	595
+municipality	KZN225	2016	Female	15 – 17	299
 municipality	KZN225	2016	Female	18 – 19	648
 municipality	KZN225	2016	Female	20 – 29	12180
 municipality	KZN225	2016	Female	30 – 39	18039
@@ -3414,7 +3414,7 @@ municipality	KZN226	2016	Male	60 – 69	968
 municipality	KZN226	2016	Male	70 – 79	316
 municipality	KZN226	2016	Male	80+	14
 municipality	KZN226	2016	Female	10 – 14	0
-municipality	KZN226	2016	Female	15 – 17	138
+municipality	KZN226	2016	Female	15 – 17	66
 municipality	KZN226	2016	Female	18 – 19	27
 municipality	KZN226	2016	Female	20 – 29	908
 municipality	KZN226	2016	Female	30 – 39	1343
@@ -3454,7 +3454,7 @@ municipality	KZN223	2016	Male	60 – 69	312
 municipality	KZN223	2016	Male	70 – 79	131
 municipality	KZN223	2016	Male	80+	36
 municipality	KZN223	2016	Female	10 – 14	0
-municipality	KZN223	2016	Female	15 – 17	83
+municipality	KZN223	2016	Female	15 – 17	49
 municipality	KZN223	2016	Female	18 – 19	44
 municipality	KZN223	2016	Female	20 – 29	876
 municipality	KZN223	2016	Female	30 – 39	1379
@@ -3474,7 +3474,7 @@ municipality	KZN235	2016	Male	60 – 69	1955
 municipality	KZN235	2016	Male	70 – 79	796
 municipality	KZN235	2016	Male	80+	204
 municipality	KZN235	2016	Female	10 – 14	13
-municipality	KZN235	2016	Female	15 – 17	293
+municipality	KZN235	2016	Female	15 – 17	78
 municipality	KZN235	2016	Female	18 – 19	188
 municipality	KZN235	2016	Female	20 – 29	1714
 municipality	KZN235	2016	Female	30 – 39	2875
@@ -3494,7 +3494,7 @@ municipality	KZN237	2016	Male	60 – 69	2575
 municipality	KZN237	2016	Male	70 – 79	985
 municipality	KZN237	2016	Male	80+	257
 municipality	KZN237	2016	Female	10 – 14	14
-municipality	KZN237	2016	Female	15 – 17	429
+municipality	KZN237	2016	Female	15 – 17	147
 municipality	KZN237	2016	Female	18 – 19	144
 municipality	KZN237	2016	Female	20 – 29	2665
 municipality	KZN237	2016	Female	30 – 39	4760
@@ -3514,7 +3514,7 @@ municipality	KZN238	2016	Male	60 – 69	4484
 municipality	KZN238	2016	Male	70 – 79	1598
 municipality	KZN238	2016	Male	80+	680
 municipality	KZN238	2016	Female	10 – 14	20
-municipality	KZN238	2016	Female	15 – 17	751
+municipality	KZN238	2016	Female	15 – 17	233
 municipality	KZN238	2016	Female	18 – 19	318
 municipality	KZN238	2016	Female	20 – 29	5751
 municipality	KZN238	2016	Female	30 – 39	8093
@@ -3534,7 +3534,7 @@ municipality	KZN241	2016	Male	60 – 69	813
 municipality	KZN241	2016	Male	70 – 79	525
 municipality	KZN241	2016	Male	80+	127
 municipality	KZN241	2016	Female	10 – 14	0
-municipality	KZN241	2016	Female	15 – 17	136
+municipality	KZN241	2016	Female	15 – 17	47
 municipality	KZN241	2016	Female	18 – 19	62
 municipality	KZN241	2016	Female	20 – 29	1467
 municipality	KZN241	2016	Female	30 – 39	1989
@@ -3554,7 +3554,7 @@ municipality	KZN242	2016	Male	60 – 69	1690
 municipality	KZN242	2016	Male	70 – 79	780
 municipality	KZN242	2016	Male	80+	243
 municipality	KZN242	2016	Female	10 – 14	19
-municipality	KZN242	2016	Female	15 – 17	384
+municipality	KZN242	2016	Female	15 – 17	171
 municipality	KZN242	2016	Female	18 – 19	186
 municipality	KZN242	2016	Female	20 – 29	2169
 municipality	KZN242	2016	Female	30 – 39	3420
@@ -3574,7 +3574,7 @@ municipality	KZN244	2016	Male	60 – 69	1644
 municipality	KZN244	2016	Male	70 – 79	706
 municipality	KZN244	2016	Male	80+	201
 municipality	KZN244	2016	Female	10 – 14	23
-municipality	KZN244	2016	Female	15 – 17	600
+municipality	KZN244	2016	Female	15 – 17	201
 municipality	KZN244	2016	Female	18 – 19	224
 municipality	KZN244	2016	Female	20 – 29	3183
 municipality	KZN244	2016	Female	30 – 39	4896
@@ -3594,7 +3594,7 @@ municipality	KZN245	2016	Male	60 – 69	1182
 municipality	KZN245	2016	Male	70 – 79	489
 municipality	KZN245	2016	Male	80+	199
 municipality	KZN245	2016	Female	10 – 14	29
-municipality	KZN245	2016	Female	15 – 17	783
+municipality	KZN245	2016	Female	15 – 17	221
 municipality	KZN245	2016	Female	18 – 19	234
 municipality	KZN245	2016	Female	20 – 29	3051
 municipality	KZN245	2016	Female	30 – 39	4056
@@ -3614,7 +3614,7 @@ municipality	KZN252	2016	Male	60 – 69	5254
 municipality	KZN252	2016	Male	70 – 79	1873
 municipality	KZN252	2016	Male	80+	392
 municipality	KZN252	2016	Female	10 – 14	0
-municipality	KZN252	2016	Female	15 – 17	604
+municipality	KZN252	2016	Female	15 – 17	229
 municipality	KZN252	2016	Female	18 – 19	399
 municipality	KZN252	2016	Female	20 – 29	5795
 municipality	KZN252	2016	Female	30 – 39	8654
@@ -3654,7 +3654,7 @@ municipality	KZN254	2016	Male	60 – 69	1477
 municipality	KZN254	2016	Male	70 – 79	491
 municipality	KZN254	2016	Male	80+	195
 municipality	KZN254	2016	Female	10 – 14	0
-municipality	KZN254	2016	Female	15 – 17	166
+municipality	KZN254	2016	Female	15 – 17	51
 municipality	KZN254	2016	Female	18 – 19	70
 municipality	KZN254	2016	Female	20 – 29	997
 municipality	KZN254	2016	Female	30 – 39	1605
@@ -3674,7 +3674,7 @@ municipality	KZN261	2016	Male	60 – 69	531
 municipality	KZN261	2016	Male	70 – 79	632
 municipality	KZN261	2016	Male	80+	193
 municipality	KZN261	2016	Female	10 – 14	15
-municipality	KZN261	2016	Female	15 – 17	252
+municipality	KZN261	2016	Female	15 – 17	107
 municipality	KZN261	2016	Female	18 – 19	91
 municipality	KZN261	2016	Female	20 – 29	1177
 municipality	KZN261	2016	Female	30 – 39	1811
@@ -3694,7 +3694,7 @@ municipality	KZN262	2016	Male	60 – 69	1143
 municipality	KZN262	2016	Male	70 – 79	599
 municipality	KZN262	2016	Male	80+	296
 municipality	KZN262	2016	Female	10 – 14	23
-municipality	KZN262	2016	Female	15 – 17	392
+municipality	KZN262	2016	Female	15 – 17	92
 municipality	KZN262	2016	Female	18 – 19	334
 municipality	KZN262	2016	Female	20 – 29	2813
 municipality	KZN262	2016	Female	30 – 39	3418
@@ -3714,7 +3714,7 @@ municipality	KZN263	2016	Male	60 – 69	2840
 municipality	KZN263	2016	Male	70 – 79	1326
 municipality	KZN263	2016	Male	80+	473
 municipality	KZN263	2016	Female	10 – 14	23
-municipality	KZN263	2016	Female	15 – 17	566
+municipality	KZN263	2016	Female	15 – 17	151
 municipality	KZN263	2016	Female	18 – 19	197
 municipality	KZN263	2016	Female	20 – 29	3556
 municipality	KZN263	2016	Female	30 – 39	4971
@@ -3734,7 +3734,7 @@ municipality	KZN265	2016	Male	60 – 69	2293
 municipality	KZN265	2016	Male	70 – 79	1012
 municipality	KZN265	2016	Male	80+	323
 municipality	KZN265	2016	Female	10 – 14	0
-municipality	KZN265	2016	Female	15 – 17	396
+municipality	KZN265	2016	Female	15 – 17	182
 municipality	KZN265	2016	Female	18 – 19	197
 municipality	KZN265	2016	Female	20 – 29	2496
 municipality	KZN265	2016	Female	30 – 39	4219
@@ -3754,7 +3754,7 @@ municipality	KZN266	2016	Male	60 – 69	2127
 municipality	KZN266	2016	Male	70 – 79	864
 municipality	KZN266	2016	Male	80+	220
 municipality	KZN266	2016	Female	10 – 14	0
-municipality	KZN266	2016	Female	15 – 17	275
+municipality	KZN266	2016	Female	15 – 17	86
 municipality	KZN266	2016	Female	18 – 19	192
 municipality	KZN266	2016	Female	20 – 29	2870
 municipality	KZN266	2016	Female	30 – 39	4598
@@ -3774,7 +3774,7 @@ municipality	KZN271	2016	Male	60 – 69	1667
 municipality	KZN271	2016	Male	70 – 79	818
 municipality	KZN271	2016	Male	80+	512
 municipality	KZN271	2016	Female	10 – 14	16
-municipality	KZN271	2016	Female	15 – 17	570
+municipality	KZN271	2016	Female	15 – 17	310
 municipality	KZN271	2016	Female	18 – 19	193
 municipality	KZN271	2016	Female	20 – 29	2230
 municipality	KZN271	2016	Female	30 – 39	4704
@@ -3794,7 +3794,7 @@ municipality	KZN272	2016	Male	60 – 69	1693
 municipality	KZN272	2016	Male	70 – 79	920
 municipality	KZN272	2016	Male	80+	299
 municipality	KZN272	2016	Female	10 – 14	64
-municipality	KZN272	2016	Female	15 – 17	555
+municipality	KZN272	2016	Female	15 – 17	391
 municipality	KZN272	2016	Female	18 – 19	403
 municipality	KZN272	2016	Female	20 – 29	3370
 municipality	KZN272	2016	Female	30 – 39	5568
@@ -3814,7 +3814,7 @@ municipality	KZN275	2016	Male	60 – 69	1878
 municipality	KZN275	2016	Male	70 – 79	877
 municipality	KZN275	2016	Male	80+	474
 municipality	KZN275	2016	Female	10 – 14	0
-municipality	KZN275	2016	Female	15 – 17	501
+municipality	KZN275	2016	Female	15 – 17	147
 municipality	KZN275	2016	Female	18 – 19	157
 municipality	KZN275	2016	Female	20 – 29	2330
 municipality	KZN275	2016	Female	30 – 39	5068
@@ -3834,7 +3834,7 @@ municipality	KZN276	2016	Male	60 – 69	1113
 municipality	KZN276	2016	Male	70 – 79	525
 municipality	KZN276	2016	Male	80+	267
 municipality	KZN276	2016	Female	10 – 14	0
-municipality	KZN276	2016	Female	15 – 17	515
+municipality	KZN276	2016	Female	15 – 17	158
 municipality	KZN276	2016	Female	18 – 19	128
 municipality	KZN276	2016	Female	20 – 29	1659
 municipality	KZN276	2016	Female	30 – 39	2596
@@ -3854,7 +3854,7 @@ municipality	KZN281	2016	Male	60 – 69	1911
 municipality	KZN281	2016	Male	70 – 79	491
 municipality	KZN281	2016	Male	80+	222
 municipality	KZN281	2016	Female	10 – 14	0
-municipality	KZN281	2016	Female	15 – 17	277
+municipality	KZN281	2016	Female	15 – 17	97
 municipality	KZN281	2016	Female	18 – 19	59
 municipality	KZN281	2016	Female	20 – 29	1821
 municipality	KZN281	2016	Female	30 – 39	2631
@@ -3874,7 +3874,7 @@ municipality	KZN282	2016	Male	60 – 69	4701
 municipality	KZN282	2016	Male	70 – 79	1670
 municipality	KZN282	2016	Male	80+	425
 municipality	KZN282	2016	Female	10 – 14	0
-municipality	KZN282	2016	Female	15 – 17	415
+municipality	KZN282	2016	Female	15 – 17	170
 municipality	KZN282	2016	Female	18 – 19	554
 municipality	KZN282	2016	Female	20 – 29	8566
 municipality	KZN282	2016	Female	30 – 39	11989
@@ -3894,7 +3894,7 @@ municipality	KZN284	2016	Male	60 – 69	3096
 municipality	KZN284	2016	Male	70 – 79	1357
 municipality	KZN284	2016	Male	80+	426
 municipality	KZN284	2016	Female	10 – 14	37
-municipality	KZN284	2016	Female	15 – 17	375
+municipality	KZN284	2016	Female	15 – 17	120
 municipality	KZN284	2016	Female	18 – 19	234
 municipality	KZN284	2016	Female	20 – 29	2436
 municipality	KZN284	2016	Female	30 – 39	4093
@@ -3914,7 +3914,7 @@ municipality	KZN285	2016	Male	60 – 69	740
 municipality	KZN285	2016	Male	70 – 79	455
 municipality	KZN285	2016	Male	80+	141
 municipality	KZN285	2016	Female	10 – 14	26
-municipality	KZN285	2016	Female	15 – 17	178
+municipality	KZN285	2016	Female	15 – 17	77
 municipality	KZN285	2016	Female	18 – 19	53
 municipality	KZN285	2016	Female	20 – 29	946
 municipality	KZN285	2016	Female	30 – 39	1734
@@ -3934,7 +3934,7 @@ municipality	KZN286	2016	Male	60 – 69	1447
 municipality	KZN286	2016	Male	70 – 79	643
 municipality	KZN286	2016	Male	80+	269
 municipality	KZN286	2016	Female	10 – 14	46
-municipality	KZN286	2016	Female	15 – 17	162
+municipality	KZN286	2016	Female	15 – 17	29
 municipality	KZN286	2016	Female	18 – 19	149
 municipality	KZN286	2016	Female	20 – 29	1148
 municipality	KZN286	2016	Female	30 – 39	1916
@@ -3954,7 +3954,7 @@ municipality	KZN291	2016	Male	60 – 69	1983
 municipality	KZN291	2016	Male	70 – 79	1028
 municipality	KZN291	2016	Male	80+	225
 municipality	KZN291	2016	Female	10 – 14	0
-municipality	KZN291	2016	Female	15 – 17	220
+municipality	KZN291	2016	Female	15 – 17	96
 municipality	KZN291	2016	Female	18 – 19	164
 municipality	KZN291	2016	Female	20 – 29	3830
 municipality	KZN291	2016	Female	30 – 39	5675
@@ -3974,7 +3974,7 @@ municipality	KZN292	2016	Male	60 – 69	4185
 municipality	KZN292	2016	Male	70 – 79	1983
 municipality	KZN292	2016	Male	80+	622
 municipality	KZN292	2016	Female	10 – 14	0
-municipality	KZN292	2016	Female	15 – 17	303
+municipality	KZN292	2016	Female	15 – 17	91
 municipality	KZN292	2016	Female	18 – 19	203
 municipality	KZN292	2016	Female	20 – 29	5965
 municipality	KZN292	2016	Female	30 – 39	9418
@@ -3994,7 +3994,7 @@ municipality	KZN293	2016	Male	60 – 69	2924
 municipality	KZN293	2016	Male	70 – 79	1421
 municipality	KZN293	2016	Male	80+	270
 municipality	KZN293	2016	Female	10 – 14	0
-municipality	KZN293	2016	Female	15 – 17	333
+municipality	KZN293	2016	Female	15 – 17	135
 municipality	KZN293	2016	Female	18 – 19	70
 municipality	KZN293	2016	Female	20 – 29	1296
 municipality	KZN293	2016	Female	30 – 39	2144
@@ -4014,7 +4014,7 @@ municipality	KZN294	2016	Male	60 – 69	1814
 municipality	KZN294	2016	Male	70 – 79	845
 municipality	KZN294	2016	Male	80+	196
 municipality	KZN294	2016	Female	10 – 14	0
-municipality	KZN294	2016	Female	15 – 17	196
+municipality	KZN294	2016	Female	15 – 17	50
 municipality	KZN294	2016	Female	18 – 19	69
 municipality	KZN294	2016	Female	20 – 29	907
 municipality	KZN294	2016	Female	30 – 39	1615
@@ -4034,7 +4034,7 @@ municipality	KZN433	2016	Male	60 – 69	525
 municipality	KZN433	2016	Male	70 – 79	220
 municipality	KZN433	2016	Male	80+	13
 municipality	KZN433	2016	Female	10 – 14	0
-municipality	KZN433	2016	Female	15 – 17	118
+municipality	KZN433	2016	Female	15 – 17	83
 municipality	KZN433	2016	Female	18 – 19	248
 municipality	KZN433	2016	Female	20 – 29	2611
 municipality	KZN433	2016	Female	30 – 39	3072
@@ -4054,7 +4054,7 @@ municipality	KZN434	2016	Male	60 – 69	1301
 municipality	KZN434	2016	Male	70 – 79	463
 municipality	KZN434	2016	Male	80+	159
 municipality	KZN434	2016	Female	10 – 14	35
-municipality	KZN434	2016	Female	15 – 17	255
+municipality	KZN434	2016	Female	15 – 17	135
 municipality	KZN434	2016	Female	18 – 19	53
 municipality	KZN434	2016	Female	20 – 29	1664
 municipality	KZN434	2016	Female	30 – 39	2325
@@ -4074,7 +4074,7 @@ municipality	KZN435	2016	Male	60 – 69	2045
 municipality	KZN435	2016	Male	70 – 79	1049
 municipality	KZN435	2016	Male	80+	371
 municipality	KZN435	2016	Female	10 – 14	114
-municipality	KZN435	2016	Female	15 – 17	780
+municipality	KZN435	2016	Female	15 – 17	205
 municipality	KZN435	2016	Female	18 – 19	290
 municipality	KZN435	2016	Female	20 – 29	4150
 municipality	KZN435	2016	Female	30 – 39	5010
@@ -4094,7 +4094,7 @@ municipality	KZN436	2016	Male	60 – 69	1545
 municipality	KZN436	2016	Male	70 – 79	470
 municipality	KZN436	2016	Male	80+	244
 municipality	KZN436	2016	Female	10 – 14	29
-municipality	KZN436	2016	Female	15 – 17	461
+municipality	KZN436	2016	Female	15 – 17	109
 municipality	KZN436	2016	Female	18 – 19	60
 municipality	KZN436	2016	Female	20 – 29	2707
 municipality	KZN436	2016	Female	30 – 39	2817
@@ -4114,7 +4114,7 @@ municipality	NW371	2016	Male	60 – 69	5542
 municipality	NW371	2016	Male	70 – 79	2574
 municipality	NW371	2016	Male	80+	977
 municipality	NW371	2016	Female	10 – 14	22
-municipality	NW371	2016	Female	15 – 17	224
+municipality	NW371	2016	Female	15 – 17	53
 municipality	NW371	2016	Female	18 – 19	174
 municipality	NW371	2016	Female	20 – 29	1670
 municipality	NW371	2016	Female	30 – 39	3092
@@ -4134,7 +4134,7 @@ municipality	NW372	2016	Male	60 – 69	12421
 municipality	NW372	2016	Male	70 – 79	4378
 municipality	NW372	2016	Male	80+	1240
 municipality	NW372	2016	Female	10 – 14	16
-municipality	NW372	2016	Female	15 – 17	1009
+municipality	NW372	2016	Female	15 – 17	214
 municipality	NW372	2016	Female	18 – 19	301
 municipality	NW372	2016	Female	20 – 29	6914
 municipality	NW372	2016	Female	30 – 39	11765
@@ -4154,7 +4154,7 @@ municipality	NW373	2016	Male	60 – 69	11599
 municipality	NW373	2016	Male	70 – 79	2845
 municipality	NW373	2016	Male	80+	815
 municipality	NW373	2016	Female	10 – 14	29
-municipality	NW373	2016	Female	15 – 17	723
+municipality	NW373	2016	Female	15 – 17	246
 municipality	NW373	2016	Female	18 – 19	635
 municipality	NW373	2016	Female	20 – 29	9741
 municipality	NW373	2016	Female	30 – 39	15929
@@ -4174,7 +4174,7 @@ municipality	NW374	2016	Male	60 – 69	1269
 municipality	NW374	2016	Male	70 – 79	531
 municipality	NW374	2016	Male	80+	328
 municipality	NW374	2016	Female	10 – 14	0
-municipality	NW374	2016	Female	15 – 17	65
+municipality	NW374	2016	Female	15 – 17	21
 municipality	NW374	2016	Female	18 – 19	21
 municipality	NW374	2016	Female	20 – 29	573
 municipality	NW374	2016	Female	30 – 39	1061
@@ -4194,7 +4194,7 @@ municipality	NW375	2016	Male	60 – 69	6934
 municipality	NW375	2016	Male	70 – 79	2986
 municipality	NW375	2016	Male	80+	1321
 municipality	NW375	2016	Female	10 – 14	32
-municipality	NW375	2016	Female	15 – 17	393
+municipality	NW375	2016	Female	15 – 17	85
 municipality	NW375	2016	Female	18 – 19	169
 municipality	NW375	2016	Female	20 – 29	2022
 municipality	NW375	2016	Female	30 – 39	4808
@@ -4214,7 +4214,7 @@ municipality	NW381	2016	Male	60 – 69	1924
 municipality	NW381	2016	Male	70 – 79	1076
 municipality	NW381	2016	Male	80+	405
 municipality	NW381	2016	Female	10 – 14	14
-municipality	NW381	2016	Female	15 – 17	398
+municipality	NW381	2016	Female	15 – 17	113
 municipality	NW381	2016	Female	18 – 19	205
 municipality	NW381	2016	Female	20 – 29	1557
 municipality	NW381	2016	Female	30 – 39	2396
@@ -4234,7 +4234,7 @@ municipality	NW383	2016	Male	60 – 69	4694
 municipality	NW383	2016	Male	70 – 79	1873
 municipality	NW383	2016	Male	80+	638
 municipality	NW383	2016	Female	10 – 14	42
-municipality	NW383	2016	Female	15 – 17	873
+municipality	NW383	2016	Female	15 – 17	465
 municipality	NW383	2016	Female	18 – 19	897
 municipality	NW383	2016	Female	20 – 29	7031
 municipality	NW383	2016	Female	30 – 39	9699
@@ -4254,7 +4254,7 @@ municipality	NW384	2016	Male	60 – 69	3607
 municipality	NW384	2016	Male	70 – 79	1224
 municipality	NW384	2016	Male	80+	318
 municipality	NW384	2016	Female	10 – 14	0
-municipality	NW384	2016	Female	15 – 17	284
+municipality	NW384	2016	Female	15 – 17	65
 municipality	NW384	2016	Female	18 – 19	271
 municipality	NW384	2016	Female	20 – 29	2161
 municipality	NW384	2016	Female	30 – 39	3283
@@ -4274,7 +4274,7 @@ municipality	NW385	2016	Male	60 – 69	3991
 municipality	NW385	2016	Male	70 – 79	1456
 municipality	NW385	2016	Male	80+	552
 municipality	NW385	2016	Female	10 – 14	31
-municipality	NW385	2016	Female	15 – 17	480
+municipality	NW385	2016	Female	15 – 17	143
 municipality	NW385	2016	Female	18 – 19	100
 municipality	NW385	2016	Female	20 – 29	1741
 municipality	NW385	2016	Female	30 – 39	3368
@@ -4294,7 +4294,7 @@ municipality	NW382	2016	Male	60 – 69	2370
 municipality	NW382	2016	Male	70 – 79	1020
 municipality	NW382	2016	Male	80+	344
 municipality	NW382	2016	Female	10 – 14	63
-municipality	NW382	2016	Female	15 – 17	304
+municipality	NW382	2016	Female	15 – 17	132
 municipality	NW382	2016	Female	18 – 19	82
 municipality	NW382	2016	Female	20 – 29	1341
 municipality	NW382	2016	Female	30 – 39	2361
@@ -4314,7 +4314,7 @@ municipality	NW392	2016	Male	60 – 69	1126
 municipality	NW392	2016	Male	70 – 79	315
 municipality	NW392	2016	Male	80+	108
 municipality	NW392	2016	Female	10 – 14	0
-municipality	NW392	2016	Female	15 – 17	104
+municipality	NW392	2016	Female	15 – 17	39
 municipality	NW392	2016	Female	18 – 19	0
 municipality	NW392	2016	Female	20 – 29	1294
 municipality	NW392	2016	Female	30 – 39	1507
@@ -4334,7 +4334,7 @@ municipality	NW393	2016	Male	60 – 69	1001
 municipality	NW393	2016	Male	70 – 79	402
 municipality	NW393	2016	Male	80+	142
 municipality	NW393	2016	Female	10 – 14	0
-municipality	NW393	2016	Female	15 – 17	142
+municipality	NW393	2016	Female	15 – 17	84
 municipality	NW393	2016	Female	18 – 19	51
 municipality	NW393	2016	Female	20 – 29	789
 municipality	NW393	2016	Female	30 – 39	1414
@@ -4354,7 +4354,7 @@ municipality	NW394	2016	Male	60 – 69	3721
 municipality	NW394	2016	Male	70 – 79	1649
 municipality	NW394	2016	Male	80+	695
 municipality	NW394	2016	Female	10 – 14	43
-municipality	NW394	2016	Female	15 – 17	566
+municipality	NW394	2016	Female	15 – 17	109
 municipality	NW394	2016	Female	18 – 19	129
 municipality	NW394	2016	Female	20 – 29	2180
 municipality	NW394	2016	Female	30 – 39	3652
@@ -4374,7 +4374,7 @@ municipality	NW396	2016	Male	60 – 69	931
 municipality	NW396	2016	Male	70 – 79	460
 municipality	NW396	2016	Male	80+	176
 municipality	NW396	2016	Female	10 – 14	0
-municipality	NW396	2016	Female	15 – 17	107
+municipality	NW396	2016	Female	15 – 17	26
 municipality	NW396	2016	Female	18 – 19	27
 municipality	NW396	2016	Female	20 – 29	699
 municipality	NW396	2016	Female	30 – 39	1236
@@ -4394,7 +4394,7 @@ municipality	NW397	2016	Male	60 – 69	1667
 municipality	NW397	2016	Male	70 – 79	816
 municipality	NW397	2016	Male	80+	305
 municipality	NW397	2016	Female	10 – 14	0
-municipality	NW397	2016	Female	15 – 17	267
+municipality	NW397	2016	Female	15 – 17	65
 municipality	NW397	2016	Female	18 – 19	63
 municipality	NW397	2016	Female	20 – 29	1534
 municipality	NW397	2016	Female	30 – 39	2870
@@ -4414,7 +4414,7 @@ municipality	NW403	2016	Male	60 – 69	8567
 municipality	NW403	2016	Male	70 – 79	3194
 municipality	NW403	2016	Male	80+	781
 municipality	NW403	2016	Female	10 – 14	28
-municipality	NW403	2016	Female	15 – 17	499
+municipality	NW403	2016	Female	15 – 17	211
 municipality	NW403	2016	Female	18 – 19	341
 municipality	NW403	2016	Female	20 – 29	5720
 municipality	NW403	2016	Female	30 – 39	11251
@@ -4434,7 +4434,7 @@ municipality	NW404	2016	Male	60 – 69	2050
 municipality	NW404	2016	Male	70 – 79	531
 municipality	NW404	2016	Male	80+	239
 municipality	NW404	2016	Female	10 – 14	0
-municipality	NW404	2016	Female	15 – 17	90
+municipality	NW404	2016	Female	15 – 17	20
 municipality	NW404	2016	Female	18 – 19	72
 municipality	NW404	2016	Female	20 – 29	1116
 municipality	NW404	2016	Female	30 – 39	1662
@@ -4454,7 +4454,7 @@ municipality	NW405	2016	Male	60 – 69	4442
 municipality	NW405	2016	Male	70 – 79	2019
 municipality	NW405	2016	Male	80+	744
 municipality	NW405	2016	Female	10 – 14	23
-municipality	NW405	2016	Female	15 – 17	349
+municipality	NW405	2016	Female	15 – 17	56
 municipality	NW405	2016	Female	18 – 19	971
 municipality	NW405	2016	Female	20 – 29	5653
 municipality	NW405	2016	Female	30 – 39	5839
@@ -4474,7 +4474,7 @@ municipality	GT422	2016	Male	60 – 69	3044
 municipality	GT422	2016	Male	70 – 79	1511
 municipality	GT422	2016	Male	80+	322
 municipality	GT422	2016	Female	10 – 14	0
-municipality	GT422	2016	Female	15 – 17	72
+municipality	GT422	2016	Female	15 – 17	0
 municipality	GT422	2016	Female	18 – 19	71
 municipality	GT422	2016	Female	20 – 29	1205
 municipality	GT422	2016	Female	30 – 39	2291
@@ -4494,7 +4494,7 @@ municipality	GT421	2016	Male	60 – 69	18589
 municipality	GT421	2016	Male	70 – 79	7187
 municipality	GT421	2016	Male	80+	2025
 municipality	GT421	2016	Female	10 – 14	32
-municipality	GT421	2016	Female	15 – 17	679
+municipality	GT421	2016	Female	15 – 17	264
 municipality	GT421	2016	Female	18 – 19	885
 municipality	GT421	2016	Female	20 – 29	10918
 municipality	GT421	2016	Female	30 – 39	16918
@@ -4514,7 +4514,7 @@ municipality	GT423	2016	Male	60 – 69	2701
 municipality	GT423	2016	Male	70 – 79	1280
 municipality	GT423	2016	Male	80+	363
 municipality	GT423	2016	Female	10 – 14	19
-municipality	GT423	2016	Female	15 – 17	253
+municipality	GT423	2016	Female	15 – 17	18
 municipality	GT423	2016	Female	18 – 19	44
 municipality	GT423	2016	Female	20 – 29	1314
 municipality	GT423	2016	Female	30 – 39	2736
@@ -4534,7 +4534,7 @@ municipality	GT481	2016	Male	60 – 69	12084
 municipality	GT481	2016	Male	70 – 79	3621
 municipality	GT481	2016	Male	80+	934
 municipality	GT481	2016	Female	10 – 14	23
-municipality	GT481	2016	Female	15 – 17	498
+municipality	GT481	2016	Female	15 – 17	162
 municipality	GT481	2016	Female	18 – 19	352
 municipality	GT481	2016	Female	20 – 29	5623
 municipality	GT481	2016	Female	30 – 39	8814
@@ -4554,7 +4554,7 @@ municipality	GT484	2016	Male	60 – 69	5613
 municipality	GT484	2016	Male	70 – 79	1587
 municipality	GT484	2016	Male	80+	315
 municipality	GT484	2016	Female	10 – 14	30
-municipality	GT484	2016	Female	15 – 17	418
+municipality	GT484	2016	Female	15 – 17	112
 municipality	GT484	2016	Female	18 – 19	151
 municipality	GT484	2016	Female	20 – 29	2815
 municipality	GT484	2016	Female	30 – 39	5268
@@ -4574,7 +4574,7 @@ municipality	GT485	2016	Male	60 – 69	7974
 municipality	GT485	2016	Male	70 – 79	2186
 municipality	GT485	2016	Male	80+	663
 municipality	GT485	2016	Female	10 – 14	13
-municipality	GT485	2016	Female	15 – 17	417
+municipality	GT485	2016	Female	15 – 17	210
 municipality	GT485	2016	Female	18 – 19	242
 municipality	GT485	2016	Female	20 – 29	4247
 municipality	GT485	2016	Female	30 – 39	7164
@@ -4594,7 +4594,7 @@ municipality	MP301	2016	Male	60 – 69	3181
 municipality	MP301	2016	Male	70 – 79	1675
 municipality	MP301	2016	Male	80+	625
 municipality	MP301	2016	Female	10 – 14	12
-municipality	MP301	2016	Female	15 – 17	505
+municipality	MP301	2016	Female	15 – 17	199
 municipality	MP301	2016	Female	18 – 19	261
 municipality	MP301	2016	Female	20 – 29	3202
 municipality	MP301	2016	Female	30 – 39	5116
@@ -4614,7 +4614,7 @@ municipality	MP302	2016	Male	60 – 69	2433
 municipality	MP302	2016	Male	70 – 79	829
 municipality	MP302	2016	Male	80+	268
 municipality	MP302	2016	Female	10 – 14	15
-municipality	MP302	2016	Female	15 – 17	233
+municipality	MP302	2016	Female	15 – 17	125
 municipality	MP302	2016	Female	18 – 19	253
 municipality	MP302	2016	Female	20 – 29	3541
 municipality	MP302	2016	Female	30 – 39	4571
@@ -4634,7 +4634,7 @@ municipality	MP303	2016	Male	60 – 69	2120
 municipality	MP303	2016	Male	70 – 79	877
 municipality	MP303	2016	Male	80+	449
 municipality	MP303	2016	Female	10 – 14	8
-municipality	MP303	2016	Female	15 – 17	202
+municipality	MP303	2016	Female	15 – 17	52
 municipality	MP303	2016	Female	18 – 19	343
 municipality	MP303	2016	Female	20 – 29	3377
 municipality	MP303	2016	Female	30 – 39	4701
@@ -4654,7 +4654,7 @@ municipality	MP304	2016	Male	60 – 69	1871
 municipality	MP304	2016	Male	70 – 79	640
 municipality	MP304	2016	Male	80+	243
 municipality	MP304	2016	Female	10 – 14	0
-municipality	MP304	2016	Female	15 – 17	339
+municipality	MP304	2016	Female	15 – 17	117
 municipality	MP304	2016	Female	18 – 19	150
 municipality	MP304	2016	Female	20 – 29	1126
 municipality	MP304	2016	Female	30 – 39	2110
@@ -4674,7 +4674,7 @@ municipality	MP305	2016	Male	60 – 69	2501
 municipality	MP305	2016	Male	70 – 79	905
 municipality	MP305	2016	Male	80+	308
 municipality	MP305	2016	Female	10 – 14	56
-municipality	MP305	2016	Female	15 – 17	148
+municipality	MP305	2016	Female	15 – 17	61
 municipality	MP305	2016	Female	18 – 19	7
 municipality	MP305	2016	Female	20 – 29	1763
 municipality	MP305	2016	Female	30 – 39	2664
@@ -4694,7 +4694,7 @@ municipality	MP306	2016	Male	60 – 69	900
 municipality	MP306	2016	Male	70 – 79	422
 municipality	MP306	2016	Male	80+	118
 municipality	MP306	2016	Female	10 – 14	0
-municipality	MP306	2016	Female	15 – 17	94
+municipality	MP306	2016	Female	15 – 17	55
 municipality	MP306	2016	Female	18 – 19	67
 municipality	MP306	2016	Female	20 – 29	591
 municipality	MP306	2016	Female	30 – 39	1221
@@ -4714,7 +4714,7 @@ municipality	MP307	2016	Male	60 – 69	5757
 municipality	MP307	2016	Male	70 – 79	1883
 municipality	MP307	2016	Male	80+	532
 municipality	MP307	2016	Female	10 – 14	18
-municipality	MP307	2016	Female	15 – 17	347
+municipality	MP307	2016	Female	15 – 17	157
 municipality	MP307	2016	Female	18 – 19	117
 municipality	MP307	2016	Female	20 – 29	4455
 municipality	MP307	2016	Female	30 – 39	7485
@@ -4734,7 +4734,7 @@ municipality	MP311	2016	Male	60 – 69	1387
 municipality	MP311	2016	Male	70 – 79	462
 municipality	MP311	2016	Male	80+	91
 municipality	MP311	2016	Female	10 – 14	0
-municipality	MP311	2016	Female	15 – 17	57
+municipality	MP311	2016	Female	15 – 17	0
 municipality	MP311	2016	Female	18 – 19	33
 municipality	MP311	2016	Female	20 – 29	871
 municipality	MP311	2016	Female	30 – 39	1770
@@ -4754,7 +4754,7 @@ municipality	MP312	2016	Male	60 – 69	6205
 municipality	MP312	2016	Male	70 – 79	2033
 municipality	MP312	2016	Male	80+	454
 municipality	MP312	2016	Female	10 – 14	0
-municipality	MP312	2016	Female	15 – 17	420
+municipality	MP312	2016	Female	15 – 17	163
 municipality	MP312	2016	Female	18 – 19	283
 municipality	MP312	2016	Female	20 – 29	7937
 municipality	MP312	2016	Female	30 – 39	11310
@@ -4774,7 +4774,7 @@ municipality	MP313	2016	Male	60 – 69	3893
 municipality	MP313	2016	Male	70 – 79	1074
 municipality	MP313	2016	Male	80+	446
 municipality	MP313	2016	Female	10 – 14	36
-municipality	MP313	2016	Female	15 – 17	197
+municipality	MP313	2016	Female	15 – 17	87
 municipality	MP313	2016	Female	18 – 19	124
 municipality	MP313	2016	Female	20 – 29	4426
 municipality	MP313	2016	Female	30 – 39	6199
@@ -4814,7 +4814,7 @@ municipality	MP315	2016	Male	60 – 69	5746
 municipality	MP315	2016	Male	70 – 79	1488
 municipality	MP315	2016	Male	80+	692
 municipality	MP315	2016	Female	10 – 14	12
-municipality	MP315	2016	Female	15 – 17	379
+municipality	MP315	2016	Female	15 – 17	129
 municipality	MP315	2016	Female	18 – 19	271
 municipality	MP315	2016	Female	20 – 29	3435
 municipality	MP315	2016	Female	30 – 39	6114
@@ -4834,7 +4834,7 @@ municipality	MP316	2016	Male	60 – 69	5432
 municipality	MP316	2016	Male	70 – 79	2229
 municipality	MP316	2016	Male	80+	957
 municipality	MP316	2016	Female	10 – 14	37
-municipality	MP316	2016	Female	15 – 17	470
+municipality	MP316	2016	Female	15 – 17	172
 municipality	MP316	2016	Female	18 – 19	230
 municipality	MP316	2016	Female	20 – 29	2521
 municipality	MP316	2016	Female	30 – 39	4293
@@ -4854,7 +4854,7 @@ municipality	MP321	2016	Male	60 – 69	1823
 municipality	MP321	2016	Male	70 – 79	588
 municipality	MP321	2016	Male	80+	389
 municipality	MP321	2016	Female	10 – 14	15
-municipality	MP321	2016	Female	15 – 17	205
+municipality	MP321	2016	Female	15 – 17	43
 municipality	MP321	2016	Female	18 – 19	66
 municipality	MP321	2016	Female	20 – 29	1578
 municipality	MP321	2016	Female	30 – 39	2796
@@ -4874,7 +4874,7 @@ municipality	MP325	2016	Male	60 – 69	7816
 municipality	MP325	2016	Male	70 – 79	3585
 municipality	MP325	2016	Male	80+	1483
 municipality	MP325	2016	Female	10 – 14	104
-municipality	MP325	2016	Female	15 – 17	1891
+municipality	MP325	2016	Female	15 – 17	642
 municipality	MP325	2016	Female	18 – 19	767
 municipality	MP325	2016	Female	20 – 29	8311
 municipality	MP325	2016	Female	30 – 39	14203
@@ -4894,7 +4894,7 @@ municipality	MP324	2016	Male	60 – 69	4487
 municipality	MP324	2016	Male	70 – 79	2141
 municipality	MP324	2016	Male	80+	850
 municipality	MP324	2016	Female	10 – 14	113
-municipality	MP324	2016	Female	15 – 17	1176
+municipality	MP324	2016	Female	15 – 17	329
 municipality	MP324	2016	Female	18 – 19	616
 municipality	MP324	2016	Female	20 – 29	6737
 municipality	MP324	2016	Female	30 – 39	11020
@@ -4914,7 +4914,7 @@ municipality	MP326	2016	Male	60 – 69	9612
 municipality	MP326	2016	Male	70 – 79	4575
 municipality	MP326	2016	Male	80+	1405
 municipality	MP326	2016	Female	10 – 14	23
-municipality	MP326	2016	Female	15 – 17	1091
+municipality	MP326	2016	Female	15 – 17	365
 municipality	MP326	2016	Female	18 – 19	705
 municipality	MP326	2016	Female	20 – 29	10135
 municipality	MP326	2016	Female	30 – 39	18962
@@ -4934,7 +4934,7 @@ municipality	LIM331	2016	Male	60 – 69	3135
 municipality	LIM331	2016	Male	70 – 79	1564
 municipality	LIM331	2016	Male	80+	632
 municipality	LIM331	2016	Female	10 – 14	212
-municipality	LIM331	2016	Female	15 – 17	1650
+municipality	LIM331	2016	Female	15 – 17	585
 municipality	LIM331	2016	Female	18 – 19	691
 municipality	LIM331	2016	Female	20 – 29	4485
 municipality	LIM331	2016	Female	30 – 39	9711
@@ -4954,7 +4954,7 @@ municipality	LIM332	2016	Male	60 – 69	3390
 municipality	LIM332	2016	Male	70 – 79	1500
 municipality	LIM332	2016	Male	80+	585
 municipality	LIM332	2016	Female	10 – 14	66
-municipality	LIM332	2016	Female	15 – 17	1485
+municipality	LIM332	2016	Female	15 – 17	536
 municipality	LIM332	2016	Female	18 – 19	443
 municipality	LIM332	2016	Female	20 – 29	4353
 municipality	LIM332	2016	Female	30 – 39	7059
@@ -4974,7 +4974,7 @@ municipality	LIM333	2016	Male	60 – 69	6644
 municipality	LIM333	2016	Male	70 – 79	2524
 municipality	LIM333	2016	Male	80+	949
 municipality	LIM333	2016	Female	10 – 14	119
-municipality	LIM333	2016	Female	15 – 17	2085
+municipality	LIM333	2016	Female	15 – 17	568
 municipality	LIM333	2016	Female	18 – 19	573
 municipality	LIM333	2016	Female	20 – 29	6062
 municipality	LIM333	2016	Female	30 – 39	10686
@@ -4994,7 +4994,7 @@ municipality	LIM334	2016	Male	60 – 69	2413
 municipality	LIM334	2016	Male	70 – 79	708
 municipality	LIM334	2016	Male	80+	176
 municipality	LIM334	2016	Female	10 – 14	38
-municipality	LIM334	2016	Female	15 – 17	583
+municipality	LIM334	2016	Female	15 – 17	231
 municipality	LIM334	2016	Female	18 – 19	345
 municipality	LIM334	2016	Female	20 – 29	2499
 municipality	LIM334	2016	Female	30 – 39	4988
@@ -5014,7 +5014,7 @@ municipality	LIM335	2016	Male	60 – 69	1677
 municipality	LIM335	2016	Male	70 – 79	582
 municipality	LIM335	2016	Male	80+	204
 municipality	LIM335	2016	Female	10 – 14	17
-municipality	LIM335	2016	Female	15 – 17	398
+municipality	LIM335	2016	Female	15 – 17	118
 municipality	LIM335	2016	Female	18 – 19	147
 municipality	LIM335	2016	Female	20 – 29	1633
 municipality	LIM335	2016	Female	30 – 39	2845
@@ -5034,7 +5034,7 @@ municipality	LIM341	2016	Male	60 – 69	881
 municipality	LIM341	2016	Male	70 – 79	265
 municipality	LIM341	2016	Male	80+	148
 municipality	LIM341	2016	Female	10 – 14	106
-municipality	LIM341	2016	Female	15 – 17	591
+municipality	LIM341	2016	Female	15 – 17	182
 municipality	LIM341	2016	Female	18 – 19	376
 municipality	LIM341	2016	Female	20 – 29	4577
 municipality	LIM341	2016	Female	30 – 39	5786
@@ -5054,7 +5054,7 @@ municipality	LIM343	2016	Male	60 – 69	5700
 municipality	LIM343	2016	Male	70 – 79	2263
 municipality	LIM343	2016	Male	80+	1146
 municipality	LIM343	2016	Female	10 – 14	148
-municipality	LIM343	2016	Female	15 – 17	1289
+municipality	LIM343	2016	Female	15 – 17	548
 municipality	LIM343	2016	Female	18 – 19	721
 municipality	LIM343	2016	Female	20 – 29	7242
 municipality	LIM343	2016	Female	30 – 39	13017
@@ -5074,7 +5074,7 @@ municipality	LIM344	2016	Male	60 – 69	5084
 municipality	LIM344	2016	Male	70 – 79	2310
 municipality	LIM344	2016	Male	80+	1003
 municipality	LIM344	2016	Female	10 – 14	105
-municipality	LIM344	2016	Female	15 – 17	1644
+municipality	LIM344	2016	Female	15 – 17	609
 municipality	LIM344	2016	Female	18 – 19	906
 municipality	LIM344	2016	Female	20 – 29	5750
 municipality	LIM344	2016	Female	30 – 39	10311
@@ -5094,7 +5094,7 @@ municipality	LIM345	2016	Male	60 – 69	3978
 municipality	LIM345	2016	Male	70 – 79	1781
 municipality	LIM345	2016	Male	80+	806
 municipality	LIM345	2016	Female	10 – 14	498
-municipality	LIM345	2016	Female	15 – 17	2603
+municipality	LIM345	2016	Female	15 – 17	934
 municipality	LIM345	2016	Female	18 – 19	952
 municipality	LIM345	2016	Female	20 – 29	6638
 municipality	LIM345	2016	Female	30 – 39	11539
@@ -5114,7 +5114,7 @@ municipality	LIM355	2016	Male	60 – 69	4137
 municipality	LIM355	2016	Male	70 – 79	1944
 municipality	LIM355	2016	Male	80+	741
 municipality	LIM355	2016	Female	10 – 14	78
-municipality	LIM355	2016	Female	15 – 17	585
+municipality	LIM355	2016	Female	15 – 17	222
 municipality	LIM355	2016	Female	18 – 19	302
 municipality	LIM355	2016	Female	20 – 29	3128
 municipality	LIM355	2016	Female	30 – 39	5105
@@ -5134,7 +5134,7 @@ municipality	LIM351	2016	Male	60 – 69	2685
 municipality	LIM351	2016	Male	70 – 79	1447
 municipality	LIM351	2016	Male	80+	597
 municipality	LIM351	2016	Female	10 – 14	0
-municipality	LIM351	2016	Female	15 – 17	931
+municipality	LIM351	2016	Female	15 – 17	282
 municipality	LIM351	2016	Female	18 – 19	391
 municipality	LIM351	2016	Female	20 – 29	2857
 municipality	LIM351	2016	Female	30 – 39	3417
@@ -5154,7 +5154,7 @@ municipality	LIM353	2016	Male	60 – 69	2172
 municipality	LIM353	2016	Male	70 – 79	1085
 municipality	LIM353	2016	Male	80+	419
 municipality	LIM353	2016	Female	10 – 14	10
-municipality	LIM353	2016	Female	15 – 17	385
+municipality	LIM353	2016	Female	15 – 17	143
 municipality	LIM353	2016	Female	18 – 19	212
 municipality	LIM353	2016	Female	20 – 29	1795
 municipality	LIM353	2016	Female	30 – 39	2859
@@ -5174,7 +5174,7 @@ municipality	LIM354	2016	Male	60 – 69	10936
 municipality	LIM354	2016	Male	70 – 79	4878
 municipality	LIM354	2016	Male	80+	1551
 municipality	LIM354	2016	Female	10 – 14	140
-municipality	LIM354	2016	Female	15 – 17	2650
+municipality	LIM354	2016	Female	15 – 17	930
 municipality	LIM354	2016	Female	18 – 19	1761
 municipality	LIM354	2016	Female	20 – 29	17750
 municipality	LIM354	2016	Female	30 – 39	20819
@@ -5194,7 +5194,7 @@ municipality	LIM361	2016	Male	60 – 69	1134
 municipality	LIM361	2016	Male	70 – 79	368
 municipality	LIM361	2016	Male	80+	41
 municipality	LIM361	2016	Female	10 – 14	0
-municipality	LIM361	2016	Female	15 – 17	62
+municipality	LIM361	2016	Female	15 – 17	37
 municipality	LIM361	2016	Female	18 – 19	42
 municipality	LIM361	2016	Female	20 – 29	1673
 municipality	LIM361	2016	Female	30 – 39	2265
@@ -5214,7 +5214,7 @@ municipality	LIM362	2016	Male	60 – 69	1980
 municipality	LIM362	2016	Male	70 – 79	558
 municipality	LIM362	2016	Male	80+	330
 municipality	LIM362	2016	Female	10 – 14	48
-municipality	LIM362	2016	Female	15 – 17	295
+municipality	LIM362	2016	Female	15 – 17	118
 municipality	LIM362	2016	Female	18 – 19	145
 municipality	LIM362	2016	Female	20 – 29	2684
 municipality	LIM362	2016	Female	30 – 39	3609
@@ -5234,7 +5234,7 @@ municipality	LIM366	2016	Male	60 – 69	1241
 municipality	LIM366	2016	Male	70 – 79	607
 municipality	LIM366	2016	Male	80+	243
 municipality	LIM366	2016	Female	10 – 14	0
-municipality	LIM366	2016	Female	15 – 17	132
+municipality	LIM366	2016	Female	15 – 17	35
 municipality	LIM366	2016	Female	18 – 19	56
 municipality	LIM366	2016	Female	20 – 29	1134
 municipality	LIM366	2016	Female	30 – 39	1794
@@ -5254,7 +5254,7 @@ municipality	LIM367	2016	Male	60 – 69	5622
 municipality	LIM367	2016	Male	70 – 79	3137
 municipality	LIM367	2016	Male	80+	1182
 municipality	LIM367	2016	Female	10 – 14	42
-municipality	LIM367	2016	Female	15 – 17	1101
+municipality	LIM367	2016	Female	15 – 17	537
 municipality	LIM367	2016	Female	18 – 19	488
 municipality	LIM367	2016	Female	20 – 29	5194
 municipality	LIM367	2016	Female	30 – 39	6086
@@ -5274,7 +5274,7 @@ municipality	LIM368	2016	Male	60 – 69	1625
 municipality	LIM368	2016	Male	70 – 79	935
 municipality	LIM368	2016	Male	80+	312
 municipality	LIM368	2016	Female	10 – 14	0
-municipality	LIM368	2016	Female	15 – 17	201
+municipality	LIM368	2016	Female	15 – 17	136
 municipality	LIM368	2016	Female	18 – 19	90
 municipality	LIM368	2016	Female	20 – 29	1714
 municipality	LIM368	2016	Female	30 – 39	2859
@@ -5294,7 +5294,7 @@ municipality	LIM471	2016	Male	60 – 69	1590
 municipality	LIM471	2016	Male	70 – 79	737
 municipality	LIM471	2016	Male	80+	256
 municipality	LIM471	2016	Female	10 – 14	0
-municipality	LIM471	2016	Female	15 – 17	603
+municipality	LIM471	2016	Female	15 – 17	91
 municipality	LIM471	2016	Female	18 – 19	250
 municipality	LIM471	2016	Female	20 – 29	2620
 municipality	LIM471	2016	Female	30 – 39	3020
@@ -5314,7 +5314,7 @@ municipality	LIM472	2016	Male	60 – 69	3647
 municipality	LIM472	2016	Male	70 – 79	1764
 municipality	LIM472	2016	Male	80+	686
 municipality	LIM472	2016	Female	10 – 14	16
-municipality	LIM472	2016	Female	15 – 17	982
+municipality	LIM472	2016	Female	15 – 17	325
 municipality	LIM472	2016	Female	18 – 19	567
 municipality	LIM472	2016	Female	20 – 29	4172
 municipality	LIM472	2016	Female	30 – 39	5727
@@ -5334,7 +5334,7 @@ municipality	LIM473	2016	Male	60 – 69	3837
 municipality	LIM473	2016	Male	70 – 79	2084
 municipality	LIM473	2016	Male	80+	667
 municipality	LIM473	2016	Female	10 – 14	54
-municipality	LIM473	2016	Female	15 – 17	579
+municipality	LIM473	2016	Female	15 – 17	240
 municipality	LIM473	2016	Female	18 – 19	331
 municipality	LIM473	2016	Female	20 – 29	3549
 municipality	LIM473	2016	Female	30 – 39	6609
@@ -5354,7 +5354,7 @@ municipality	LIM476	2016	Male	60 – 69	4994
 municipality	LIM476	2016	Male	70 – 79	2177
 municipality	LIM476	2016	Male	80+	828
 municipality	LIM476	2016	Female	10 – 14	150
-municipality	LIM476	2016	Female	15 – 17	1416
+municipality	LIM476	2016	Female	15 – 17	338
 municipality	LIM476	2016	Female	18 – 19	710
 municipality	LIM476	2016	Female	20 – 29	7624
 municipality	LIM476	2016	Female	30 – 39	12066
@@ -5374,7 +5374,7 @@ country	ZA	2016	Male	60 – 69	1040406
 country	ZA	2016	Male	70 – 79	423383
 country	ZA	2016	Male	80+	126699
 country	ZA	2016	Female	10 – 14	5889
-country	ZA	2016	Female	15 – 17	98876
+country	ZA	2016	Female	15 – 17	36676
 country	ZA	2016	Female	18 – 19	63865
 country	ZA	2016	Female	20 – 29	899566
 country	ZA	2016	Female	30 – 39	1437363
