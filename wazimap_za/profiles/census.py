@@ -313,6 +313,15 @@ COLLAPSED_TOILET_CATEGORIES = {
     "None": "None",
     "Unspecified": "Unspecified",
     "Not applicable": "N/A",
+    # CS 2016:
+    "Flush toilet connected to a public sewerage system": "Flush toilet",
+    "Flush toilet connected to a septic tank or conservancy tank": "Flush toilet",
+    "Chemical toilet": "Chemical toilet",
+    "Pit latrine/toilet with ventilation pipe": "Pit toilet",
+    "Pit latrine/toilet without ventilation pipe": "Pit toilet",
+    "Ecological toilet (e.g. urine diversion; enviroloo; etc.)": "Ecological toilet",
+    "Bucket toilet (collected by municipality)": "Bucket toilet",
+    "Bucket toilet (emptied by household)": "Bucket toilet"
 }
 
 HOUSEHOLD_GOODS_RECODE = {
@@ -713,7 +722,7 @@ def get_service_delivery_profile(geo, session):
             recode=SHORT_WATER_SOURCE_CATEGORIES,
             order_by='-total')
 
-    # Water from a service provider
+    # water from a service provider
     total_water_sp = 0.0
     perc_water_sp = 0.0
 
@@ -807,10 +816,10 @@ def get_service_delivery_profile(geo, session):
 
     # toilets
     toilet_data, total_toilet = get_stat_data(
-            ['toilet facilities'], geo, session,
-            exclude_zero=True,
-            recode=COLLAPSED_TOILET_CATEGORIES,
-            order_by='-total')
+        ['toilet facilities'], geo, session,
+        exclude_zero=True,
+        recode=COLLAPSED_TOILET_CATEGORIES,
+        order_by='-total')
 
     total_flush_toilet = 0.0
     total_no_toilet = 0.0
