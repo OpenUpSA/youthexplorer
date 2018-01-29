@@ -6,7 +6,7 @@ from wazimap.data.tables import get_datatable, get_table_id
 from wazimap.data.utils import get_session, add_metadata
 from wazimap.geo import geo_data
 
-from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data,  percent)
+from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, percent, current_context)
 
 from .elections import get_elections_profile
 
@@ -17,7 +17,7 @@ log = logging.getLogger(__name__)
 PROFILE_SECTIONS = (
     'demographics',  # population group, age group in 5 years, age in completed years
     # 'economics',  # individual monthly income, type of sector, official employment status
-    # 'service_delivery',  # source of water, refuse disposal
+    'service_delivery',  # source of water, refuse disposal
     # 'education',  # highest educational level
     'households',  # household heads, etc.
     # 'children',  # child-related stats
@@ -273,6 +273,11 @@ SHORT_REFUSE_DISPOSAL_CATEGORIES = {
     "No rubbish disposal": "None",
     "Unspecified": "Unspecified",
     "Removed by local authority/private company at least once a week": "Service provider (regularly)",
+    # CS 2016:
+    "Removed by local authority/private company/community members at least once a week": "Service provider (regularly)",
+    "Removed by local authority/private company/community members less often than once a week": "Service provider (not regularly)",
+    "Communal container/central collection point": "Communal container",
+    "Dump or leave rubbish anywhere (no rubbish disposal)": " None"
 }
 
 COLLAPSED_TOILET_CATEGORIES = {
@@ -364,9 +369,9 @@ def get_profile(geo, profile_name, request):
 
     # tweaks to make the data nicer
     # show 3 largest groups on their own and group the rest as 'Other'
-    # group_remainder(data['service_delivery']['water_source_distribution'], 5)
-    # group_remainder(data['service_delivery']['refuse_disposal_distribution'], 5)
-    # group_remainder(data['service_delivery']['toilet_facilities_distribution'], 5)
+    group_remainder(data['service_delivery']['water_source_distribution'], 5)
+    group_remainder(data['service_delivery']['refuse_disposal_distribution'], 5)
+    group_remainder(data['service_delivery']['toilet_facilities_distribution'], 5)
     group_remainder(data['demographics']['language_distribution'], 7)
     group_remainder(data['demographics']['province_of_birth_distribution'], 7)
     group_remainder(data['demographics']['region_of_birth_distribution'], 5)
@@ -688,23 +693,25 @@ def get_service_delivery_profile(geo, session):
         total_water_sp = 0.0
 
     # refuse disposal
-    db_model_ref = get_model_from_fields(['refuse disposal'], geo.geo_level)
-    objects = get_objects_by_geo(db_model_ref, geo, session, order_by='-total')
-    refuse_disp_data = OrderedDict()
-    total_ref = 0.0
+    refuse_disp_data, total_ref = get_stat_data(
+        ['refuse disposal'], geo, session,
+        recode=SHORT_REFUSE_DISPOSAL_CATEGORIES,
+        order_by='-total')
+
     total_ref_sp = 0.0
-    for obj in objects:
-        attr = getattr(obj, 'refuse disposal')
-        disp = SHORT_REFUSE_DISPOSAL_CATEGORIES[attr]
-        refuse_disp_data[disp] = {
-            "name": disp,
-            "numerators": {"this": obj.total},
-        }
-        total_ref += obj.total
-        if attr.startswith('Removed by local authority'):
-            total_ref_sp += obj.total
-    set_percent_values(refuse_disp_data, total_ref)
-    add_metadata(refuse_disp_data, db_model_ref)
+    for k, v in refuse_disp_data.iteritems():
+        if k.startswith('Service provider'):
+            total_ref_sp += v['numerators']['this']
+
+    service_provider_name = "Are getting refuse disposal from a local authority, private company or community members"
+    if current_context().get('year') == '2011':
+        service_provider_name = "Are getting refuse disposal from a local authority or private company"
+
+    percentage_ref_disp_from_service_provider = {
+        "name": service_provider_name,
+        "numerators": {"this": total_ref_sp},
+        "values": {"this": percent(total_ref_sp, total_ref)},
+    }
 
     # electricity
     if geo.version == '2011':
@@ -771,11 +778,7 @@ def get_service_delivery_profile(geo, session):
             "values": {"this": percent(total_water_sp, total_wsrc)},
         },
         'refuse_disposal_distribution': refuse_disp_data,
-        'percentage_ref_disp_from_service_provider': {
-            "name": "Are getting refuse disposal from a local authority or private company",
-            "numerators": {"this": total_ref_sp},
-            "values": {"this": percent(total_ref_sp, total_ref)},
-        },
+        'percentage_ref_disp_from_service_provider': percentage_ref_disp_from_service_provider,
         'percentage_flush_toilet_access': {
             "name": "Have access to flush or chemical toilets",
             "numerators": {"this": total_flush_toilet},
