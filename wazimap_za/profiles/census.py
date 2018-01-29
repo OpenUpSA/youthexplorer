@@ -262,6 +262,28 @@ SHORT_WATER_SOURCE_CATEGORIES = {
     "Borehole": "Borehole",
     "Rain water tank": "Rainwater tank",
     "Water vendor": "Vendor",
+    # CS 2016:
+    "Borehole in the yard": "Borehole in yard",
+    "Borehole outside the yard": "Borehole outside yard",
+    "Neighbours tap": "Neighbours tap",
+    "Flowing water/stream/river": "River",
+    "Piped (tap) water inside the dwelling/house": "Piped water inside house",
+    "Piped (tap) water inside yard": "Piped water inside yard",
+    "Piped water on community stand": "Piped water on community stand",
+    "Public/communal tap": "Public/communal tap",
+    "Rain-water tank in yard": "Rainwater tank",
+    "Water-carrier/tanker": "Tanker",
+    "Well": "Well"
+}
+
+SHORT_WATER_SUPPLIER_CATEGORIES = {
+    "A municipality": "Service provider",
+    "Other water scheme (e.g. community water supply)": "Water scheme",
+    "A water vendor": "Vendor",
+    "Own service (e.g. private borehole; own source on a farm; et": "Own service",
+    "Flowing water/stream/river/spring/rain water": "Natural source",
+    "Do not know": "Do not know",
+    "Unspecified": "Unspecified"
 }
 
 SHORT_REFUSE_DISPOSAL_CATEGORIES = {
@@ -378,6 +400,9 @@ def get_profile(geo, profile_name, request):
     group_remainder(data['households']['type_of_dwelling_distribution'], 5)
     group_remainder(data['households']['tenure_distribution'], 6)
     # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
+
+    if current_context().get('year') == 'latest':
+        group_remainder(data['service_delivery']['water_supplier_distribution'], 5)
 
     data['elections'] = get_elections_profile(geo)
 
@@ -687,10 +712,35 @@ def get_service_delivery_profile(geo, session):
             ['source of water'], geo, session,
             recode=SHORT_WATER_SOURCE_CATEGORIES,
             order_by='-total')
-    if 'Service provider' in water_src_data:
-        total_water_sp = water_src_data['Service provider']['numerators']['this']
+
+    # Water from a service provider
+    total_water_sp = 0.0
+    perc_water_sp = 0.0
+
+    if current_context().get('year') == 'latest':
+        water_supplier_data, total_wspl = get_stat_data(
+            ['supplier of water'], geo, session,
+            recode=SHORT_WATER_SUPPLIER_CATEGORIES,
+            order_by='-total')
+
+        water_sp = ['Service provider', 'Water scheme']
+
+        for key in water_sp:
+            if key in water_supplier_data:
+                total_water_sp += water_supplier_data[key]['numerators']['this']
+
+        perc_water_sp = percent(total_water_sp, total_wspl)
+
     else:
-        total_water_sp = 0.0
+        if 'Service provider' in water_src_data:
+            total_water_sp = water_src_data['Service provider']['numerators']['this']
+            perc_water_sp = percent(total_water_sp, total_wsrc)
+
+    percentage_water_from_service_provider = {
+        "name": "Are getting water from a regional or local service provider",
+        "numerators": {"this": total_water_sp},
+        "values": {"this": perc_water_sp}
+    }
 
     # refuse disposal
     refuse_disp_data, total_ref = get_stat_data(
@@ -791,6 +841,12 @@ def get_service_delivery_profile(geo, session):
         },
         'toilet_facilities_distribution': toilet_data,
     }
+
+    if current_context().get('year') == 'latest':
+        profile.update({
+            'water_supplier_distribution': water_supplier_data
+        })
+
     if geo.version == '2011':
         profile.update({
             'percentage_electricity_access': {
