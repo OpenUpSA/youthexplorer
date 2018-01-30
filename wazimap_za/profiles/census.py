@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 
 PROFILE_SECTIONS = (
     'demographics',  # population group, age group in 5 years, age in completed years
-    # 'economics',  # individual monthly income, type of sector, official employment status
+    'economics',  # individual monthly income, type of sector, official employment status
     'service_delivery',  # source of water, refuse disposal
     # 'education',  # highest educational level
     'households',  # household heads, etc.
@@ -339,7 +339,6 @@ HOUSEHOLD_GOODS_RECODE = {
     'washing machine': 'Washing machine',
 }
 
-
 # Type of dwelling
 
 TYPE_OF_DWELLING_RECODE = {
@@ -359,7 +358,6 @@ TYPE_OF_DWELLING_RECODE = {
     'Not applicable': 'N/A',
 }
 
-
 COLLAPSED_EMPLOYMENT_CATEGORIES = {
     'Employed': 'In labour force',
     'Unemployed': 'In labour force',
@@ -369,6 +367,18 @@ COLLAPSED_EMPLOYMENT_CATEGORIES = {
     'Not applicable': 'Not in labour force'
 }
 
+INTERNET_ACCESS_RECODE = {
+    "Connection from a library": "Library",
+    "Connection in the dwelling": "In dwelling",
+    "Other": "Other",
+    "Any place via other mobile access service": "Other mobile service",
+    "Any place via cellphone": "Cellphone",
+    "Internet cafe > 2km from dwelling": "Internet cafe > 2km from dwelling",
+    "Internet cafe 2km or less from dwelling": "Internet cafe < 2km from dwelling",
+    "Connection at place of work": "Place of work",
+    "At school/university/college": "Place of education"
+}
+
 
 def get_profile(geo, profile_name, request):
     session = get_session()
@@ -376,6 +386,7 @@ def get_profile(geo, profile_name, request):
     try:
         comparative_geos = geo_data.get_comparative_geos(geo)
         data = {}
+        data['primary_release_year'] = current_context().get('year')
 
         sections = list(PROFILE_SECTIONS)
         if geo.geo_level in ['country', 'province']:
@@ -694,24 +705,38 @@ def get_economics_profile(geo, session):
             exclude=['Not applicable'],
             order_by='type of sector')
 
-    # access to internet
-    internet_access_dist, total_with_access = get_stat_data(
-            ['access to internet'], geo, session, exclude=['No access to internet'],
-            order_by='access to internet')
-    _, total_without_access = get_stat_data(
-            ['access to internet'], geo, session, only=['No access to internet'])
-    total_households = total_with_access + total_without_access
-
     profile.update({
         'employment_status': employ_status,
-        'sector_type_distribution': sector_dist_data,
-        'internet_access_distribution': internet_access_dist,
-        'internet_access': {
-            'name': 'Households with internet access',
-            'values': {'this': percent(total_with_access, total_households)},
-            'numerators': {'this': total_with_access},
-        }
+        'sector_type_distribution': sector_dist_data
     })
+
+    # access to internet
+    if current_context().get('year') == 'latest':
+        internet_access_dist, total_households = get_stat_data(
+            ['access to internet'], geo, session,
+            recode=INTERNET_ACCESS_RECODE,
+            table_name='accesstointernet_2016')
+
+        profile.update({
+            'internet_access_distribution': internet_access_dist
+        })
+
+    else:
+        internet_access_dist, total_with_access = get_stat_data(
+                ['access to internet'], geo, session, exclude=['No access to internet'],
+                order_by='access to internet')
+        _, total_without_access = get_stat_data(
+                ['access to internet'], geo, session, only=['No access to internet'])
+        total_households = total_with_access + total_without_access
+
+        profile.update({
+            'internet_access_distribution': internet_access_dist,
+            'internet_access': {
+                'name': 'Households with internet access',
+                'values': {'this': percent(total_with_access, total_households)},
+                'numerators': {'this': total_with_access},
+            }
+        })
 
     return profile
 
