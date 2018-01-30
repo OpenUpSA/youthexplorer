@@ -281,10 +281,14 @@
       {% endif %}
       <section class="clearfix stat-row">
         <h2><a class="permalink" href="#internet" id="internet">Internet access <i class="fa fa-link"></i></a></h2>
+        {% if primary_release_year == 'latest' %}
+        <div class="column-full" id="chart-column-economics-internet_access_distribution" data-stat-type="scaled-percentage" data-chart-title="Means of internet access" data-qualifier="Universe: {{ economics.internet_access_distribution.metadata.universe }}"></div>
+        {% else %}
         <div class="column-third">
           {% include 'profile/_blocks/_stat_list.html' with stat=economics.internet_access stat_type='percentage' %}
         </div>
         <div class="column-third" id="chart-pie-economics-internet_access_distribution" data-chart-title="Primary means of internet access" data-stat-type="scaled-percentage" data-initial-sort="-value"></div>
+        {% endif %}
       </section>
     </div>
 </article>
