@@ -304,10 +304,10 @@
             <aside>
             </aside>
             <div class="column-third">
-                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_get_or_higher stat_type='percentage' %}
+                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_general_edu stat_type='percentage' %}
             </div>
             <div class="column-third">
-                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_fet_or_higher stat_type='percentage' %}
+                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_further_edu stat_type='percentage' %}
             </div>
         </section>
         <section class="clearfix stat-row">
