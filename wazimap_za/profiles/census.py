@@ -1021,7 +1021,8 @@ def get_children_profile(geo, session):
         table_name='ageincompletedyearssimplified',
         recode={'< 18': 'Children (< 18)',
                 '18 to 64': 'Adults (>= 18)',
-                '>= 65': 'Adults (>= 18)'})
+                '>= 65': 'Adults (>= 18)'},
+        key_order=['Children (< 18)', 'Adults (>= 18)'])
 
     # parental survival
     survival, total = get_stat_data(
@@ -1052,7 +1053,7 @@ def get_children_profile(geo, session):
     # gender
     gender_dist, _ = get_stat_data(
         ['gender'], geo, session,
-        table_name='genderunder18')
+        table_universe='Children under 18')
 
     # school
 
