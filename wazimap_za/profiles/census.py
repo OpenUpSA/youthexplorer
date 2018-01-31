@@ -20,7 +20,7 @@ PROFILE_SECTIONS = (
     'service_delivery',  # source of water, refuse disposal
     'education',  # highest educational level
     'households',  # household heads, etc.
-    # 'children',  # child-related stats
+    'children',  # child-related stats
     # 'child_households',  # households headed by children
 )
 
