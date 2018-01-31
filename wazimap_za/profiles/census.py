@@ -20,7 +20,7 @@ PROFILE_SECTIONS = (
     'service_delivery',  # source of water, refuse disposal
     'education',  # highest educational level
     'households',  # household heads, etc.
-    # 'children',  # child-related stats
+    'children',  # child-related stats
     # 'child_households',  # households headed by children
 )
 
@@ -1021,7 +1021,8 @@ def get_children_profile(geo, session):
         table_name='ageincompletedyearssimplified',
         recode={'< 18': 'Children (< 18)',
                 '18 to 64': 'Adults (>= 18)',
-                '>= 65': 'Adults (>= 18)'})
+                '>= 65': 'Adults (>= 18)'},
+        key_order=['Children (< 18)', 'Adults (>= 18)'])
 
     # parental survival
     survival, total = get_stat_data(
@@ -1039,24 +1040,20 @@ def get_children_profile(geo, session):
     parental_survival_dist['One parent'] = survival['Yes']['No']
     parental_survival_dist['One parent']['numerators']['this'] += survival['No']['Yes']['numerators']['this']
 
-    rest = (total - parental_survival_dist['Both parents']['values']['this']
-            - parental_survival_dist['Neither parent']['values']['this']
-            - parental_survival_dist['One parent']['values']['this'])
+    rest = (total - parental_survival_dist['Both parents']['numerators']['this']
+            - parental_survival_dist['Neither parent']['numerators']['this']
+            - parental_survival_dist['One parent']['numerators']['this'])
 
     parental_survival_dist['Uncertain'] = {
         'name': 'Uncertain',
         'numerators': {'this': rest},
+        'values': {'this': percent(rest, total)}
     }
-
-    # calculate percentage
-    for data in parental_survival_dist.itervalues():
-        if 'numerators' in data:
-            data['values'] = {'this': percent(data['numerators']['this'], total)}
 
     # gender
     gender_dist, _ = get_stat_data(
         ['gender'], geo, session,
-        table_name='genderunder18')
+        table_universe='Children under 18')
 
     # school
 
@@ -1084,18 +1081,16 @@ def get_children_profile(geo, session):
 
     # education level
     education17_dist, _ = get_stat_data(
-        ['highest educational level'],
-        geo, session,
+        ['highest educational level'], geo, session,
+        table_universe="17-year-old children",
         recode=COLLAPSED_EDUCATION_CATEGORIES,
-        table_name='highesteducationallevel17',
         key_order=EDUCATION_KEY_ORDER,
     )
 
     # employment
     employment_dist, total_15to17 = get_stat_data(
-        ['official employment status'],
-        geo, session,
-        table_name='officialemploymentstatus15to17',
+        ['official employment status'], geo, session,
+        table_universe='Children 15 to 17',
         exclude=['Not applicable']
     )
     total_in_labour_force = float(sum(v["numerators"]["this"] for k, v
@@ -1113,13 +1108,11 @@ def get_children_profile(geo, session):
     }
     # median income
     if geo.version == '2011':
-        recode = COLLAPSED_MONTHLY_INCOME_CATEGORIES
-        fields = ['individual monthly income']
-        table_name = 'individualmonthlyincome15to17'
         income_dist_data, total_workers = get_stat_data(
-            fields, geo, session,
+            ['individual monthly income'], geo, session,
+            table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
-            recode=recode,
+            recode=COLLAPSED_MONTHLY_INCOME_CATEGORIES,
             key_order=recode.values(),
             table_name=table_name
         )
@@ -1132,15 +1125,12 @@ def get_children_profile(geo, session):
             }
         })
     else:
-        recode = COLLAPSED_ANNUAL_INCOME_CATEGORIES
-        fields = ['individual annual income']
-        table_name = 'individualannualincome15to17'
         income_dist_data, total_workers = get_stat_data(
-            fields, geo, session,
+            ['individual annual income'], geo, session,
+            table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
-            recode=recode,
-            key_order=recode.values(),
-            table_name=table_name
+            recode=COLLAPSED_ANNUAL_INCOME_CATEGORIES,
+            key_order=recode.values()
         )
         median = calculate_median_stat(income_dist_data)
         median_income = ESTIMATED_ANNUAL_INCOME_CATEGORIES[median]
