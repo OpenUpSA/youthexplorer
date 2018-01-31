@@ -1039,19 +1039,15 @@ def get_children_profile(geo, session):
     parental_survival_dist['One parent'] = survival['Yes']['No']
     parental_survival_dist['One parent']['numerators']['this'] += survival['No']['Yes']['numerators']['this']
 
-    rest = (total - parental_survival_dist['Both parents']['values']['this']
-            - parental_survival_dist['Neither parent']['values']['this']
-            - parental_survival_dist['One parent']['values']['this'])
+    rest = (total - parental_survival_dist['Both parents']['numerators']['this']
+            - parental_survival_dist['Neither parent']['numerators']['this']
+            - parental_survival_dist['One parent']['numerators']['this'])
 
     parental_survival_dist['Uncertain'] = {
         'name': 'Uncertain',
         'numerators': {'this': rest},
+        'values': {'this': percent(rest, total)}
     }
-
-    # calculate percentage
-    for data in parental_survival_dist.itervalues():
-        if 'numerators' in data:
-            data['values'] = {'this': percent(data['numerators']['this'], total)}
 
     # gender
     gender_dist, _ = get_stat_data(
