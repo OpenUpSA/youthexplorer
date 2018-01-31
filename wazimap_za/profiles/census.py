@@ -21,7 +21,7 @@ PROFILE_SECTIONS = (
     'education',  # highest educational level
     'households',  # household heads, etc.
     'children',  # child-related stats
-    # 'child_households',  # households headed by children
+    'child_households',  # households headed by children
 )
 
 # Education categories
@@ -419,7 +419,7 @@ TYPE_OF_DWELLING_RECODE = {
     'Cluster house in complex': 'Cluster house',
     'Townhouse (semi-detached house in a complex)': 'Townhouse',
     'Semi-detached house': 'Semi-detached house',
-    'House/flat/room in backyard': 'Backyard in flat',
+    'House/flat/room in backyard': 'Flat in backyard',
     'Informal dwelling (shack; in backyard)': 'Shack',
     'Informal dwelling (shack; not in backyard; e.g. in an informal/squatter settlement or on a farm)': 'Shack',
     'Room/flatlet on a property or larger dwelling/servants quarters/granny flat': 'Room or flatlet',
@@ -427,6 +427,13 @@ TYPE_OF_DWELLING_RECODE = {
     'Other': 'Other',
     'Unspecified': 'Unspecified',
     'Not applicable': 'N/A',
+    #Cs 2016:
+    'Formal dwelling/house/flat/room in backyard': 'Flat in backyard',
+    'Informal dwelling/shack in backyard': 'Shack',
+    'Traditional dwelling/hut/structure made of traditional mater': 'Traditional',
+    'Room/flatlet on a property or larger dwelling/servants quart': 'Room or flatlet',
+    'Formal dwelling/house or brick/concrete block structure on a': 'House',
+    'Informal dwelling/shack not in backyard (e.g. in an informal': 'Shack'
 }
 
 COLLAPSED_EMPLOYMENT_CATEGORIES = {
@@ -490,7 +497,7 @@ def get_profile(geo, profile_name, request):
     group_remainder(data['demographics']['region_of_birth_distribution'], 5)
     group_remainder(data['households']['type_of_dwelling_distribution'], 5)
     group_remainder(data['households']['tenure_distribution'], 6)
-    # group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
+    group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
     if current_context().get('year') == 'latest':
         group_remainder(data['service_delivery']['water_supplier_distribution'], 5)
@@ -1113,7 +1120,7 @@ def get_children_profile(geo, session):
             table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
             recode=COLLAPSED_MONTHLY_INCOME_CATEGORIES,
-            key_order=recode.values(),
+            key_order=COLLAPSED_MONTHLY_INCOME_CATEGORIES.values(),
             table_name=table_name
         )
         median = calculate_median_stat(income_dist_data)
@@ -1130,7 +1137,7 @@ def get_children_profile(geo, session):
             table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
             recode=COLLAPSED_ANNUAL_INCOME_CATEGORIES,
-            key_order=recode.values()
+            key_order=COLLAPSED_ANNUAL_INCOME_CATEGORIES.values()
         )
         median = calculate_median_stat(income_dist_data)
         median_income = ESTIMATED_ANNUAL_INCOME_CATEGORIES[median]
@@ -1176,8 +1183,8 @@ def get_child_households_profile(geo, session):
     # gender
     head_gender_dist, total_households = get_stat_data(
             ['gender of head of household'], geo, session,
-            order_by='gender of head of household',
-            table_name='genderofheadofhouseholdunder18')
+            table_universe='Households headed by children under 18',
+            order_by='gender of head of household')
     female_heads = head_gender_dist['Female']['numerators']['this']
 
     # annual household income
