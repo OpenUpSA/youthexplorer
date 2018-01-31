@@ -18,7 +18,7 @@ PROFILE_SECTIONS = (
     'demographics',  # population group, age group in 5 years, age in completed years
     'economics',  # individual monthly income, type of sector, official employment status
     'service_delivery',  # source of water, refuse disposal
-    # 'education',  # highest educational level
+    'education',  # highest educational level
     'households',  # household heads, etc.
     # 'children',  # child-related stats
     # 'child_households',  # households headed by children
@@ -65,6 +65,37 @@ COLLAPSED_EDUCATION_CATEGORIES = {
     'No schooling': 'None',
     'Unspecified': 'N/A',
     'Not applicable': 'N/A',
+    # CS 2016:
+    'Grade 0': 'Some primary',
+    'Grade 1/Sub A/Class 1': 'Some primary',
+    'Grade 2/Sub B/Class 2': 'Some primary',
+    'Grade 3/Standard 1/ABET 1': 'Some primary',
+    'Grade 4/Standard 2': 'Some primary',
+    'Grade 5/Standard 3/ABET 2': 'Some primary',
+    'Grade 6/Standard 4': 'Some primary',
+    'Grade 7/Standard 5/ABET 3': 'Primary',
+    'Grade 8/Standard 6/Form 1': 'Some secondary',
+    'Grade 9/Standard 7/Form 2/ABET 4/Occupational certificate NQF Level 1': 'Some secondary',
+    'Grade 10/Standard 8/Form 3/Occupational certificate NQF Level 2': 'Some secondary',
+    'Grade 11/Standard 9/Form 4/NCV Level 3/ Occupational certificate NQF Level 3': 'Some secondary',
+    'Certificate with less than Grade 12/Std 10': 'Some secondary',
+    'Diploma with less than Grade 12/Std 10': 'Some secondary',
+    'Grade 12/Standard 10/Form 5/Matric/NCV Level 4/ Occupational certificate NQF Level 3': 'Grade 12 (Matric)',
+    'Diploma with Grade 12/Std 10/Occupational certificate NQF Level 6': 'Grade 12 (Matric)',
+    'Bachelors degree/Occupational certificate NQF Level 7': 'Undergrad',
+    'Higher Diploma/Occupational certificate NQF Level 7': 'Undergrad',
+    'Higher/National/Advanced Certificate with Grade 12/Occupational certificate NQF': 'Post-grad',
+    'Honours degree/Post-graduate diploma/Occupational certificate NQF Level 8': 'Post-grad',
+    'Masters/Professional Masters at NQF Level 9 degree': 'Post-grad',
+    'PHD (Doctoral degree/Professional doctoral degree at NQF Level 10)': 'Post-grad',
+    'Post-Higher Diploma (Masters)': 'Post-grad',
+    'N4/NTC 4/Occupational certificate NQF Level 5': 'N/A',
+    'N5/NTC 5/Occupational certificate NQF Level 5': 'N/A',
+    'N6/NTC 6/Occupational certificate NQF Level 5': 'Undergrad',
+    'NTC I/N1': 'Some secondary',
+    'NTCII/N2': 'Some secondary',
+    'NTCIII/N3': 'Grade 12 (Matric)',
+    'Do not know': 'N/A'
 }
 EDUCATION_GET_OR_HIGHER = set([
     'Grade 9 / Std 7 / Form 2/ ABET 4',
@@ -88,6 +119,30 @@ EDUCATION_GET_OR_HIGHER = set([
     'Honours degree',
     'Higher Degree Masters / PhD',
 ])
+
+EDUCATION_GET_OR_HIGHER_2016 = set([
+    'Grade 9/Standard 7/Form 2/ABET 4/Occupational certificate NQF Level 1',
+    'Grade 10/Standard 8/Form 3/Occupational certificate NQF Level 2',
+    'Grade 11/Standard 9/Form 4/NCV Level 3/ Occupational certificate NQF Level 3',
+    'Grade 12/Standard 10/Form 5/Matric/NCV Level 4/ Occupational certificate NQF Level 3',
+    'NTC I/N1',
+    'NTCII/N2',
+    'NTCIII/N3',
+    'N4/NTC 4/Occupational certificate NQF Level 5',
+    'N5/NTC 5/Occupational certificate NQF Level 5',
+    'N6/NTC 6/Occupational certificate NQF Level 5',
+    'Certificate with less than Grade 12/Std 10',
+    'Diploma with less than Grade 12/Std 10',
+    'Higher/National/Advanced Certificate with Grade 12/Occupational certificate NQF',
+    'Diploma with Grade 12/Std 10/Occupational certificate NQF Level 6',
+    'Higher Diploma/Occupational certificate NQF Level 7',
+    'Post-Higher Diploma (Masters)',
+    'Bachelors degree/Occupational certificate NQF Level 7',
+    'Honours degree/Post-graduate diploma/Occupational certificate NQF Level 8',
+    'Masters/Professional Masters at NQF Level 9 degree',
+    'PHD (Doctoral degree/Professional doctoral degree at NQF Level 10)'
+])
+
 EDUCATION_FET_OR_HIGHER = set([
     'Grade 12 / Std 10 / Form 5',
     'N4 / NTC 4',
@@ -102,6 +157,22 @@ EDUCATION_FET_OR_HIGHER = set([
     'Honours degree',
     'Higher Degree Masters / PhD',
 ])
+
+EDUCATION_FET_OR_HIGHER_2016 = set([
+    'Grade 12/Standard 10/Form 5/Matric/NCV Level 4/ Occupational certificate NQF Level 3',
+    'N4/NTC 4/Occupational certificate NQF Level 5',
+    'N5/NTC 5/Occupational certificate NQF Level 5',
+    'N6/NTC 6/Occupational certificate NQF Level 5',
+    'Higher/National/Advanced Certificate with Grade 12/Occupational certificate NQF',
+    'Diploma with Grade 12/Std 10/Occupational certificate NQF Level 6',
+    'Higher Diploma/Occupational certificate NQF Level 7',
+    'Post-Higher Diploma (Masters)',
+    'Bachelors degree/Occupational certificate NQF Level 7',
+    'Honours degree/Post-graduate diploma/Occupational certificate NQF Level 8',
+    'Masters/Professional Masters at NQF Level 9 degree',
+    'PHD (Doctoral degree/Professional doctoral degree at NQF Level 10)'
+])
+
 EDUCATION_KEY_ORDER = (
     'None', 'Other',
     'Some primary', 'Primary',
@@ -899,52 +970,47 @@ def set_percent_values(data, total):
 
 
 def get_education_profile(geo, session):
-    db_model = get_model_from_fields(['highest educational level'], geo.geo_level, table_name='highesteducationallevel20')
-    objects = get_objects_by_geo(db_model, geo, session)
+    edu_dist_data, total_over_20 = get_stat_data(
+        ['highest educational level'], geo, session,
+        recode=COLLAPSED_EDUCATION_CATEGORIES,
+        table_universe='Individuals 20 and older',
+        key_order=EDUCATION_KEY_ORDER
+    )
 
-    edu_dist_data = {}
-    get_or_higher = 0.0
-    fet_or_higher = 0.0
-    total = 0.0
-    for i, obj in enumerate(objects):
-        category_val = getattr(obj, 'highest educational level')
-        # increment counters
-        total += obj.total
-        if category_val in EDUCATION_GET_OR_HIGHER:
-            get_or_higher += obj.total
-            if category_val in EDUCATION_FET_OR_HIGHER:
-                fet_or_higher += obj.total
-        # add data points for category
-        edu_dist_data[str(i)] = {
-            "name": category_val,
-            "numerators": {"this": obj.total},
-        }
-    edu_dist_data = collapse_categories(edu_dist_data,
-                                        COLLAPSED_EDUCATION_CATEGORIES,
-                                        key_order=EDUCATION_KEY_ORDER)
+    GENERAL_EDU = EDUCATION_GET_OR_HIGHER if current_context().get('year') == '2011' else EDUCATION_GET_OR_HIGHER_2016
+    general_edu, total_general_edu = get_stat_data(
+        ['highest educational level'], geo, session,
+        table_universe='Individuals 20 and older',
+        only=GENERAL_EDU
+    )
+
+    FURTHER_EDU = EDUCATION_FET_OR_HIGHER if current_context().get('year') == '2011' else EDUCATION_FET_OR_HIGHER_2016
+    further_edu, total_further_edu = get_stat_data(
+        ['highest educational level'], geo, session,
+        table_universe='Individuals 20 and older',
+        only=FURTHER_EDU
+    )
+
     edu_split_data = {
-        'percent_get_or_higher': {
+        'percent_general_edu': {
             "name": "Completed Grade 9 or higher",
-            "numerators": {"this": get_or_higher},
+            "numerators": {"this": total_general_edu},
+            "values": {"this": round(total_general_edu / total_over_20 * 100, 2)}
         },
-        'percent_fet_or_higher': {
+        'percent_further_edu': {
             "name": "Completed Matric or higher",
-            "numerators": {"this": fet_or_higher},
-        }
+            "numerators": {"this": total_further_edu},
+            "values": {"this": round(total_further_edu / total_over_20 * 100, 2)}
+        },
+        'metadata': general_edu['metadata']
     }
-    # calculate percentages
-    for data in (edu_dist_data, edu_split_data):
-        for fields in data.values():
-            fields["values"] = {"this": round(fields["numerators"]["this"]
-                                              / total * 100, 2)}
 
-    edu_dist_data['metadata'] = {'universe': 'Invididuals aged 20 and older'}
-    edu_split_data['metadata'] = {'universe': 'Invididuals aged 20 and older'}
+    profile = {
+        'educational_attainment_distribution': edu_dist_data,
+        'educational_attainment': edu_split_data
+    }
 
-    add_metadata(edu_dist_data, db_model)
-
-    return {'educational_attainment_distribution': edu_dist_data,
-            'educational_attainment': edu_split_data}
+    return profile
 
 
 def get_children_profile(geo, session):
