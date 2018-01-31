@@ -652,7 +652,7 @@ def get_households_profile(geo, session):
             ['tenure status'], geo, session,
             table_universe='Households',
             recode=HOUSEHOLD_OWNERSHIP_RECODE,
-            order_by='tenure status')
+            order_by='-total')
     owned = 0
     for key, data in tenure_data.iteritems():
         if key.startswith('Owned'):
