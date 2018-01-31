@@ -1089,9 +1089,8 @@ def get_children_profile(geo, session):
 
     # employment
     employment_dist, total_15to17 = get_stat_data(
-        ['official employment status'],
-        geo, session,
-        table_name='officialemploymentstatus15to17',
+        ['official employment status'], geo, session,
+        table_universe='Children 15 to 17',
         exclude=['Not applicable']
     )
     total_in_labour_force = float(sum(v["numerators"]["this"] for k, v
@@ -1109,13 +1108,11 @@ def get_children_profile(geo, session):
     }
     # median income
     if geo.version == '2011':
-        recode = COLLAPSED_MONTHLY_INCOME_CATEGORIES
-        fields = ['individual monthly income']
-        table_name = 'individualmonthlyincome15to17'
         income_dist_data, total_workers = get_stat_data(
-            fields, geo, session,
+            ['individual monthly income'], geo, session,
+            table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
-            recode=recode,
+            recode=COLLAPSED_MONTHLY_INCOME_CATEGORIES,
             key_order=recode.values(),
             table_name=table_name
         )
@@ -1128,15 +1125,12 @@ def get_children_profile(geo, session):
             }
         })
     else:
-        recode = COLLAPSED_ANNUAL_INCOME_CATEGORIES
-        fields = ['individual annual income']
-        table_name = 'individualannualincome15to17'
         income_dist_data, total_workers = get_stat_data(
-            fields, geo, session,
+            ['individual annual income'], geo, session,
+            table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
-            recode=recode,
-            key_order=recode.values(),
-            table_name=table_name
+            recode=COLLAPSED_ANNUAL_INCOME_CATEGORIES,
+            key_order=recode.values()
         )
         median = calculate_median_stat(income_dist_data)
         median_income = ESTIMATED_ANNUAL_INCOME_CATEGORIES[median]
