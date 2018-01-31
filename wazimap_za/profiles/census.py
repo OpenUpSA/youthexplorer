@@ -1080,10 +1080,9 @@ def get_children_profile(geo, session):
 
     # education level
     education17_dist, _ = get_stat_data(
-        ['highest educational level'],
-        geo, session,
+        ['highest educational level'], geo, session,
+        table_universe="17-year-old children",
         recode=COLLAPSED_EDUCATION_CATEGORIES,
-        table_name='highesteducationallevel17',
         key_order=EDUCATION_KEY_ORDER,
     )
 
