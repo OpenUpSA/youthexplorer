@@ -215,6 +215,18 @@
         </section>
         {% endif %}
 
+        {% if primary_release_year == 'latest' %}
+        <section class="clearfix stat-row">
+            <h2><a class="permalink" href="#electricity" id="electricity">Electricity <i class="fa fa-link"></i></a></h2>
+            <aside>
+            </aside>
+            <div class="column-third">
+                {% include 'profile/_blocks/_stat_list.html' with stat=service_delivery.percentage_no_electricity_access stat_type='percentage' %}
+            </div>
+            <div class="column-third" id="chart-pie-service_delivery-electricity_access" data-stat-type="percentage" data-chart-title="Households by electricity access"></div>
+        </section>
+        {% endif %}
+
         <section class="clearfix stat-row">
             <h2><a class="permalink" href="#toilets" id="toilets">Toilet facilities <i class="fa fa-link"></i></a></h2>
             <aside>

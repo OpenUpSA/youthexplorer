@@ -499,8 +499,10 @@ def get_profile(geo, profile_name, request):
     group_remainder(data['households']['tenure_distribution'], 6)
     group_remainder(data['child_households']['type_of_dwelling_distribution'], 5)
 
+
     if current_context().get('year') == 'latest':
         group_remainder(data['service_delivery']['water_supplier_distribution'], 5)
+        group_remainder(data['service_delivery']['electricity_access'], 5)
 
     data['elections'] = get_elections_profile(geo)
 
@@ -917,6 +919,13 @@ def get_service_delivery_profile(geo, session):
         set_percent_values(elec_access_data, total_elec)
         add_metadata(elec_access_data, db_model_elec)
 
+    if current_context().get('year') == 'latest':
+        elec_access, _ = get_stat_data(
+            ['access to electricity'], geo, session,
+            table_universe='Households',
+            order_by='-total'
+        )
+
     # toilets
     toilet_data, total_toilet = get_stat_data(
         ['toilet facilities'], geo, session,
@@ -956,7 +965,13 @@ def get_service_delivery_profile(geo, session):
 
     if current_context().get('year') == 'latest':
         profile.update({
-            'water_supplier_distribution': water_supplier_data
+            'water_supplier_distribution': water_supplier_data,
+            'electricity_access': elec_access,
+            'percentage_no_electricity_access': {
+                "name": "Households with no access to electricity",
+                "numerators": elec_access['No access to electricity']["numerators"],
+                "values": elec_access['No access to electricity']["values"]
+            }
         })
 
     if geo.version == '2011':
