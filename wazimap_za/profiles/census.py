@@ -457,6 +457,15 @@ INTERNET_ACCESS_RECODE = {
     "At school/university/college": "Place of education"
 }
 
+ELECTRICITY_ACCESS_RECODE = {
+    "Connected to other source which household is not paying for": "Other source (paying for)",
+    "Connected to other source which household pays for (e.g. con": "Other source (not paying for)",
+    # "Generator": "Generator",
+    # "Battery": "Battery",
+    # "In-house conventional meter": "In-house conventional meter",
+    # "In-house prepaid meter": "In-house prepaid meter"
+}
+
 
 def get_profile(geo, profile_name, request):
     session = get_session()
@@ -920,9 +929,11 @@ def get_service_delivery_profile(geo, session):
         add_metadata(elec_access_data, db_model_elec)
 
     if current_context().get('year') == 'latest':
+        # We don't have this data for 2011
         elec_access, _ = get_stat_data(
             ['access to electricity'], geo, session,
-            table_universe='Households',
+            table_universe='Population',
+            recode=ELECTRICITY_ACCESS_RECODE,
             order_by='-total'
         )
 
@@ -968,7 +979,7 @@ def get_service_delivery_profile(geo, session):
             'water_supplier_distribution': water_supplier_data,
             'electricity_access': elec_access,
             'percentage_no_electricity_access': {
-                "name": "Households with no access to electricity",
+                "name": "Have no access to electricity",
                 "numerators": elec_access['No access to electricity']["numerators"],
                 "values": elec_access['No access to electricity']["values"]
             }
