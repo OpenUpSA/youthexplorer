@@ -459,11 +459,7 @@ INTERNET_ACCESS_RECODE = {
 
 ELECTRICITY_ACCESS_RECODE = {
     "Connected to other source which household is not paying for": "Other source (paying for)",
-    "Connected to other source which household pays for (e.g. con": "Other source (not paying for)",
-    # "Generator": "Generator",
-    # "Battery": "Battery",
-    # "In-house conventional meter": "In-house conventional meter",
-    # "In-house prepaid meter": "In-house prepaid meter"
+    "Connected to other source which household pays for (e.g. con": "Other source (not paying for)"
 }
 
 
