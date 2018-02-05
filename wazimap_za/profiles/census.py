@@ -1006,14 +1006,14 @@ def get_education_profile(geo, session):
         key_order=EDUCATION_KEY_ORDER
     )
 
-    GENERAL_EDU = EDUCATION_GET_OR_HIGHER if current_context().get('year') == 2011 else EDUCATION_GET_OR_HIGHER_2016
+    GENERAL_EDU = EDUCATION_GET_OR_HIGHER if str(current_context().get('year')) == '2011' else EDUCATION_GET_OR_HIGHER_2016
     general_edu, total_general_edu = get_stat_data(
         ['highest educational level'], geo, session,
         table_universe='Individuals 20 and older',
         only=GENERAL_EDU
     )
 
-    FURTHER_EDU = EDUCATION_FET_OR_HIGHER if current_context().get('year') == 2011 else EDUCATION_FET_OR_HIGHER_2016
+    FURTHER_EDU = EDUCATION_FET_OR_HIGHER if str(current_context().get('year')) == '2011' else EDUCATION_FET_OR_HIGHER_2016
     further_edu, total_further_edu = get_stat_data(
         ['highest educational level'], geo, session,
         table_universe='Individuals 20 and older',
