@@ -1,8 +1,9 @@
 from collections import OrderedDict
 
-from wazimap.geo import geo_data, LocationNotFound
+from wazimap.geo import geo_data
 from wazimap.data.tables import get_datatable
 from wazimap.data.utils import merge_dicts, group_remainder, get_stat_data, get_session, dataset_context
+from wazimap.models.data import DataNotFound
 
 
 def make_party_acronym(name):
@@ -81,7 +82,7 @@ def get_elections_profile(geo):
             election_data = None
             try:
                 election_data = get_election_data(geo, election, session)
-            except LocationNotFound:
+            except DataNotFound:
                 pass
             finally:
                 geo.version = actual_geo_version
