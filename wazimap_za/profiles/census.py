@@ -6,7 +6,7 @@ from wazimap.data.tables import get_datatable, get_table_id
 from wazimap.data.utils import get_session, add_metadata
 from wazimap.geo import geo_data
 
-from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, percent, current_context)
+from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, percent, current_context, dataset_context)
 
 from .elections import get_elections_profile
 
@@ -872,23 +872,24 @@ def get_service_delivery_profile(geo, session):
         if k.startswith('Service provider'):
             total_ref_sp += v['numerators']['this']
 
-    service_provider_name = "Are getting refuse disposal from a local authority, private company or community members"
-    if current_context().get('year') == '2011':
-        service_provider_name = "Are getting refuse disposal from a local authority or private company"
+    sp_name_2011 = "Are getting refuse disposal from a local authority or private company"
+    sp_name_2016 = "Are getting refuse disposal from a local authority, private company or community members"
 
     percentage_ref_disp_from_service_provider = {
-        "name": service_provider_name,
+        "name": sp_name_2011 if str(current_context().get('year')) == '2011' else sp_name_2016,
         "numerators": {"this": total_ref_sp},
         "values": {"this": percent(total_ref_sp, total_ref)},
     }
 
     # electricity
-    if geo.version == '2011':
+    if geo.version == '2011' and str(current_context().get('year')) == '2011':
         elec_attrs = ['electricity for cooking',
                       'electricity for heating',
                       'electricity for lighting']
-        db_model_elec = get_model_from_fields(elec_attrs, geo.geo_level)
-        objects = get_objects_by_geo(db_model_elec, geo, session)
+
+        elec_table = get_datatable('electricityforcooking_electricityforheating_electr')
+        objects = elec_table.get_rows_for_geo(geo, session)
+
         total_elec = 0.0
         total_some_elec = 0.0
         elec_access_data = {
@@ -922,7 +923,8 @@ def get_service_delivery_profile(geo, session):
             else:
                 elec_access_data['total_no_elec']['numerators']['this'] += obj.total
         set_percent_values(elec_access_data, total_elec)
-        add_metadata(elec_access_data, db_model_elec)
+        add_metadata(elec_access_data, elec_table, elec_table.get_release(current_context().get('year')))
+
 
     if current_context().get('year') == 'latest':
         # We don't have this data for 2011
@@ -950,11 +952,7 @@ def get_service_delivery_profile(geo, session):
 
     profile = {
         'water_source_distribution': water_src_data,
-        'percentage_water_from_service_provider': {
-            "name": "Are getting water from a regional or local service provider",
-            "numerators": {"this": total_water_sp},
-            "values": {"this": percent(total_water_sp, total_wsrc)},
-        },
+        'percentage_water_from_service_provider': percentage_water_from_service_provider,
         'refuse_disposal_distribution': refuse_disp_data,
         'percentage_ref_disp_from_service_provider': percentage_ref_disp_from_service_provider,
         'percentage_flush_toilet_access': {
@@ -1006,14 +1004,14 @@ def get_education_profile(geo, session):
         key_order=EDUCATION_KEY_ORDER
     )
 
-    GENERAL_EDU = EDUCATION_GET_OR_HIGHER if current_context().get('year') == '2011' else EDUCATION_GET_OR_HIGHER_2016
+    GENERAL_EDU = EDUCATION_GET_OR_HIGHER if str(current_context().get('year')) == '2011' else EDUCATION_GET_OR_HIGHER_2016
     general_edu, total_general_edu = get_stat_data(
         ['highest educational level'], geo, session,
         table_universe='Individuals 20 and older',
         only=GENERAL_EDU
     )
 
-    FURTHER_EDU = EDUCATION_FET_OR_HIGHER if current_context().get('year') == '2011' else EDUCATION_FET_OR_HIGHER_2016
+    FURTHER_EDU = EDUCATION_FET_OR_HIGHER if str(current_context().get('year')) == '2011' else EDUCATION_FET_OR_HIGHER_2016
     further_edu, total_further_edu = get_stat_data(
         ['highest educational level'], geo, session,
         table_universe='Individuals 20 and older',
@@ -1136,14 +1134,14 @@ def get_children_profile(geo, session):
         'employment_distribution': employment_dist,
     }
     # median income
+    # monthly or annual
     if geo.version == '2011':
         income_dist_data, total_workers = get_stat_data(
             ['individual monthly income'], geo, session,
             table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
             recode=COLLAPSED_MONTHLY_INCOME_CATEGORIES,
-            key_order=COLLAPSED_MONTHLY_INCOME_CATEGORIES.values(),
-            table_name=table_name
+            key_order=COLLAPSED_MONTHLY_INCOME_CATEGORIES.values()
         )
         median = calculate_median_stat(income_dist_data)
         median_income = ESTIMATED_MONTHLY_INCOME_CATEGORIES[median]
@@ -1260,17 +1258,18 @@ def get_child_households_profile(geo, session):
 
 
 def get_crime_profile(geo, session):
-    child_crime, total = get_stat_data(
-        ['crime'], geo, session,
-        only=['Neglect and ill-treatment of children'],
-        percent=False)
+    with dataset_context(year='2014'):
+        child_crime, total = get_stat_data(
+            ['crime'], geo, session,
+            table_universe='Crimes',
+            only=['Neglect and ill-treatment of children'],
+            percent=False)
 
-    table = get_datatable(get_table_id(['crime']))
     return {
-        'dataset': table.dataset.name,
+        'dataset': child_crime['metadata']['release'],
         'crime_against_children': {
             'name': 'Crimes of neglect and ill-treatment of children in 2014',
             'values': {'this': total},
-            'metadata': {'universe': 'Crimes in 2014'},
+            'metadata': child_crime['metadata']
         },
     }

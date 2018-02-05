@@ -200,7 +200,9 @@
                 {% include 'profile/_blocks/_stat_list.html' with stat=service_delivery.percentage_water_from_service_provider stat_type='percentage' %}
             </div>
             <div class="column-third" id="chart-pie-service_delivery-water_source_distribution" data-stat-type="percentage" data-chart-title="Population by water source"></div>
+            {% if primary_release_year == 'latest' %}
             <div class="column-third" id="chart-pie-service_delivery-water_supplier_distribution" data-stat-type="percentage" data-chart-title="Population by water supplier"></div>
+            {% endif %}
         </section>
 
         {% if geography.this.version == "2011" %}
