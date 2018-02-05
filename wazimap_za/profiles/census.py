@@ -1134,14 +1134,14 @@ def get_children_profile(geo, session):
         'employment_distribution': employment_dist,
     }
     # median income
+    # monthly or annual
     if geo.version == '2011':
         income_dist_data, total_workers = get_stat_data(
             ['individual monthly income'], geo, session,
             table_universe='Children 15 to 17 who are employed',
             exclude=['Not applicable'],
             recode=COLLAPSED_MONTHLY_INCOME_CATEGORIES,
-            key_order=COLLAPSED_MONTHLY_INCOME_CATEGORIES.values(),
-            table_name=table_name
+            key_order=COLLAPSED_MONTHLY_INCOME_CATEGORIES.values()
         )
         median = calculate_median_stat(income_dist_data)
         median_income = ESTIMATED_MONTHLY_INCOME_CATEGORIES[median]
