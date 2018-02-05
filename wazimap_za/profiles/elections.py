@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 from wazimap.geo import geo_data, LocationNotFound
 from wazimap.data.tables import get_datatable
-from wazimap.data.utils import merge_dicts, group_remainder, get_stat_data, get_session
+from wazimap.data.utils import merge_dicts, group_remainder, get_stat_data, get_session, dataset_context
 
 
 def make_party_acronym(name):
@@ -39,6 +39,7 @@ def get_elections_profile(geo):
             'table_code': 'municipal_2016',
             'dataset': '2016 Municipal Elections',
             'geo_version': '2016',
+            'release_year': '2016'
         },
     ]
     if geo.version == '2011' or geo.geo_level != 'ward':
@@ -48,18 +49,21 @@ def get_elections_profile(geo):
                 'table_code': 'national_2014',
                 'dataset': '2014 National Elections',
                 'geo_version': '2011',
+                'release_year': '2014'
             },
             {
                 'name': 'Provincial 2014',
                 'table_code': 'provincial_2014',
                 'dataset': '2014 Provincial Elections',
                 'geo_version': '2011',
+                'release_year': '2014'
             },
             {
                 'name': 'Municipal 2011',
                 'table_code': 'municipal_2011',
                 'dataset': '2011 Municipal Elections',
                 'geo_version': '2011',
+                'release_year': '2011'
             },
         ])
     data = OrderedDict()
@@ -101,23 +105,25 @@ def get_elections_profile(geo):
 
 
 def get_election_data(geo, election, session):
-    party_data, total_valid_votes = get_stat_data(
-        ['party'], geo, session,
-        table_dataset=election['dataset'],
-        recode=lambda f, v: make_party_acronym(v),
-        order_by='-total')
+    with dataset_context(year=election['release_year']):
+        party_data, total_valid_votes = get_stat_data(
+            ['party'], geo, session,
+            table_dataset=election['dataset'],
+            recode=lambda f, v: make_party_acronym(v),
+            order_by='-total')
 
     results = {
         'name': election['name'],
         'party_distribution': party_data,
         'geo_version': election['geo_version']
     }
-
     # voter registration and turnout
     table = get_datatable('voter_turnout_%s' % election['table_code'])
     results.update(table.get_stat_data(geo, 'registered_voters', percent=False,
+                                       year=election['release_year'],
                                        recode={'registered_voters': 'Number of registered voters'})[0])
     results.update(table.get_stat_data(geo, 'total_votes', percent=True, total='registered_voters',
+                                       year=election['release_year'],
                                        recode={'total_votes': 'Of registered voters cast their vote'})[0])
 
     return results
