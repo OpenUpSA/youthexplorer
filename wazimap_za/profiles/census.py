@@ -6,7 +6,7 @@ from wazimap.data.tables import get_datatable, get_table_id
 from wazimap.data.utils import get_session, add_metadata
 from wazimap.geo import geo_data
 
-from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, percent, current_context)
+from wazimap.data.utils import (collapse_categories, calculate_median, calculate_median_stat, merge_dicts, group_remainder, get_stat_data, percent, current_context, dataset_context)
 
 from .elections import get_elections_profile
 
@@ -1260,17 +1260,18 @@ def get_child_households_profile(geo, session):
 
 
 def get_crime_profile(geo, session):
-    child_crime, total = get_stat_data(
-        ['crime'], geo, session,
-        only=['Neglect and ill-treatment of children'],
-        percent=False)
+    with dataset_context(year='2014'):
+        child_crime, total = get_stat_data(
+            ['crime'], geo, session,
+            table_universe='Crimes',
+            only=['Neglect and ill-treatment of children'],
+            percent=False)
 
-    table = get_datatable(get_table_id(['crime']))
     return {
-        'dataset': table.dataset.name,
+        'dataset': child_crime['metadata']['release'],
         'crime_against_children': {
             'name': 'Crimes of neglect and ill-treatment of children in 2014',
             'values': {'this': total},
-            'metadata': {'universe': 'Crimes in 2014'},
+            'metadata': child_crime['metadata']
         },
     }
