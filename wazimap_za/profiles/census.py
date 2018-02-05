@@ -872,23 +872,24 @@ def get_service_delivery_profile(geo, session):
         if k.startswith('Service provider'):
             total_ref_sp += v['numerators']['this']
 
-    service_provider_name = "Are getting refuse disposal from a local authority, private company or community members"
-    if current_context().get('year') == '2011':
-        service_provider_name = "Are getting refuse disposal from a local authority or private company"
+    sp_name_2011 = "Are getting refuse disposal from a local authority or private company"
+    sp_name_2016 = "Are getting refuse disposal from a local authority, private company or community members"
 
     percentage_ref_disp_from_service_provider = {
-        "name": service_provider_name,
+        "name": sp_name_2011 if str(current_context().get('year')) == '2011' else sp_name_2016,
         "numerators": {"this": total_ref_sp},
         "values": {"this": percent(total_ref_sp, total_ref)},
     }
 
     # electricity
-    if geo.version == '2011':
+    if geo.version == '2011' and str(current_context().get('year')) == '2011':
         elec_attrs = ['electricity for cooking',
                       'electricity for heating',
                       'electricity for lighting']
-        db_model_elec = get_model_from_fields(elec_attrs, geo.geo_level)
-        objects = get_objects_by_geo(db_model_elec, geo, session)
+
+        elec_table = get_datatable('electricityforcooking_electricityforheating_electr')
+        objects = elec_table.get_rows_for_geo(geo, session)
+
         total_elec = 0.0
         total_some_elec = 0.0
         elec_access_data = {
@@ -922,7 +923,8 @@ def get_service_delivery_profile(geo, session):
             else:
                 elec_access_data['total_no_elec']['numerators']['this'] += obj.total
         set_percent_values(elec_access_data, total_elec)
-        add_metadata(elec_access_data, db_model_elec)
+        add_metadata(elec_access_data, elec_table, elec_table.get_release(current_context().get('year')))
+
 
     if current_context().get('year') == 'latest':
         # We don't have this data for 2011
@@ -950,11 +952,7 @@ def get_service_delivery_profile(geo, session):
 
     profile = {
         'water_source_distribution': water_src_data,
-        'percentage_water_from_service_provider': {
-            "name": "Are getting water from a regional or local service provider",
-            "numerators": {"this": total_water_sp},
-            "values": {"this": percent(total_water_sp, total_wsrc)},
-        },
+        'percentage_water_from_service_provider': percentage_water_from_service_provider,
         'refuse_disposal_distribution': refuse_disp_data,
         'percentage_ref_disp_from_service_provider': percentage_ref_disp_from_service_provider,
         'percentage_flush_toilet_access': {
