@@ -27,18 +27,18 @@
 {% block profile_header_tail %}
 <div class="column-full">
     <p class="caption">
-        <strong>Census data:</strong> 2011 with {{ geography.this.version }} boundaries
-        {% if crime %}
+        <strong>Page data:</strong> {{ primary_releases.active.name }} {{ primary_releases.active.year }} with {{ geography.this.version }} boundaries
         <br>
-        <strong>Crime data:</strong> {{ crime.dataset }}</p>
-        {% endif %}
+        {% for release in primary_releases.other %}
+        <strong>Change to:</strong><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
+        {% endfor %}
     </p>
 </div>
 {% endblock %}
 
 {% block profile_preamble %}
-  {% include "profile/_blocks/_change_release.html" %}
   {{ block.super }}
+  {% include "profile/_blocks/_change_release.html" %}
 {% endblock %}
 
 {% block profile_detail %}
@@ -451,6 +451,7 @@
         </section>
     </div>
 </article>
+
 {% block citations %}
 {% include "profile/_blocks/_change_release.html" %}
 <div id="citations">
