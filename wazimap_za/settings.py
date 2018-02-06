@@ -48,6 +48,14 @@ WAZIMAP['primary_release_year'] = {
     # use the 2011 release for wards, use the latest (2016) for everything else
     'ward': 2011,
 }
+WAZIMAP['latest_release_year'] = '2016'
+WAZIMAP['primary_dataset_name'] = 'Census and Community Survey'
+WAZIMAP['available_release_years'] = {
+    # Release years with data for geo_levels.
+    # Only specify geo_levels with limited releases.
+    # Other geo_levels have data for all releases.
+    'ward': [2011]
+}
 
 if wazi_profile == 'census':
     DATABASE_URL = os.environ.get('DATABASE_URL', 'postgresql://wazimap_census:wazimap_census@localhost/wazimap_census')
