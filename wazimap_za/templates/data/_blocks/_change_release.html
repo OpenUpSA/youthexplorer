@@ -1,0 +1,10 @@
+<section class="clearfix" id="release-picker">
+    <h2>Primary release for this page:</h2>
+    {{ primary_releases.active.name }} {{ primary_releases.active.year }}
+    {% if primary_releases.other %}
+    <h2>View another release</h2>
+      {% for release in primary_releases.other %}
+        <a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
+      {% endfor %}
+    {% endif %}
+</section>
