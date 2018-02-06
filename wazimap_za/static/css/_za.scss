@@ -144,3 +144,16 @@ button.action-button {
 .showcase a {
   text-decoration: none;
 }
+
+#citations {
+    font-size: 0.8em;
+    ul {
+        list-style: none;
+        margin-bottom: 30px;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+}
