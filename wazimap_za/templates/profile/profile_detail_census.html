@@ -27,18 +27,13 @@
 {% block profile_header_tail %}
 <div class="column-full">
     <p class="caption">
-        <strong>Page data:</strong> {{ primary_releases.active.name }} {{ primary_releases.active.year }} with {{ geography.this.version }} boundaries
+        <strong>Primary release:</strong> {{ primary_releases.active.name }} {{ primary_releases.active.year }} with {{ geography.this.version }} boundaries
         <br>
         {% for release in primary_releases.other %}
         <strong>Change to:</strong><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
         {% endfor %}
     </p>
 </div>
-{% endblock %}
-
-{% block profile_preamble %}
-  {{ block.super }}
-  {% include "profile/_blocks/_change_release.html" %}
 {% endblock %}
 
 {% block profile_detail %}
