@@ -27,11 +27,11 @@
 {% block profile_header_tail %}
 <div class="column-full">
     <p class="caption">
-        <strong>Census data:</strong> 2011 with {{ geography.this.version }} boundaries
-        {% if crime %}
+        <strong>Primary release:</strong> {{ primary_releases.active.name }} {{ primary_releases.active.year }} with {{ geography.this.version }} boundaries
         <br>
-        <strong>Crime data:</strong> {{ crime.dataset }}</p>
-        {% endif %}
+        {% for release in primary_releases.other %}
+        <strong>Change to:</strong><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
+        {% endfor %}
     </p>
 </div>
 {% endblock %}
@@ -200,6 +200,9 @@
                 {% include 'profile/_blocks/_stat_list.html' with stat=service_delivery.percentage_water_from_service_provider stat_type='percentage' %}
             </div>
             <div class="column-third" id="chart-pie-service_delivery-water_source_distribution" data-stat-type="percentage" data-chart-title="Population by water source"></div>
+            {% if primary_release_year == 'latest' %}
+            <div class="column-third" id="chart-pie-service_delivery-water_supplier_distribution" data-stat-type="percentage" data-chart-title="Population by water supplier"></div>
+            {% endif %}
         </section>
 
         {% if geography.this.version == "2011" %}
@@ -210,7 +213,19 @@
             <div class="column-third">
                 {% include 'profile/_blocks/_stat_list.html' with stat=service_delivery.percentage_electricity_access stat_type='percentage' %}
             </div>
-            <div class="column-third" id="chart-pie-service_delivery-electricity_access_distribution" data-stat-type="percentage" data-chart-title="Population by electricity usage"></div>
+            <div class="column-third" id="chart-pie-service_delivery-electricity_access_distribution" data-stat-type="percentage" data-chart-title="Households by electricity usage"></div>
+        </section>
+        {% endif %}
+
+        {% if primary_release_year == 'latest' %}
+        <section class="clearfix stat-row">
+            <h2><a class="permalink" href="#electricity" id="electricity">Electricity <i class="fa fa-link"></i></a></h2>
+            <aside>
+            </aside>
+            <div class="column-third">
+                {% include 'profile/_blocks/_stat_list.html' with stat=service_delivery.percentage_no_electricity_access stat_type='percentage' %}
+            </div>
+            <div class="column-third" id="chart-pie-service_delivery-electricity_access" data-stat-type="percentage" data-chart-title="Population by electricity access"></div>
         </section>
         {% endif %}
 
@@ -280,10 +295,14 @@
       {% endif %}
       <section class="clearfix stat-row">
         <h2><a class="permalink" href="#internet" id="internet">Internet access <i class="fa fa-link"></i></a></h2>
+        {% if primary_release_year == 'latest' %}
+        <div class="column-full" id="chart-column-economics-internet_access_distribution" data-stat-type="scaled-percentage" data-chart-title="Means of internet access" data-qualifier="Universe: {{ economics.internet_access_distribution.metadata.universe }}"></div>
+        {% else %}
         <div class="column-third">
           {% include 'profile/_blocks/_stat_list.html' with stat=economics.internet_access stat_type='percentage' %}
         </div>
         <div class="column-third" id="chart-pie-economics-internet_access_distribution" data-chart-title="Primary means of internet access" data-stat-type="scaled-percentage" data-initial-sort="-value"></div>
+        {% endif %}
       </section>
     </div>
 </article>
@@ -299,10 +318,10 @@
             <aside>
             </aside>
             <div class="column-third">
-                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_get_or_higher stat_type='percentage' %}
+                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_general_edu stat_type='percentage' %}
             </div>
             <div class="column-third">
-                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_fet_or_higher stat_type='percentage' %}
+                {% include 'profile/_blocks/_stat_list.html' with stat=education.educational_attainment.percent_further_edu stat_type='percentage' %}
             </div>
         </section>
         <section class="clearfix stat-row">
@@ -427,4 +446,11 @@
         </section>
     </div>
 </article>
+
+{% block citations %}
+{% include "profile/_blocks/_change_release.html" %}
+<div id="citations">
+    <ul></ul>
+</div>
+{% endblock %}
 {% endblock %}

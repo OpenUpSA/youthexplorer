@@ -1,0 +1,14 @@
+<section class="clearfix" id="change-release">
+    <h2>Primary release:</h2>
+    <div class="release">
+      {{ primary_releases.active.name }} {{ primary_releases.active.year }}
+    </div>
+    {% if primary_releases.other %}
+    <h2>Change to:</h2>
+      {% for release in primary_releases.other %}
+      <div class="release">
+        <a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
+      </div>
+      {% endfor %}
+    {% endif %}
+</section>

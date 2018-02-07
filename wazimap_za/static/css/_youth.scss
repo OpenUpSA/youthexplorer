@@ -4,6 +4,13 @@
     vertical-align: baseline;
 }
 
+.chart-qualifier {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
 aside.multi-line-header {
     padding-top: 1.2em;
 }
@@ -37,4 +44,3 @@ h1.article-header {
         padding-left: 150px;
     }
 }
-

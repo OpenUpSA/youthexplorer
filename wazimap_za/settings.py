@@ -5,13 +5,6 @@ from wazimap.settings import *  # noqa
 # install this app before Wazimap
 INSTALLED_APPS = ['test_without_migrations', 'wazimap_za.apps.WazimapConfig'] + INSTALLED_APPS
 
-DATABASE_URL = os.environ.get('DATABASE_URL', 'postgresql://wazimap_za:wazimap_za@localhost/wazimap_za')
-DATABASES['default'] = dj_database_url.parse(DATABASE_URL)
-DATABASES['default']['ATOMIC_REQUESTS'] = True
-DATABASES['default']['TEST'] = {
-    'NAME': 'test_wazimap_za',
-}
-
 # redirect www.wazimap.co.za to wazimap.co.za
 STRIP_WWW = True
 
@@ -51,8 +44,21 @@ WAZIMAP['default_profile'] = wazi_profile
 WAZIMAP['profile_builder'] = 'wazimap_za.profiles.{}.get_profile'.format(wazi_profile)
 WAZIMAP['default_geo_version'] = os.environ.get('DEFAULT_GEO_VERSION', None)
 WAZIMAP['legacy_embed_geo_version'] = '2011'
+WAZIMAP['primary_release_year'] = {
+    # use the 2011 release for wards, use the latest (2016) for everything else
+    'ward': 2011,
+}
+WAZIMAP['latest_release_year'] = '2016'
+WAZIMAP['primary_dataset_name'] = 'Census and Community Survey'
+WAZIMAP['available_release_years'] = {
+    # Release years with data for geo_levels.
+    # Only specify geo_levels with limited releases.
+    # Other geo_levels have data for all releases.
+    'ward': [2011]
+}
 
 if wazi_profile == 'census':
+    DATABASE_URL = os.environ.get('DATABASE_URL', 'postgresql://wazimap_census:wazimap_census@localhost/wazimap_census')
     WAZIMAP['ga_tracking_id'] = 'UA-48399585-5'
 
     WAZIMAP['video_links'] = OrderedDict([
@@ -64,12 +70,14 @@ if wazi_profile == 'census':
     ])
 
 elif wazi_profile == 'ecd':
+    DATABASE_URL = os.environ.get('DATABASE_URL', 'postgresql://wazimap_ecd:wazimap_ecd@localhost/wazimap_ecd')
     WAZIMAP['url'] = 'https://wazimap-ecd.code4sa.org'
     WAZIMAP['na_label'] = 'No Data'
     WAZIMAP['ga_tracking_id'] = 'UA-48399585-32'
     WAZIMAP['name'] = 'Wazimap ECD'
 
 elif wazi_profile == 'youth':
+    DATABASE_URL = os.environ.get('DATABASE_URL', 'postgresql://wazimap_youth:wazimap_youth@localhost/wazimap_youth')
     WAZIMAP['url'] = 'https://youthexplorer.org.za'
     WAZIMAP['name'] = 'Youth Explorer'
     WAZIMAP['ga_tracking_id'] = 'UA-48399585-46'
@@ -90,6 +98,12 @@ elif wazi_profile == 'youth':
             None: '1',
         }
     }
+
+DATABASES['default'] = dj_database_url.parse(DATABASE_URL)
+DATABASES['default']['ATOMIC_REQUESTS'] = True
+DATABASES['default']['TEST'] = {
+    'NAME': 'test_wazimap_za',
+}
 
 LANGUAGE_CODE = 'en-za'
 USE_THOUSAND_SEPARATOR = True
