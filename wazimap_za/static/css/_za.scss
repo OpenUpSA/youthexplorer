@@ -144,3 +144,27 @@ button.action-button {
 .showcase a {
   text-decoration: none;
 }
+
+#citations {
+    font-size: 0.8em;
+    ul {
+        list-style: none;
+        margin-bottom: 30px;
+        padding-left: 0.8em;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+#change-release {
+  margin: 1.2em 0; 
+  h2 {
+    position: absolute;
+    padding-left: 0.8em;
+  }
+  .release {
+    padding-left: 13em;
+  }
+}

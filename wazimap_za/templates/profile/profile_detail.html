@@ -1,4 +1,4 @@
-{% extends 'profile/profile_detail.html' %}{% load staticfiles %}
+{% extends 'profile/profile_detail.html' %}{% load lookup staticfiles %}
 
 {% block profile_javascript_libs %}
 {{ block.super }}
@@ -7,4 +7,19 @@
 <script src="{% static 'js/affix.js' %}"></script>
 <script src="{% static 'js/profiles.js' %}"></script>
 
+{% endblock %}
+
+{% block body_javascript_extra %}
+{{ block.super }}
+
+{% if crime %}
+  <script type="text/javascript">
+  $('#citations ul').append(
+    $('<li>')
+      .append($('<b>').append('{{ crime.metadata.release }}' + ': '))
+      .append('{{ crime.metadata.citation }}')
+      .append(_.escape('<' + window.location.href + '>'))
+  );
+  </script>
+{% endif %}
 {% endblock %}

@@ -1266,7 +1266,7 @@ def get_crime_profile(geo, session):
             percent=False)
 
     return {
-        'dataset': child_crime['metadata']['release'],
+        'metadata': child_crime['metadata'],
         'crime_against_children': {
             'name': 'Crimes of neglect and ill-treatment of children in 2014',
             'values': {'this': total},
