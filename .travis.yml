@@ -18,7 +18,7 @@ env:
   matrix:
     - WAZI_PROFILE=census
     - WAZI_PROFILE=youth DEFAULT_GEO_VERSION=2011
-    - WAZI_PROFILE=ecd DEFAULT_GEO_VERSION=2011
+    # - WAZI_PROFILE=ecd DEFAULT_GEO_VERSION=2011
 install:
   - sed 's/GDAL==1.11.0/GDAL==1.10.1/' -i requirements.txt
   - pip install -r requirements.txt
