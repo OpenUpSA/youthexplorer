@@ -851,6 +851,8 @@ def get_health_profile(geo, session, display_profile, comparative=False):
         table_dataset='Census and Community Survey',
         key_order=GIVEN_BIRTH_KEY_ORDER)
 
+    youth_female_given_birth['Unspecified']['name'] = 'Unspecified *'
+
     youth_female_given_birth_by_age_group, _ = get_stat_data(
         ['given birth', 'age in completed years'], geo, session,
         table_universe='Female youth',
@@ -892,7 +894,7 @@ def get_health_profile(geo, session, display_profile, comparative=False):
             table_universe='Female youth causes of death',
             table_dataset='Department of Health Administrative data',
             order_by='-total')
-            
+
         youth_male_causes_of_death_perc, _ = get_stat_data(
             ['cause of death'], geo, session,
             table_universe='Male youth causes of death',
