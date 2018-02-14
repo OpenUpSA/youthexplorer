@@ -892,18 +892,6 @@ def get_health_profile(geo, session, display_profile, comparative=False):
             table_dataset='Department of Health Administrative data',
             percent=False)
 
-        youth_female_causes_of_death_perc, _ = get_stat_data(
-            ['cause of death'], geo, session,
-            table_universe='Female youth causes of death',
-            table_dataset='Department of Health Administrative data',
-            order_by='-total')
-
-        youth_male_causes_of_death_perc, _ = get_stat_data(
-            ['cause of death'], geo, session,
-            table_universe='Male youth causes of death',
-            table_dataset='Department of Health Administrative data',
-            order_by='-total')
-
         youth_female_causes_of_death, _ = get_stat_data(
             ['cause of death'], geo, session,
             table_universe='Female youth causes of death',
@@ -939,11 +927,11 @@ def get_health_profile(geo, session, display_profile, comparative=False):
             'youth_delivery_rate_by_year': youth_delivery_rate_by_year,
             'youth_female_HIV_deaths': {
                 "name": "Of female youth deaths were due to HIV/AIDS",
-                "values": {"this":youth_female_causes_of_death_perc['HIV / AIDS']['values']['this']}
+                "values": {"this":youth_female_causes_of_death['HIV / AIDS']['values']['this']}
             },
             'youth_male_interpersonal_violence_deaths': {
                 "name": "Of male youth deaths were due to interpersonal violence",
-                "values": {"this":youth_male_causes_of_death_perc['Interpersonal violence']['values']['this']}
+                "values": {"this":youth_male_causes_of_death['Interpersonal violence']['values']['this']}
             },
             'youth_female_top10_causes_of_death': youth_female_top10_causes_of_death if not comparative else youth_female_causes_of_death,
             'youth_male_top10_causes_of_death': youth_male_top10_causes_of_death if not comparative else youth_male_causes_of_death
