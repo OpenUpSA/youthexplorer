@@ -1,7 +1,7 @@
 from collections import OrderedDict
 
 from wazimap.data.tables import get_datatable
-from wazimap.data.utils import get_session, merge_dicts, get_stat_data, percent, current_context, dataset_context
+from wazimap.data.utils import get_session, merge_dicts, get_stat_data, percent, current_context, dataset_context, group_remainder
 from wazimap.geo import geo_data
 
 
@@ -129,6 +129,9 @@ def get_profile(geo, profile_name, request):
                 for comp_geo in comp_geos:
                     # merge summary profile into current geo profile
                     merge_dicts(data[section], func(comp_geo, session, display_profile, comparative=True), comp_geo.geo_level)
+
+        # Make data look nicer on profile page
+        group_remainder(data['demographics']['youth_population_by_language'], 11)
 
         return data
 
