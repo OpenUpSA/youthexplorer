@@ -38,21 +38,12 @@
 {% block profile_header_tail %}
 <div class="column-full">
     <p class="caption">
-        {% if geography.this.geo_level != 'ward'%}
-        <strong>Community Survey data:</strong> 2016
+        <strong>Primary release:</strong> {{ primary_releases.active.name }} {{ primary_releases.active.year }}
         <br>
-        {% endif %}
-        <strong>Census data:</strong> 2011
-        <br>
-        {% if display_profile == 'WC' %}
-        <strong>SAPS data:</strong> 2006-2015
-        <br>
-        <strong>WC Dept of Education data:</strong> 2005-2016
-        {% if geography.this.geo_level != 'ward'%}
-        <br>
-        <strong>WC Dept of Health data:</strong> 2005-2016
-        {% endif %}
-        {% endif %}
+        {% for release in primary_releases.other %}
+        <strong>Change to:</strong><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
+        {% endfor %}
+
     </p>
 </div>
 {% endblock %}
@@ -486,6 +477,7 @@
     </div>
 </article>
 {% block citations %}
+{% include "profile/_blocks/_change_release.html" %}
 <div id="citations">
     <ul></ul>
 </div>
