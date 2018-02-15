@@ -1,7 +1,7 @@
 from collections import OrderedDict
 
 from wazimap.data.tables import get_datatable
-from wazimap.data.utils import get_session, merge_dicts, get_stat_data, percent, current_context, dataset_context
+from wazimap.data.utils import get_session, merge_dicts, get_stat_data, percent, current_context, dataset_context, group_remainder
 from wazimap.geo import geo_data
 
 
@@ -117,6 +117,7 @@ def get_profile(geo, profile_name, request):
         display_profile = 'WC' if (geo.geo_code == 'WC' or 'WC' in [cg.geo_code for cg in comp_geos]) else 'ZA'
 
         data['display_profile'] = display_profile
+        data['primary_release_year'] = current_context().get('year')
 
         for section in sections:
             function_name = 'get_%s_profile' % section
@@ -129,6 +130,9 @@ def get_profile(geo, profile_name, request):
                 for comp_geo in comp_geos:
                     # merge summary profile into current geo profile
                     merge_dicts(data[section], func(comp_geo, session, display_profile, comparative=True), comp_geo.geo_level)
+
+        # Make data look nicer on profile page
+        group_remainder(data['demographics']['youth_population_by_language'], 11)
 
         return data
 
@@ -554,6 +558,8 @@ def get_economic_opportunities_profile(geo, session, display_profile, comparativ
 
 
 def get_living_environment_profile(geo, session, display_profile, comparative=False):
+    final_data = {}
+
     youth_electricity_access, _ = get_stat_data(
         ['electricity access'], geo, session,
         table_universe='Youth living in households',
@@ -601,11 +607,35 @@ def get_living_environment_profile(geo, session, display_profile, comparative=Fa
         table_dataset='Census and Community Survey',
         key_order=HH_CROWDED_KEY_ORDER)
 
-    youth_access_to_internet, _ = get_stat_data(
-        ['access to internet'], geo, session,
-        table_universe='Youth living in households',
-        table_dataset='Census and Community Survey',
-        key_order=INTERNET_ACCESS_ORDER)
+    if str(current_context().get('year')) == '2011':
+        # The releases have different indicators for internet access
+        youth_access_to_internet, _ = get_stat_data(
+            ['access to internet'], geo, session,
+            table_universe='Youth living in households',
+            table_dataset='Census and Community Survey',
+            table_name='youth_access_to_internet_gender',
+            key_order=INTERNET_ACCESS_ORDER)
+
+        final_data.update({
+            'youth_no_access_to_internet': {
+                "name": "Of youth live in households with no access to internet",
+                "values": {"this": youth_access_to_internet['No access to internet']['values']['this']}
+            }
+        })
+
+    else:
+        youth_access_to_internet, _ = get_stat_data(
+            ['access to internet'], geo, session,
+            table_universe='Youth living in households',
+            table_dataset='Census and Community Survey',
+            order_by='-total')
+
+        final_data.update({
+            'youth_cell_phone_access_internet': {
+                "name": "Of youth access the internet through a cell phone",
+                "values": {"this": youth_access_to_internet['Cell phone']['values']['this']}
+            }
+        })
 
     youth_by_living_with_parents_status, _ = get_stat_data(
         ['living with parents'], geo, session,
@@ -619,7 +649,7 @@ def get_living_environment_profile(geo, session, display_profile, comparative=Fa
         for k, v in youth_by_living_with_parents_status.iteritems()
         if k in living_with_parent_keys)
 
-    final_data = {
+    final_data.update({
         'youth_electricity_access': youth_electricity_access,
         'youth_toilet_access': youth_toilet_access,
         'youth_water_access': youth_water_access,
@@ -634,17 +664,13 @@ def get_living_environment_profile(geo, session, display_profile, comparative=Fa
             "values": {"this": youth_household_crowded['Overcrowded']['values']['this']}
         },
         'youth_household_crowded': youth_household_crowded,
-        'youth_no_access_to_internet': {
-            "name": "Of youth live in households with no access to internet",
-            "values": {"this": youth_access_to_internet['No access to internet']['values']['this']}
-        },
         'youth_access_to_internet': youth_access_to_internet,
         'youth_living_with_parents': {
             "name": "Of youth aged 15-19 live with at least one biological parent",
             "values": {"this": living_with_parents_stat}
         },
         'youth_by_living_with_parents_status': youth_by_living_with_parents_status
-    }
+    })
 
     return final_data
 
@@ -851,6 +877,8 @@ def get_health_profile(geo, session, display_profile, comparative=False):
         table_dataset='Census and Community Survey',
         key_order=GIVEN_BIRTH_KEY_ORDER)
 
+    youth_female_given_birth['Unspecified']['name'] = 'Unspecified *'
+
     youth_female_given_birth_by_age_group, _ = get_stat_data(
         ['given birth', 'age in completed years'], geo, session,
         table_universe='Female youth',
@@ -875,7 +903,7 @@ def get_health_profile(geo, session, display_profile, comparative=False):
 
     if display_profile == 'WC' and geo.geo_level != 'ward':
         # We don't have data on ward level for the following
-        with dataset_context(year='2015'):
+        with dataset_context(year='2016'):
             youth_pregnancy_rate_by_year, _ = get_stat_data(
                 ['year'], geo, session,
                 table_universe='Teenage pregnancy rate by year',
@@ -887,18 +915,6 @@ def get_health_profile(geo, session, display_profile, comparative=False):
                 table_universe='Teenage delivery rate by year',
                 table_dataset='Department of Health Administrative data',
                 percent=False)
-
-        with dataset_context(year='2013'):
-            youth_female_causes_of_death_perc, _ = get_stat_data(
-                ['cause of death'], geo, session,
-                table_universe='Female youth causes of death',
-                table_dataset='Department of Health Administrative data',
-                order_by='-total')
-            youth_male_causes_of_death_perc, _ = get_stat_data(
-                ['cause of death'], geo, session,
-                table_universe='Male youth causes of death',
-                table_dataset='Department of Health Administrative data',
-                order_by='-total')
 
             youth_female_causes_of_death, _ = get_stat_data(
                 ['cause of death'], geo, session,
@@ -935,11 +951,11 @@ def get_health_profile(geo, session, display_profile, comparative=False):
             'youth_delivery_rate_by_year': youth_delivery_rate_by_year,
             'youth_female_HIV_deaths': {
                 "name": "Of female youth deaths were due to HIV/AIDS",
-                "values": {"this":youth_female_causes_of_death_perc['HIV / AIDS']['values']['this']}
+                "values": {"this":youth_female_causes_of_death['HIV / AIDS']['values']['this']}
             },
             'youth_male_interpersonal_violence_deaths': {
                 "name": "Of male youth deaths were due to interpersonal violence",
-                "values": {"this":youth_male_causes_of_death_perc['Interpersonal violence']['values']['this']}
+                "values": {"this":youth_male_causes_of_death['Interpersonal violence']['values']['this']}
             },
             'youth_female_top10_causes_of_death': youth_female_top10_causes_of_death if not comparative else youth_female_causes_of_death,
             'youth_male_top10_causes_of_death': youth_male_top10_causes_of_death if not comparative else youth_male_causes_of_death
