@@ -117,6 +117,7 @@ def get_profile(geo, profile_name, request):
         display_profile = 'WC' if (geo.geo_code == 'WC' or 'WC' in [cg.geo_code for cg in comp_geos]) else 'ZA'
 
         data['display_profile'] = display_profile
+        data['primary_release_year'] = current_context().get('year')
 
         for section in sections:
             function_name = 'get_%s_profile' % section
@@ -557,6 +558,8 @@ def get_economic_opportunities_profile(geo, session, display_profile, comparativ
 
 
 def get_living_environment_profile(geo, session, display_profile, comparative=False):
+    final_data = {}
+
     youth_electricity_access, _ = get_stat_data(
         ['electricity access'], geo, session,
         table_universe='Youth living in households',
@@ -604,11 +607,35 @@ def get_living_environment_profile(geo, session, display_profile, comparative=Fa
         table_dataset='Census and Community Survey',
         key_order=HH_CROWDED_KEY_ORDER)
 
-    youth_access_to_internet, _ = get_stat_data(
-        ['access to internet'], geo, session,
-        table_universe='Youth living in households',
-        table_dataset='Census and Community Survey',
-        key_order=INTERNET_ACCESS_ORDER)
+    if str(current_context().get('year')) == '2011':
+        # The releases have different indicators for internet access
+        youth_access_to_internet, _ = get_stat_data(
+            ['access to internet'], geo, session,
+            table_universe='Youth living in households',
+            table_dataset='Census and Community Survey',
+            table_name='youth_access_to_internet_gender',
+            key_order=INTERNET_ACCESS_ORDER)
+
+        final_data.update({
+            'youth_no_access_to_internet': {
+                "name": "Of youth live in households with no access to internet",
+                "values": {"this": youth_access_to_internet['No access to internet']['values']['this']}
+            }
+        })
+
+    else:
+        youth_access_to_internet, _ = get_stat_data(
+            ['access to internet'], geo, session,
+            table_universe='Youth living in households',
+            table_dataset='Census and Community Survey',
+            order_by='-total')
+
+        final_data.update({
+            'youth_cell_phone_access_internet': {
+                "name": "Of youth access the internet through a cell phone",
+                "values": {"this": youth_access_to_internet['Cell phone']['values']['this']}
+            }
+        })
 
     youth_by_living_with_parents_status, _ = get_stat_data(
         ['living with parents'], geo, session,
@@ -622,7 +649,7 @@ def get_living_environment_profile(geo, session, display_profile, comparative=Fa
         for k, v in youth_by_living_with_parents_status.iteritems()
         if k in living_with_parent_keys)
 
-    final_data = {
+    final_data.update({
         'youth_electricity_access': youth_electricity_access,
         'youth_toilet_access': youth_toilet_access,
         'youth_water_access': youth_water_access,
@@ -637,17 +664,13 @@ def get_living_environment_profile(geo, session, display_profile, comparative=Fa
             "values": {"this": youth_household_crowded['Overcrowded']['values']['this']}
         },
         'youth_household_crowded': youth_household_crowded,
-        'youth_no_access_to_internet': {
-            "name": "Of youth live in households with no access to internet",
-            "values": {"this": youth_access_to_internet['No access to internet']['values']['this']}
-        },
         'youth_access_to_internet': youth_access_to_internet,
         'youth_living_with_parents': {
             "name": "Of youth aged 15-19 live with at least one biological parent",
             "values": {"this": living_with_parents_stat}
         },
         'youth_by_living_with_parents_status': youth_by_living_with_parents_status
-    }
+    })
 
     return final_data
 
