@@ -941,12 +941,12 @@ def get_health_profile(geo, session, display_profile, comparative=False):
         final_data.update({
             'youth_preganacy_rate_latest': {
                 "name": "Of total pregnancies are to females under 18 years",
-                "values": {"this":youth_pregnancy_rate_by_year['2015-16']['values']['this']}
+                "values": {"this":youth_pregnancy_rate_by_year['2016-17']['values']['this']}
             },
             'youth_pregnancy_rate_by_year': youth_pregnancy_rate_by_year,
             'youth_delivery_rate_latest': {
                 "name": "Of total deliveries are to females under 18 years",
-                "values": {"this":youth_delivery_rate_by_year['2015-16']['values']['this']}
+                "values": {"this":youth_delivery_rate_by_year['2016-17']['values']['this']}
             },
             'youth_delivery_rate_by_year': youth_delivery_rate_by_year,
             'youth_female_HIV_deaths': {
