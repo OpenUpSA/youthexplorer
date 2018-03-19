@@ -332,7 +332,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
                 table_universe='Percentage passed in language',
                 table_dataset='Department of Education Administrative data',
                 key_order={'outcome': ['Passed', 'Failed']},
-                percent=False, slices=['2015'])
+                percent=False, slices=['2017'])
 
             youth_maths_outcome_latest, _ = get_stat_data(
                 ['year', 'outcome'], geo, session,
