@@ -308,7 +308,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
     }
 
     if display_profile == 'WC':
-        with dataset_context(year='2014'):
+        with dataset_context(year='2017'):
             youth_average_mean_score_by_year, _ = get_stat_data(
                 ['year'], geo, session,
                 table_universe='Average mean score in both language and mathematics',
@@ -400,7 +400,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
         final_data.update({
             'youth_ave_mean_score_latest': {
                 "name": "Average mean score in both language and mathematics",
-                "values": {"this": youth_average_mean_score_by_year['2015']['values']['this']}
+                "values": {"this": youth_average_mean_score_by_year['2017']['values']['this']}
             },
             'youth_ave_mean_score_by_year': youth_average_mean_score_by_year,
             'youth_ave_language_score_latest': {
