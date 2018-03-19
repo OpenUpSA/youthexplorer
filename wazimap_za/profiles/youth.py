@@ -410,7 +410,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
             'youth_ave_language_score_by_year': youth_average_language_score_by_year,
             'youth_ave_maths_score_latest': {
                 "name": "Average score in mathematics",
-                "values": {"this": youth_average_maths_score_by_year['2015']['values']['this']}
+                "values": {"this": youth_average_maths_score_by_year['2017']['values']['this']}
             },
             'youth_ave_maths_score_by_year': youth_average_maths_score_by_year,
             'youth_language_outcome_latest': youth_language_outcome_latest,
