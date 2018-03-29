@@ -40,6 +40,13 @@ class Command(BaseCommand):
                  'If not provided, it is generated from the field names'
         )
         parser.add_argument(
+            '--release_year',
+            action='store',
+            dest='release_year',
+            default=None,
+            help='The release year for the database table being imported.'
+        )
+        parser.add_argument(
             '--geo_version',
             action='store',
             dest='geo_version',
@@ -70,6 +77,7 @@ class Command(BaseCommand):
 
         self.verbosity = options.get('verbosity', 1)
         self.table_id = options.get('table')
+        self.release_year = options.get('release_year')
         self.geo_version = options.get('geo_version')
         self.value_type = options.get('value_type', 'Integer')
         self.dryrun = options.get('dryrun', False)
@@ -89,7 +97,9 @@ class Command(BaseCommand):
     def setup_table(self):
         table_id = self.table_id or get_table_id(self.fields)
         try:
-            self.table = get_datatable(table_id)
+            table_model = get_datatable(table_id)
+            release = table_model.get_release(year=self.release_year)
+            self.table = table_model.get_db_table(release=release)
             self.stdout.write("Table for fields %s is %s" % (self.fields, self.table.id))
         except KeyError:
             raise CommandError("Couldn't establish which table to use for these fields. Have you added a FieldTable entry in wazimap_za/tables.py?\nFields: %s" % self.fields)
