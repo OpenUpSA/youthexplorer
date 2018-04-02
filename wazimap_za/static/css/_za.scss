@@ -146,11 +146,16 @@ button.action-button {
 }
 
 #citations {
-    font-size: 0.8em;
+    h2 {
+      padding-left: 0.8em;
+      font-size: 1em;
+    }
+
     ul {
+        font-size: 0.8em;
         list-style: none;
         margin-bottom: 30px;
-        padding-left: 0.8em;
+        padding-left: 1em;
 
         li {
             margin-bottom: 5px;
