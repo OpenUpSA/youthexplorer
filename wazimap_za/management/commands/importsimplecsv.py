@@ -1,4 +1,5 @@
 import csv
+from collections import defaultdict
 
 from django.core.management.base import BaseCommand, CommandError
 
@@ -61,6 +62,13 @@ class Command(BaseCommand):
             help='The type of values used in the total column: Integer or Float'
         )
         parser.add_argument(
+            '--add_to_100',
+            action='store_true',
+            dest='add_to_100',
+            default=False,
+            help="Should values of final field combination add to 100%% for each geo",
+        )
+        parser.add_argument(
             '--dry-run',
             action='store_true',
             dest='dryrun',
@@ -80,6 +88,7 @@ class Command(BaseCommand):
         self.release_year = options.get('release_year')
         self.geo_version = options.get('geo_version')
         self.value_type = options.get('value_type', 'Integer')
+        self.add_to_100 = options.get('add_to_100', False)
         self.dryrun = options.get('dryrun', False)
 
         if self.dryrun:
@@ -104,16 +113,34 @@ class Command(BaseCommand):
         except KeyError:
             raise CommandError("Couldn't establish which table to use for these fields. Have you added a FieldTable entry in wazimap_za/tables.py?\nFields: %s" % self.fields)
 
+
     def store_values(self):
         session = get_session()
         count = 0
+        geo = None
+        totals = defaultdict(float)
         for row in self.reader:
             count += 1
             row['geo_version'] = self.geo_version
+
             if row['total'] == 'no data':
                 row['total'] = None
             else:
                 row['total'] = round(float(row['total']), 1) if self.value_type == 'Float' else int(round(float(row['total'])))
+
+            if self.add_to_100 == True:
+                geo = row['geo_level'], row['geo_code']
+                field_values = tuple(row[field] for field in self.fields[:-1])
+                key = (geo + field_values)
+
+                if row['total']:
+                    totals[key] += row['total']
+                    if totals[key] > 100:
+                        diff = totals[key] - 100
+                        row['total'] = row['total'] - diff
+
+            if self.value_type == 'Float' and row['total']:
+                row['total'] = str(row['total'])
             self.stdout.write("%s-%s" % (row['geo_level'], row['geo_code']))
             entry = self.table.model(**row)
 
