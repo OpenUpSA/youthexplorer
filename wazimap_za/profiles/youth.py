@@ -764,12 +764,12 @@ def get_safety_profile(geo, session, display_profile, comparative=False):
             victims_by_age_group_per_10k_pop, total_victims_per_10k_pop = get_stat_data(
                 ['age group'], geo, session,
                 table_universe='Victims of crime per 10,000 population in age group',
-                table_dataset='Census and Community Survey',
+                table_dataset='Police Crime Statistics 2006-2015',
                 percent=False)
             accused_by_age_group_per_10k_pop, total_accused_per_10k_pop = get_stat_data(
                 ['age group'], geo, session,
                 table_universe='Accused of crime per 10,000 population in age group',
-                table_dataset='Census and Community Survey',
+                table_dataset='Police Crime Statistics 2006-2015',
                 percent=False)
 
             youth_victims_by_offence_per_10k_youth, _ = get_stat_data(
