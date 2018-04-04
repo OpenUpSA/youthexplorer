@@ -98,7 +98,7 @@ class Command(BaseCommand):
                 if count % len(self.final_field_values) == 0:
                     if totals[key] != 100:
                         diff = totals[key] - 100
-                        row['total'] = row['total'] - diff
+                        row['total'] = round(row['total'] - diff, 1)
 
             if not row['geo_version']:
                 row['geo_version'] = self.geo_version
