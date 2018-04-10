@@ -28,4 +28,14 @@ $('.toggle-sub-group').hover(function() {
     $(this).find('.sub-group').toggle();
 });
 </script>
+
+{% if head2head %}
+<script type="text/javascript">
+  var releaseLinks = $('.release-list').find('li a');
+  $.each(releaseLinks, function(i, a) {
+    a.pathname = parent.location.pathname;
+  });
+</script>
+{% endif %}
+
 {% endblock %}

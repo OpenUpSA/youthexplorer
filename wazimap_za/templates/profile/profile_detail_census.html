@@ -29,7 +29,7 @@
     <strong>{{ primary_releases.active.name }} {{ primary_releases.active.year }}</strong>
     {% if primary_releases.other %}
     <div class="tool-group toggle-sub-group release-list">
-        <a href="#">Change release<i class="fa fa-chevron-circle-down"></i></a>
+        <a>Change release<i class="fa fa-chevron-circle-down"></i></a>
         <ul class="sub-group" style="display: none;">
         {% for release in primary_releases.other %}
             <li><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a></li>
