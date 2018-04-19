@@ -163,17 +163,28 @@ button.action-button {
     }
 }
 
-#change-release {
-  margin: 1.2em 0;
-  h2 {
-    position: absolute;
-    padding-left: 0.8em;
-  }
-  .release {
-    padding-left: 13em;
+.chart-qualifier {
+  margin: 0.3em 0.5em 0;
+}
+
+#cover-profile {
+  .release-list {
+    margin-left: 5px;
+
+    ul {
+      font-size: 1em;
+    }
+
+    a {
+      margin-top: 0;
+    }
   }
 }
 
-.chart-qualifier {
-  margin: 0.3em 0.5em 0;
+#change-release {
+  padding-left: 0.8em;
+  margin-bottom: 1em;
+  .release-name {
+      margin-right: 1em;
+  }
 }

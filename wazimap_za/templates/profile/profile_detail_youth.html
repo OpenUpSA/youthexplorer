@@ -37,14 +37,17 @@
 
 {% block profile_header_tail %}
 <div class="column-full">
-    <p class="caption">
-        <strong>Primary release:</strong> {{ primary_releases.active.name }} {{ primary_releases.active.year }}
-        <br>
+    <strong>{{ primary_releases.active.name }} {{ primary_releases.active.year }}</strong>
+    {% if primary_releases.other %}
+    <div class="tool-group toggle-sub-group release-list">
+        <a>Change release<i class="fa fa-chevron-circle-down"></i></a>
+        <ul class="sub-group" style="display: none;">
         {% for release in primary_releases.other %}
-        <strong>Change to:</strong><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a>
+            <li><a href="{{ request.path }}?release={{release.year}}">{{ release.name }} {{ release.year }}</a></li>
         {% endfor %}
-
-    </p>
+        </ul>
+    </div>
+    {% endif %}
 </div>
 {% endblock %}
 
