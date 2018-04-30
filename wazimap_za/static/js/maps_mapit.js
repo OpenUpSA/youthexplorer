@@ -73,9 +73,6 @@ function MapItGeometryLoader() {
         feature.properties.level = feature.properties.type_name.toLowerCase();
         feature.properties.code = feature.properties.codes.MDB;
         feature.properties.geoid = feature.properties.level + '-' + feature.properties.code;
-        if (RELEASE && RELEASE != "") {
-            feature.properties.release = RELEASE;
-        }
     };
 
     this.loadGeometryForLevel = function(level, geo_version, success) {
