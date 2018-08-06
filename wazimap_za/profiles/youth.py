@@ -336,7 +336,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
                 key_order={'outcome': ['Passed', 'Failed']},
                 percent=False, slices=['2017'])
 
-        with dataset_context(year='2015'):
+        with dataset_context(year='2017'):
             youth_matric_outcome_by_year, _ = get_stat_data(
                 ['year'], geo, session,
                 table_universe='Matric pass rate',
