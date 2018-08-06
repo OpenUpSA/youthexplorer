@@ -347,7 +347,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
                 ['year', 'outcome'], geo, session,
                 table_universe='Matric pass rate',
                 key_order={'outcome': ['Passed', 'Failed']},
-                percent=False, slices=['2015'])
+                percent=False, slices=['2017'])
 
             youth_matric_throughput_rate_by_year, _ = get_stat_data(
                 ['year'], geo, session,
@@ -359,7 +359,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
                 ['year', 'outcome'], geo, session,
                 table_universe='Matric passes as a % of grade 8 enrolment',
                 key_order={'outcome': ['Passed', 'Dropped out or failed']},
-                percent=False, slices=['2015'])
+                percent=False, slices=['2017'])
 
             youth_bachelor_passes_by_year, _ = get_stat_data(
                 ['year'], geo, session,
