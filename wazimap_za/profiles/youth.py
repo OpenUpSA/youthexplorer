@@ -938,7 +938,7 @@ def get_health_profile(geo, session, display_profile, comparative=False):
             'youth_delivery_rate_by_year': youth_delivery_rate_by_year,
             'youth_female_HIV_deaths': {
                 "name": "Of female youth deaths were due to HIV/AIDS",
-                "values": {"this":youth_female_causes_of_death['HIV / AIDS']['values']['this']}
+                "values": {"this":youth_female_causes_of_death['HIV/AIDS']['values']['this']}
             },
             'youth_male_interpersonal_violence_deaths': {
                 "name": "Of male youth deaths were due to interpersonal violence",
