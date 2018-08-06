@@ -684,7 +684,7 @@ def get_poverty_profile(geo, session, display_profile, comparative=False):
         percent_grouping=['gender'], slices=['Income-poor'],
         key_order={'gender': GENDER_ORDER})
 
-    with dataset_context(year='2016'):
+    with dataset_context(year='2011'):
         youth_multid_poverty, _ = get_stat_data(
             ['multidimensionally poor'], geo, session,
             table_universe='Youth',
