@@ -382,7 +382,7 @@ def get_education_profile(geo, session, display_profile, comparative=False):
             youth_student_dropout_rate_latest, _ = get_stat_data(
                 ['year', 'outcome'], geo, session,
                 table_universe='Dropout rates between grade 10 and matric',
-                percent=False, slices=['2015'])
+                percent=False, slices=['2017'])
 
         final_data.update({
             'youth_ave_mean_score_latest': {
