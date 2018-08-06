@@ -26,14 +26,14 @@ create database wazimap_<instance_name>;
 grant all privileges on database wazimap_<instance_name> to wazimap_<instance_name>;
 ```
 
+Import the data into the new database.
+```
+cat sql/*.sql | psql -U wazimap_<instance_name> -W wazimap_<instance_name>
+```
+
 Run migrations to keep Django happy:
 ```
 python manage.py migrate
-```
-
-Import the data into the new database (will overwrite some tables created by Django, but that's ok).
-```
-cat sql/*.sql | psql -U wazimap_<instance_name> -W wazimap_<instance_name>
 ```
 
 Import the fixtures for the django models:
