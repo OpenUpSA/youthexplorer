@@ -1,3 +1,5 @@
+import os
+
 # pull in the default wazimap settings
 from collections import OrderedDict
 from wazimap.settings import *  # noqa
@@ -17,6 +19,8 @@ WAZIMAP['comparative_levels'] = ['district', 'province', 'country']
 # this is provided by mapit
 WAZIMAP['geodata'] = 'wazimap_za.geo.GeoData'
 WAZIMAP['geometry_data'] = {}
+# google maps api key
+WAZIMAP['google_geocode_api_key'] = os.environ.get('GOOGLE_GEOCODE_API_KEY', '')
 
 WAZIMAP['levels'] = {
     'country': {
