@@ -3,12 +3,13 @@ from collections import OrderedDict
 from wazimap.settings import *  # noqa
 
 # install this app before Wazimap
-INSTALLED_APPS = ['test_without_migrations', 'wazimap_za.apps.WazimapConfig'] + INSTALLED_APPS
+INSTALLED_APPS = [
+    'test_without_migrations', 'wazimap_za.apps.WazimapConfig', 'explorer'
+] + INSTALLED_APPS
 
 # redirect www.wazimap.co.za to wazimap.co.za
 STRIP_WWW = True
-
-
+ROOT_URLCONF = 'wazimap_za.urls'
 # Localise this instance of Wazimap
 WAZIMAP['name'] = 'Wazimap'
 WAZIMAP['url'] = 'https://wazimap.co.za'

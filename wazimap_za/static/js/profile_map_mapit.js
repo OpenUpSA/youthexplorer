@@ -23,6 +23,40 @@ ProfileMaps = function() {
                 self.drawFocusFeature(feature);
             });
         }
+	if (geo_level == 'municipality'){
+	    GeometryLoader.loadPoints(function(data){
+		var pointLayers = {};
+		var colours = ['#8B0000', '#FFD700', '#ADFF2F', '#000000'];
+		for (var i=0; i< data.data.length;i++){
+		    var layer = L.geoJson(data.data[i].data,{
+			onEachFeature: function(feature,layer){
+			    layer.bindPopup(feature.properties["Name"]);
+			},
+			filter: function(feature, layer) {
+			    if (feature.properties['Municipality'] == geo_code){
+				return true;
+			    }else{
+				return false;
+			    }
+			},
+			pointToLayer: function (feature, latlng) {
+			    return L.circleMarker(latlng, {
+				radius:4,
+				fillOpacity: 1,
+				color: colours[i],
+				fillColor: colours[i]
+			    });
+			}
+		    });
+		    var layerFormat = "<span style='color:"+colours[i]+
+			"'>" +
+			data.data[i].name + 
+			"</span>";
+		    pointLayers[layerFormat] = layer;
+		}
+		L.control.layers(null,pointLayers).addTo(self.map);
+	    });
+	}
 
         // peers
         var parents = _.keys(geo.parents);
@@ -71,6 +105,7 @@ ProfileMaps = function() {
 
         // if we're loading districts, we also want to load metros, because
         // districts don't give us full coverage
+	// We also need to load the point that
         if (level == 'district') {
             GeometryLoader.loadGeometrySet(parent + '|' + MAPIT.level_codes.municipality, 'municipality', parent_version, function(geojson) {
                 // only keep metros

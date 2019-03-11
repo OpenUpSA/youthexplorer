@@ -92,6 +92,7 @@ function MapItGeometryLoader() {
         });
     };
 
+
     this.loadGeometryForGeo = function(geo_level, geo_code, geo_version, success) {
         var mapit_type = MAPIT.level_codes[geo_level];
         var mapit_simplify = MAPIT.level_simplify[mapit_type];
@@ -117,6 +118,18 @@ function MapItGeometryLoader() {
             _.each(features, self.decorateFeature);
             success({features: features});
         });
+    };
+    this.loadPoints = function(success) {
+        var url = '/explorer/api/v1/datasets';
+	$.ajax({
+	    type: "GET",
+	    contentType:"application/json",
+	    url: url,
+	    success: function(data){
+		success({'data': data});
+	    },
+	    
+	});
     };
 }
 
