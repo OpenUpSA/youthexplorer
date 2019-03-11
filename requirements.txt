@@ -35,6 +35,6 @@ six==1.12.0
 SQLAlchemy==1.2.17
 unicodecsv==0.14.1
 urllib3==1.24.1
--e git+https://github.com/OpenUpSA/wazimap.git@de8b2cc26a329fc54287408498f6f7038faad9b2#egg=wazimap
--e git+https://github.com/OpenUpSA/explorer.git@master#egg=explorer
 whitenoise==4.1.2
+git+https://github.com/OpenUpSA/explorer.git@master#egg=explorer
+git+https://github.com/OpenUpSA/wazimap.git@releases#egg=wazimap[gdal]
