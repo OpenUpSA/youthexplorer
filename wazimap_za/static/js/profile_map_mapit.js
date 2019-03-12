@@ -30,7 +30,18 @@ ProfileMaps = function() {
 		for (var i=0; i< data.data.length;i++){
 		    var layer = L.geoJson(data.data[i].data,{
 			onEachFeature: function(feature,layer){
-			    layer.bindPopup(feature.properties["Name"]);
+			    var header = '<h4><i class="bars icon"> Point</i></h4>';
+			    var table = '<table>';
+			    for (const [key, value] of Object.entries(feature.properties)){
+				var row = "<tr>" +
+				    "<td><b>"+key + '</b></td>'+
+				    "<td>" + value + '</td>' +
+				    "</tr>";
+				table = table + row;
+			    }
+			    var endTable = '</table>';
+			    table = table + endTable;
+			    layer.bindPopup(table);
 			},
 			filter: function(feature, layer) {
 			    if (feature.properties['Municipality'] == geo_code){
