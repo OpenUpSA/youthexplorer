@@ -26,7 +26,7 @@ ProfileMaps = function() {
 	if (geo_level == 'municipality'){
 	    GeometryLoader.loadPoints(function(data){
 		var pointLayers = {};
-		var colours = ['#8B0000', '#FFD700', '#ADFF2F', '#000000'];
+		var colours = ['#5E35B1', '#D81B60', '#00ACC1', '#7CB342','#C0CA33'];
 		for (var i=0; i< data.data.length;i++){
 		    var layer = L.geoJson(data.data[i].data,{
 			onEachFeature: function(feature,layer){
