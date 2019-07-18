@@ -23,8 +23,10 @@ ProfileMaps = function() {
                 self.drawFocusFeature(feature);
             });
         }
-	if (geo_level == 'municipality'){
-	    GeometryLoader.loadPoints(function(data){
+	GeometryLoader.loadPoints(function(data){
+	    var levels = {province: 'Province', district: 'District', municipality: 'Municipality'};
+	    console.log(geo_level);
+	    
 		var pointLayers = {};
 		var colours = ['#5E35B1', '#D81B60', '#00ACC1', '#FFB300','#00897B'];
 		for (var i=0; i< data.data.length;i++){
@@ -44,7 +46,7 @@ ProfileMaps = function() {
 			    layer.bindPopup(table);
 			},
 			filter: function(feature, layer) {
-			    if (feature.properties['Municipality'] == geo_code){
+			    if (feature.properties[levels[geo_level]] == geo_code){
 				return true;
 			    }else{
 				return false;
@@ -67,7 +69,6 @@ ProfileMaps = function() {
 		}
 		L.control.layers(null,pointLayers).addTo(self.map);
 	    });
-	}
 
         // peers
         var parents = _.keys(geo.parents);
