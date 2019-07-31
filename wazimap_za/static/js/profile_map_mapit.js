@@ -25,7 +25,6 @@ ProfileMaps = function() {
         }
 	GeometryLoader.loadPoints(function(data){
 	    var levels = {province: 'Province', district: 'District', municipality: 'Municipality'};
-	    console.log(geo_level);
 	    
 		var pointLayers = {};
 		var colours = [
@@ -33,37 +32,37 @@ ProfileMaps = function() {
 		    '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
 		    '#FDD835', '#FDD835', '#FB8C00', '#F4511E'
 		];
-		for (var i=0; i< data.data.length;i++){
-		    var layer = L.geoJson(data.data[i].data,{
-			onEachFeature: function(feature,layer){
-			    var header = '<h4><i class="bars icon"> Point</i></h4>';
-			    var table = '<table>';
-			    for (const [key, value] of Object.entries(feature.properties)){
-				var row = "<tr>" +
-				    "<td><b>"+key + '</b></td>'+
-				    "<td>" + value + '</td>' +
-				    "</tr>";
-				table = table + row;
-			    }
-			    var endTable = '</table>';
-			    table = table + endTable;
-			    layer.bindPopup(table);
-			},
-			filter: function(feature, layer) {
-			    if (feature.properties[levels[geo_level]] == geo_code){
-				return true;
-			    }else{
-				return false;
-			    }
-			},
-			pointToLayer: function (feature, latlng) {
-			    return L.circleMarker(latlng, {
-				radius:4,
-				fillOpacity: 1,
-				color: colours[i],
-				fillColor: colours[i]
-			    });
-			}
+	    for (var i=0; i< data.data.length;i++){
+		    var layer = L.geoJson(data.data[i].data.data,{
+		    	onEachFeature: function(feature,layer){
+		    	    var header = '<h4><i class="bars icon"> Point</i></h4>';
+		    	    var table = '<table>';
+		    	    for (const [key, value] of Object.entries(feature.properties)){
+		    		var row = "<tr>" +
+		    		    "<td><b>"+key + '</b></td>'+
+		    		    "<td>" + value + '</td>' +
+		    		    "</tr>";
+		    		table = table + row;
+		    	    }
+		    	    var endTable = '</table>';
+		    	    table = table + endTable;
+		    	    layer.bindPopup(table);
+		    	},
+		    	filter: function(feature, layer) {
+		    	    if (feature.properties[levels[geo_level]] == geo_code){
+		    		return true;
+		    	    }else{
+		    		return false;
+		    	    }
+		    	},
+		    	pointToLayer: function (feature, latlng) {
+		    	    return L.circleMarker(latlng, {
+		    		radius:4,
+		    		fillOpacity: 1,
+		    		color: colours[i],
+		    		fillColor: colours[i]
+		    	    });
+		    	}
 		    });
 		    var layerFormat = "<span style='color:"+colours[i]+
 			"'>" +
@@ -71,8 +70,8 @@ ProfileMaps = function() {
 			"</span>";
 		    pointLayers[layerFormat] = layer;
 		}
-		L.control.layers(null,pointLayers).addTo(self.map);
-	    });
+	    L.control.layers(null,pointLayers, {collapased: false}).addTo(self.map);
+	});
 
         // peers
         var parents = _.keys(geo.parents);
