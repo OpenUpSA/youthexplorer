@@ -28,7 +28,11 @@ ProfileMaps = function() {
 	    console.log(geo_level);
 	    
 		var pointLayers = {};
-		var colours = ['#5E35B1', '#D81B60', '#00ACC1', '#FFB300','#00897B'];
+		var colours = [
+		    '#4E6CeF', '#3949AB', '#5E35B1', '#8E24AA', '#D81B60', '#E00032',
+		    '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
+		    '#FDD835', '#FDD835', '#FB8C00', '#F4511E'
+		];
 		for (var i=0; i< data.data.length;i++){
 		    var layer = L.geoJson(data.data[i].data,{
 			onEachFeature: function(feature,layer){
