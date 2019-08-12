@@ -24,7 +24,7 @@ ProfileMaps = function() {
             });
         }
 	GeometryLoader.loadPoints(function(data){
-	    var levels = {province: 'Province', district: 'District', municipality: 'Municipality'};
+	    var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
 	    
 		var pointLayers = {};
 		var colours = [
