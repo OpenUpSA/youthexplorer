@@ -12,6 +12,13 @@ The South African instance of [Wazimap](https://github.com/Code4SA/wazimap), a D
 4. ``source env/bin/activate``
 5. ``pip install -r requirements.txt``
 
+Note, if you have a problem installing GDAL, do the following:
+`sudo apt-get install gdal-bin libgdal-dev`
+`sed -i "s/GDAL.*/GDAL==$(gdal-config --version)/" requirements.txt`
+
+This will ensure that pip installs the same version of GDAL as what is currently installed on your machine.
+
+
 Set the `WAZI_PROFILE` environment variable to the instance you are working on, e.g.
 `export WAZI_PROFILE=ecd`
 
@@ -44,6 +51,11 @@ python manage.py loaddata fixtures/<instance_name>/wazimap_django_models.json
 Create an admin user:
 ```
 python manage.py createsuperuser
+
+```
+Collect static files:
+```
+python manage.py collectstatic
 
 ```
 Start the server:
