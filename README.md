@@ -13,7 +13,9 @@ The South African instance of [Wazimap](https://github.com/Code4SA/wazimap), a D
 5. ``pip install -r requirements.txt``
 
 Note, if you have a problem installing GDAL, do the following:
+
 `sudo apt-get install gdal-bin libgdal-dev`
+
 `sed -i "s/GDAL.*/GDAL==$(gdal-config --version)/" requirements.txt`
 
 This will ensure that pip installs the same version of GDAL as what is currently installed on your machine.
