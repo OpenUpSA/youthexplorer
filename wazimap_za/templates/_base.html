@@ -4,29 +4,16 @@
 
 {% block head_css %}
   <link rel="stylesheet" href="{% static 'css/vendor/featherlight.min.css' %}">
-
-  {% if WAZIMAP.default_profile == 'youth' %}
   <link rel="stylesheet" href="{% sass_src 'css/wazimap_youth.scss' %}">
-  {% else %}
-  <link rel="stylesheet" href="{% sass_src 'css/wazimap_za.scss' %}">
-  {% endif %}
 {% endblock %}
 
 
 {% block favicon %}
-  {% if WAZIMAP.default_profile == 'youth' %}
     <link rel="shortcut icon" href="{% static 'img/youth-favicon.ico' %}"/>
-  {% else %}
-    {{ block.super }}
-  {% endif %}
 {% endblock %}
 
 {% block header_logo %}
-  {% if WAZIMAP.default_profile == 'youth' %}
-    <img src="{% static 'img/youth-logo.png' %}">
-  {% else %}
-    {{ block.super }}
-  {% endif %}
+<img src="{% static 'img/youth-logo.png' %}">
 {% endblock %}
 
 {% block header_menu %}
@@ -35,9 +22,6 @@
 {% endblock %}
 
 {% block header_branding %}
-  {% if WAZIMAP.default_profile != 'youth' %}
-    {{ block.super }}
-  {% endif %}
 {% endblock %}
 
 {% block body_javascript_extra %}
@@ -51,10 +35,6 @@
 										     type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
   </script>
 
-  {% if WAZIMAP.default_profile == 'census' %}
-  <script type="text/javascript" src="{% static 'js/wazimap-za.js' %}"></script>
-  {% elif WAZIMAP.default_profile == 'youth' %}
   <script type="text/javascript" src="{% static 'js/wazimap-youth.js' %}"></script>
-{% endif %}
 <!--End of Zendesk Chat Script-->
 {% endblock %}
