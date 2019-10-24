@@ -64,11 +64,14 @@ ProfileMaps = function() {
 		    	    });
 		    	}
 		    });
+            var markers = L.markerClusterGroup();
+            markers.addLayer(layer)
+
 		    var layerFormat = "<span style='color:"+colours[i]+
 			"'>" +
 			data.data[i].name + 
 			"</span>";
-		    pointLayers[layerFormat] = layer;
+		    pointLayers[layerFormat] = markers;
 		}
 	    L.control.layers(null,pointLayers, {collapased: false}).addTo(self.map);
 	});
