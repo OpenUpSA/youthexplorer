@@ -53,6 +53,11 @@ Create an admin user:
 python manage.py createsuperuser
 
 ```
+Collect static files:
+```
+python manage.py collectstatic
+
+```
 Start the server:
 ```
 python manage.py runserver
