@@ -85,6 +85,8 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 DATABASES['default']['TEST'] = {
     'NAME': 'test_wazimap_za',
 }
+
+# Scheduled for removal but is currently required by the wazimap library
 WAZIMAP['default_profile'] = 'youth'
 
 LANGUAGE_CODE = 'en-za'
