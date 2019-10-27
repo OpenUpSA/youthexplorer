@@ -1,0 +1,30 @@
+version: '3'
+services:
+    web:
+        build: ./config/django
+        volumes:
+         - ./scripts:/scripts
+         - ./config/django:/config
+         - ./:/app
+        ports:
+         - "8000:8000"
+        env_file:
+         - ./config/django/django.env
+        networks:
+         - web-net
+        tty: true
+        restart: unless-stopped
+    db:
+        build: ./config/postgres        
+        env_file:
+         - ./config/postgres/postgres.env
+        ports:
+          - "5432:5432"
+        volumes:
+         - ./data/postgres:/var/lib/postgresql/data
+        networks:
+         - web-net
+        restart: unless-stopped
+networks:
+    web-net:
+        driver: bridge
