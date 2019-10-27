@@ -23,58 +23,59 @@ ProfileMaps = function() {
                 self.drawFocusFeature(feature);
             });
         }
-	GeometryLoader.loadPoints(function(data){
-	    var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
-	    
-		var pointLayers = {};
-		var colours = [
-		    '#4E6CeF', '#3949AB', '#5E35B1', '#8E24AA', '#D81B60', '#E00032',
-		    '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
-		    '#FDD835', '#FDD835', '#FB8C00', '#F4511E'
-		];
-	    for (var i=0; i< data.data.length;i++){
-		    var layer = L.geoJson(data.data[i].data.data,{
-		    	onEachFeature: function(feature,layer){
-		    	    var header = '<h4><i class="bars icon"> Point</i></h4>';
-		    	    var table = '<table>';
-		    	    for (const [key, value] of Object.entries(feature.properties)){
-		    		var row = "<tr>" +
-		    		    "<td><b>"+key + '</b></td>'+
-		    		    "<td>" + value + '</td>' +
-		    		    "</tr>";
-		    		table = table + row;
-		    	    }
-		    	    var endTable = '</table>';
-		    	    table = table + endTable;
-		    	    layer.bindPopup(table);
-		    	},
-		    	filter: function(feature, layer) {
-		    	    if (feature.properties[levels[geo_level]] == geo_code){
-		    		return true;
-		    	    }else{
-		    		return false;
-		    	    }
-		    	},
-		    	pointToLayer: function (feature, latlng) {
-		    	    return L.circleMarker(latlng, {
-		    		radius:4,
-		    		fillOpacity: 1,
-		    		color: colours[i],
-		    		fillColor: colours[i]
-		    	    });
-		    	}
-		    });
-            var markers = L.markerClusterGroup();
-            markers.addLayer(layer)
 
-		    var layerFormat = "<span style='color:"+colours[i]+
-			"'>" +
-			data.data[i].name + 
-			"</span>";
-		    pointLayers[layerFormat] = markers;
-		}
-	    L.control.layers(null,pointLayers, {collapased: false}).addTo(self.map);
-	});
+        GeometryLoader.loadPoints(function(data) {
+            var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
+            
+            var pointLayers = {};
+            var colours = [
+                '#4E6CeF', '#3949AB', '#5E35B1', '#8E24AA', '#D81B60', '#E00032',
+                '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
+                '#FDD835', '#FDD835', '#FB8C00', '#F4511E'
+            ];
+            for (var i=0; i< data.data.length;i++){
+                var layer = L.geoJson(data.data[i].data.data,{
+                    onEachFeature: function(feature,layer){
+                        var header = '<h4><i class="bars icon"> Point</i></h4>';
+                        var table = '<table>';
+                        for (const [key, value] of Object.entries(feature.properties)){
+                        var row = "<tr>" +
+                            "<td><b>"+key + '</b></td>'+
+                            "<td>" + value + '</td>' +
+                            "</tr>";
+                        table = table + row;
+                        }
+                        var endTable = '</table>';
+                        table = table + endTable;
+                        layer.bindPopup(table);
+                    },
+                    filter: function(feature, layer) {
+                        if (feature.properties[levels[geo_level]] == geo_code){
+                        return true;
+                        }else{
+                        return false;
+                        }
+                    },
+                    pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {
+                        radius:4,
+                        fillOpacity: 1,
+                        color: colours[i],
+                        fillColor: colours[i]
+                        });
+                    }
+                });
+                var markers = L.markerClusterGroup();
+                markers.addLayer(layer)
+
+                var layerFormat = "<span style='color:"+colours[i]+
+                "'>" +
+                data.data[i].name + 
+                "</span>";
+                pointLayers[layerFormat] = markers;
+            }
+            L.control.layers(null,pointLayers, {collapased: false}).addTo(self.map);
+        });
 
         // peers
         var parents = _.keys(geo.parents);

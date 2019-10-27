@@ -1,3 +1,4 @@
+alert("Dfdsfdsfdsf")
 /***
  * A class that loads geography boundary information from
  * mapit.code4sa.org.
@@ -120,34 +121,31 @@ function MapItGeometryLoader() {
         });
     };
     this.loadPoints = function(success) {
-	datasets = {};
         var url = '/explorer/api/v1/datasets';
-	$.ajax({
-	    async: false,
-	    type: "GET",
-	    contentType:"application/json",
-	    url: url,
-	    success: function(data){
-		for(var i=0; i < data.length; i++){
-		    //console.log(i);
-		    $.ajax({
-			async: false,
-			type: 'GET',
-			contentType: "application/json",
-			url: data[i].url,
-			success:function(all_points){
-			    console.log(i);
-			    //console.log(data);
-			    //var self = this;;
-			    data[i]['data'] = all_points;
-			}
-		    });
-		}
-		success({'data': data});
-	    },
-	    
-	});
-    };
+        $.ajax({
+            async: false,
+            type: "GET",
+            contentType:"application/json",
+            url: url,
+            success: function(data){
+                for(var i = 0; i < data.length; i++){
+                    $.ajax({
+                        async: false,
+                        type: 'GET',
+                        contentType: "application/json",
+                        url: data[i].url,
+                        success: function(all_points){
+                            console.log(i);
+                            //console.log(data);
+                            //var self = this;;
+                            data[i]['data'] = all_points.locations;
+                        }
+                    });
+                }
+                success({'data': data});
+            }
+        })
+    }
 }
 
 GeometryLoader = new MapItGeometryLoader();
