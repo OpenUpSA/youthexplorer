@@ -6,7 +6,8 @@ from wazimap.settings import *  # noqa
 
 # install this app before Wazimap
 INSTALLED_APPS = [
-    'test_without_migrations', 'wazimap_za.apps.WazimapConfig', 'explorer'
+    'test_without_migrations', 'wazimap_za.apps.WazimapConfig', 'django.contrib.gis', 'explorer',
+    'rest_framework_gis',
 ] + INSTALLED_APPS
 
 # redirect www.wazimap.co.za to wazimap.co.za
@@ -85,6 +86,10 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 DATABASES['default']['TEST'] = {
     'NAME': 'test_wazimap_za',
 }
+
+# dj_database_url can do this but SQLAlchemy also uses DATABASE_URL
+# and gives errors when using the postgis engine
+DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'
 
 # Scheduled for removal but is currently required by the wazimap library
 WAZIMAP['default_profile'] = 'youth'
