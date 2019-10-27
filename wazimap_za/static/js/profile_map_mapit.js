@@ -2,6 +2,12 @@
 
 var BaseProfileMaps = ProfileMaps;
 ProfileMaps = function() {
+    var clusterColours = [
+        '#4E6CeF', '#3949AB', '#5E35B1', '#8E24AA', '#D81B60', '#E00032',
+        '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
+        '#FDD835', '#FDD835', '#FB8C00', '#F4511E'
+    ];
+
     var self = this;
     this.mapit_url = GeometryLoader.mapit_url;
 
@@ -13,6 +19,7 @@ ProfileMaps = function() {
         var geo_level = geo.this.geo_level;
         var geo_code = geo.this.geo_code;
         var geo_version = geo.this.version;
+        var layerControl = L.control.layers(null, null, {collapased: false}).addTo(this.map);
 
         // add demarcation boundaries
         if (geo_level == 'country') {
@@ -24,57 +31,56 @@ ProfileMaps = function() {
             });
         }
 
-        GeometryLoader.loadPoints(function(data) {
+        GeometryLoader.loadPoints(function(category) {
+            var points = category.locations;
+            var category_name = category.name;
+            var colour = clusterColours.pop(); // TODO ensure the this list doesn't run out
             var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
             
             var pointLayers = {};
-            var colours = [
-                '#4E6CeF', '#3949AB', '#5E35B1', '#8E24AA', '#D81B60', '#E00032',
-                '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
-                '#FDD835', '#FDD835', '#FB8C00', '#F4511E'
-            ];
-            for (var i=0; i< data.data.length;i++){
-                var layer = L.geoJson(data.data[i].data.data,{
-                    onEachFeature: function(feature,layer){
-                        var header = '<h4><i class="bars icon"> Point</i></h4>';
-                        var table = '<table>';
-                        for (const [key, value] of Object.entries(feature.properties)){
+            var layer = L.geoJson(points, {
+                onEachFeature: function(feature, layer) {
+                    var header = '<h4><i class="bars icon"> Point</i></h4>';
+                    var table = '<table>';
+
+                    for ([key, value] of Object.entries(feature.properties.data)) {
                         var row = "<tr>" +
                             "<td><b>"+key + '</b></td>'+
                             "<td>" + value + '</td>' +
                             "</tr>";
                         table = table + row;
-                        }
-                        var endTable = '</table>';
-                        table = table + endTable;
-                        layer.bindPopup(table);
-                    },
-                    filter: function(feature, layer) {
-                        if (feature.properties[levels[geo_level]] == geo_code){
+                    }
+
+                    table = table + '</table>';
+                    layer.bindPopup(table);
+                },
+                filter: function(feature, layer) {
+                    var data = feature.properties.data;
+                    if (data[levels[geo_level]] == geo_code) {
                         return true;
-                        }else{
+                    } else{
                         return false;
-                        }
-                    },
-                    pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, {
+                    }
+                },
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, {
                         radius:4,
                         fillOpacity: 1,
-                        color: colours[i],
-                        fillColor: colours[i]
-                        });
-                    }
-                });
-                var markers = L.markerClusterGroup();
-                markers.addLayer(layer)
+                        color: colour,
+                        fillColor: colour
+                    });
+                }
+            });
 
-                var layerFormat = "<span style='color:"+colours[i]+
-                "'>" +
-                data.data[i].name + 
-                "</span>";
-                pointLayers[layerFormat] = markers;
-            }
-            L.control.layers(null,pointLayers, {collapased: false}).addTo(self.map);
+            var markers = L.markerClusterGroup();
+            markers.addLayer(layer)
+
+            var layerFormat = "<span style='color:" + colour + "'>"
+                + category_name
+                + "</span>";
+            pointLayers[layerFormat] = markers;
+            layerControl.addOverlay(markers, category_name)
+            //L.control.layers(null, pointLayers, {collapased: false}).addTo(self.map);
         });
 
         // peers
