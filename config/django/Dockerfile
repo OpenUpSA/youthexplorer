@@ -8,7 +8,7 @@ ENV CPLUS_INCLUDE_PATH="/usr/include/gdal"
 ENV C_INCLUDE_PATH="/usr/include/gdal"
 
 RUN /usr/local/bin/pip2 install --upgrade pip
-ADD requirements.txt /tmp
+ADD ./requirements.txt /tmp
 RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /app
