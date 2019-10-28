@@ -38,5 +38,6 @@ GEOAlchemy
 unicodecsv==0.14.1
 urllib3==1.24.1
 whitenoise==4.1.2
-git+https://github.com/OpenUpSA/explorer.git@master#egg=explorer
+git+https://github.com/OpenUpSA/explorer.git@0.6#egg=explorer
+git+https://github.com/OpenUpSA/wazimap_sa_boundaries.git@master#egg=wazimap_sa_boundaries
 git+https://github.com/OpenUpSA/wazimap.git@releases#egg=wazimap[gdal]
