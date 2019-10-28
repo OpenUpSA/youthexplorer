@@ -6,7 +6,7 @@ from wazimap.settings import *  # noqa
 
 # install this app before Wazimap
 INSTALLED_APPS = [
-    'test_without_migrations', 'wazimap_za.apps.WazimapConfig', 'django.contrib.gis', 'explorer',
+    'test_without_migrations', 'wazimap_za.apps.WazimapConfig', 'django.contrib.gis', 'explorer', 'sa_boundaries',
     'rest_framework_gis',
 ] + INSTALLED_APPS
 

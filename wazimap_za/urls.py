@@ -5,4 +5,5 @@ urlpatterns = [
     url(r"^", include("wazimap.urls")),
     url(r"^admin/", include(admin.site.urls)),
     url(r"^explorer/", include("explorer.urls", namespace="explorer")),
+    url(r"^explorer/", include("sa_boundaries.urls", namespace="sa_boundaries")),
 ]
