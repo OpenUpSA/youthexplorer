@@ -1,1 +1,1 @@
-web: gunicorn --worker-class gevent wazimap_za.wsgi:application -t 120 --log-file -
+web: gunicorn --worker-class gevent youthexplorer.wsgi:application -t 120 --log-file -

@@ -6,13 +6,13 @@ from wazimap.settings import *  # noqa
 
 # install this app before Wazimap
 INSTALLED_APPS = [
-    'test_without_migrations', 'wazimap_za.apps.WazimapConfig', 'django.contrib.gis', 'explorer', 'sa_boundaries',
+    'test_without_migrations', 'youthexplorer.apps.WazimapConfig', 'django.contrib.gis', 'explorer', 'sa_boundaries',
     'rest_framework_gis',
 ] + INSTALLED_APPS
 
 # redirect www.wazimap.co.za to wazimap.co.za
 STRIP_WWW = True
-ROOT_URLCONF = 'wazimap_za.urls'
+ROOT_URLCONF = 'youthexplorer.urls'
 # Localise this instance of Wazimap
 
 WAZIMAP['url'] = 'https://youthexplorer.org.za'
@@ -22,7 +22,7 @@ WAZIMAP['twitter'] = None
 WAZIMAP['country_code'] = 'ZA'
 WAZIMAP['comparative_levels'] = ['district', 'province', 'country']
 # this is provided by mapit
-WAZIMAP['geodata'] = 'wazimap_za.geo.GeoData'
+WAZIMAP['geodata'] = 'youthexplorer.geo.GeoData'
 WAZIMAP['geometry_data'] = {}
 # google maps api key
 WAZIMAP['google_geocode_api_key'] = os.environ.get('GOOGLE_GEOCODE_API_KEY', '')
@@ -47,7 +47,7 @@ WAZIMAP['levels'] = {
     }
 }
 
-WAZIMAP['profile_builder'] = 'wazimap_za.profiles.youth.get_profile'
+WAZIMAP['profile_builder'] = 'youthexplorer.profiles.youth.get_profile'
 WAZIMAP['default_geo_version'] = os.environ.get('DEFAULT_GEO_VERSION', None)
 WAZIMAP['legacy_embed_geo_version'] = '2011'
 WAZIMAP['primary_release_year'] = {
@@ -84,7 +84,7 @@ WAZIMAP['mapit'] = {
 DATABASES['default'] = dj_database_url.parse(DATABASE_URL)
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 DATABASES['default']['TEST'] = {
-    'NAME': 'test_wazimap_za',
+    'NAME': 'test_youthexplorer',
 }
 
 # dj_database_url can do this but SQLAlchemy also uses DATABASE_URL
@@ -96,6 +96,6 @@ WAZIMAP['default_profile'] = 'youth'
 
 LANGUAGE_CODE = 'en-za'
 USE_THOUSAND_SEPARATOR = True
-FORMAT_MODULE_PATH = 'wazimap_za.formats'
+FORMAT_MODULE_PATH = 'youthexplorer.formats'
 
-LOGGING['loggers']['wazimap_za'] = {'level': 'DEBUG' if DEBUG else 'INFO'}
+LOGGING['loggers']['youthexplorer'] = {'level': 'DEBUG' if DEBUG else 'INFO'}

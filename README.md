@@ -7,7 +7,7 @@ The South African instance of [Wazimap](https://github.com/Code4SA/wazimap), a D
 # Local development
 
 1. clone the repo
-2. ``cd wazimap_za``
+2. ``cd youthexplorer``
 3. ``virtualenv --no-site-packages env``
 4. ``source env/bin/activate``
 5. ``pip install -r requirements.txt``
@@ -110,7 +110,7 @@ Let's suppose you want to add a new table with two fields: favourite colour and 
 
 ## Importing into Wazimap
 
-1. Ensure ``wazimap_za/tables.py`` has a ``FieldTable`` that has exactly the columns that you're importing. If there are multiple tables with exactly the same columns, perhaps because their Universes are different, then be sure to take note of the **table id**.
+1. Ensure ``youthexplorer/tables.py`` has a ``FieldTable`` that has exactly the columns that you're importing. If there are multiple tables with exactly the same columns, perhaps because their Universes are different, then be sure to take note of the **table id**.
 2. Do a dry-run of the import, using the table name if necessary.
 
         python manage.py importcsv yourfile.csv --dry-run [--table TABLENAME]
@@ -127,7 +127,7 @@ To dump all data tables at once, run
 ```shell
 for t in `ls sql/[a-z]*.sql`
 do
-    pg_dump "postgres://wazimap_za@localhost/wazimap_za" \
+    pg_dump "postgres://youthexplorer@localhost/youthexplorer" \
         -O -c --if-exists -t $(basename $t .sql) \
       | egrep -v "(idle_in_transaction_session_timeout|row_security)" \
       > sql/$(basename $t .sql).sql

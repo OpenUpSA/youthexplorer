@@ -1,9 +1,11 @@
 from django.conf.urls import url, include
 from django.contrib import admin
+import views
 
 urlpatterns = [
     url(r"^", include("wazimap.urls")),
     url(r"^admin/", include(admin.site.urls)),
     url(r"^explorer/", include("explorer.urls", namespace="explorer")),
     url(r"^explorer/", include("sa_boundaries.urls", namespace="sa_boundaries")),
+    #url(r"^explorer/exportpoints/(?P<province>\w+)", views.ExportPoints, name="export_points")
 ]

@@ -3,8 +3,8 @@ from django.conf import settings
 
 
 class WazimapConfig(AppConfig):
-    name = 'wazimap_za'
-    verbose_name = "Wazimap"
+    name = 'youthexplorer'
+    verbose_name = "Youth Explorer"
 
     def ready(self):
         pass

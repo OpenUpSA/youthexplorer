@@ -255,7 +255,7 @@ class Command(BaseCommand):
             self.table = get_datatable(table_id).get_db_table(year=self.release_year)
             self.stdout.write("Table for fields %s is %s" % (self.fields, self.table.id))
         except KeyError:
-            raise CommandError("Couldn't establish which table to use for these fields. Have you added a FieldTable entry in wazimap_za/tables.py?\nFields: %s" % self.fields)
+            raise CommandError("Couldn't establish which table to use for these fields. Have you added a FieldTable entry in youthexporer/tables.py?\nFields: %s" % self.fields)
 
     def store_values(self):
         session = get_session()
