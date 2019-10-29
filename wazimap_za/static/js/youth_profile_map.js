@@ -63,6 +63,8 @@ var ProfileMaps = function() {
             touchZoom: allowMapDrag
         });
 
+	this.map.getPane("mapPane").style["zIndex"] = 0;
+
         if (allowMapDrag) {
             this.map.addControl(new L.Control.Zoom({
                 position: 'topright'
