@@ -8,8 +8,12 @@ ENV CPLUS_INCLUDE_PATH="/usr/include/gdal"
 ENV C_INCLUDE_PATH="/usr/include/gdal"
 
 RUN /usr/local/bin/pip2 install --upgrade pip
+
 ADD ./requirements.txt /tmp
 RUN pip install -r /tmp/requirements.txt
+
+COPY Procfile /app
+COPY . /app
 
 WORKDIR /app
 EXPOSE 5000/tcp
