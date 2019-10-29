@@ -23,4 +23,4 @@ echo "Loading wazimap geo data"
 python manage.py loaddata fixtures/wazimap_django_models.json.gz >> /tmp/startup.log 2>> /tmp/startup.err
 
 echo "Starting gunicorn"
-exec gunicorn youthexplorer.wsgi -b 0.0.0.0:8000 --access-logfile geo.access.log --reload --error-logfile geo.error.log --worker-class=gevent --threads=4
+exec gunicorn youthexplorer.wsgi -b 0.0.0.0:5000 --access-logfile geo.access.log --reload --error-logfile geo.error.log --worker-class=gevent --threads=4
