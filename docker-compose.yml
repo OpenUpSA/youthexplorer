@@ -3,7 +3,7 @@ services:
     web:
         build: ./config/django
         volumes:
-         - ./scripts:/scripts
+         - ./scripts:/app/scripts
          - ./config/django:/config
          - ./:/app
         ports:
