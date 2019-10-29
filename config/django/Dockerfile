@@ -14,4 +14,4 @@ RUN pip install -r /tmp/requirements.txt
 WORKDIR /app
 EXPOSE 5000/tcp
 
-ENTRYPOINT /bin/bash
+ENTRYPOINT scripts/django/startup.sh
