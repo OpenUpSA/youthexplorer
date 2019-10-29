@@ -21,12 +21,6 @@ Note, if you have a problem installing GDAL, do the following:
 This will ensure that pip installs the same version of GDAL as what is currently installed on your machine.
 
 
-Set the `WAZI_PROFILE` environment variable to the instance you are working on, e.g.
-`export WAZI_PROFILE=ecd`
-
-Set the `DEFAULT_GEO_VERSION` environment variable if you don't want to default to the latest, e.g. for youth and ecd
-`export DEFAULT_GEO_VERSION=2011`
-
 You will need a Postgres database for the instance you are running:
 ```
 psql
