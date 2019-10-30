@@ -132,8 +132,7 @@ function MapItGeometryLoader() {
                 async: true,
                 type: 'GET',
                 contentType: "application/json",
-                url: url,
-                //url: url.replace("http:", "https:"),
+                url: url.replace("http:", "https:"),
                 success: function(allPoints){
                     callback({category: category, locations: allPoints});
                 }
