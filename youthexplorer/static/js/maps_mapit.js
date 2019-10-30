@@ -119,7 +119,26 @@ function MapItGeometryLoader() {
             success({features: features});
         });
     };
-    this.loadPoints = function(success) {
+
+    function convertToHttps(url) {
+        // Temporary measure until I can figure out
+        // how to get the django rest framework to generate
+        // secure urls
+        return url.replace("http:", "https:")
+    }
+    this.loadPoints = function(province_code, success) {
+        function downloadPoints(category, url, callback) {
+            $.ajax({
+                async: true,
+                type: 'GET',
+                contentType: "application/json",
+                url: url.replace("http:", "https:"),
+                success: function(allPoints){
+                    callback({category: category, locations: allPoints});
+                }
+            });
+        }
+
         var url = '/explorer/api/v1/categories';
         $.ajax({
             async: true,
@@ -127,16 +146,11 @@ function MapItGeometryLoader() {
             contentType:"application/json",
             url: url,
             success: function(data){
-                for(var i = 0; i < data.length; i++){
-                    $.ajax({
-                        async: true,
-                        type: 'GET',
-                        contentType: "application/json",
-                        url: data[i].url,
-                        success: function(all_points){
-                            success(all_points);
-                        }
-                    });
+                for(var i = 0; i < data.length; i++) {
+                    provinceUrl = data[i].url + "/province/" + province_code;
+                    categoryName = data[i].name;
+                    console.log(provinceUrl)
+                    downloadPoints(categoryName, provinceUrl, success);
                 }
             }
         })

@@ -31,13 +31,29 @@ ProfileMaps = function() {
             });
         }
 
-        GeometryLoader.loadPoints(function(category) {
-            var points = category.locations;
-            var category_name = category.name;
+        function getProvinceFromGeo(geo) {
+            if (geo.this.geo_level == "province")
+                return geo.this.geo_code
+            else if (geo.parents.province != undefined)
+                return geo.parents.province.geo_code
+            else
+                return null
+        }
+
+        var province = getProvinceFromGeo(geo);
+        if (province == null)
+            return;
+
+        GeometryLoader.loadPoints(province, function(data) {
+            var points = data.locations.features;
+
+            if (points == undefined || points.length == 0)
+                return;
+
+            var category_name = data.category;
             var colour = clusterColours.pop(); // TODO ensure the this list doesn't run out
             var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
             
-            var pointLayers = {};
             var layer = L.geoJson(points, {
                 onEachFeature: function(feature, layer) {
                     var header = '<h4><i class="bars icon"> Point</i></h4>';
@@ -53,14 +69,6 @@ ProfileMaps = function() {
 
                     table = table + '</table>';
                     layer.bindPopup(table);
-                },
-                filter: function(feature, layer) {
-                    var data = feature.properties.data;
-                    if (data[levels[geo_level]] == geo_code) {
-                        return true;
-                    } else{
-                        return false;
-                    }
                 },
                 pointToLayer: function (feature, latlng) {
                     return L.circleMarker(latlng, {
@@ -78,9 +86,7 @@ ProfileMaps = function() {
             var layerFormat = "<span style='color:" + colour + "'>"
                 + category_name
                 + "</span>";
-            pointLayers[layerFormat] = markers;
             layerControl.addOverlay(markers, category_name)
-            //L.control.layers(null, pointLayers, {collapased: false}).addTo(self.map);
         });
 
         // peers
