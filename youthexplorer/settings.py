@@ -4,6 +4,8 @@ import os
 from collections import OrderedDict
 from wazimap.settings import *  # noqa
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # install this app before Wazimap
 INSTALLED_APPS = [
     'test_without_migrations', 'youthexplorer.apps.WazimapConfig', 'django.contrib.gis', 'explorer', 'sa_boundaries',
@@ -99,3 +101,15 @@ USE_THOUSAND_SEPARATOR = True
 FORMAT_MODULE_PATH = 'youthexplorer.formats'
 
 LOGGING['loggers']['youthexplorer'] = {'level': 'DEBUG' if DEBUG else 'INFO'}
+SECURE_SSL_REDIRECT = True
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    ),
+}
+
+SASS_PROCESSOR_ENABLED = not DEBUG

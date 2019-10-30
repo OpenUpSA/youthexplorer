@@ -8,8 +8,6 @@ fi
 
 if [ "$YE_LOAD_DATA" = "True" ]
 then
-    echo "Collecting static files"
-    python2 manage.py collectstatic --noinput >> /tmp/startup.log 2>> /tmp/startup.err
 
     echo "Migrating database"
     python2 manage.py migrate >> /tmp/startup.log 2>> /tmp/startup.err
@@ -27,6 +25,9 @@ then
     echo "Loading wazimap geo data"
     python manage.py loaddata fixtures/wazimap_django_models.json.gz >> /tmp/startup.log 2>> /tmp/startup.err
 fi
+
+echo "Collecting static files"
+python2 manage.py collectstatic --noinput >> /tmp/startup.log 2>> /tmp/startup.err
 
 echo "Starting gunicorn"
 exec gunicorn youthexplorer.wsgi -b 0.0.0.0:5000 --access-logfile geo.access.log --reload --error-logfile geo.error.log --worker-class=gevent --threads=4

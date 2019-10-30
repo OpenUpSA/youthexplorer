@@ -12,10 +12,9 @@ RUN /usr/local/bin/pip2 install --upgrade pip
 ADD ./requirements.txt /tmp
 RUN pip install -r /tmp/requirements.txt
 
+WORKDIR /app
+
 COPY Procfile /app
 COPY . /app
 
-WORKDIR /app
 EXPOSE 5000/tcp
-
-ENTRYPOINT scripts/django/startup.sh
