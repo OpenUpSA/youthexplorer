@@ -2,6 +2,46 @@
 
 var BaseProfileMaps = ProfileMaps;
 ProfileMaps = function() {
+    function getProvinceFromGeo(geo) {
+        if (geo.this.geo_level == "province")
+            return geo.this.geo_code
+        else if (geo.parents.province != undefined)
+            return geo.parents.province.geo_code
+        else
+            return null
+    }
+
+    function drawPoints(points, colour) {
+        var layer = L.geoJson(points, {
+            onEachFeature: function(feature, layer) {
+                var header = '<h4><i class="bars icon"> Point</i></h4>';
+                var table = '<table>';
+
+                for ([key, value] of Object.entries(feature.properties.data)) {
+                    var row = "<tr>" +
+                        "<td><b>"+key + '</b></td>'+
+                        "<td>" + value + '</td>' +
+                        "</tr>";
+                    table = table + row;
+                }
+
+                table = table + '</table>';
+                layer.bindPopup(table);
+            },
+            pointToLayer: function (feature, latlng) {
+                return L.circleMarker(latlng, {
+                    radius:4,
+                    fillOpacity: 1,
+                    color: colour,
+                    fillColor: colour
+                });
+            }
+        });
+
+	return layer;
+    }
+
+
     var clusterColours = [
         '#4E6CeF', '#3949AB', '#5E35B1', '#8E24AA', '#D81B60', '#E00032',
         '#039BE5', '#00ACC1', '#00897B', '#0A8F08', '#7CB342', '#C0CA33',
@@ -19,11 +59,12 @@ ProfileMaps = function() {
         var geo_level = geo.this.geo_level;
         var geo_code = geo.this.geo_code;
         var geo_version = geo.this.version;
-        var layerControl = L.control.layers(null, null, {collapased: false}).addTo(this.map);
+        var layerControl = null;
+	var map = this.map;
 
         // add demarcation boundaries
         if (geo_level == 'country') {
-            this.map.setView({lat: -28.4796, lng: 10.698445}, 5);
+            map.setView({lat: -28.4796, lng: 10.698445}, 5);
         } else {
             // draw this geometry
             GeometryLoader.loadGeometryForGeo(geo_level, geo_code, geo_version, function(feature) {
@@ -31,63 +72,32 @@ ProfileMaps = function() {
             });
         }
 
-        function getProvinceFromGeo(geo) {
-            if (geo.this.geo_level == "province")
-                return geo.this.geo_code
-            else if (geo.parents.province != undefined)
-                return geo.parents.province.geo_code
-            else
-                return null
-        }
-
         var province = getProvinceFromGeo(geo);
-        if (province == null)
-            return;
+        if (province != null) {
+            GeometryLoader.loadPoints(province, function(data) {
+                var points = data.locations.features;
 
-        GeometryLoader.loadPoints(province, function(data) {
-            var points = data.locations.features;
+                if (points == undefined || points.length == 0)
+                    return;
 
-            if (points == undefined || points.length == 0)
-                return;
+                var category_name = data.category;
+                var colour = clusterColours.pop(); // TODO ensure the this list doesn't run out
+                var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
+                var layer = drawPoints(points, colour);
+                
+                var markers = L.markerClusterGroup();
+                markers.addLayer(layer)
 
-            var category_name = data.category;
-            var colour = clusterColours.pop(); // TODO ensure the this list doesn't run out
-            var levels = {province: 'Province', district: 'District', municipality: 'Municipality', ward: 'Ward'};
-            
-            var layer = L.geoJson(points, {
-                onEachFeature: function(feature, layer) {
-                    var header = '<h4><i class="bars icon"> Point</i></h4>';
-                    var table = '<table>';
+                var layerFormat = "<span style='color:" + colour + "'>"
+                    + category_name
+                    + "</span>";
 
-                    for ([key, value] of Object.entries(feature.properties.data)) {
-                        var row = "<tr>" +
-                            "<td><b>"+key + '</b></td>'+
-                            "<td>" + value + '</td>' +
-                            "</tr>";
-                        table = table + row;
-                    }
-
-                    table = table + '</table>';
-                    layer.bindPopup(table);
-                },
-                pointToLayer: function (feature, latlng) {
-                    return L.circleMarker(latlng, {
-                        radius:4,
-                        fillOpacity: 1,
-                        color: colour,
-                        fillColor: colour
-                    });
-                }
+		if (layerControl == null) {
+		    layerControl = L.control.layers(null, null, {collapased: false}).addTo(map);
+		}
+                layerControl.addOverlay(markers, category_name)
             });
-
-            var markers = L.markerClusterGroup();
-            markers.addLayer(layer)
-
-            var layerFormat = "<span style='color:" + colour + "'>"
-                + category_name
-                + "</span>";
-            layerControl.addOverlay(markers, category_name)
-        });
+        }
 
         // peers
         var parents = _.keys(geo.parents);
