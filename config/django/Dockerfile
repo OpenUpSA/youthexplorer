@@ -14,7 +14,6 @@ RUN pip install -r /tmp/requirements.txt
 
 WORKDIR /app
 
-COPY Procfile /app
 COPY . /app
 
 EXPOSE 5000/tcp

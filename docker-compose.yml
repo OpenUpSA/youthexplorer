@@ -11,6 +11,7 @@ services:
          - "5000:5000"
         env_file:
          - ./config/django/django.env
+        entrypoint: /app/scripts/django/startup.sh
         networks:
          - web-net
         tty: true
