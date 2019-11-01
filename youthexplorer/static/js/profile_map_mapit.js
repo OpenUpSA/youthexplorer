@@ -60,7 +60,7 @@ ProfileMaps = function() {
         var geo_code = geo.this.geo_code;
         var geo_version = geo.this.version;
         var layerControl = null;
-	var map = this.map;
+        var map = this.map;
 
         // add demarcation boundaries
         if (geo_level == 'country') {
@@ -92,9 +92,9 @@ ProfileMaps = function() {
                     + category_name
                     + "</span>";
 
-		if (layerControl == null) {
-		    layerControl = L.control.layers(null, null, {collapased: false}).addTo(map);
-		}
+                if (layerControl == null) {
+                    layerControl = L.control.layers(null, null, {collapased: false}).addTo(map);
+                }
                 layerControl.addOverlay(markers, category_name)
             });
         }
