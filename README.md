@@ -41,8 +41,14 @@ python manage.py migrate
 
 Import the fixtures for the django models:
 ```
-python manage.py loaddata fixtures/<instance_name>/wazimap_django_models.json
+python manage.py loaddata fixtures/wazimap_django_models.json.gz
+python manage.py loaddata fixtures/explorer.json.gz
 ```
+
+Import the sa boundaries fixture
+``python manage.py loaddata /usr/local/lib/python2.7/dist-packages/sa_boundaries/fixtures/provinces.json.gz``
+
+The path to the fixture might vary depending on your system setup
 
 Create an admin user:
 ```
